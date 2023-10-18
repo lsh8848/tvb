@@ -44,12 +44,3 @@ Github 增强-高速下载 🔰https://greasyfork.org/zh-CN/scripts/412245
 `https://raw.fastgit.org/`
 
 韩国`https://ghproxy.com/`
-
-
-### Github 静态加速
-
-```
-https://cdn.staticaly.com/gh/liu673cn/box/main/m.json
-https://cdn.jsdelivr.net/gh/liu673cn/box@main/m.json
-https://purge.jsdelivr.net/gh/
-```
