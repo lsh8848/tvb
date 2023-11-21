@@ -397,7 +397,7 @@ CCTV-16,http://[2409:8087:2001:20:2800:0:df6e:eb09]/ott.mobaibox.com/PLTV/4/224/
 纯享4K,http://[2409:8087:2001:20:2800:0:df6e:eb11]/ott.mobaibox.com/PLTV/4/224/3221227506/index.m3u8
 纯享4K,http://[2409:8087:2001:20:2800:0:df6e:eb25]/ott.mobaibox.com/PLTV/4/224/3221228472/index.m3u8
 
-📺其他v6,#genre#
+📺综合v6,#genre#
 凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb24]:80/ott.mobaibox.com/PLTV/4/224/3221228527/index.m3u8
 凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb26]:80/ott.mobaibox.com/PLTV/4/224/3221228524/index.m3u8
 黑莓电影,http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/ott.mobaibox.com/PLTV/4/224/3221227520/index.m3u8
@@ -723,7 +723,7 @@ CCTV17农业农村,http://39.134.67.108/PLTV/88888888/224/3221225708/1.m3u8
 贵州卫视,http://39.134.65.149:80/PLTV/88888888/224/3221225974/1653148920-1-1652757727.m3u8
 吉林卫视,http://39.134.65.149:80/PLTV/88888888/224/3221225981/1653149014-1-1652757736.m3u8
 
-🇭🇰凤凰IPV6,#genre#
+🇭🇰凤凰V6,#genre#
 凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8
 凤凰资讯,http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/3/224/3221228524/1.m3u8
 凤凰中文,http://[2409:8087:2001:20:2800:0:df6e:eb25]/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8
@@ -765,28 +765,12 @@ TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 
-💎4K高清,#genre#
-4K超高清电影,http://159.75.85.63:5681/sxg.php
-4K超高清电影,http://159.75.85.63:5681/sxg.php?id=emdy4k_8000
-4K超高清电影,http://www.terrykang.cn:5678/sxg.php
-4K超高清电影,http://www.terrykang.cn:5678/sxg.php?id=emdy4k_8000
-4K超高清电影,http://sgx.xxray.cc/IPTV/xsxg.php
-4K超高清电影,http://sgx.xxray.cc/IPTV/xsxg.php?id=emdy4k_8000
-4K超高清电影,http://angtv.cc/test/sxg.php
-4K超高清电影,http://angtv.cc/test/xg.php
-4K超高清电影,http://angtv.cc/test/xg.php?id=emdy4k_8000
-4K超高清电影,http://zgntv.icu/test/xg.php
-4K超高清电影,http://zgntv.icu/test/xg.php?id=emdy4k_8000
-4K超高清电影,https://php.61073736.repl.co/sxg.php
-4K超高清电影,https://php.61073736.repl.co/sxg.php?id=emdy4k_8000
+💎 4K,#genre#
 苏州4K,http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-欢笑剧场4K,http://159.75.85.63:5681/sxg.php?id=hxjc-4k_8000
-CCTV-4K,http://159.75.85.63:5681/sxg.php?id=ys4Kcq_2000
-CCTV16-4K,http://159.75.85.63:5681/sxg.php?id=CCTV-16-4K_8000
 斗鱼4K,http://epg.112114.xyz/douyu/9249162
 爱自然4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
-欢笑剧场4k,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226582/index.m3u8
+欢笑剧场4K,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226582/index.m3u8
 
 🎬电影,#genre#
 黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
