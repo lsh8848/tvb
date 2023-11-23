@@ -787,19 +787,17 @@ Love Nrture 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 惊悚悬疑v6,http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/ott.mobaibox.com/PLTV/4/224/3221227536/index.m3u8
 金马影院,http://pull.kktv8.com/livekktv/128600025.flv
 金马影院,http://pull.kktv8.com/livekktv/128600025.flv?_t=0.03302458679376152
-IPTV淘电影,http://123.118.5.76:4022/udp/239.3.1.250:8001
-IPTV淘电影,http://123.122.161.115:19999/udp/239.3.1.250:8001
-IPTV淘电影,http://bjlt.chiang.fun:8888/newlive/live/hls/57/live.m3u8
 IPTV淘电影,http://114.246.172.49:4022/udp/239.3.1.250:8001
 IPTV淘电影,http://222.128.86.76:8133/rtp/239.3.1.250:8001
 IPTV淘电影,http://222.129.32.106:8888/rtp/239.3.1.250:8001
+IPTV淘电影,http://123.118.5.76:4022/udp/239.3.1.250:8001
+IPTV淘电影,http://123.122.161.115:19999/udp/239.3.1.250:8001
+IPTV淘电影,http://bjlt.chiang.fun:8888/newlive/live/hls/57/live.m3u8
 IPTV淘电影,http://bj.aaoo.ltd:8182/udp/239.3.1.250:8001
 IPTV淘电影,http://www.zzmd.fun:8888/udp/239.3.1.250:8001
 IPTV淘电影,http://hf.bbtu.top:10000/udp/239.3.1.250:8001
 IPTV淘电影,http://photo.mxmy.net:8888/rtp/239.3.1.250:8001
 IPTV淘电影,http://61.148.223.18:8888/newlive/live/hls/57/live.m3u8
-IPTV 4K超清,http://123.118.5.76:4022/udp/239.3.1.249:8001
-IPTV 4K超清,http://123.122.161.115:19999/udp/239.3.1.249:8001
 IPTV 4K超清,http://114.246.172.49:4022/udp/239.3.1.249:8001
 IPTV 4K超清,http://222.128.86.76:8133/rtp/239.3.1.249:8001
 IPTV 4K超清,http://222.129.32.106:8888/rtp/239.3.1.249:8001
@@ -807,6 +805,8 @@ IPTV 4K超清,http://bj.aaoo.ltd:8182/udp/239.3.1.249:8001
 IPTV 4K超清,http://www.zzmd.fun:8888/udp/239.3.1.249:8001
 IPTV 4K超清,http://hf.bbtu.top:10000/udp/239.3.1.249:8001
 IPTV 4K超清,http://photo.mxmy.net:8888/rtp/239.3.1.249:8001
+IPTV 4K超清,http://123.118.5.76:4022/udp/239.3.1.249:8001
+IPTV 4K超清,http://123.122.161.115:19999/udp/239.3.1.249:8001
 爱上4K,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 爱上4K,http://[2409:8087:5e01:34::22]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 爱上4K,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
