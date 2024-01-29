@@ -802,7 +802,7 @@ CHC家庭影院,http://111.20.35.103:6610/yinhe/2/ch00000090990000002085/index.m
 CHC高清电影,http://111.20.35.103:6610/yinhe/2/ch00000090990000002065/index.m3u8?virtualDomain=yinhe.live_hls.zte.com&IASHttpSessionId=
 超级电影,http://39.134.66.66/PLTV/88888888/224/3221225644/index.m3u8
 
-📶iHOT_v6,#genre#
+📶iHOT-v6,#genre#
 iHOT爱院线,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000030630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
 iHOT爱科幻,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000020630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000020630&livemode=1&stbId=3
 iHOT爱浪漫,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000040630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000040630&livemode=1&stbId=3
@@ -842,7 +842,7 @@ IHOT爱悬疑,http://[2409:8087:7000:20:1000::22]:6060/000000001001/1/index.m3u8
 IHOT爱赛车,http://[2409:8087:7000:20:1000::22]:6060/000000001001/1/index.m3u8?channel-id=hnbblive&Contentid=2000000004000000055&livemode=1&stbId=3
 IHOT爱旅行,http://[2409:8087:7000:20:1000::22]:6060/000000001001/1/index.m3u8?channel-id=hnbblive&Contentid=2000000004000000056&livemode=1&stbId=3
 
-📶NewTV_v6,#genre#
+📶NewTV-v6,#genre#
 超级电影,http://[2409:8087:1a01:df::4001]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/1.m3u8
 NewTV超级电影,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 NewTV超级电影,http://[2409:8087:7000:20:1000::22]:6060/000000001001/1/index.m3u8?channel-id=ystenlive&Contentid=1000000003000012426&livemode=1&stbId=3
