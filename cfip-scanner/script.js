@@ -2,7 +2,7 @@ var cfIPv4 = []
 var cfIPv4ToScan = []
 const noOfEachRange24 = 30
 const client = new XMLHttpRequest();
-client.open('GET', 'https://tvb.zyh520.tk/cfip-scanner/main/ipv4.txt');
+client.open('GET', 'https://tvb.zyh520.tk/cfip-scanner/ipv4.txt');
 client.onreadystatechange = function() {
   cfIPv4 = client.responseText.split("\n").map((cidr) => cidr.trim()).filter((cidr) => isCIDR(cidr));
   document.getElementById('btn-start').disabled = false;
