@@ -37,6 +37,6 @@ Github 增强-高速下载 🔰https://greasyfork.org/zh-CN/scripts/412245
 
 `https://ghproxy.net/`
 
-'https://ghps.cc/'
+`https://ghps.cc/`
 
-'https://gh.ddlc.top/'
+`https://gh.ddlc.top/`
