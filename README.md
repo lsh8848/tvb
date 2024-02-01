@@ -31,16 +31,12 @@ Github 增强-高速下载 🔰https://greasyfork.org/zh-CN/scripts/412245
 
 ### Github RAW 加速服务
 
-源码 `https://gitcdn.top/`
+`https://www.jsdelivr.com/github`
 
-香港 `https://raw.iqiq.io/`
+`https://statically.io/convert/`
 
-新加坡 `https://raw.kgithub.com/`
+`https://ghproxy.net/`
 
-日本`https://fastly.jsdelivr.net/`
+'https://ghps.cc/'
 
-`https://cdn.staticaly.com/`
-
-`https://raw.fastgit.org/`
-
-韩国`https://ghproxy.com/`
+'https://gh.ddlc.top/'
