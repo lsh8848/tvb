@@ -2,13 +2,13 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta charset="utf8">
-  <title>CF IP Scanner</title>
+  <link href="https://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <style type="text/css">
     body {
-      font-family: Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-family: 'Iranian Sans', sans-serif;
       font-size: 14px;
-      direction: ltr;
+      direction: rtl;
     }
   </style>
 </head>
@@ -16,50 +16,76 @@
   <div class="container border rounded-2 mt-2 border-dark">
     <div class="row">
       <div class="col-12 p-2 text-center border-bottom border-dark text-primary">
-        <span class="lang-field lang-fa fw-bold">Cloudflare IP 扫描器</span>
+        <span class="lang-field lang-fa fw-bold">پیدا کردن آی‌پی تمیز کلادفلر</span>
         <span class="lang-field lang-en fw-bold">Cloudflare's Clean IP Scanner</span>
+        <span class="lang-field lang-cn fw-bold">Cloudflare IP 扫描器</span>
         <div class="btn-group float-end" role="group" dir="ltr">
-          <button id="btn-fa" class="btn btn-lang btn-outline-primary btn-sm rounded-2" type="button">中文</button>&nbsp;
-          <button id="btn-en" class="btn btn-lang btn-outline-primary btn-sm rounded-2" type="button">EN</button>
+          <button id="btn-fa" class="btn btn-lang btn-outline-primary btn-sm rounded-2" type="button">FA</button>&nbsp;
+          <button id="btn-en" class="btn btn-lang btn-outline-primary btn-sm rounded-2" type="button">EN</button>&nbsp;
+          <button id="btn-cn" class="btn btn-lang btn-outline-primary btn-sm rounded-2" type="button">CN</button>
         </div>
       </div>
     </div>
     <div class="row my-2">
-      <label for="max-ip" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
-        <span class="lang-field lang-fa">IP数目:</span>
-        <span class="lang-field lang-en">No. of IPs:</span>
-      </label>
-      <div class="col-sm-12 col-md-8 col-lg-4">
-        <input class="form-control" type="number" id="max-ip" min="1" max="5000" value="5">
-      </div>
       <label for="max-latency" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
-        <span class="lang-field lang-fa">最大延迟:</span>
+        <span class="lang-field lang-fa">تاخیر مجاز:</span>
         <span class="lang-field lang-en">Max. Latency:</span>
+        <span class="lang-field lang-cn">最大延迟：</span>
       </label>
-      <div class="col-sm-12 col-md-8 col-lg-4">
+      <div class="col-sm-12 col-md-8 col-lg-2">
         <input class="form-control" type="number" id="max-latency" min="50" max="3000" step="50" value="500">
+      </div>
+      <label for="protocol" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
+        <span class="lang-field lang-fa">پروتکل:</span>
+        <span class="lang-field lang-en">Protocol:</span>
+        <span class="lang-field lang-cn">协议：</span>
+      </label>
+      <div class="col-sm-12 col-md-8 col-lg-2">
+        <select class="form-control" id="protocol">
+          <option value="http" selected>HTTP</option>
+          <option value="https">HTTPS</option>
+        </select>
+      </div>
+      <label for="port-no" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
+        <span class="lang-field lang-fa">پورت:</span>
+        <span class="lang-field lang-en">Port:</span>
+        <span class="lang-field lang-cn">端口号：</span>
+      </label>
+      <div class="col-sm-12 col-md-8 col-lg-2">
+        <select class="form-control" id="port-no"></select>
       </div>
     </div>
     <div class="row my-2">
-      <label for="ip-regex" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
-        <span class="lang-field lang-fa">正则表达式:</span>
-        <span class="lang-field lang-en">Regular expression:</span>
+      <label for="max-ip" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
+        <span class="lang-field lang-fa">تعداد آی‌پی:</span>
+        <span class="lang-field lang-en">No. of IPs:</span>
+        <span class="lang-field lang-cn">IP数量：</span>
       </label>
-      <div class="col-sm-12 col-md-8 col-lg-10">
+      <div class="col-sm-12 col-md-8 col-lg-2">
+        <input class="form-control" type="number" id="max-ip" min="1" max="5000" value="5">
+      </div>
+      <label for="ip-regex" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
+        <span class="lang-field lang-fa">عبارت منظم:</span>
+        <span class="lang-field lang-en">Regular expression:</span>
+        <span class="lang-field lang-cn">正则表达式：</span>
+      </label>
+      <div class="col-sm-12 col-md-8 col-lg-6">
         <input type="text" class="form-control" dir="ltr" id="ip-regex" placeholder="^104\.17\.|^141\.">
       </div>
     </div>
     <div class="row my-2">
       <label for="ip-include" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
-        <span class="lang-field lang-fa">包括的IP范围:</span>
+        <span class="lang-field lang-fa">فقط از این رنج آی‌پی:</span>
         <span class="lang-field lang-en">Ranges to include:</span>
+        <span class="lang-field lang-cn">包括的IP范围：</span>
       </label>
       <div class="col-sm-12 col-md-8 col-lg-4">
         <input type="text" class="form-control" dir="ltr" id="ip-include" placeholder="104.17.166.0/24,172.64.59.0/24">
       </div>
       <label for="ip-exclude" class="col-sm-12 col-md-4 col-lg-2 col-form-label">
-        <span class="lang-field lang-fa">排除的IP范围:</span>
+        <span class="lang-field lang-fa">به‌جز این رنج آی‌پی:</span>
         <span class="lang-field lang-en">Ranges to exclude:</span>
+        <span class="lang-field lang-cn">排除的IP范围</span>
       </label>
       <div class="col-sm-12 col-md-8 col-lg-4">
         <input type="text" class="form-control" dir="ltr" id="ip-exclude" placeholder="8,103.22">
@@ -68,16 +94,18 @@
     <div class="row my-2">
       <div class="btn-group col-xs-3 col-lg-4 my-1" role="group">
         <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ip-ranges-modal">
-          <span class="lang-field lang-fa">查看IP范围</span>
+          <span class="lang-field lang-fa">مشاهده‌ی رنج آی‌پی‌ها</span>
           <span class="lang-field lang-en">View IP ranges</span>  
+          <span class="lang-field lang-cn">查看IP范围</span>  
         </button>
         <div class="modal fade" id="ip-ranges-modal" tabindex="-1" aria-labelledby="ip-ranges-modal-label" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="ip-ranges-modal-label">
-                  <span class="lang-field lang-fa">IP范围</span>
+                  <span class="lang-field lang-fa">رنج آی‌پی‌ها</span>
                   <span class="lang-field lang-en">IP ranges</span>  
+                  <span class="lang-field lang-cn">IP范围</span>  
                 </h5>
               </div>
               <div class="modal-body">
@@ -87,12 +115,14 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                  <span class="lang-field lang-fa">关闭</span>
-                  <span class="lang-field lang-en">Close</span>  
+                  <span class="lang-field lang-fa">بستن</span>
+                  <span class="lang-field lang-en">Close</span> 
+                  <span class="lang-field lang-cn">关闭</span> 
                 </button>
                 <button type="button" class="btn btn-primary" onclick="copyToClipboard(cfIPv4.join(`\n`))">
-                  <span class="lang-field lang-fa">复制</span>
+                  <span class="lang-field lang-fa">کپی</span>
                   <span class="lang-field lang-en">Copy</span>  
+                  <span class="lang-field lang-cn">复制</span>
                 </button>
               </div>
             </div>
@@ -102,19 +132,27 @@
       <div class="btn-group col-xs-3 col-lg-4"></div>
       <div class="btn-group col-xs-6 col-lg-4 my-1" role="group">
         <button id="btn-start" class="btn btn-success btn-sm rounded-2 fw-bold" disabled type="button" onclick="startScan()">
-          <span class="lang-field lang-fa">开始</span>
-          <span class="lang-field lang-en">Start</span>  
+          <span class="lang-field lang-fa">شروع</span>
+          <span class="lang-field lang-en">Start</span>
+          <span class="lang-field lang-cn">开始</span>  
         </button>&nbsp;
-        <button id="btn-cancel" class="btn btn-outline-secondary btn-sm rounded-2 fw-bold" disabled type="button" onclick="cancelScan()">
-          <span class="lang-field lang-fa">取消</span>
+        <button id="btn-cancel" class="btn btn-outline-secondary btn-sm rounded-2 fw-bold d-none" type="button" onclick="cancelScan()">
+          <span class="lang-field lang-fa">لغو</span>
           <span class="lang-field lang-en">Cancel</span>  
+          <span class="lang-field lang-cn">取消</span>
+        </button>
+        <button id="btn-reset" class="btn btn-outline-danger btn-sm rounded-2 fw-bold" type="button" onclick="resetDefaults()">
+          <span class="lang-field lang-fa">تنظیم دوباره پیش‌فرض‌ها</span>
+          <span class="lang-field lang-en">Reset defaults</span>  
+          <span class="lang-field lang-cn">重置默认值</span>
         </button>
       </div>
     </div>
     <div class="row my-2 border-bottom border-dark py-3">
       <div id="start-hint" class="col-xs-12 col-lg-5 text-danger fw-bold py-1">
-        <span class="lang-field lang-fa">开始之前请关闭您的 VPN！</span>
+        <span class="lang-field lang-fa">قبل از شروع vpn خود را خاموش کنید!</span>
         <span class="lang-field lang-en">Turn off your VPN before start!</span>  
+        <span class="lang-field lang-cn">在开始之前请先关闭你的VPN！</span>
       </div>
       <div class="col col-xs-2 col-lg-1 py-1" id="test-no"></div>
       <div class="col col-xs-6 col-lg-3 py-1" id="ip-no"></div>
@@ -128,12 +166,14 @@
             #
           </th>
           <th style="min-width: 150px;">
-            <span class="lang-field lang-fa">IP地址</span>
+            <span class="lang-field lang-fa">آی‌پی</span>
             <span class="lang-field lang-en">IP</span>  
+            <span class="lang-field lang-cn">IP</span>
           </th>
           <th>
-            <span class="lang-field lang-fa">延迟</span>
+            <span class="lang-field lang-fa">تاخیر</span>
             <span class="lang-field lang-en">Latency</span>  
+            <span class="lang-field lang-cn">延迟</span>
           </th>
           <th width="70">
             <div class="btn-group" role="group" dir="ltr">
