@@ -144,10 +144,6 @@ CCTV17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 爱上4K,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 华数4K,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 纯享4K,http://[2409:8087:7001:20:1000::91]:6610/000000001000/1/index.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3
-北京4K,http://222.128.86.76:8133/rtp/239.3.1.249:8001
-北京4K,http://bj.aaoo.ltd:8182/udp/239.3.1.249:8001
-北京4K,http://www.zzmd.fun:8888/udp/239.3.1.249:8001
-北京4K,http://photo.mxmy.net:8888/rtp/239.3.1.249:8001
 CCTV1,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CCTV2,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001332/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CCTV4,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001333/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -188,10 +184,6 @@ loupe 4K,https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 黑莓电影,http://[2409:8087:7000:20:1000::22]:6060/000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000001
 黑莓电影,http://[2409:8087:7000:20:1000::22]:6060/000000001001/1/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=8785669936177902664
 金马影院,http://pull.kktv8.com/livekktv/128600025.flv
-北京淘电影,http://222.128.86.76:8133/rtp/239.3.1.250:8001
-北京淘电影,http://bj.aaoo.ltd:8182/udp/239.3.1.250:8001
-北京淘电影,http://www.zzmd.fun:8888/udp/239.3.1.250:8001
-北京淘电影,http://photo.mxmy.net:8888/rtp/239.3.1.250:8001
 CHC家庭影院,http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
 CHC家庭影院,http://[2409:8087:7001:20:3::3]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
 CHC高清电影,http://[2409:8087:7000:20::4]/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
