@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://xhdwc.tk/api/img.php",
-  "spider": "./fan.jar;md5;3c14554fc19e587abf0fe556c9becf58",
+  "spider": "./fan.jar;md5;29b4ef28be2f88e3ae3f37682e19e309",
   "sites": [
     {
       "key": "豆豆",
@@ -31,8 +31,8 @@
         "播放列表": "<a&&</a>",
         "播放标题": "alt=\"&&\"",
         "播放链接": "https://m.douban.com+href=\"&&\"",
-        "jar": "./pandaQ231115.jar;md5;cb2a84ff515a9d54fc7590bb56d62f04"
-      }
+             },
+      "jar": "./pandaQ231115.jar;md5;cb2a84ff515a9d54fc7590bb56d62f04"
     },
   {
       "key": "YGP",
@@ -53,6 +53,17 @@
       "playerType": "1",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/jp.js"
+    },
+    {
+      "key": "Lib",
+      "name": "🚀┃Libvio┃极速",
+      "type": 3,
+      "api": "csp_Libvio",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.libvio.pw/"
     },
     {
       "key": "Auete",
@@ -76,17 +87,6 @@
       "changeable": 1
     },
     {
-      "key": "Lib",
-      "name": "🚀┃Libvio┃极速",
-      "type": 3,
-      "api": "csp_Libvio",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.libvio.pw/"
-    },
-    {
       "key": "厂长",
       "name": "🚀┃厂长┃极速",
       "type": 3,
@@ -96,11 +96,11 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.czzy77.com/"
+      "ext": "https://www.czys03.com/"
     },
     {
-      "key": "77",
-      "name": "🌈┃七七┃极速",
+      "key": "七七",
+      "name": "👒七七┃秒播",
       "type": 3,
       "api": "csp_Kunyu77",
       "timeout": 15,
