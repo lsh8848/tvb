@@ -55,6 +55,16 @@
       "ext": "./lib/jp.js"
     },
     {
+      "key": "酷看",
+      "name": "💡酷看┃秒播",
+      "type": 3,
+      "api": "csp_Kkys",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "Lib",
       "name": "🚀┃Libvio┃极速",
       "type": 3,
@@ -138,24 +148,19 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://www.wogg.link/",
+        "danMu": "弹"
+      }
     },
     {
       "key": "短剧",
       "name": "🌈上头┃短剧",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/上头短剧.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "酷看",
-      "name": "💡酷看┃秒播",
-      "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
+      "api": "csp_Djuu",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
