@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://xhdwc.tk/api/img.php",
-  "spider": "./fan.jar;md5;29b4ef28be2f88e3ae3f37682e19e309",
+  "spider": "./fan.jar;md5;50d76a14c8cb757af14ca46e9b7a15ed",
   "sites": [
     {
       "key": "豆豆",
@@ -96,7 +96,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.czys03.com/"
+      "ext": "https://www.czys.top/"
     },
     {
       "key": "七七",
