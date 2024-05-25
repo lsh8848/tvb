@@ -1,0 +1,76 @@
+{
+    "urls": [
+        {
+            "url": "https://tvb.zyh520.tk/fm/mao.json",
+            "name": "⭐fm⭐github"
+        },
+        {
+            "url": "https://tvb.zyh520.tk/fty/o.json",
+            "name": "⭐fty⭐github"
+        },
+        {
+            "url": "https://d.kstore.space/download/5297/fty/o.json",
+            "name": "⭐fty⭐kstore"
+        },
+        {
+            "url": "https://d.kstore.space/download/5297/fm/mao.json",
+            "name": "⭐fm⭐kstore"
+        },
+        {
+            "url": "http://www.饭太硬.com/tv",
+            "name": "🚀饭太硬"
+        },
+        {
+            "url": "http://肥猫.live",
+            "name": "🚀肥猫"
+        },
+        {
+            "url": "http://我不是.摸鱼儿.top",
+            "name": "🚀摸鱼儿"
+         },
+        {
+            "url": "http://tvbox.王二小放牛娃.xyz",
+            "name": "🚀放牛娃"
+        },
+        {
+            "url": "http://o.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌",
+            "name": "🚀欧歌"
+        },   
+        {
+            "url": "https://gitee.com/okjack/okk/raw/master/ok.txt",
+            "name": "🚀OK线路"
+        },
+        {
+            "url": "http://152.32.170.60/leevi/PiG/raw/branch/master/jsm.json",
+            "name": "🚀多多PG"
+        },
+        {
+            "url":"https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+            "name": "🚀高天流云PG"
+        },
+        {
+            "url": "https://pastebin.com/raw/5NHaxyGR",
+            "name": "🚀道长"
+        },
+        {
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+            "name": "🚀香雅情"
+        },  
+        {
+            "url": "http://xhww.fun/小米/DEMO.json",
+            "name": "🚀小米"
+        },
+        {
+            "url": "https://100km.top/0",
+            "name": "🚀Ray0"
+        },
+        {
+            "url": "http://home.jundie.top:81/top98.json",
+            "name": "🚀俊佬"
+        },    
+        {
+            "url": "https://raw.liucn.cc/box/m.json",
+            "name": "🚀老刘备"
+        }
+    ]
+}
