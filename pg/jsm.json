@@ -77,6 +77,15 @@
 			"quickSearch": 1,
 			"changeable": 1
 		},
+		{
+      "key":"央视聚场",
+      "name":"央视聚场",
+      "type":3,
+      "api":"./lib/央视聚场.js",
+      "searchable":0,
+      "changeable":0,
+      "timeout": 10
+    },
 				{
 			"key": "河马",
 			"name": "河马┃App",
