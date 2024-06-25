@@ -129,6 +129,26 @@
       "ext": "https://www.zxzja.com/"
     },
     {
+      "key": "南瓜",
+      "name": "🎃南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "🍄比特┃秒播",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "玩偶",
       "name": "👽玩偶┃4K弹幕",
       "type": 3,
@@ -155,7 +175,7 @@
     },
     {
       "key": "原创",
-      "name": "☀原创┃无广",
+      "name": "☀原创┃不卡",
       "type": 3,
       "api": "csp_YCyz",
       "timeout": 15,
@@ -164,21 +184,20 @@
       "changeable": 1
     },
     {
-      "key": "白嫖",
-      "name": "👻白飘┃无广",
+      "key": "文采",
+      "name": "💮文采┃秒播",
       "type": 3,
-      "api": "csp_BaiPiao",
+      "api": "csp_Jpys",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.baipiaoys.com:9092/"
+      "changeable": 1
     },
     {
-      "key": "南瓜",
-      "name": "🎃南瓜┃App",
+      "key": "可可",
+      "name": "👻可可┃多线",
       "type": 3,
-      "api": "csp_NanGua",
+      "api": "csp_Kekys",
       "timeout": 15,
       "playerType": 2,
       "searchable": 1,
@@ -186,15 +205,26 @@
       "changeable": 1
     },
     {
-      "key": "毛驴",
-      "name": "🍓毛驴┃直连",
+      "key": "小点",
+      "name": "💥小点┃多线",
       "type": 3,
-      "api": "csp_MLYS",
+      "api": "csp_Xdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "热播",
+      "name": "📺热播┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
       "timeout": 15,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.maolvys.com/"
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
     },
     {
       "key": "萌米",
@@ -206,30 +236,22 @@
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
-      "key": "Xinsj",
-      "name": "👓视觉┃直连",
+      "key": "视觉",
+      "name": "👓视觉┃多线",
       "type": 3,
       "api": "csp_Xinsj",
       "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.80yy3.com/"
+      "ext": "https://www.6080yy3.com/"
     },
     {
-      "key": "一起看 ",
-      "name": "🎉一起┃App",
+      "key": "蛋蛋",
+      "name": "🍓蛋蛋┃多线",
       "type": 3,
-      "api": "csp_YQKan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_Bttoo",
-      "name": "🍄比特┃秒播",
-      "type": 3,
-      "api": "csp_Bttwoo",
+      "api": "csp_Cddys",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -274,15 +296,6 @@
       "changeable": 1
     },
     {
-      "key": "csp_Ying",
-      "name": "💮樱花┃动漫",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_Ysj",
       "name": "🎀异界┃动漫",
       "type": 3,
@@ -300,11 +313,12 @@
       "quickSearch": 1,
       "changeable": 1
     },
-       {
+    {
       "key": "88js",
       "name": "⚽ 88┃看球",
       "type": 3,
-      "api": "csp_Kanqiu",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/88看球.js",
       "style": {
         "type": "list"
       },
@@ -409,7 +423,7 @@
       "name": "🐟斗鱼┃直播",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/斗鱼直播.js",
+      "ext": "./lib/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
