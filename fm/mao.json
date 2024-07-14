@@ -43,15 +43,15 @@
       "quickSearch": 0,
       "changeable": 0
     },
-		{
-			"key": "央视聚场",
-			"name": "央视节目",
-			"type": 3,
-			"api": "./lib/央视聚场.js",
-			"searchable": 0,
-			"changeable": 0,
-			"timeout": 10
-		},
+    {
+      "key": "央视聚场",
+      "name": "💎┃央视┃节目",
+      "type": 3,
+      "api": "./lib/央视聚场.js",
+      "searchable": 0,
+      "changeable": 0,
+      "timeout": 10
+    },
     {
       "key": "荐片",
       "name": "🚀┃荐片┃极速",
@@ -159,16 +159,15 @@
     },
     {
       "key": "玩偶",
-      "name": "👽玩偶┃4K弹幕",
+      "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "aliToken": "tvfan/token.txt",
-        "quarkCookie": "tvfan/cookie.txt",
-        "from": "4k|auto|fhd",
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
         "siteUrl": "https://www.wogg.link/",
         "danMu": "弹"
       }
