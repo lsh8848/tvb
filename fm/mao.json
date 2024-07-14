@@ -43,6 +43,15 @@
       "quickSearch": 0,
       "changeable": 0
     },
+		{
+			"key": "央视聚场",
+			"name": "央视节目",
+			"type": 3,
+			"api": "./lib/央视聚场.js",
+			"searchable": 0,
+			"changeable": 0,
+			"timeout": 10
+		},
     {
       "key": "荐片",
       "name": "🚀┃荐片┃极速",
@@ -165,15 +174,6 @@
       }
     },
     {
-      "key": "短剧",
-      "name": "🌈上头┃短剧",
-      "type": 3,
-      "api": "csp_Djuu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "原创",
       "name": "☀原创┃不卡",
       "type": 3,
@@ -236,22 +236,10 @@
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
-      "key": "视觉",
-      "name": "👓视觉┃多线",
+      "key": "短剧",
+      "name": "🌈上头┃短剧",
       "type": 3,
-      "api": "csp_Xinsj",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.6080yy3.com/"
-    },
-    {
-      "key": "蛋蛋",
-      "name": "🍓蛋蛋┃多线",
-      "type": 3,
-      "api": "csp_Cddys",
-      "playerType": 2,
+      "api": "csp_Djtt",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
