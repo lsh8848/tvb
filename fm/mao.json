@@ -622,7 +622,7 @@
       "playerType": 1,
       "url": "https://tvb.zyh520.tk/live/tv2.txt",
       "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
@@ -631,17 +631,6 @@
       "playerType": 1,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
-    },
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9mYW5taW5nbWluZy5jb20vdHh0P3VybD1odHRwczovL2xpdmUuZmFubWluZ21pbmcuY29tL3R2L20zdS9pcHY2Lm0zdQ=="
-          ]
-        }
-      ]
     }
   ],
   "parses": [
