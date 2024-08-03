@@ -629,6 +629,7 @@
       "name": "tv2m3u",
       "type": 0,
       "playerType": 1,
+      "epg": "https://live.fanmingming.com/e.xml",
       "url": "https://tvb.zyh520.tk/live/tv2.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
     },
