@@ -626,11 +626,11 @@
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
-      "name": "tv2m3u",
+      "name": "cn-all",
       "type": 0,
       "playerType": 1,
       "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
-      "url": "https://tvb.zyh520.tk/live/tv2.m3u",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/jisoypub/iptv/master/cn_all.m3u",
       "ua": "okhttp/3.15"
     },
     {
