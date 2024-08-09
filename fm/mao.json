@@ -631,7 +631,7 @@
       "playerType": 1,
       "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
       "url": "https://ghproxy.net/https://raw.githubusercontent.com/jisoypub/iptv/master/cn_all.m3u",
-      "ua": "okhttp/3.15"
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
     },
     {
       "name": "fmm-ipv6-live",
