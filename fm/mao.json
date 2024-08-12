@@ -626,19 +626,27 @@
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
-      "name": "cn-all",
+      "name": "ysp",
       "type": 0,
       "playerType": 1,
       "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
-      "url": "https://tvb.zyh520.tk/live/cn_all.m3u",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+      "url": "http://152.70.36.240:5000/ysp.m3u",
+      "ua": "okhttp/3.15"
+    },
+    {
+      "name": "4GTV",
+      "type": 0,
+      "playerType": 1,
+      "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
+      "url": "http://152.70.36.240:5000/4gtv.m3u",
+      "ua": "okhttp/3.15"
     },
     {
       "name": "fmm-ipv6-live",
       "type": 0,
       "playerType": 1,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+      "ua": "okhttp/3.15"
     }
   ],
   "parses": [
