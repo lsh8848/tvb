@@ -642,14 +642,6 @@
       "ua": "okhttp/3.15"
     },
     {
-      "name": "tptv",
-      "type": 0,
-      "playerType": 1,
-      "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
-      "url": "http://152.70.36.240:5000/tptv.m3u",
-      "ua": "okhttp/3.15"
-    },
-    {
       "name": "fmm-ipv6-live",
       "type": 0,
       "playerType": 1,
