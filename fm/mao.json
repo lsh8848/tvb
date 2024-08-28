@@ -628,23 +628,8 @@
       "name": "tptv",
       "type": 0,
       "playerType": 1,
-      "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
-      "url": "http://152.70.36.240:5000/tptv.m3u",
-      "ua": "okhttp/3.2.1"
-    },
-    {
-      "name": "iTV_N1proxy",
-      "type": 0,
-      "playerType": 1,
-      "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
-      "url": "http://192.168.2.99:5000/itv.m3u"
-    },
-    {
-      "name": "4GTV",
-      "type": 0,
-      "playerType": 1,
-      "epg": "https://diyp1.112114.xyz/?ch={name}&date={date}",
-      "url": "http://152.70.36.240:5000/4gtv.m3u"
+      "url": "http://192.168.2.99:5000/tptv_proxy.m3u",
+      "ua": "okhttp"
     },
     {
       "name": "fmm-ipv6-live",
