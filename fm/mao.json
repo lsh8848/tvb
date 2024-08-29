@@ -637,7 +637,7 @@
       "url": "http://192.168.2.99:5000/itv_proxy.m3u"
     },
     {
-      "name": "4gtv",
+      "name": "4gtv_N1",
       "type": 0,
       "playerType": 1,
       "url": "http://192.168.2.99:5000/4gtv.m3u"
