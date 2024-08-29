@@ -626,7 +626,7 @@
     },
     {
       "name": "fmm-ipv6-live",
-      "type": 0,
+      "type": 1,
       "playerType": 2,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
     },
