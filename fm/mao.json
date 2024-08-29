@@ -91,7 +91,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.libvio.link"
+      "ext": "https://www.libvio.pro/"
     },
     {
       "key": "Auete",
@@ -124,7 +124,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.czys.top/"
+      "ext": "https://www.czys.pro"
     },
     {
       "key": "zxzj",
@@ -168,7 +168,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
-        "siteUrl": "https://www.wogg.link/",
+        "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       }
     },
@@ -626,7 +626,7 @@
     },
     {
       "name": "fmm-ipv6-live",
-      "type": 1,
+      "type": 0,
       "playerType": 2,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
     },
