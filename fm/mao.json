@@ -619,7 +619,7 @@
     {
       "name": "lsh-live",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "https://tvb.zyh520.tk/live/tv2.txt",
       "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -627,37 +627,37 @@
     {
       "name": "fmm-ipv6-live",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
     },
     {
       "name": "itv_N1proxy",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "http://192.168.2.99:5000/itv_proxy.m3u"
     },
     {
       "name": "4gtv_N1",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "http://192.168.2.99:5000/4gtv.m3u"
     },
     {
       "name": "feiyang_N1",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "http://192.168.2.99:35455/tv.m3u"
     },
     {
       "name": "douyu_N1",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "http://192.168.2.99:35455/douyuyqk.m3u?url=http://192.168.2.99:35455"
     },
     {
       "name": "huya_N1",
       "type": 0,
-      "playerType": 1,
+      "playerType": 2,
       "url": "http://192.168.2.99:35455/huyayqk.m3u?url=http://192.168.2.99:35455"
     }
   ],
