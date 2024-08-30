@@ -64,16 +64,6 @@
       "ext": "./lib/jp.js"
     },
     {
-      "key": "酷看",
-      "name": "💡酷看┃秒播",
-      "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "苹果",
       "name": "🍎苹果┃秒播",
       "type": 3,
