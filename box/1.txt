@@ -9,11 +9,11 @@
             "name": "⭐fty⭐github"
         },
         {
-            "url": "https://d.kstore.space/download/5297/fty/o.json",
+            "url": "https://5297.kstore.space/fty/o.json",
             "name": "⭐fty⭐kstore"
         },
         {
-            "url": "https://d.kstore.space/download/5297/fm/mao.json",
+            "url": "https://5297.kstore.space/fm/mao.json",
             "name": "⭐fm⭐kstore"
         },
         {
@@ -37,23 +37,15 @@
             "name": "🚀欧歌"
         },   
         {
-            "url": "https://gitee.com/okjack/okk/raw/master/ok.txt",
+            "url": "http://ok321.top/ok",
             "name": "🚀OK线路"
         },
         {
-            "url": "http://152.32.170.60/leevi/PiG/raw/branch/master/jsm.json",
-            "name": "🚀多多PG"
-        },
-        {
-            "url":"https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+            "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
             "name": "🚀高天流云PG"
         },
         {
-            "url": "https://pastebin.com/raw/5NHaxyGR",
-            "name": "🚀道长"
-        },
-        {
-            "url": "https://ghproxy.net/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
             "name": "🚀香雅情"
         },  
         {
