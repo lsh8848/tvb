@@ -7,7 +7,7 @@
 var rule = {
 	title: '荐片',
 	host: 'http://39.108.238.168:20000',
-	homeUrl: '/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
+	homeUrl: '/api/tag/hand?code=unknown92b25786c591d450&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
 	// url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
 	class_name: '全部&电影&电视剧&动漫&综艺',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
