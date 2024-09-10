@@ -52,7 +52,7 @@ var rule = {
 	推荐: `js:
         var d = [];
         let html = request(input);
-        html = JSON.parse(html).data[0];
+        html = JSON.parse(html).data;
         html.forEach(it => {
             d.push({
                 title: it.title,
