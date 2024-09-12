@@ -61,7 +61,7 @@
       "changeable": 1,
       "playerType": "1",
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/jp.js"
+      "ext": "./lib/jp2.js"
     },
     {
       "key": "苹果",
