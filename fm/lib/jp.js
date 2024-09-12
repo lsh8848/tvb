@@ -33,8 +33,8 @@ var rule = {
 		4:{cateId:'4'}
 	},
 	headers: {
-		'User-Agent': 'jianpian-android/350',
-		'JPAUTH': 'y261ow7kF2dtzlxh1GS9EB8nbTxNmaK/QQIAjctlKiEv'
+		'User-Agent': 'jianpian-android/365',
+		'JPAUTH': '65qzp51w05PA+M/DH+l3+tYzANCp1/Ta+kZW+R5Ch086'
 	},
 	timeout: 5000,
 	limit: 8,
