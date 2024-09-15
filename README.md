@@ -2,7 +2,7 @@
 
 OK版聽從網友建議添加的功能比較多，OK大佬更新。
 
-Fongmi版不聽從網友建議，通過Fongmi自己的想法開發功能。
+Fongmi版通過Fongmi自己的想法開發功能。
 
 `電視版`
 
@@ -32,8 +32,6 @@ https://github.com/
 
 https://gitlab.com/
 
-https://jihulab.com/
-
 https://gitee.com/
 
 https://coding.net/
@@ -41,8 +39,6 @@ https://coding.net/
 https://gitcode.net/
 
 https://gitea.com/
-
-https://agit.ai/
 
 https://notabug.org/
 
@@ -60,6 +56,8 @@ https://epg.112114.xyz/
 
 https://diyp.112114.xyz/
 
+https://diyp1.112114.xyz/
+
 ------
 
 ### 给英文不好的朋友
@@ -70,7 +68,7 @@ Github 增强-高速下载 🔰https://greasyfork.org/zh-CN/scripts/412245
 
 ### Github RAW 加速服务
 
-`https://mirror.ghproxy.com/`
+`https://ghp.ci/`
 
 `https://ghproxy.net/`
 
@@ -79,5 +77,3 @@ Github 增强-高速下载 🔰https://greasyfork.org/zh-CN/scripts/412245
 `https://statically.io/convert/`
 
 `https://ghps.cc/`
-
-`https://gh.ddlc.top/`
