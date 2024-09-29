@@ -32,7 +32,7 @@
         "播放标题": "alt=\"&&\"",
         "播放链接": "https://m.douban.com+href=\"&&\""
              },
-      "jar": "./pandaQ231115.jar;md5;cb2a84ff515a9d54fc7590bb56d62f04"
+      "jar": "./XBPQ.jar"
     },
   {
       "key": "YGP",
@@ -124,7 +124,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.czys.pro"
+      "ext": "https://czzy.top/"
     },
     {
       "key": "zxzj",
@@ -136,6 +136,15 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.zxzja.com/"
+    },
+    {
+      "key": "csp_Bttoo",
+      "name": "🍄比特┃秒播",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
 	{
 	"key": "hipy_js_素白白[优]",
@@ -157,7 +166,7 @@
 	"quickSearch": 1,
 	"filterable": 1,
 	"ext": "./lib/素白白.json",
-	"jar": "./pandaQ231115.jar;md5;cb2a84ff515a9d54fc7590bb56d62f04"
+	"jar": "./XBPQ.jar"
 	},
     {
       "key": "糯米",
@@ -185,15 +194,6 @@
       "api": "csp_NanGua",
       "timeout": 15,
       "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_Bttoo",
-      "name": "🍄比特┃秒播",
-      "type": 3,
-      "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -586,7 +586,7 @@
       },
     {
       "key": "可可",
-      "name": "👻可可┃多线(失效)",
+      "name": "👻可可┃多线",
       "type": 3,
       "api": "csp_Kekys",
       "timeout": 15,
@@ -597,7 +597,7 @@
     },
     {
       "key": "热播",
-      "name": "📺热播┃多线(失效)",
+      "name": "📺热播┃多线",
       "type": 3,
       "api": "csp_AppTT",
       "timeout": 15,
