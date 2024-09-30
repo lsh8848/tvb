@@ -152,9 +152,9 @@
       "type": 3,
       "api": "csp_Subaibai",
       "searchable": 1,
-	  "quickSearch": 1,
+      "quickSearch": 1,
       "changeable": 1,
-	  "jar": "./ou.jar"
+      "jar": "./ou.jar"
     },
     {
       "key": "农民影视",
@@ -162,9 +162,9 @@
       "type": 3,
       "api": "csp_WexNmys",
       "searchable": 1,
-	  "quickSearch": 1,
+      "quickSearch": 1,
       "changeable": 1,
-	  "jar": "./ou.jar"
+      "jar": "./ou.jar"
     },
     {
       "key": "圣城影视",
@@ -173,9 +173,9 @@
       "api": "csp_SC1080",
       "searchable": 1,
       "quickSearch": 1,
-	  "changeable": 1,
+      "changeable": 1,
       "filterable": 1,
-	  "jar": "./ou.jar"
+      "jar": "./ou.jar"
     },
     {
       "key": "酷影",
@@ -184,9 +184,9 @@
       "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
-	  "changeable": 1,
+      "changeable": 1,
       "filterable": 1,
-	  "jar": "./ou.jar",
+      "jar": "./ou.jar",
       "ext": "https://www.tvkuys.xyz/api.php/app/"
     },
 	{
@@ -228,6 +228,9 @@
       "api": "csp_AppTT",
       "timeout": 15,
       "playerType": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
@@ -275,6 +278,27 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "短剧天堂",
+      "name": "🐞天堂┃短剧",
+      "type": 3,
+      "api": "csp_Wexduanjuvip",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "jar": "./ou.jar"
+    },
+    {
+      "key": "星芽短剧",
+      "name": "🐞星芽┃短剧",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 0,
+      "jar": "./ou.jar"
     },
     {
       "key": "短剧",
