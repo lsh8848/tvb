@@ -146,9 +146,52 @@
       "quickSearch": 1,
       "changeable": 1
     },
+    {
+      "key": "素白白",
+      "name": "💡素白┃秒播",
+      "type": 3,
+      "api": "csp_Subaibai",
+      "searchable": 1,
+	  "quickSearch": 1,
+      "changeable": 1,
+	  "jar": "./ou.jar"
+    },
+    {
+      "key": "农民影视",
+      "name": "💡农民┃秒播",
+      "type": 3,
+      "api": "csp_WexNmys",
+      "searchable": 1,
+	  "quickSearch": 1,
+      "changeable": 1,
+	  "jar": "./ou.jar"
+    },
+    {
+      "key": "圣城影视",
+      "name": "💡圣城┃秒播",
+      "type": 3,
+      "api": "csp_SC1080",
+      "searchable": 1,
+      "quickSearch": 1,
+	  "changeable": 1,
+      "filterable": 1,
+	  "jar": "./ou.jar"
+    },
+    {
+      "key": "酷影",
+      "name": "💡酷影┃秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+	  "changeable": 1,
+      "filterable": 1,
+	  "jar": "./ou.jar",
+      "ext": "https://www.tvkuys.xyz/api.php/app/"
+    },
 	{
 	"key": "hipy_js_素白白[优]",
-	"name": "😆素白白┃秒播",
+	"name": "😆素白JS┃秒播",
 	"type": 3,
 	"api": "./lib/drpy3.min.js",
 	"searchable": 1,
@@ -158,8 +201,8 @@
 	"ext": "./lib/素白白[优].js"
 	},
 	{
-	"key": "素白白",
-	"name": "😆素白白┃XBPQ",
+	"key": "素白白XBPQ",
+	"name": "😆素白┃XBPQ",
 	"type": 3,
 	"api": "csp_XBPQ",
 	"searchable": 1,
