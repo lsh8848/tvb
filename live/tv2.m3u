@@ -85,6 +85,94 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="🚀央卫移动",重庆卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="🚀央卫电信",CCTV1
+http://171.213.194.196:8888/udp/239.93.0.184:5140
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="🚀央卫电信",CCTV2
+http://171.213.194.196:8888/udp/239.93.1.23:6000
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="🚀央卫电信",CCTV3
+http://171.213.194.196:8888/udp/239.93.1.11:2223
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="🚀央卫电信",CCTV4
+http://171.213.194.196:8888/udp/239.93.1.105:5140
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="🚀央卫电信",CCTV5
+http://171.213.194.196:8888/udp/239.93.42.37:5140
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="🚀央卫电信",CCTV5+
+http://171.213.194.196:8888/udp/239.93.1.36:8004
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="🚀央卫电信",CCTV6
+http://171.213.194.196:8888/udp/239.93.1.13:2226
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="🚀央卫电信",CCTV7
+http://171.213.194.196:8888/udp/239.93.1.67:5140
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="🚀央卫电信",CCTV8
+http://171.213.194.196:8888/udp/239.93.42.39:5140
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="🚀央卫电信",CCTV9
+http://171.213.194.196:8888/udp/239.93.1.24:5140
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="🚀央卫电信",CCTV10
+http://171.213.194.196:8888/udp/239.93.1.28:5140
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="🚀央卫电信",CCTV11
+http://171.213.194.196:8888/udp/239.93.0.102:5140
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="🚀央卫电信",CCTV12
+http://171.213.194.196:8888/udp/239.93.1.30:8124
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="🚀央卫电信",CCTV13
+http://171.213.194.196:8888/udp/239.93.0.66:5140
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="🚀央卫电信",CCTV14
+http://171.213.194.196:8888/udp/239.93.1.29:6000
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="🚀央卫电信",CCTV15
+http://171.213.194.196:8888/udp/239.93.0.103:5140
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="🚀央卫电信",CCTV17
+http://171.213.194.196:8888/udp/239.93.0.92:5140
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="🚀央卫电信",湖南卫视
+http://171.213.194.196:8888/udp/239.93.0.88:5140
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png" group-title="🚀央卫电信",江苏卫视
+http://171.213.194.196:8888/udp/239.93.0.89:5140
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="🚀央卫电信",浙江卫视
+http://171.213.194.196:8888/udp/239.93.0.124:5140
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="🚀央卫电信",东方卫视
+http://171.213.194.196:8888/udp/239.93.0.123:5140
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="🚀央卫电信",北京卫视
+http://171.213.194.196:8888/udp/239.93.0.180:5140
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png" group-title="🚀央卫电信",深圳卫视
+http://171.213.194.196:8888/udp/239.93.0.182:5140
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="🚀央卫电信",广东卫视
+http://171.213.194.196:8888/udp/239.93.0.181:5140
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png" group-title="🚀央卫电信",天津卫视
+http://171.213.194.196:8888/udp/239.93.0.167:5140
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://live.fanmingming.com/tv/山东卫视.png" group-title="🚀央卫电信",山东卫视
+http://171.213.194.196:8888/udp/239.93.0.168:5140
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png" group-title="🚀央卫电信",江西卫视
+http://171.213.194.196:8888/udp/239.93.0.134:5140
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="🚀央卫电信",东南卫视
+http://171.213.194.196:8888/udp/239.93.0.42:5140
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="🚀央卫电信",黑龙江卫视
+http://171.213.194.196:8888/udp/239.93.0.183:5140
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png" group-title="🚀央卫电信",四川卫视
+http://171.213.194.196:8888/udp/239.93.0.20:1235
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="🚀央卫电信",重庆卫视
+http://171.213.194.196:8888/udp/239.93.1.107:5140
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png" group-title="🚀央卫电信",贵州卫视
+http://171.213.194.196:8888/udp/239.93.0.131:5140
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://live.fanmingming.com/tv/湖北卫视.png" group-title="🚀央卫电信",湖北卫视
+http://171.213.194.196:8888/udp/239.93.0.250:5140
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="🚀央卫电信",安徽卫视
+http://171.213.194.196:8888/udp/239.93.1.106:5140
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://live.fanmingming.com/tv/河北卫视.png" group-title="🚀央卫电信",河北卫视
+http://171.213.194.196:8888/udp/239.93.0.132:5140
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视.png" group-title="🚀央卫电信",辽宁卫视
+http://171.213.194.196:8888/udp/239.93.1.108:5140
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png" group-title="🚀央卫电信",云南卫视
+http://171.213.194.196:8888/udp/239.93.1.174:5140
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="🚀央卫电信",河南卫视
+http://171.213.194.196:8888/udp/239.93.42.45:5140
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://live.fanmingming.com/tv/广西卫视.png" group-title="🚀央卫电信",广西卫视
+http://171.213.194.196:8888/udp/239.93.42.46:5140
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.com/tv/吉林卫视.png" group-title="🚀央卫电信",吉林卫视
+http://171.213.194.196:8888/udp/239.93.0.248:5140
+#EXTINF:-1 tvg-name="上海纪实" tvg-logo="https://live.fanmingming.com/tv/上海纪实.png" group-title="🚀央卫电信",上海纪实
+http://171.213.194.196:8888/udp/239.93.1.137:5140
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实.png" group-title="🚀央卫电信",金鹰纪实
+http://171.213.194.196:8888/udp/239.93.0.130:5140
+#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视.png" group-title="🚀央卫电信",甘肃卫视
+http://171.213.194.196:8888/udp/239.93.0.81:5140
+#EXTINF:-1 tvg-name="峨眉电影" tvg-logo="https://live.fanmingming.com/tv/峨眉电影.png" group-title="🚀央卫电信",峨眉电影
+http://171.213.194.196:8888/udp/239.93.0.252:5140
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="🌏央视频道",CCTV1
 http://39.134.67.108/PLTV/88888888/224/3221225816/1.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="🌏央视频道",CCTV2
@@ -1837,6 +1925,14 @@ http://[2409:8087:1a01:df::4001]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:74F1:0021::0008]/270000001128/9900000095/index.m3u8?
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="🎬电影IPv6",黑莓电影
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010073/1.m3u8
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="🇭🇰港台频道",凤凰中文
+http://171.213.194.196:8888/udp/239.93.0.162:2192
+#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="🇭🇰港台频道",凤凰中文
+http://171.213.194.196:8888/udp/239.93.1.9:2192
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="🇭🇰港台频道",凤凰资讯
+http://171.213.194.196:8888/udp/239.93.1.4:2191
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="🇭🇰港台频道",凤凰资讯
+http://171.213.194.196:8888/udp/239.93.0.118:2191
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视中文台.png" group-title="🇭🇰港台频道",凤凰中文
 http://ali.hlspull.yximgs.com/live/l3w1tt2dkzvpukruupu001-golive.flv
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="🇭🇰港台频道",凤凰资讯
