@@ -703,10 +703,10 @@
       "url": "http://192.168.2.99:5000/4gtv.m3u"
     },
     {
-      "name": "tptv_N1proxy",
+      "name": "ysp_N1",
       "type": 0,
       "playerType": 2,
-      "url": "http://192.168.2.99:5000/tptv_proxy.m3u"
+      "url": "http://192.168.2.99:5000/ysp.m3u"
     }
   ],
   "parses": [
