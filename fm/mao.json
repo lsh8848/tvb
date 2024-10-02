@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "🐼┃豆瓣┃热映",
+      "name": "🐼豆瓣┃热映",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -13,7 +13,7 @@
     },
     {
       "key": "豆瓣2",
-      "name": "🐼┃豆瓣┃预告",
+      "name": "🐼豆瓣┃预告片",
       "type": 3,
       "api": "csp_XBPQ",
       "playerType": 2,
@@ -36,7 +36,7 @@
     },
   {
       "key": "YGP",
-      "name": "🚀┃预告┃短片",
+      "name": "🚀电影┃预告片",
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0,
@@ -55,7 +55,7 @@
     },
     {
       "key": "央视聚场",
-      "name": "💎┃央视┃节目",
+      "name": "💎央视┃节目",
       "type": 3,
       "api": "./lib/央视聚场.js",
       "searchable": 0,
@@ -64,7 +64,7 @@
     },
     {
       "key": "荐片",
-      "name": "🚀┃荐片┃极速",
+      "name": "🚀荐片┃极速",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -75,7 +75,7 @@
     },
     {
       "key": "苹果",
-      "name": "🍎┃苹果┃秒播",
+      "name": "🍎苹果┃秒播",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -84,7 +84,7 @@
     },
     {
       "key": "Lib",
-      "name": "🚀┃Libvio┃极速",
+      "name": "🚀Libvio┃极速",
       "type": 3,
       "api": "csp_Libvio",
       "timeout": 15,
@@ -95,7 +95,7 @@
     },
     {
       "key": "Auete",
-      "name": "🚀┃Auete┃影视",
+      "name": "🚀Auete┃影视",
       "type": 3,
       "api": "csp_Auete",
       "timeout": 15,
@@ -106,7 +106,7 @@
     },
     {
       "key": "DiDuan",
-      "name": "🚀┃低端┃极速",
+      "name": "🚀低端┃极速",
       "type": 3,
       "api": "csp_Ddrk",
       "playerType": "2",
@@ -116,7 +116,7 @@
     },
     {
       "key": "厂长",
-      "name": "🚀┃厂长┃极速",
+      "name": "🚀厂长┃极速",
       "type": 3,
       "api": "csp_NewCz",
       "timeout": 15,
@@ -128,7 +128,7 @@
     },
     {
       "key": "zxzj",
-      "name": "🍊┃在线┃美剧",
+      "name": "🍊在线┃美剧",
       "type": 3,
       "api": "csp_Zxzj",
       "timeout": 15,
@@ -707,24 +707,6 @@
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:5000/tptv_proxy.m3u"
-    },
-    {
-      "name": "feiyang_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:35455/tv.m3u"
-    },
-    {
-      "name": "douyu_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:35455/douyuyqk.m3u?url=http://192.168.2.99:35455"
-    },
-    {
-      "name": "huya_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:35455/huyayqk.m3u?url=http://192.168.2.99:35455"
     }
   ],
   "parses": [
