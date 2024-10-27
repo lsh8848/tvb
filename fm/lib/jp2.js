@@ -6,7 +6,7 @@
 
 var rule = {
 	title: '荐片',
-	host: 'http://apijp.rinhome.com',
+	host: 'http://42.194.235.17:20000',
 	homeUrl: '/api/dyTag/tag?code=unknown92b25786c591d450&channel=wandoujia&tag=3&page=1',//网站的首页链接,用于分类获取和推荐获取
 	// url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
