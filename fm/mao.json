@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://xhdwc.tk/api/img.php",
-  "spider": "./fan.jar;md5;898ae43d224f936c7da77c375cd68284",
+  "spider": "./fan.jar;md5;6b677bfdb3bb51c5bf8f868791e3cf5a",
   "sites": [
     {
       "key": "豆豆",
@@ -565,7 +565,9 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/bilibili.json"
+      "ext": {
+        "json": "./lib/bilibili.json"
+      }
     },
     {
       "key": "Biliych",
@@ -579,7 +581,9 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/biliych.json"
+      "ext": {
+        "json": "./lib/biliych.json"
+      }
     },
     {
       "key": "dr_兔小贝",
