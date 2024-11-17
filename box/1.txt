@@ -10,27 +10,27 @@
         },
         {
             "url": "https://d.kstore.dev/download/5297/fty/o.json",
-            "name": "🚀fty🚀kstore"
+            "name": "☀️fty☀️kstore"
         },
         {
             "url": "https://d.kstore.dev/download/5297/fm/mao.json",
-            "name": "🚀fm🚀kstore"
+            "name": "☀️fm☀️kstore"
         },
         {
             "url": "https://www.饭太硬.com/tv",
-            "name": "🚀饭太硬"
+            "name": "🍒饭太硬"
         },
         {
             "url": "http://xn--z7x900a.com/",
-            "name": "🚀肥猫"
+            "name": "🍒肥猫"
         },
         {
             "url": "http://我不是.摸鱼儿.com",
-            "name": "🚀摸鱼儿"
+            "name": "🍒摸鱼儿"
          },
         {
             "url": "http://tv.999888987.xyz/",
-            "name": "🚀放牛娃"
+            "name": "🍒放牛娃"
         },
         {
             "url": "https://gitee.com/enjoy_5_0/gg/raw/vip/gz.json",
