@@ -9,12 +9,12 @@
             "name": "⭐fty⭐github"
         },
         {
-            "url": "https://5297.kstore.space/fty/o.json",
-            "name": "⭐fty⭐kstore"
+            "url": "https://d.kstore.dev/download/5297/fty/o.json",
+            "name": "🚀fty🚀kstore"
         },
         {
-            "url": "https://5297.kstore.space/fm/mao.json",
-            "name": "⭐fm⭐kstore"
+            "url": "https://d.kstore.dev/download/5297/fm/mao.json",
+            "name": "🚀fm🚀kstore"
         },
         {
             "url": "https://www.饭太硬.com/tv",
