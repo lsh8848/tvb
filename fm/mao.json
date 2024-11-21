@@ -154,6 +154,53 @@
       "changeable": 1
     },
     {
+      "key": "csp_Gz360",
+      "name": "🍉瓜子┃秒播",
+      "type": 3,
+      "api": "csp_Gz360",
+      "playerType": 2,
+      "jar": "./PandaQ.jar"
+    },
+    {
+      "key": "csp_J",
+      "name": "🌎低端┃外剧",
+      "type": 3,
+      "api": "csp_Jiaozi",
+      "playerType": 2,
+      "jar": "./PandaQ.jar"
+    },
+    {
+      "key": "csp_SuBaiBai",
+      "name": "🏳️素白┃影视",
+      "type": 3,
+      "api": "csp_SuBaiBai",
+      "ext": "http://subaibai.com",
+      "jar": "./PandaQ.jar"
+    },
+    {
+      "key": "csp_Nongm",
+      "name": "🌾️农民┃影视",
+      "type": 3,
+      "api": "csp_Nongm",
+      "ext": "https://wwgz.cn",
+      "jar": "./PandaQ.jar"
+    },
+    {
+      "key": "csp_AppRZ",
+      "name": "🕵️忍者┃影视",
+      "type": 3,
+      "api": "csp_AppRZ",
+      "jar": "./PandaQ.jar",
+      "ext": "http://rzys.xyz/"
+    },
+    {
+      "key": "csp_Kanke",
+      "name": "🛳️看客┃影视",
+      "type": 3,
+      "api": "csp_Kanke",
+      "jar": "./PandaQ.jar"
+    },
+    {
       "key": "酷影",
       "name": "💡酷影┃秒播",
       "type": 3,
