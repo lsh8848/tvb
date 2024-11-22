@@ -378,13 +378,13 @@
       "key": "虎牙直播js",
       "name": "🐯虎牙┃直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./lib/drpy2.js",
       "ext": "./lib/huya2.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
       },
-      "playerType": "1",
+      "playerType": "2",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -399,7 +399,7 @@
         "type": "rect",
         "ratio": 1.755
       },
-      "playerType": "1",
+      "playerType": "2",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
