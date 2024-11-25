@@ -13,7 +13,7 @@ https://cctvtxyh5ca.liveplay.myqcloud.com/live/CCTV4_2/index.m3u8
 http://39.134.67.108/PLTV/88888888/224/3221225818/1.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="🌏央视频道",CCTV5
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="🌏央视频道",CCTV5%2B
+#EXTINF:-1 tvg-name="CCTV5%2B" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="🌏央视频道",CCTV5+
 http://39.134.67.108/PLTV/88888888/224/3221225507/1.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="🌏央视频道",CCTV6
 http://39.134.67.108/PLTV/88888888/224/3221225814/1.m3u8
