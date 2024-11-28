@@ -79,7 +79,7 @@
     function convertToM3U() {
       const txtInput = document.getElementById('txtInput').value;
       const lines = txtInput.split('\n');
-      let m3uOutput = '#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"\n';
+      let m3uOutput = '#EXTM3U x-tvg-url="https://epg.zyh520.tk/"\n';
       let currentGroup = null;
       for (const line of lines) {
         const trimmedLine = line.trim();
@@ -89,7 +89,7 @@
           } else {
             const [originalChannelName, channelLink] = trimmedLine.split(',').map(item => item.trim());
             const processedChannelName = originalChannelName.replace(/(CCTV|CETV)-(\d+).*/, '$1$2');
-            m3uOutput += `#EXTINF:-1 tvg-name="${processedChannelName}" tvg-logo="https://live.fanmingming.com/tv/${processedChannelName}.png"`;
+            m3uOutput += `#EXTINF:-1 tvg-name="${processedChannelName}" tvg-logo="https://live.zjwz.us.kg/tv/${processedChannelName}.png"`;
             if (currentGroup) {
               m3uOutput += ` group-title="${currentGroup}"`;
             }
