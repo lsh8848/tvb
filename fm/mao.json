@@ -543,6 +543,7 @@
 //,
  //     "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
  //     "logo": "https://live.zjwz.us.kg/tv/{name}.png"
+
     },
     {
       "name": "fmm-ipv6-live",
