@@ -541,7 +541,7 @@
       "playerType": 2,
       "url": "https://tvb.zyh520.tk/live/tv2.m3u",
       "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
+      "logo": "https://live.zjwz.us.kg/tv/{name}.png"
     },
     {
       "name": "fmm-ipv6-live",
