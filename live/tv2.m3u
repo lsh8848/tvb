@@ -755,7 +755,7 @@ http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHAN
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000044/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://live.zjwz.us.kg/tv/西藏卫视.png" group-title="📡卫视IPV6",西藏卫视
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000045/index.m3u8?IASHttpSessionId=
-#EXTINF:-1 tvg-name="陕西农林卫视" tvg-logo="https://live.zjwz.us.kg/tv/陕西农林卫视.png" group-title="📡卫视IPV6",陕西农林卫视
+#EXTINF:-1 tvg-name="农林卫视" tvg-logo="https://live.zjwz.us.kg/tv/农林卫视.png" group-title="📡卫视IPV6",农林卫视
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000072/index.m3u8?IASHttpSessionId=
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://live.zjwz.us.kg/tv/兵团卫视.png" group-title="📡卫视IPV6",兵团卫视
 http://[2409:8087:3c02:21:0:1:0:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000071/index.m3u8?IASHttpSessionId=
