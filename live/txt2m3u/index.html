@@ -89,7 +89,7 @@
           } else {
             const [originalChannelName, channelLink] = trimmedLine.split(',').map(item => item.trim());
             const processedChannelName = originalChannelName.replace(/(CCTV|CETV)-(\d+).*/, '$1$2');
-            m3uOutput += `#EXTINF:-1 tvg-name="${processedChannelName}" tvg-logo="https://live.zjwz.us.kg/tv/${processedChannelName}.png"`;
+            m3uOutput += `#EXTINF:-1 tvg-name="${processedChannelName}" tvg-logo="http://live.zjwz.us.kg/tv/${processedChannelName}.png"`;
             if (currentGroup) {
               m3uOutput += ` group-title="${currentGroup}"`;
             }
