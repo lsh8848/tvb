@@ -554,13 +554,13 @@
     {
       "name": "4gtv_N1",
       "type": 0,
-      "playerType": 2,
+      "playerType": 1,
       "url": "http://192.168.2.99:5000/4gtv.m3u"
     },
     {
       "name": "youtube_N1",
       "type": 0,
-      "playerType": 2,
+      "playerType": 1,
       "url": "http://192.168.2.99:5000/youtube/list/PLdRD5eMoMQy5ybIl5g4gmqs8x4B4Srg8f"
     },
     {
