@@ -154,6 +154,13 @@
       "changeable": 1
     },
     {
+      "key": "csp_Jpyy",
+      "name": "🥇️金牌┃影视",
+      "type": 3,
+      "api": "csp_Jpyy",
+      "jar": "./PandaQ.jar"
+    },
+    {
       "key": "csp_Gz360",
       "name": "🍉瓜子┃秒播",
       "type": 3,
@@ -194,10 +201,40 @@
       "ext": "http://rzys.xyz/"
     },
     {
-      "key": "csp_Kanke",
-      "name": "🛳️看客┃影视",
+      "key": "csp_Tvyb",
+      "name": "☁️️云播┃影视",
       "type": 3,
-      "api": "csp_Kanke",
+      "api": "csp_Tvyb",
+      "jar": "./PandaQ.jar"
+    },
+    {
+      "key": "csp_XMUC",
+      "name": "🍚小米┃UC",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://www.mucpan.cc",
+          "http://ucmi.fun",
+          "http://www.ucmi.fun"
+        ],
+        "url_key": "XMUC"
+      },
+      "jar": "./PandaQ.jar"
+    },
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡闪电┃优汐",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      },
       "jar": "./PandaQ.jar"
     },
     {
