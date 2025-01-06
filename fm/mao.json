@@ -78,7 +78,7 @@
       "name": "🍎苹果┃秒播",
       "type": 3,
       "api": "csp_LiteApple",
-      "timeout": 15,
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -88,7 +88,7 @@
       "name": "🚀Libvio┃极速",
       "type": 3,
       "api": "csp_Libvio",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -100,7 +100,7 @@
       "name": "🚀Auete┃影视",
       "type": 3,
       "api": "csp_Auete",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -112,7 +112,7 @@
       "name": "🚀低端┃极速",
       "type": 3,
       "api": "csp_Ddrk",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -123,7 +123,7 @@
       "name": "🚀厂长┃极速",
       "type": 3,
       "api": "csp_NewCz",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -135,7 +135,7 @@
       "name": "🍊在线┃美剧",
       "type": 3,
       "api": "csp_Zxzj",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -147,7 +147,7 @@
       "name": "🍄比特┃秒播",
       "type": 3,
       "api": "csp_Bttwoo",
-      "timeout": 15,
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -158,6 +158,11 @@
       "name": "🥇️金牌┃影视",
       "type": 3,
       "api": "csp_Jpyy",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "jar": "./PandaQ.jar"
     },
     {
@@ -165,7 +170,11 @@
       "name": "🍉瓜子┃秒播",
       "type": 3,
       "api": "csp_Gz360",
+      "timeout": 10,
       "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "jar": "./PandaQ.jar"
     },
     {
@@ -173,7 +182,11 @@
       "name": "🌎低端┃外剧",
       "type": 3,
       "api": "csp_Jiaozi",
+      "timeout": 10,
       "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "jar": "./PandaQ.jar"
     },
     {
@@ -182,6 +195,11 @@
       "type": 3,
       "api": "csp_SuBaiBai",
       "ext": "http://subaibai.com",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "jar": "./PandaQ.jar"
     },
     {
@@ -190,6 +208,11 @@
       "type": 3,
       "api": "csp_Nongm",
       "ext": "https://wwgz.cn",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "jar": "./PandaQ.jar"
     },
     {
@@ -197,14 +220,24 @@
       "name": "🕵️忍者┃影视",
       "type": 3,
       "api": "csp_AppRZ",
-      "jar": "./PandaQ.jar",
-      "ext": "http://rzys.xyz/"
+      "ext": "http://rzys.xyz/",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "./PandaQ.jar"
     },
     {
       "key": "csp_Tvyb",
       "name": "☁️️云播┃影视",
       "type": 3,
       "api": "csp_Tvyb",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "jar": "./PandaQ.jar"
     },
     {
@@ -221,6 +254,11 @@
         ],
         "url_key": "XMUC"
       },
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "jar": "./PandaQ.jar"
     },
     {
@@ -235,6 +273,11 @@
         ],
         "url_key": "FeiMaoUC"
       },
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "jar": "./PandaQ.jar"
     },
     {
@@ -242,7 +285,6 @@
       "name": "👀萌米┃App",
       "type": 3,
       "api": "csp_AppTT",
-      "timeout": 15,
       "playerType": 2,
       "searchable": 0,
       "quickSearch": 0,
@@ -254,11 +296,10 @@
       "name": "🎃南瓜┃App",
       "type": 3,
       "api": "csp_NanGua",
-      "timeout": 15,
       "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "玩偶",
@@ -266,7 +307,7 @@
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
@@ -301,9 +342,9 @@
       "name": "🌈天堂┃短剧",
       "type": 3,
       "api": "csp_Djtt",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "alist",
