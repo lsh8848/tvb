@@ -851,7 +851,7 @@ http://39.134.136.161:6610/000000001000/2000000002000000065/index.m3u8?livemode=
 http://39.134.136.161:6610/000000001000/1000000005000265020/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265020
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 4M
 http://39.134.136.161:6610/000000001000/2000000003000000026/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000026
-#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/纪实科教.png" group-title="📡iTV卫视",北京纪实科教 4M
+#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 4M
 http://39.134.136.161:6610/000000001000/1000000001000028380/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028380
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 4M
 http://39.134.136.161:6610/000000001000/1000000001000030202/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000030202
