@@ -1,23 +1,23 @@
 #EXTM3U x-tvg-url="https://epg.zyh520.tk/112114.xml" 
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央视4K",CCTV1
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央视4K",CCTV1-4K
 http://223.105.252.60/PLTV/4/224/3221228581/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央视4K",CCTV3
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央视4K",CCTV3-4K
 http://223.105.252.59/PLTV/4/224/3221228499/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央视4K",CCTV5
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央视4K",CCTV5-4K
 http://223.105.252.61/PLTV/4/224/3221228502/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央视4K",CCTV8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央视4K",CCTV8-4K
 http://223.105.252.57/PLTV/3/224/3221228165/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="http://live.zyh520.tk/tv/CCTV4K.png" group-title="🏮央视4K",CCTV4K
 http://223.105.252.60/PLTV/4/224/3221228472/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16-4K
 http://223.105.252.59/PLTV/4/224/3221228314/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16-4K
 http://39.134.136.161:6610/000000001000/5000000008000023254/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023254
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场4K
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场-4K
 http://111.29.9.34:6610/000000001000/1/1.m3u8?stbId=1&livemode=1&IASHttpSessionId=OTT760920241110011719006907&channel-id=bestzb&Contentid=5000000007000010001
-#EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://live.zyh520.tk/tv/LoveNature.png" group-title="🏮央视4K",LoveNature
+#EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://live.zyh520.tk/tv/LoveNature.png" group-title="🏮央视4K",LoveNature-4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-name="loupe" tvg-logo="http://live.zyh520.tk/tv/loupe.png" group-title="🏮央视4K",loupe
+#EXTINF:-1 tvg-name="loupe" tvg-logo="http://live.zyh520.tk/tv/loupe.png" group-title="🏮央视4K",loupe-4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🌏央视频道",CCTV1
 http://39.134.67.108/PLTV/88888888/224/3221225816/1.m3u8
@@ -1109,10 +1109,10 @@ http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
 #EXTINF:-1 tvg-name="靖天电影台" tvg-logo="http://live.zyh520.tk/tv/靖天电影台.png" group-title="🌟AKV港台",靖天电影台
 http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
-#EXTINF:-1 tvg-name="tvN" tvg-logo="http://live.zyh520.tk/tv/tvN.png" group-title="🌟AKV港台",tvN电影台
-http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
 #EXTINF:-1 tvg-name="AXN" tvg-logo="http://live.zyh520.tk/tv/AXN.png" group-title="🌟AKV港台",AXN电影台
 http://aktv.top/AKTV/live/aktv2/axn/AKTV.m3u8
+#EXTINF:-1 tvg-name="tvN" tvg-logo="http://live.zyh520.tk/tv/tvN.png" group-title="🌟AKV港台",tvN电影台
+http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
 #EXTINF:-1 tvg-name="千禧经典台" tvg-logo="http://live.zyh520.tk/tv/千禧经典台.png" group-title="🌟AKV港台",千禧经典台
 http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
 #EXTINF:-1 tvg-name="黄金翡翠台" tvg-logo="http://live.zyh520.tk/tv/黄金翡翠台.png" group-title="🌟AKV港台",黄金翡翠台
@@ -1163,30 +1163,28 @@ http://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
 http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
 #EXTINF:-1 tvg-name="Channel5" tvg-logo="https://epg.iill.top/logo/Channel5.png" group-title="🌟AKV港台",Channel 5 HD
 http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
-#EXTINF:-1 tvg-name="viutv 99" tvg-logo="https://epg.iill.top/logo/viutv 99.png" group-title="🌟AKV港台",viutv 99
+#EXTINF:-1 tvg-name="viutv 99" tvg-logo="https://epg.iill.top/logo/ViuTV.png" group-title="🌟AKV港台",viutv
 http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
-#EXTINF:-1 tvg-name="ROCK Action" tvg-logo="https://epg.iill.top/logo/ROCK Action.png" group-title="🌟AKV港台",ROCK Action
+#EXTINF:-1 tvg-name="ROCK Action" tvg-logo="https://epg.iill.top/logo/RockAction.png" group-title="🌟AKV港台",ROCK Action
 http://aktv.top/AKTV/live/aktv/rockaction/AKTV.m3u8
-#EXTINF:-1 tvg-name="viutv6 96" tvg-logo="https://epg.iill.top/logo/viutv6 96.png" group-title="🌟AKV港台",viutv6 96
-http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
-#EXTINF:-1 tvg-name="Channel U HD" tvg-logo="https://epg.iill.top/logo/Channel U HD.png" group-title="🌟AKV港台",Channel U HD
+#EXTINF:-1 tvg-name="Channel U HD" tvg-logo="https://epg.iill.top/logo/ChannelU.png" group-title="🌟AKV港台",Channel U HD
 http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
-#EXTINF:-1 tvg-name="Animax" tvg-logo="https://epg.iill.top/logo/Animax.png" group-title="🌟AKV港台",Animax
+#EXTINF:-1 tvg-name="Animax" tvg-logo="https://epg.iill.top/logo/ANIMAX.png" group-title="🌟AKV港台",Animax
 http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
 #EXTINF:-1 tvg-name="Thrill" tvg-logo="https://epg.iill.top/logo/Thrill.png" group-title="🌟AKV港台",Thrill
 http://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
-#EXTINF:-1 tvg-name="France 24" tvg-logo="https://epg.iill.top/logo/France 24.png" group-title="🌟AKV港台",France 24
+#EXTINF:-1 tvg-name="KIX" tvg-logo="https://epg.iill.top/logo/Kix.png" group-title="🌟AKV港台",KIX
+http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
+#EXTINF:-1 tvg-name="viutv6 96" tvg-logo="https://epg.iill.top/logo/ViuTVsix.png" group-title="🌟AKV港台",viutv6
+http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
+#EXTINF:-1 tvg-name="France 24" tvg-logo="https://epg.iill.top/logo/FRANCE24.png" group-title="🌟AKV港台",France24
 http://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
 #EXTINF:-1 tvg-name="DW" tvg-logo="https://epg.iill.top/logo/DW.png" group-title="🌟AKV港台",DW
 http://aktv.top/AKTV/live/aktv3/dw/AKTV.m3u8
-#EXTINF:-1 tvg-name="KIX" tvg-logo="https://epg.iill.top/logo/KIX.png" group-title="🌟AKV港台",KIX
-http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
-#EXTINF:-1 tvg-name="Nick Jr" tvg-logo="https://epg.iill.top/logo/Nick Jr.png" group-title="🌟AKV港台",Nick Jr
+#EXTINF:-1 tvg-name="Nick Jr" tvg-logo="https://epg.iill.top/logo/Nickjr.png" group-title="🌟AKV港台",Nick Jr
 http://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
 #EXTINF:-1 tvg-name="Nickelodeon" tvg-logo="https://epg.iill.top/logo/Nickelodeon.png" group-title="🌟AKV港台",Nickelodeon
 http://aktv.top/AKTV/live/aktv3/nickelodeon/AKTV.m3u8
-#EXTINF:-1 tvg-name="NHK World-Japan" tvg-logo="https://epg.iill.top/logo/NHK World-Japan.png" group-title="🌟AKV港台",NHK World-Japan
-http://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
 #EXTINF:-1 tvg-name="ZooMoo" tvg-logo="https://epg.iill.top/logo/ZooMoo.png" group-title="🌟AKV港台",ZooMoo
 http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🌏央视IPv6",CCTV1
