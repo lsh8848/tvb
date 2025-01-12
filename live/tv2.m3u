@@ -1,23 +1,35 @@
 #EXTM3U x-tvg-url="https://epg.zyh520.tk/112114.xml" 
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央视4K",CCTV1-4K
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央视4K",CCTV1 4K
 http://223.105.252.60/PLTV/4/224/3221228581/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央视4K",CCTV3-4K
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央视4K",CCTV1 4K
+http://223.105.252.59/PLTV/4/224/3221228581/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央视4K",CCTV1 4K
+http://223.105.252.62/PLTV/4/224/3221228732/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央视4K",CCTV3 4K
 http://223.105.252.59/PLTV/4/224/3221228499/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央视4K",CCTV5-4K
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央视4K",CCTV3 4K
+http://223.105.252.60/PLTV/4/224/3221228499/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央视4K",CCTV5 4K
 http://223.105.252.61/PLTV/4/224/3221228502/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央视4K",CCTV8-4K
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央视4K",CCTV5 4K
+http://223.105.252.62/PLTV/4/224/3221228502/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央视4K",CCTV8 4K
 http://223.105.252.57/PLTV/3/224/3221228165/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="http://live.zyh520.tk/tv/CCTV4K.png" group-title="🏮央视4K",CCTV4K
 http://223.105.252.60/PLTV/4/224/3221228472/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16-4K
+#EXTINF:-1 tvg-name="CCTV8K" tvg-logo="http://live.zyh520.tk/tv/CCTV8K.png" group-title="🏮央视4K",CCTV8K
+http://223.105.252.58/PLTV/3/224/3221228165/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV8K" tvg-logo="http://live.zyh520.tk/tv/CCTV8K.png" group-title="🏮央视4K",CCTV8K
+http://223.105.252.57/PLTV/3/224/3221228165/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16 4K
 http://223.105.252.59/PLTV/4/224/3221228314/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16-4K
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16 4K
 http://39.134.136.161:6610/000000001000/5000000008000023254/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023254
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场-4K
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场 4K
 http://111.29.9.34:6610/000000001000/1/1.m3u8?stbId=1&livemode=1&IASHttpSessionId=OTT760920241110011719006907&channel-id=bestzb&Contentid=5000000007000010001
-#EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://live.zyh520.tk/tv/LoveNature.png" group-title="🏮央视4K",LoveNature-4K
+#EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://live.zyh520.tk/tv/LoveNature.png" group-title="🏮央视4K",LoveNature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-name="loupe" tvg-logo="http://live.zyh520.tk/tv/loupe.png" group-title="🏮央视4K",loupe-4K
+#EXTINF:-1 tvg-name="loupe" tvg-logo="http://live.zyh520.tk/tv/loupe.png" group-title="🏮央视4K",loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🌏央视频道",CCTV1
 http://39.134.67.108/PLTV/88888888/224/3221225816/1.m3u8
@@ -1583,6 +1595,18 @@ http://[2409:8087:5e00:24::20]:6610/000000001000/1/6000000003000028434/index.m3u
 http://[2409:8087:5e00:24::20]:6610/000000001000/1/8978605063318475207/index.m3u8?channel-id=ystenlive&Contentid=8978605063318475207&livemode=1&stbId=YanG-1989
 #EXTINF:-1 tvg-name="黑莓电影" tvg-logo="http://live.zyh520.tk/tv/黑莓电影.png" group-title="🎬电影IPv6",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" tvg-logo="http://live.zyh520.tk/tv/凤凰卫视资讯台.png" group-title="🇭🇰港台频道",凤凰卫视资讯台
+http://223.105.252.59/PLTV/3/224/3221228524/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" tvg-logo="http://live.zyh520.tk/tv/凤凰卫视资讯台.png" group-title="🇭🇰港台频道",凤凰卫视资讯台
+http://223.105.252.60/PLTV/3/224/3221228524/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="凤凰卫视中文台" tvg-logo="http://live.zyh520.tk/tv/凤凰卫视中文台.png" group-title="🇭🇰港台频道",凤凰卫视中文台
+http://223.105.252.59/PLTV/3/224/3221228527/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="凤凰卫视中文台" tvg-logo="http://live.zyh520.tk/tv/凤凰卫视中文台.png" group-title="🇭🇰港台频道",凤凰卫视中文台
+http://223.105.252.60/PLTV/3/224/3221228527/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="http://live.zyh520.tk/tv/凤凰卫视香港台.png" group-title="🇭🇰港台频道",凤凰卫视香港台
+http://223.105.252.59/PLTV/3/224/3221228530/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="http://live.zyh520.tk/tv/凤凰卫视香港台.png" group-title="🇭🇰港台频道",凤凰卫视香港台
+http://223.105.252.60/PLTV/3/224/3221228530/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="中天娱乐" tvg-logo="http://live.zyh520.tk/tv/中天娱乐.png" group-title="🇭🇰港台频道",中天娱乐
 http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-name="八大综合" tvg-logo="http://live.zyh520.tk/tv/八大综合.png" group-title="🇭🇰港台频道",八大综合
