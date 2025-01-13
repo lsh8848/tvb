@@ -801,6 +801,18 @@ http://39.134.136.161:6610/000000001000/1000000001000005866/index.m3u8?livemode=
 http://39.134.136.161:6610/000000001000/6000000001000003639/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000003639
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 8M
 http://39.134.136.161:6610/000000001000/5000000004000014098/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014098
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 4M
+http://39.134.136.161:6610/000000001000/1000000001000009115/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009115
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 4M
+http://39.134.136.161:6610/000000001000/5000000010000030452/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030452
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 5.5MHEVC
+http://39.134.136.161:6610/000000001000/1000000005000265024/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265024
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
+http://39.134.136.161:6610/000000001000/1000000001000032695/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032695
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
+http://39.134.136.161:6610/000000001000/6000000001000018044/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000018044
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
+http://39.134.136.161:6610/000000001000/5000000004000006692/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006692
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 4M
 http://39.134.136.161:6610/000000001000/1000000001000004684/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000004684
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 4M
@@ -825,18 +837,6 @@ http://39.134.136.161:6610/000000001000/1000000001000014260/index.m3u8?livemode=
 http://39.134.136.161:6610/000000001000/6000000001000032070/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000032070
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 8M
 http://39.134.136.161:6610/000000001000/5000000004000007275/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000007275
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000009115/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009115
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000030452/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030452
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265024/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265024
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000032695/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032695
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000018044/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000018044
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000006692/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006692
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 4M
 http://39.134.136.161:6610/000000001000/1000000001000011645/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000011645
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 4M
