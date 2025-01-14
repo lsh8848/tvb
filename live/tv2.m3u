@@ -731,118 +731,118 @@ http://39.134.67.108/PLTV/88888888/224/3221225974/1.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="🏆卫视频道",湖北卫视
 http://39.134.67.108/PLTV/88888888/224/3221225975/1.m3u8
 
-#EXTINF:-1 tvg-name="第一财经" tvg-logo="https://epg.iill.top/logo/第一财经.png" group-title="💿数字频道",第一财经
+#EXTINF:-1 tvg-name="第一财经" tvg-logo="https://epg.iill.top/logo/第一财经.png" group-title="🎈数字频道",第一财经
 http://39.134.136.161:6610/000000001000/5000000010000027146/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000027146
-#EXTINF:-1 tvg-name="东方影视" tvg-logo="https://epg.iill.top/logo/东方影视.png" group-title="💿数字频道",东方影视
+#EXTINF:-1 tvg-name="东方影视" tvg-logo="https://epg.iill.top/logo/东方影视.png" group-title="🎈数字频道",东方影视
 http://39.134.136.161:6610/000000001000/5000000010000032212/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000032212
-#EXTINF:-1 tvg-name="东方财经" tvg-logo="https://epg.iill.top/logo/东方财经.png" group-title="💿数字频道",东方财经
+#EXTINF:-1 tvg-name="东方财经" tvg-logo="https://epg.iill.top/logo/东方财经.png" group-title="🎈数字频道",东方财经
 http://39.134.136.161:6610/000000001000/5000000007000010003/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000007000010003
-#EXTINF:-1 tvg-name="超级电影" tvg-logo="https://epg.iill.top/logo/超级电影.png" group-title="💿数字频道",超级电影
+#EXTINF:-1 tvg-name="超级电影" tvg-logo="https://epg.iill.top/logo/超级电影.png" group-title="🎈数字频道",超级电影
 http://39.134.136.161:6610/000000001000/1000000003000012426/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000003000012426
-#EXTINF:-1 tvg-name="超级电视剧" tvg-logo="https://epg.iill.top/logo/超级电视剧.png" group-title="💿数字频道",超级电视剧
+#EXTINF:-1 tvg-name="超级电视剧" tvg-logo="https://epg.iill.top/logo/超级电视剧.png" group-title="🎈数字频道",超级电视剧
 http://39.134.136.161:6610/000000001000/1000000006000268003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268003
-#EXTINF:-1 tvg-name="超级综艺" tvg-logo="https://epg.iill.top/logo/超级综艺.png" group-title="💿数字频道",超级综艺
+#EXTINF:-1 tvg-name="超级综艺" tvg-logo="https://epg.iill.top/logo/超级综艺.png" group-title="🎈数字频道",超级综艺
 http://39.134.136.161:6610/000000001000/1000000006000268002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268002
-#EXTINF:-1 tvg-name="金牌综艺" tvg-logo="https://epg.iill.top/logo/金牌综艺.png" group-title="💿数字频道",金牌综艺
+#EXTINF:-1 tvg-name="金牌综艺" tvg-logo="https://epg.iill.top/logo/金牌综艺.png" group-title="🎈数字频道",金牌综艺
 http://39.134.136.161:6610/000000001000/2000000003000000005/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000005
-#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://epg.iill.top/logo/动作电影.png" group-title="💿数字频道",动作电影
+#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://epg.iill.top/logo/动作电影.png" group-title="🎈数字频道",动作电影
 http://39.134.136.161:6610/000000001000/1000000004000018653/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000018653
-#EXTINF:-1 tvg-name="古装剧场" tvg-logo="https://epg.iill.top/logo/古装剧场.png" group-title="💿数字频道",古装剧场
+#EXTINF:-1 tvg-name="古装剧场" tvg-logo="https://epg.iill.top/logo/古装剧场.png" group-title="🎈数字频道",古装剧场
 http://39.134.136.161:6610/000000001000/2000000003000000024/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000024
-#EXTINF:-1 tvg-name="家庭剧场" tvg-logo="https://epg.iill.top/logo/家庭剧场.png" group-title="💿数字频道",家庭剧场
+#EXTINF:-1 tvg-name="家庭剧场" tvg-logo="https://epg.iill.top/logo/家庭剧场.png" group-title="🎈数字频道",家庭剧场
 http://39.134.136.161:6610/000000001000/2000000003000000012/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000012
-#EXTINF:-1 tvg-name="惊悚悬疑" tvg-logo="https://epg.iill.top/logo/惊悚悬疑.png" group-title="💿数字频道",惊悚悬疑
+#EXTINF:-1 tvg-name="惊悚悬疑" tvg-logo="https://epg.iill.top/logo/惊悚悬疑.png" group-title="🎈数字频道",惊悚悬疑
 http://39.134.136.161:6610/000000001000/2000000003000000015/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000015
-#EXTINF:-1 tvg-name="明星大片" tvg-logo="https://epg.iill.top/logo/明星大片.png" group-title="💿数字频道",明星大片
+#EXTINF:-1 tvg-name="明星大片" tvg-logo="https://epg.iill.top/logo/明星大片.png" group-title="🎈数字频道",明星大片
 http://39.134.136.161:6610/000000001000/2000000003000000016/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000016
-#EXTINF:-1 tvg-name="欢乐剧场" tvg-logo="https://epg.iill.top/logo/欢乐剧场.png" group-title="💿数字频道",欢乐剧场
+#EXTINF:-1 tvg-name="欢乐剧场" tvg-logo="https://epg.iill.top/logo/欢乐剧场.png" group-title="🎈数字频道",欢乐剧场
 http://39.134.136.161:6610/000000001000/2000000003000000050/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000050
-#EXTINF:-1 tvg-name="七彩戏剧" tvg-logo="https://epg.iill.top/logo/七彩戏剧.png" group-title="💿数字频道",七彩戏剧
+#EXTINF:-1 tvg-name="七彩戏剧" tvg-logo="https://epg.iill.top/logo/七彩戏剧.png" group-title="🎈数字频道",七彩戏剧
 http://39.134.136.161:6610/000000001000/5000000011000031116/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031116
-#EXTINF:-1 tvg-name="乐游" tvg-logo="https://epg.iill.top/logo/乐游.png" group-title="💿数字频道",乐游
+#EXTINF:-1 tvg-name="乐游" tvg-logo="https://epg.iill.top/logo/乐游.png" group-title="🎈数字频道",乐游
 http://39.134.136.161:6610/000000001000/5000000011000031112/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031112
-#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://epg.iill.top/logo/五星体育.png" group-title="💿数字频道",五星体育
+#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://epg.iill.top/logo/五星体育.png" group-title="🎈数字频道",五星体育
 http://39.134.136.161:6610/000000001000/5000000010000017540/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000017540
-#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://epg.iill.top/logo/动漫秀场.png" group-title="💿数字频道",动漫秀场
+#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://epg.iill.top/logo/动漫秀场.png" group-title="🎈数字频道",动漫秀场
 http://39.134.136.161:6610/000000001000/5000000011000031113/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031113
-#EXTINF:-1 tvg-name="劲爆体育" tvg-logo="https://epg.iill.top/logo/劲爆体育.png" group-title="💿数字频道",劲爆体育
+#EXTINF:-1 tvg-name="劲爆体育" tvg-logo="https://epg.iill.top/logo/劲爆体育.png" group-title="🎈数字频道",劲爆体育
 http://39.134.136.161:6610/000000001000/5000000002000029972/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000029972
-#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://epg.iill.top/logo/哈哈炫动.png" group-title="💿数字频道",哈哈炫动
+#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://epg.iill.top/logo/哈哈炫动.png" group-title="🎈数字频道",哈哈炫动
 http://39.134.136.161:6610/000000001000/5000000011000031123/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031123
-#EXTINF:-1 tvg-name="国际频道" tvg-logo="https://epg.iill.top/logo/国际频道.png" group-title="💿数字频道",国际频道
+#EXTINF:-1 tvg-name="国际频道" tvg-logo="https://epg.iill.top/logo/国际频道.png" group-title="🎈数字频道",国际频道
 http://39.134.136.161:6610/000000001000/5000000010000030951/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030951
-#EXTINF:-1 tvg-name="新闻综合" tvg-logo="https://epg.iill.top/logo/新闻综合.png" group-title="💿数字频道",新闻综合
+#EXTINF:-1 tvg-name="新闻综合" tvg-logo="https://epg.iill.top/logo/新闻综合.png" group-title="🎈数字频道",新闻综合
 http://39.134.136.161:6610/000000001000/5000000011000031110/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031110
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://epg.iill.top/logo/欢笑剧场.png" group-title="💿数字频道",欢笑剧场
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://epg.iill.top/logo/欢笑剧场.png" group-title="🎈数字频道",欢笑剧场
 http://39.134.136.161:6610/000000001000/5000000002000009455/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000009455
-#EXTINF:-1 tvg-name="法治天地" tvg-logo="https://epg.iill.top/logo/法治天地.png" group-title="💿数字频道",法治天地
+#EXTINF:-1 tvg-name="法治天地" tvg-logo="https://epg.iill.top/logo/法治天地.png" group-title="🎈数字频道",法治天地
 http://39.134.136.161:6610/000000001000/2000000002000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000002000000014
-#EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://epg.iill.top/logo/游戏风云.png" group-title="💿数字频道",游戏风云
+#EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://epg.iill.top/logo/游戏风云.png" group-title="🎈数字频道",游戏风云
 http://39.134.136.161:6610/000000001000/5000000011000031114/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031114
-#EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://epg.iill.top/logo/生活时尚.png" group-title="💿数字频道",生活时尚
+#EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://epg.iill.top/logo/生活时尚.png" group-title="🎈数字频道",生活时尚
 http://39.134.136.161:6610/000000001000/5000000002000019634/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000019634
-#EXTINF:-1 tvg-name="纪实人文" tvg-logo="https://epg.iill.top/logo/纪实人文.png" group-title="💿数字频道",纪实人文
+#EXTINF:-1 tvg-name="纪实人文" tvg-logo="https://epg.iill.top/logo/纪实人文.png" group-title="🎈数字频道",纪实人文
 http://39.134.136.161:6610/000000001000/1000000005000265021/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265021#http://39.134.136.161:6610/000000001000/1000000001000016545/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000016545
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://epg.iill.top/logo/都市剧场.png" group-title="💿数字频道",都市剧场
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://epg.iill.top/logo/都市剧场.png" group-title="🎈数字频道",都市剧场
 http://39.134.136.161:6610/000000001000/5000000011000031111/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031111
-#EXTINF:-1 tvg-name="都市频道" tvg-logo="https://epg.iill.top/logo/都市频道.png" group-title="💿数字频道",都市频道
+#EXTINF:-1 tvg-name="都市频道" tvg-logo="https://epg.iill.top/logo/都市频道.png" group-title="🎈数字频道",都市频道
 http://39.134.136.161:6610/000000001000/5000000010000018926/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018926
-#EXTINF:-1 tvg-name="金色学堂" tvg-logo="https://epg.iill.top/logo/金色学堂.png" group-title="💿数字频道",金色学堂
+#EXTINF:-1 tvg-name="金色学堂" tvg-logo="https://epg.iill.top/logo/金色学堂.png" group-title="🎈数字频道",金色学堂
 http://39.134.136.161:6610/000000001000/5000000010000026105/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000026105
-#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://epg.iill.top/logo/魅力足球.png" group-title="💿数字频道",魅力足球
+#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://epg.iill.top/logo/魅力足球.png" group-title="🎈数字频道",魅力足球
 http://39.134.136.161:6610/000000001000/5000000011000031207/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031207
-#EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://epg.iill.top/logo/快乐垂钓.png" group-title="💿数字频道",快乐垂钓
+#EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://epg.iill.top/logo/快乐垂钓.png" group-title="🎈数字频道",快乐垂钓
 http://39.134.136.161:6610/000000001000/5000000011000031206/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031206
-#EXTINF:-1 tvg-name="茶频道" tvg-logo="https://epg.iill.top/logo/茶频道.png" group-title="💿数字频道",茶频道
+#EXTINF:-1 tvg-name="茶频道" tvg-logo="https://epg.iill.top/logo/茶频道.png" group-title="🎈数字频道",茶频道
 http://39.134.136.161:6610/000000001000/5000000011000031209/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031209
-#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://epg.iill.top/logo/金鹰纪实.png" group-title="💿数字频道",金鹰纪实
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://epg.iill.top/logo/金鹰纪实.png" group-title="🎈数字频道",金鹰纪实
 http://39.134.136.161:6610/000000001000/5000000011000031203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031203
-#EXTINF:-1 tvg-name="东北热场" tvg-logo="https://epg.iill.top/logo/东北热场.png" group-title="💿数字频道",东北热场
+#EXTINF:-1 tvg-name="东北热场" tvg-logo="https://epg.iill.top/logo/东北热场.png" group-title="🎈数字频道",东北热场
 http://39.134.136.161:6610/000000001000/1000000005000266013/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000266013
-#EXTINF:-1 tvg-name="NewTV中国功夫" tvg-logo="https://epg.iill.top/logo/NewTV中国功夫.png" group-title="🎥NewTV",NewTV中国功夫
-http://39.134.136.161:6610/000000001000/2000000003000000009/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000009
-#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="https://epg.iill.top/logo/NewTV军事评论.png" group-title="🎥NewTV",NewTV军事评论
-http://39.134.136.161:6610/000000001000/2000000003000000022/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000022
-#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="https://epg.iill.top/logo/NewTV军旅剧场.png" group-title="🎥NewTV",NewTV军旅剧场
-http://39.134.136.161:6610/000000001000/2000000003000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000014
-#EXTINF:-1 tvg-name="NewTV农业致富" tvg-logo="https://epg.iill.top/logo/NewTV农业致富.png" group-title="🎥NewTV",NewTV农业致富
-http://39.134.136.161:6610/000000001000/2000000003000000003/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000003
-#EXTINF:-1 tvg-name="NewTV怡伴健康" tvg-logo="https://epg.iill.top/logo/NewTV怡伴健康.png" group-title="🎥NewTV",NewTV怡伴健康
-http://39.134.136.161:6610/000000001000/2000000003000000023/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000023
-#EXTINF:-1 tvg-name="NewTV武博世界" tvg-logo="https://epg.iill.top/logo/NewTV武博世界.png" group-title="🎥NewTV",NewTV武博世界
-http://39.134.136.161:6610/000000001000/2000000003000000007/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000007
-#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="https://epg.iill.top/logo/NewTV潮妈辣婆.png" group-title="🎥NewTV",NewTV潮妈辣婆
-http://39.134.136.161:6610/000000001000/2000000003000000018/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000018
-#EXTINF:-1 tvg-name="NewTV炫舞未来" tvg-logo="https://epg.iill.top/logo/NewTV炫舞未来.png" group-title="🎥NewTV",NewTV炫舞未来
-http://39.134.136.161:6610/000000001000/2000000003000000044/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000044
-#EXTINF:-1 tvg-name="NewTV热播精选" tvg-logo="https://epg.iill.top/logo/NewTV热播精选.png" group-title="🎥NewTV",NewTV热播精选
-http://39.134.136.161:6610/000000001000/7681593242002292003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=7681593242002292003
-#EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="https://epg.iill.top/logo/NewTV爱情喜剧.png" group-title="🎥NewTV",NewTV爱情喜剧
-http://39.134.136.161:6610/000000001000/2000000003000000010/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000010
-#EXTINF:-1 tvg-name="NewTV精品体育" tvg-logo="https://epg.iill.top/logo/NewTV精品体育.png" group-title="🎥NewTV",NewTV精品体育
-http://39.134.136.161:6610/000000001000/2000000003000000021/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000021
-#EXTINF:-1 tvg-name="NewTV精品大剧" tvg-logo="https://epg.iill.top/logo/NewTV精品大剧.png" group-title="🎥NewTV",NewTV精品大剧
-http://39.134.136.161:6610/000000001000/2000000003000000020/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000020
-#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="https://epg.iill.top/logo/NewTV精品纪录.png" group-title="🎥NewTV",NewTV精品纪录
-http://39.134.136.161:6610/000000001000/1000000004000013730/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000013730
-#EXTINF:-1 tvg-name="NewTV精品综合" tvg-logo="https://epg.iill.top/logo/NewTV精品综合.png" group-title="🎥NewTV",NewTV精品综合
-http://39.134.136.161:6610/000000001000/2000000003000000008/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000008
-#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="https://epg.iill.top/logo/NewTV精品萌宠.png" group-title="🎥NewTV",NewTV精品萌宠
-http://39.134.136.161:6610/000000001000/2000000003000000067/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000067
-#EXTINF:-1 tvg-name="NewTV精品记录" tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" group-title="🎥NewTV",NewTV精品记录
-http://39.134.136.161:6610/000000001000/2000000003000000019/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000019
-#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="https://epg.iill.top/logo/NewTV超级体育.png" group-title="🎥NewTV",NewTV超级体育
-http://39.134.136.161:6610/000000001000/1000000001000009601/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009601
-#EXTINF:-1 tvg-name="NewTV魅力潇湘" tvg-logo="https://epg.iill.top/logo/NewTV魅力潇湘.png" group-title="🎥NewTV",NewTV魅力潇湘
-http://39.134.136.161:6610/000000001000/2000000003000000041/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000041
-#EXTINF:-1 tvg-name="求索动物" tvg-logo="https://epg.iill.top/logo/求索动物.png" group-title="🎥NewTV",求索动物
+#EXTINF:-1 tvg-name="求索动物" tvg-logo="https://epg.iill.top/logo/求索动物.png" group-title="🎇NewTV",求索动物
 http://39.134.136.161:6610/000000001000/6000000002000010046/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000010046
-#EXTINF:-1 tvg-name="求索生活" tvg-logo="https://epg.iill.top/logo/求索生活.png" group-title="🎥NewTV",求索生活
+#EXTINF:-1 tvg-name="求索生活" tvg-logo="https://epg.iill.top/logo/求索生活.png" group-title="🎇NewTV",求索生活
 http://39.134.136.161:6610/000000001000/6000000002000003382/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000003382
-#EXTINF:-1 tvg-name="求索科学" tvg-logo="https://epg.iill.top/logo/求索科学.png" group-title="🎥NewTV",求索科学
+#EXTINF:-1 tvg-name="求索科学" tvg-logo="https://epg.iill.top/logo/求索科学.png" group-title="🎇NewTV",求索科学
 http://39.134.136.161:6610/000000001000/6000000002000032344/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000032344
-#EXTINF:-1 tvg-name="求索纪录" tvg-logo="https://epg.iill.top/logo/求索纪录.png" group-title="🎥NewTV",求索纪录
+#EXTINF:-1 tvg-name="求索纪录" tvg-logo="https://epg.iill.top/logo/求索纪录.png" group-title="🎇NewTV",求索纪录
+#EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="https://epg.iill.top/logo/NewTV爱情喜剧.png" group-title="🎇NewTV",NewTV爱情喜剧
+http://39.134.136.161:6610/000000001000/2000000003000000010/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000010
+#EXTINF:-1 tvg-name="NewTV精品大剧" tvg-logo="https://epg.iill.top/logo/NewTV精品大剧.png" group-title="🎇NewTV",NewTV精品大剧
+http://39.134.136.161:6610/000000001000/2000000003000000020/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000020
+#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="https://epg.iill.top/logo/NewTV精品纪录.png" group-title="🎇NewTV",NewTV精品纪录
+http://39.134.136.161:6610/000000001000/1000000004000013730/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000013730
+#EXTINF:-1 tvg-name="NewTV精品综合" tvg-logo="https://epg.iill.top/logo/NewTV精品综合.png" group-title="🎇NewTV",NewTV精品综合
+http://39.134.136.161:6610/000000001000/2000000003000000008/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000008
+#EXTINF:-1 tvg-name="NewTV精品记录" tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" group-title="🎇NewTV",NewTV精品记录
+http://39.134.136.161:6610/000000001000/2000000003000000019/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000019
+#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="https://epg.iill.top/logo/NewTV超级体育.png" group-title="🎇NewTV",NewTV超级体育
+http://39.134.136.161:6610/000000001000/1000000001000009601/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009601
+#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="https://epg.iill.top/logo/NewTV军旅剧场.png" group-title="🎇NewTV",NewTV军旅剧场
+http://39.134.136.161:6610/000000001000/2000000003000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000014
 http://39.134.136.161:6610/000000001000/6000000002000032052/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000032052
+#EXTINF:-1 tvg-name="NewTV中国功夫" tvg-logo="https://epg.iill.top/logo/NewTV中国功夫.png" group-title="🎇NewTV",NewTV中国功夫
+http://39.134.136.161:6610/000000001000/2000000003000000009/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000009
+#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="https://epg.iill.top/logo/NewTV军事评论.png" group-title="🎇NewTV",NewTV军事评论
+http://39.134.136.161:6610/000000001000/2000000003000000022/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000022
+#EXTINF:-1 tvg-name="NewTV精品体育" tvg-logo="https://epg.iill.top/logo/NewTV精品体育.png" group-title="🎇NewTV",NewTV精品体育
+http://39.134.136.161:6610/000000001000/2000000003000000021/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000021
+#EXTINF:-1 tvg-name="NewTV农业致富" tvg-logo="https://epg.iill.top/logo/NewTV农业致富.png" group-title="🎇NewTV",NewTV农业致富
+http://39.134.136.161:6610/000000001000/2000000003000000003/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000003
+#EXTINF:-1 tvg-name="NewTV怡伴健康" tvg-logo="https://epg.iill.top/logo/NewTV怡伴健康.png" group-title="🎇NewTV",NewTV怡伴健康
+http://39.134.136.161:6610/000000001000/2000000003000000023/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000023
+#EXTINF:-1 tvg-name="NewTV武博世界" tvg-logo="https://epg.iill.top/logo/NewTV武博世界.png" group-title="🎇NewTV",NewTV武博世界
+http://39.134.136.161:6610/000000001000/2000000003000000007/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000007
+#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="https://epg.iill.top/logo/NewTV潮妈辣婆.png" group-title="🎇NewTV",NewTV潮妈辣婆
+http://39.134.136.161:6610/000000001000/2000000003000000018/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000018
+#EXTINF:-1 tvg-name="NewTV炫舞未来" tvg-logo="https://epg.iill.top/logo/NewTV炫舞未来.png" group-title="🎇NewTV",NewTV炫舞未来
+http://39.134.136.161:6610/000000001000/2000000003000000044/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000044
+#EXTINF:-1 tvg-name="NewTV热播精选" tvg-logo="https://epg.iill.top/logo/NewTV热播精选.png" group-title="🎇NewTV",NewTV热播精选
+http://39.134.136.161:6610/000000001000/7681593242002292003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=7681593242002292003
+#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="https://epg.iill.top/logo/NewTV精品萌宠.png" group-title="🎇NewTV",NewTV精品萌宠
+http://39.134.136.161:6610/000000001000/2000000003000000067/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000067
+#EXTINF:-1 tvg-name="NewTV魅力潇湘" tvg-logo="https://epg.iill.top/logo/NewTV魅力潇湘.png" group-title="🎇NewTV",NewTV魅力潇湘
+http://39.134.136.161:6610/000000001000/2000000003000000041/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000041
 #EXTINF:-1 tvg-name="4K影院" tvg-logo="https://epg.iill.top/logo/4K影院.png" group-title="🎁iHOT",4K影院
 http://39.134.136.161:6610/000000001000/6000000003000004748/index.m3u8?livemode=1&stbId=1213&channel-id=wasusyt&Contentid=6000000003000004748
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://epg.iill.top/logo/黑莓动画.png" group-title="🎁iHOT",黑莓动画
@@ -857,7 +857,7 @@ http://39.134.136.161:6610/000000001000/7185203501769528108/index.m3u8?livemode=
 http://39.134.136.161:6610/000000001000/8230197131234717902/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=8230197131234717902
 #EXTINF:-1 tvg-name="精彩影视" tvg-logo="https://epg.iill.top/logo/精彩影视.png" group-title="🎁iHOT",精彩影视
 http://39.134.136.161:6610/000000001000/6000000006000320630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000320630
-#EXTINF:-1 tvg-name="CCTV16 4K" tvg-logo="https://epg.iill.top/logo/CCTV16 4K.png" group-title="🎁iHOT",CCTV16 4K
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://epg.iill.top/logo/CCTV16.png" group-title="🎁iHOT",CCTV16 4K
 http://39.134.136.161:6610/000000001000/5000000008000023254/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023254
 #EXTINF:-1 tvg-name="纯享4K" tvg-logo="https://epg.iill.top/logo/纯享4K.png" group-title="🎁iHOT",纯享4K
 http://39.134.136.161:6610/000000001000/1000000004000011651/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000011651
