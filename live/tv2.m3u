@@ -35,85 +35,211 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央卫超清",CCTV1
-http://223.105.252.60/PLTV/4/224/3221228049/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228732/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228049/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228049/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央卫超清",CCTV1
+http://223.105.252.60/PLTV/4/224/3221228732/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🏮央卫超清",CCTV1
+http://223.105.252.61/PLTV/4/224/3221228049/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="🏮央卫超清",CCTV2
-http://223.105.252.60/PLTV/4/224/3221228118/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228118/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228616/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228118/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="🏮央卫超清",CCTV2
+http://223.105.252.61/PLTV/4/224/3221228118/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="🏮央卫超清",CCTV2
+http://223.105.252.61/PLTV/4/224/3221228616/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央卫超清",CCTV3
-http://223.105.252.60/PLTV/4/224/3221228188/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228237/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228188/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228188/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央卫超清",CCTV3
+http://223.105.252.60/PLTV/4/224/3221228237/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🏮央卫超清",CCTV3
+http://223.105.252.61/PLTV/4/224/3221228188/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="🏮央卫超清",CCTV4
-http://223.105.252.60/PLTV/4/224/3221228156/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228156/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228156/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="🏮央卫超清",CCTV4
+http://223.105.252.61/PLTV/4/224/3221228156/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央卫超清",CCTV5
-http://223.105.252.60/PLTV/4/224/3221228173/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228082/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228082/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228173/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228173/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央卫超清",CCTV5
+http://223.105.252.60/PLTV/4/224/3221228082/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央卫超清",CCTV5
+http://223.105.252.61/PLTV/4/224/3221228082/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🏮央卫超清",CCTV5
+http://223.105.252.61/PLTV/4/224/3221228173/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="🏮央卫超清",CCTV5+
-http://223.105.252.60/PLTV/4/224/3221228114/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228076/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228076/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228114/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228114/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="🏮央卫超清",CCTV5+
+http://223.105.252.60/PLTV/4/224/3221228076/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="🏮央卫超清",CCTV5+
+http://223.105.252.61/PLTV/4/224/3221228076/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="🏮央卫超清",CCTV5+
+http://223.105.252.61/PLTV/4/224/3221228114/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="🏮央卫超清",CCTV6
-http://223.105.252.60/PLTV/4/224/3221228185/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228196/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228516/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228185/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228185/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="🏮央卫超清",CCTV6
+http://223.105.252.60/PLTV/4/224/3221228196/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="🏮央卫超清",CCTV6
+http://223.105.252.60/PLTV/4/224/3221228516/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="🏮央卫超清",CCTV6
+http://223.105.252.61/PLTV/4/224/3221228185/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="🏮央卫超清",CCTV7
-http://223.105.252.60/PLTV/4/224/3221228640/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228643/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228640/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="🏮央卫超清",CCTV7
+http://223.105.252.60/PLTV/4/224/3221228643/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央卫超清",CCTV8
-http://223.105.252.60/PLTV/4/224/3221228079/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228079/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228578/index.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="🏮央卫超清",CCTV10
-http://223.105.252.60/PLTV/4/224/3221228654/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228761/index.m3u8
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="🏮央卫超清",CCTV12
-http://223.105.252.60/PLTV/4/224/3221228646/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228630/index.m3u8
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="🏮央卫超清",CCTV13
-http://223.105.252.60/PLTV/4/224/3221228649/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228660/index.m3u8
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央卫超清",CCTV16
-http://223.105.252.60/PLTV/4/224/3221228320/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228625/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228079/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央卫超清",CCTV8
+http://223.105.252.61/PLTV/4/224/3221228079/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🏮央卫超清",CCTV8
+http://223.105.252.61/PLTV/4/224/3221228578/index.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="🏮央卫超清",CCTV9
-http://223.105.252.61/PLTV/4/224/3221228619/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228758/index.m3u8
+http://223.105.252.61/PLTV/4/224/3221228619/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="🏮央卫超清",CCTV9
+http://223.105.252.61/PLTV/4/224/3221228758/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="🏮央卫超清",CCTV10
+http://223.105.252.60/PLTV/4/224/3221228654/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="🏮央卫超清",CCTV10
+http://223.105.252.61/PLTV/4/224/3221228761/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="🏮央卫超清",CCTV12
+http://223.105.252.60/PLTV/4/224/3221228646/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="🏮央卫超清",CCTV12
+http://223.105.252.61/PLTV/4/224/3221228630/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="🏮央卫超清",CCTV13
+http://223.105.252.60/PLTV/4/224/3221228649/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="🏮央卫超清",CCTV13
+http://223.105.252.60/PLTV/4/224/3221228660/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="🏮央卫超清",CCTV14
-http://223.105.252.61/PLTV/4/224/3221228633/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228636/index.m3u8
+http://223.105.252.61/PLTV/4/224/3221228633/index.m3u8
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="🏮央卫超清",CCTV14
+http://223.105.252.61/PLTV/4/224/3221228636/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://live.zyh520.tk/tv/CCTV15.png" group-title="🏮央卫超清",CCTV15
-http://223.105.252.61/PLTV/4/224/3221228622/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228639/index.m3u8
+http://223.105.252.61/PLTV/4/224/3221228622/index.m3u8
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://live.zyh520.tk/tv/CCTV15.png" group-title="🏮央卫超清",CCTV15
+http://223.105.252.61/PLTV/4/224/3221228639/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央卫超清",CCTV16
+http://223.105.252.60/PLTV/4/224/3221228320/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央卫超清",CCTV16
+http://223.105.252.61/PLTV/4/224/3221228625/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="🏮央卫超清",CCTV17
-http://223.105.252.61/PLTV/4/224/3221228628/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228642/index.m3u8
+http://223.105.252.61/PLTV/4/224/3221228628/index.m3u8
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="🏮央卫超清",CCTV17
+http://223.105.252.61/PLTV/4/224/3221228642/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
-http://223.105.252.60/PLTV/4/224/3221228735/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228738/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228741/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228744/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228747/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228750/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228803/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228099/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228099/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228735/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228738/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228741/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228744/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228747/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228750/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228803/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228735/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228738/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228741/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228744/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228747/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228750/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228803/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228099/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228099/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228735/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228738/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228741/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228744/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228747/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228750/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏮央卫超清",江苏卫视
+http://223.105.252.61/PLTV/4/224/3221228803/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="🏮央卫超清",浙江卫视
-http://223.105.252.60/PLTV/4/224/3221228147/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228204/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228147/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228147/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="🏮央卫超清",浙江卫视
+http://223.105.252.60/PLTV/4/224/3221228204/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="🏮央卫超清",浙江卫视
+http://223.105.252.61/PLTV/4/224/3221228147/index.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="🏮央卫超清",东方卫视
-http://223.105.252.60/PLTV/4/224/3221228150/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228150/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228150/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="🏮央卫超清",东方卫视
+http://223.105.252.61/PLTV/4/224/3221228150/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="🏮央卫超清",北京卫视
-http://223.105.252.60/PLTV/4/224/3221228115/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228115/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228115/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="🏮央卫超清",北京卫视
+http://223.105.252.61/PLTV/4/224/3221228115/index.m3u8
 #EXTINF:-1 tvg-name="欧美电影" tvg-logo="http://live.zyh520.tk/tv/欧美电影.png" group-title="🏮央卫超清",欧美电影
-http://223.105.252.60/PLTV/4/224/3221228685/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228685/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228714/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228685/index.m3u8
+#EXTINF:-1 tvg-name="欧美电影" tvg-logo="http://live.zyh520.tk/tv/欧美电影.png" group-title="🏮央卫超清",欧美电影
+http://223.105.252.61/PLTV/4/224/3221228685/index.m3u8
+#EXTINF:-1 tvg-name="欧美电影" tvg-logo="http://live.zyh520.tk/tv/欧美电影.png" group-title="🏮央卫超清",欧美电影
+http://223.105.252.61/PLTV/4/224/3221228714/index.m3u8
 #EXTINF:-1 tvg-name="电视剧1" tvg-logo="http://live.zyh520.tk/tv/电视剧1.png" group-title="🏮央卫超清",电视剧1
 http://223.105.252.60/PLTV/4/224/3221228693/index.m3u8
 #EXTINF:-1 tvg-name="电视剧2" tvg-logo="http://live.zyh520.tk/tv/电视剧2.png" group-title="🏮央卫超清",电视剧2
-http://223.105.252.60/PLTV/4/224/3221228697/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228697/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228697/index.m3u8
+#EXTINF:-1 tvg-name="电视剧2" tvg-logo="http://live.zyh520.tk/tv/电视剧2.png" group-title="🏮央卫超清",电视剧2
+http://223.105.252.61/PLTV/4/224/3221228697/index.m3u8
 #EXTINF:-1 tvg-name="电视剧3" tvg-logo="http://live.zyh520.tk/tv/电视剧3.png" group-title="🏮央卫超清",电视剧3
-http://223.105.252.60/PLTV/4/224/3221228699/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228699/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228699/index.m3u8
+#EXTINF:-1 tvg-name="电视剧3" tvg-logo="http://live.zyh520.tk/tv/电视剧3.png" group-title="🏮央卫超清",电视剧3
+http://223.105.252.61/PLTV/4/224/3221228699/index.m3u8
 #EXTINF:-1 tvg-name="电视剧4" tvg-logo="http://live.zyh520.tk/tv/电视剧4.png" group-title="🏮央卫超清",电视剧4
-http://223.105.252.60/PLTV/4/224/3221228705/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228705/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228705/index.m3u8
+#EXTINF:-1 tvg-name="电视剧4" tvg-logo="http://live.zyh520.tk/tv/电视剧4.png" group-title="🏮央卫超清",电视剧4
+http://223.105.252.61/PLTV/4/224/3221228705/index.m3u8
 #EXTINF:-1 tvg-name="电视剧5" tvg-logo="http://live.zyh520.tk/tv/电视剧5.png" group-title="🏮央卫超清",电视剧5
-http://223.105.252.60/PLTV/4/224/3221228711/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228711/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228711/index.m3u8
+#EXTINF:-1 tvg-name="电视剧5" tvg-logo="http://live.zyh520.tk/tv/电视剧5.png" group-title="🏮央卫超清",电视剧5
+http://223.105.252.61/PLTV/4/224/3221228711/index.m3u8
 #EXTINF:-1 tvg-name="电视剧6" tvg-logo="http://live.zyh520.tk/tv/电视剧6.png" group-title="🏮央卫超清",电视剧6
-http://223.105.252.60/PLTV/4/224/3221228756/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228756/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228756/index.m3u8
+#EXTINF:-1 tvg-name="电视剧6" tvg-logo="http://live.zyh520.tk/tv/电视剧6.png" group-title="🏮央卫超清",电视剧6
+http://223.105.252.61/PLTV/4/224/3221228756/index.m3u8
 #EXTINF:-1 tvg-name="电视剧7" tvg-logo="http://live.zyh520.tk/tv/电视剧7.png" group-title="🏮央卫超清",电视剧7
-http://223.105.252.60/PLTV/4/224/3221228797/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228797/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228797/index.m3u8
+#EXTINF:-1 tvg-name="电视剧7" tvg-logo="http://live.zyh520.tk/tv/电视剧7.png" group-title="🏮央卫超清",电视剧7
+http://223.105.252.61/PLTV/4/224/3221228797/index.m3u8
 #EXTINF:-1 tvg-name="电视剧8" tvg-logo="http://live.zyh520.tk/tv/电视剧8.png" group-title="🏮央卫超清",电视剧8
-http://223.105.252.60/PLTV/4/224/3221228809/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228809/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228809/index.m3u8
+#EXTINF:-1 tvg-name="电视剧8" tvg-logo="http://live.zyh520.tk/tv/电视剧8.png" group-title="🏮央卫超清",电视剧8
+http://223.105.252.61/PLTV/4/224/3221228809/index.m3u8
 #EXTINF:-1 tvg-name="电视剧9" tvg-logo="http://live.zyh520.tk/tv/电视剧9.png" group-title="🏮央卫超清",电视剧9
-http://223.105.252.61/PLTV/4/224/3221228702/index.m3u8#http://223.105.252.60/PLTV/4/224/3221228702/index.m3u8
+http://223.105.252.61/PLTV/4/224/3221228702/index.m3u8
+#EXTINF:-1 tvg-name="电视剧9" tvg-logo="http://live.zyh520.tk/tv/电视剧9.png" group-title="🏮央卫超清",电视剧9
+http://223.105.252.60/PLTV/4/224/3221228702/index.m3u8
 #EXTINF:-1 tvg-name="电视剧10" tvg-logo="http://live.zyh520.tk/tv/电视剧10.png" group-title="🏮央卫超清",电视剧10
 http://223.105.252.61/PLTV/4/224/3221228708/index.m3u8
 #EXTINF:-1 tvg-name="纪录" tvg-logo="http://live.zyh520.tk/tv/纪录.png" group-title="🏮央卫超清",纪录
-http://223.105.252.60/PLTV/4/224/3221228700/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228700/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228700/index.m3u8
+#EXTINF:-1 tvg-name="纪录" tvg-logo="http://live.zyh520.tk/tv/纪录.png" group-title="🏮央卫超清",纪录
+http://223.105.252.61/PLTV/4/224/3221228700/index.m3u8
 #EXTINF:-1 tvg-name="纪录2" tvg-logo="http://live.zyh520.tk/tv/纪录2.png" group-title="🏮央卫超清",纪录2
-http://223.105.252.60/PLTV/4/224/3221228723/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228723/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228723/index.m3u8
+#EXTINF:-1 tvg-name="纪录2" tvg-logo="http://live.zyh520.tk/tv/纪录2.png" group-title="🏮央卫超清",纪录2
+http://223.105.252.61/PLTV/4/224/3221228723/index.m3u8
 #EXTINF:-1 tvg-name="睛彩青少" tvg-logo="http://live.zyh520.tk/tv/睛彩青少.png" group-title="🏮央卫超清",睛彩青少
-http://223.105.252.60/PLTV/4/224/3221228729/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228729/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228729/index.m3u8
+#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="http://live.zyh520.tk/tv/睛彩青少.png" group-title="🏮央卫超清",睛彩青少
+http://223.105.252.61/PLTV/4/224/3221228729/index.m3u8
 #EXTINF:-1 tvg-name="咪咕音乐" tvg-logo="http://live.zyh520.tk/tv/咪咕音乐.png" group-title="🏮央卫超清",咪咕音乐
-http://223.105.252.60/PLTV/4/224/3221228794/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228794/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228794/index.m3u8
+#EXTINF:-1 tvg-name="咪咕音乐" tvg-logo="http://live.zyh520.tk/tv/咪咕音乐.png" group-title="🏮央卫超清",咪咕音乐
+http://223.105.252.61/PLTV/4/224/3221228794/index.m3u8
 #EXTINF:-1 tvg-name="体育" tvg-logo="http://live.zyh520.tk/tv/体育.png" group-title="🏮央卫超清",体育
-http://223.105.252.60/PLTV/4/224/3221228726/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228726/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228726/index.m3u8
+#EXTINF:-1 tvg-name="体育" tvg-logo="http://live.zyh520.tk/tv/体育.png" group-title="🏮央卫超清",体育
+http://223.105.252.61/PLTV/4/224/3221228726/index.m3u8
 #EXTINF:-1 tvg-name="相声" tvg-logo="http://live.zyh520.tk/tv/相声.png" group-title="🏮央卫超清",相声
 http://223.105.252.60/PLTV/4/224/3221228717/index.m3u8
 #EXTINF:-1 tvg-name="健身" tvg-logo="http://live.zyh520.tk/tv/健身.png" group-title="🏮央卫超清",健身
-http://223.105.252.60/PLTV/4/224/3221228706/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228706/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228706/index.m3u8
+#EXTINF:-1 tvg-name="健身" tvg-logo="http://live.zyh520.tk/tv/健身.png" group-title="🏮央卫超清",健身
+http://223.105.252.61/PLTV/4/224/3221228706/index.m3u8
 #EXTINF:-1 tvg-name="农业致富" tvg-logo="http://live.zyh520.tk/tv/农业致富.png" group-title="🏮央卫超清",农业致富
-http://223.105.252.60/PLTV/4/224/3221228720/index.m3u8#http://223.105.252.61/PLTV/4/224/3221228720/index.m3u8
+http://223.105.252.60/PLTV/4/224/3221228720/index.m3u8
+#EXTINF:-1 tvg-name="农业致富" tvg-logo="http://live.zyh520.tk/tv/农业致富.png" group-title="🏮央卫超清",农业致富
+http://223.105.252.61/PLTV/4/224/3221228720/index.m3u8
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🌏央视频道",CCTV1
 http://39.134.136.161:6610/000000001000/1000000005000265001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265001#http://39.134.136.161:6610/000000001000/6000000001000029752/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000029752
