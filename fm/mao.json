@@ -154,6 +154,14 @@
       "changeable": 1
     },
     {
+      "key": "config",
+      "name": "🐼配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2,
+      "jar": "./Feimao.jar"
+    },
+    {
       "key": "csp_Jpyy",
       "name": "🥇️金牌┃影视",
       "type": 3,
@@ -163,7 +171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Gz360",
@@ -175,7 +183,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_J",
@@ -187,7 +195,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_SuBaiBai",
@@ -200,7 +208,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Nongm",
@@ -213,7 +221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_AppRZ",
@@ -226,7 +234,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Tvyb",
@@ -238,7 +246,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_XMUC",
@@ -259,7 +267,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_FeiMaoUC",
@@ -278,7 +286,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "./PandaQ.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "萌米",
