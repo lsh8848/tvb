@@ -25,8 +25,9 @@ http://223.105.252.57/PLTV/3/224/3221228165/index.m3u8?servicetype=1
 http://223.105.252.59/PLTV/4/224/3221228314/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16 4K
 http://223.105.252.60/PLTV/4/224/3221228314/index.m3u8?servicetype=1
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🏮央视4K",CCTV16 4K
-http://39.134.136.161:6610/000000001000/5000000008000023254/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023254
+#EXTINF:-1 tvg-name="纯享4K" tvg-logo="http://live.zyh520.tk/tv/纯享4K.png" group-title="🏮央视4K",纯享4K
+http://223.105.252.60/PLTV/4/224/3221228314/index.m3u8?servicetype=1
+http://111.29.9.34:6610/000000001000/1000000004000011651/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000011651
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场 4K
 http://111.29.9.34:6610/000000001000/1/1.m3u8?stbId=1&livemode=1&IASHttpSessionId=OTT760920241110011719006907&channel-id=bestzb&Contentid=5000000007000010001
 #EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://live.zyh520.tk/tv/LoveNature.png" group-title="🏮央视4K",LoveNature 4K
@@ -170,41 +171,55 @@ http://223.105.252.60/PLTV/4/224/3221228115/index.m3u8
 http://223.105.252.61/PLTV/4/224/3221228115/index.m3u8
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🌏央视频道",CCTV1
-http://39.134.136.161:6610/000000001000/1000000005000265001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265001#http://39.134.136.161:6610/000000001000/6000000001000029752/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000029752
+http://111.29.9.34:6610/000000001000/1000000005000265001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265001
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="🌏央视频道",CCTV2
-http://39.134.136.161:6610/000000001000/1000000005000265002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265002#http://39.134.136.161:6610/000000001000/1000000001000023315/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000023315
+http://111.29.9.34:6610/000000001000/1000000001000023315/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000023315
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="🌏央视频道",CCTV3
-http://39.134.136.161:6610/000000001000/1000000005000265003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265003#http://39.134.136.161:6610/000000001000/6000000001000022313/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000022313
+http://111.29.9.34:6610/000000001000/1000000001000011218/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000011218
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="🌏央视频道",CCTV4
-http://39.134.136.161:6610/000000001000/1000000005000265004/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265004#http://39.134.136.161:6610/000000001000/5000000011000031102/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031102
+http://111.29.9.34:6610/000000001000/1000000005000265004/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265004
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="🌏央视频道",CCTV4
+http://111.29.9.34:6610/000000001000/5000000011000031102/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031102
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="🌏央视频道",CCTV5
-http://39.134.136.161:6610/000000001000/1000000005000025222/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000025222#http://39.134.136.161:6610/000000001000/1000000005000265005/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265005
+http://111.29.9.34:6610/000000001000/1000000005000265005/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265005
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="🌏央视频道",CCTV5+
-http://39.134.136.161:6610/000000001000/1000000005000265016/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265016#http://39.134.136.161:6610/000000001000/1000000001000018504/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000018504
+http://111.29.9.34:6610/000000001000/1000000001000018504/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000018504
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="🌏央视频道",CCTV6
-http://39.134.136.161:6610/000000001000/1000000005000265006/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265006#http://39.134.136.161:6610/000000001000/6000000001000004574/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000004574
+http://111.29.9.34:6610/000000001000/1000000005000265006/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265006
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="🌏央视频道",CCTV7
-http://39.134.136.161:6610/000000001000/1000000005000265007/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265007#http://39.134.136.161:6610/000000001000/1000000001000024341/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000024341
+http://111.29.9.34:6610/000000001000/1000000005000265007/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265007
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="🌏央视频道",CCTV7
+http://111.29.9.34:6610/000000001000/1000000001000024341/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000024341
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="🌏央视频道",CCTV8
-http://39.134.136.161:6610/000000001000/1000000005000265008/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265008#http://39.134.136.161:6610/000000001000/6000000001000001070/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000001070
+http://111.29.9.34:6610/000000001000/1000000001000003736/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000003736
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="🌏央视频道",CCTV9
-http://39.134.136.161:6610/000000001000/1000000005000265009/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265009#http://39.134.136.161:6610/000000001000/1000000001000014583/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014583
+http://111.29.9.34:6610/000000001000/1000000001000014583/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014583
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="🌏央视频道",CCTV10
-http://39.134.136.161:6610/000000001000/1000000005000265010/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265010#http://39.134.136.161:6610/000000001000/1000000001000023734/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000023734
+http://111.29.9.34:6610/000000001000/1000000005000265010/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265010
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="🌏央视频道",CCTV10
+http://111.29.9.34:6610/000000001000/1000000001000023734/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000023734
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="http://live.zyh520.tk/tv/CCTV11.png" group-title="🌏央视频道",CCTV11
-http://39.134.136.161:6610/000000001000/1000000005000265011/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265011#http://39.134.136.161:6610/000000001000/5000000011000031106/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031106
+http://111.29.9.34:6610/000000001000/5000000011000031106/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031106
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="🌏央视频道",CCTV12
-http://39.134.136.161:6610/000000001000/1000000005000265012/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265012#http://39.134.136.161:6610/000000001000/1000000001000032494/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032494
+http://111.29.9.34:6610/000000001000/1000000005000265012/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265012
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="🌏央视频道",CCTV12
+http://111.29.9.34:6610/000000001000/1000000001000032494/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032494
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="🌏央视频道",CCTV13
-http://39.134.136.161:6610/000000001000/5000000011000031108/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031108#http://39.134.136.161:6610/000000001000/1000000002000021303/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000021303
+http://111.29.9.34:6610/000000001000/5000000011000031108/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031108
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="🌏央视频道",CCTV13
+http://111.29.9.34:6610/000000001000/1000000002000021303/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000021303
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="🌏央视频道",CCTV14
-http://39.134.136.161:6610/000000001000/1000000005000265013/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265013#http://39.134.136.161:6610/000000001000/1000000001000008170/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000008170
+http://111.29.9.34:6610/000000001000/1000000005000265013/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265013
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="🌏央视频道",CCTV14
+http://111.29.9.34:6610/000000001000/1000000001000008170/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000008170
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://live.zyh520.tk/tv/CCTV15.png" group-title="🌏央视频道",CCTV15
-http://39.134.136.161:6610/000000001000/1000000005000265014/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265014#http://39.134.136.161:6610/000000001000/5000000011000031109/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031109
+http://111.29.9.34:6610/000000001000/5000000011000031109/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031109
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="🌏央视频道",CCTV16
-http://39.134.136.161:6610/000000001000/5000000008000023253/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023253#http://39.134.136.161:6610/000000001000/1000000006000233002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000233002
+http://111.29.9.34:6610/000000001000/1000000006000233002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000233002
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="🌏央视频道",CCTV17
-http://39.134.136.161:6610/000000001000/1000000005000265015/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265015#http://39.134.136.161:6610/000000001000/1000000006000268004/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268004
+http://111.29.9.34:6610/000000001000/1000000005000265015/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265015
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="🌏央视频道",CCTV17
+http://111.29.9.34:6610/000000001000/1000000006000268004/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268004
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="🌏央视频道",CCTV1
 http://39.134.65.181/PLTV/88888888/224/3221225816/1.m3u8
@@ -338,63 +353,93 @@ http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226663/1.m3u8
 http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226660/1.m3u8
 
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="🏆卫视频道",东方卫视
-http://39.134.136.161:6610/000000001000/1000000005000265018/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265018#http://39.134.136.161:6610/000000001000/1000000001000005866/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000005866
+http://111.29.9.34:6610/000000001000/1000000001000005866/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000005866
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="🏆卫视频道",湖南卫视
-http://39.134.136.161:6610/000000001000/1000000005000265024/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265024#http://39.134.136.161:6610/000000001000/1000000001000032695/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032695
+http://111.29.9.34:6610/000000001000/1000000001000032695/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032695
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏆卫视频道",江苏卫视
-http://39.134.136.161:6610/000000001000/1000000005000265030/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265030#http://39.134.136.161:6610/000000001000/6000000001000014861/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000014861
+http://111.29.9.34:6610/000000001000/1000000001000001828/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001828
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏆卫视频道",江苏卫视
+http://111.29.9.34:6610/000000001000/5000000004000019351/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000019351
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏆卫视频道",江苏卫视
+http://111.29.9.34:6610/000000001000/1000000001000004684/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000004684
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏆卫视频道",江苏卫视
+http://111.29.9.34:6610/000000001000/5000000010000018509/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018509
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="🏆卫视频道",浙江卫视
-http://39.134.136.161:6610/000000001000/1000000005000265031/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265031#http://39.134.136.161:6610/000000001000/5000000004000007275/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000007275
+http://111.29.9.34:6610/000000001000/1000000005000265031/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265031
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="🏆卫视频道",浙江卫视
+http://111.29.9.34:6610/000000001000/5000000004000007275/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000007275
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="🏆卫视频道",深圳卫视
-http://39.134.136.161:6610/000000001000/1000000005000265028/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265028#http://39.134.136.161:6610/000000001000/1000000001000009227/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009227
+http://111.29.9.34:6610/000000001000/1000000005000265028/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265028
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="🏆卫视频道",深圳卫视
+http://111.29.9.34:6610/000000001000/1000000001000009227/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009227
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="🏆卫视频道",北京卫视
-http://39.134.136.161:6610/000000001000/1000000005000265027/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265027#http://39.134.136.161:6610/000000001000/6000000001000020451/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000020451
+http://111.29.9.34:6610/000000001000/1000000001000021288/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021288
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="🏆卫视频道",北京卫视
+http://111.29.9.34:6610/000000001000/5000000004000031556/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000031556
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="🏆卫视频道",北京卫视
+http://111.29.9.34:6610/000000001000/1000000001000017156/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000017156
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="🏆卫视频道",广东卫视
-http://39.134.136.161:6610/000000001000/1000000005000265034/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265034#http://39.134.136.161:6610/000000001000/1000000001000014176/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014176
+http://111.29.9.34:6610/000000001000/1000000005000265034/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265034
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="🏆卫视频道",广东卫视
+http://111.29.9.34:6610/000000001000/1000000001000014176/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014176
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="🏆卫视频道",安徽卫视
-http://39.134.136.161:6610/000000001000/1000000005000265025/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265025#http://39.134.136.161:6610/000000001000/6000000001000009954/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000009954
+http://111.29.9.34:6610/000000001000/1000000005000265025/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265025
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="🏆卫视频道",辽宁卫视
-http://39.134.136.161:6610/000000001000/1000000005000265022/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265022#http://39.134.136.161:6610/000000001000/1000000001000001945/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001945
+http://111.29.9.34:6610/000000001000/1000000005000265022/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265022
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="🏆卫视频道",辽宁卫视
+http://111.29.9.34:6610/000000001000/1000000001000001945/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001945
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://live.zyh520.tk/tv/东南卫视.png" group-title="🏆卫视频道",东南卫视
-http://39.134.136.161:6610/000000001000/1000000005000265033/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265033#http://39.134.136.161:6610/000000001000/5000000004000010584/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000010584
+http://111.29.9.34:6610/000000001000/1000000005000265033/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265033
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://live.zyh520.tk/tv/东南卫视.png" group-title="🏆卫视频道",东南卫视
+http://111.29.9.34:6610/000000001000/5000000004000010584/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000010584
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="http://live.zyh520.tk/tv/云南卫视.png" group-title="🏆卫视频道",云南卫视
-http://39.134.136.161:6610/000000001000/5000000011000031120/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031120
+http://111.29.9.34:6610/000000001000/5000000011000031120/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031120
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="http://live.zyh520.tk/tv/吉林卫视.png" group-title="🏆卫视频道",吉林卫视
-http://39.134.136.161:6610/000000001000/5000000011000031117/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031117
+http://111.29.9.34:6610/000000001000/5000000011000031117/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031117
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="http://live.zyh520.tk/tv/四川卫视.png" group-title="🏆卫视频道",四川卫视
-http://39.134.136.161:6610/000000001000/5000000004000006119/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006119
+http://111.29.9.34:6610/000000001000/5000000004000006119/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006119
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="🏆卫视频道",天津卫视
-http://39.134.136.161:6610/000000001000/1000000005000265026/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265026#http://39.134.136.161:6610/000000001000/1000000001000003475/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000003475
+http://111.29.9.34:6610/000000001000/1000000005000265026/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265026
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="🏆卫视频道",天津卫视
+http://111.29.9.34:6610/000000001000/1000000001000003475/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000003475
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="🏆卫视频道",山东卫视
-http://39.134.136.161:6610/000000001000/1000000005000265019/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265019#http://39.134.136.161:6610/000000001000/6000000001000004134/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000004134
+http://111.29.9.34:6610/000000001000/1000000005000265019/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265019
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="http://live.zyh520.tk/tv/广西卫视.png" group-title="🏆卫视频道",广西卫视
-http://39.134.136.161:6610/000000001000/5000000011000031118/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031118
+http://111.29.9.34:6610/000000001000/5000000011000031118/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031118
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="🏆卫视频道",江西卫视
-http://39.134.136.161:6610/000000001000/1000000005000265032/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265032#http://39.134.136.161:6610/000000001000/1000000006000268001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268001
+http://111.29.9.34:6610/000000001000/1000000005000265032/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265032
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="🏆卫视频道",江西卫视
+http://111.29.9.34:6610/000000001000/1000000006000268001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268001
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="http://live.zyh520.tk/tv/河北卫视.png" group-title="🏆卫视频道",河北卫视
-http://39.134.136.161:6610/000000001000/5000000006000040016/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000006000040016
+http://111.29.9.34:6610/000000001000/5000000006000040016/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000006000040016
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="http://live.zyh520.tk/tv/河南卫视.png" group-title="🏆卫视频道",河南卫视
-http://39.134.136.161:6610/000000001000/5000000011000031119/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031119
+http://111.29.9.34:6610/000000001000/5000000011000031119/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031119
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="http://live.zyh520.tk/tv/海南卫视.png" group-title="🏆卫视频道",海南卫视
-http://39.134.136.161:6610/000000001000/5000000004000006211/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006211
+http://111.29.9.34:6610/000000001000/5000000004000006211/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006211
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="http://live.zyh520.tk/tv/三沙卫视.png" group-title="🏆卫视频道",三沙卫视
-http://39.134.136.161:6610/000000001000/5000000011000288016/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000288016
+http://111.29.9.34:6610/000000001000/5000000011000288016/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000288016
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="🏆卫视频道",湖北卫视
-http://39.134.136.161:6610/000000001000/1000000005000265023/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265023#http://39.134.136.161:6610/000000001000/6000000001000015436/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000015436
+http://111.29.9.34:6610/000000001000/1000000001000024621/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000024621
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="🏆卫视频道",湖北卫视
+http://111.29.9.34:6610/000000001000/5000000004000014954/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014954
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="🏆卫视频道",湖北卫视
+http://111.29.9.34:6610/000000001000/1000000001000010355/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000010355
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="http://live.zyh520.tk/tv/甘肃卫视.png" group-title="🏆卫视频道",甘肃卫视
-http://39.134.136.161:6610/000000001000/5000000011000031121/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031121
+http://111.29.9.34:6610/000000001000/5000000011000031121/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031121
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="http://live.zyh520.tk/tv/贵州卫视.png" group-title="🏆卫视频道",贵州卫视
-http://39.134.136.161:6610/000000001000/5000000004000025843/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025843
+http://111.29.9.34:6610/000000001000/5000000004000025843/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025843
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="http://live.zyh520.tk/tv/重庆卫视.png" group-title="🏆卫视频道",重庆卫视
-http://39.134.136.161:6610/000000001000/1000000005000265017/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265017#http://39.134.136.161:6610/000000001000/1000000001000001096/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001096
+http://111.29.9.34:6610/000000001000/1000000001000001096/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001096
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="http://live.zyh520.tk/tv/青海卫视.png" group-title="🏆卫视频道",青海卫视
-http://39.134.136.161:6610/000000001000/1000000002000013359/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000013359
+http://111.29.9.34:6610/000000001000/1000000002000013359/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000013359
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="🏆卫视频道",黑龙江卫视
-http://39.134.136.161:6610/000000001000/1000000005000265029/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265029#http://39.134.136.161:6610/000000001000/1000000001000001925/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001925
-#EXTINF:-1 tvg-name="北京卡酷少儿" tvg-logo="http://live.zyh520.tk/tv/卡酷少儿.png" group-title="🏆卫视频道",北京卡酷少儿
-http://39.134.136.161:6610/000000001000/7851974109718180595/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=7851974109718180595
+http://111.29.9.34:6610/000000001000/1000000005000265029/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265029
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="🏆卫视频道",黑龙江卫视
+http://111.29.9.34:6610/000000001000/1000000001000001925/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001925
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="🏆卫视频道",北京纪实科教
-http://39.134.136.161:6610/000000001000/1000000005000265020/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265020#http://39.134.136.161:6610/000000001000/5000000011000031204/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031204
+http://111.29.9.34:6610/000000001000/1000000005000265020/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265020
+#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="🏆卫视频道",北京纪实科教
+http://111.29.9.34:6610/000000001000/5000000011000031204/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031204
 
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="🏆卫视频道",江苏卫视
 http://39.134.65.181/PLTV/88888888/224/3221225938/1.m3u8
@@ -868,434 +913,224 @@ http://39.134.67.108/PLTV/88888888/224/3221225974/1.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="🏆卫视频道",湖北卫视
 http://39.134.67.108/PLTV/88888888/224/3221225975/1.m3u8
 
-#EXTINF:-1 tvg-name="华数4K" tvg-logo="http://live.zyh520.tk/tv/华数4K.png" group-title="📡iTV央视",华数4K影视
-http://39.134.136.161:6610/000000001000/6000000003000004748/index.m3u8?livemode=1&stbId=1213&channel-id=wasusyt&Contentid=6000000003000004748$itv-20M
-#EXTINF:-1 tvg-name="华数4K" tvg-logo="http://live.zyh520.tk/tv/华数4K.png" group-title="📡iTV央视",华数4K影视
-http://39.134.136.161:6610/000000001000/2000000004000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000004000000014$itv-15M
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="📡iTV央视",CCTV16 4K
-http://39.134.136.161:6610/000000001000/5000000008000023254/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023254$itv-12M
-#EXTINF:-1 tvg-name="纯享4K" tvg-logo="http://live.zyh520.tk/tv/纯享4K.png" group-title="📡iTV央视",纯享4K
-http://39.134.136.161:6610/000000001000/1000000004000011651/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000011651$itv-20M
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="📡iTV央视",欢笑剧场4K
-http://39.134.136.161:6610/000000001000/5000000007000010001/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000007000010001$itv-12M
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="📡iTV央视",CCTV1 4M
-http://39.134.136.161:6610/000000001000/1000000001000021973/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021973
+http://111.29.9.34:6610/000000001000/1000000001000021973/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021973
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="📡iTV央视",CCTV1 4M
-http://39.134.136.161:6610/000000001000/5000000010000030810/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030810
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="📡iTV央视",CCTV1 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265001
+http://111.29.9.34:6610/000000001000/5000000010000030810/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030810
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="📡iTV央视",CCTV1 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000002226/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000002226
+http://111.29.9.34:6610/000000001000/5000000004000002226/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000002226
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="📡iTV央视",CCTV1 8M
-http://39.134.136.161:6610/000000001000/1000000001000018602/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000018602
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://live.zyh520.tk/tv/CCTV1.png" group-title="📡iTV央视",CCTV1 8M
-http://39.134.136.161:6610/000000001000/6000000001000029752/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000029752
+http://111.29.9.34:6610/000000001000/1000000001000018602/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000018602
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="📡iTV央视",CCTV2 4M
-http://39.134.136.161:6610/000000001000/1000000001000012442/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000012442
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="📡iTV央视",CCTV2 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265002
+http://111.29.9.34:6610/000000001000/1000000001000012442/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000012442
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="📡iTV央视",CCTV2 8M
-http://39.134.136.161:6610/000000001000/1000000001000023315/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000023315
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="📡iTV央视",CCTV2 8M
-http://39.134.136.161:6610/000000001000/6000000001000014161/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000014161
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://live.zyh520.tk/tv/CCTV2.png" group-title="📡iTV央视",CCTV2 8M
-http://39.134.136.161:6610/000000001000/5000000011000031101/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031101
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="📡iTV央视",CCTV3 4M
-http://39.134.136.161:6610/000000001000/1000000001000011218/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000011218
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="📡iTV央视",CCTV3 4M
-http://39.134.136.161:6610/000000001000/5000000002000020548/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000020548
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="📡iTV央视",CCTV3 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265003
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="📡iTV央视",CCTV3 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000008883/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000008883
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="📡iTV央视",CCTV3 8M
-http://39.134.136.161:6610/000000001000/1000000001000013682/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000013682
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://live.zyh520.tk/tv/CCTV3.png" group-title="📡iTV央视",CCTV3 8M
-http://39.134.136.161:6610/000000001000/6000000001000022313/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000022313
+http://111.29.9.34:6610/000000001000/5000000011000031101/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031101
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="📡iTV央视",CCTV4 4M
-http://39.134.136.161:6610/000000001000/1000000002000031664/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000031664
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="📡iTV央视",CCTV4 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265004/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265004
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://live.zyh520.tk/tv/CCTV4.png" group-title="📡iTV央视",CCTV4 8M
-http://39.134.136.161:6610/000000001000/5000000011000031102/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031102
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 12M
-http://39.134.136.161:6610/000000001000/1000000005000025222/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000025222
+http://111.29.9.34:6610/000000001000/1000000002000031664/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000031664
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 4M
-http://39.134.136.161:6610/000000001000/1000000003000030177/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000003000030177
+http://111.29.9.34:6610/000000001000/1000000001000004794/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000004794
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 4M
-http://39.134.136.161:6610/000000001000/1000000001000004794/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000004794
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 4M
-http://39.134.136.161:6610/000000001000/5000000001000026930/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000026930
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 4M
-http://39.134.136.161:6610/000000001000/5000000010000016619/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000016619
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265005/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265005
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000008885/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000008885
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://live.zyh520.tk/tv/CCTV5.png" group-title="📡iTV央视",CCTV5 8M
-http://39.134.136.161:6610/000000001000/6000000001000016431/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000016431
+http://111.29.9.34:6610/000000001000/5000000001000026930/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000026930
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="📡iTV央视",CCTV5+ 4M
-http://39.134.136.161:6610/000000001000/1000000001000020505/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000020505
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="📡iTV央视",CCTV5+ 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265016/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265016
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="📡iTV央视",CCTV5+ 8M
-http://39.134.136.161:6610/000000001000/1000000001000018504/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000018504
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="📡iTV央视",CCTV5+ 8M
-http://39.134.136.161:6610/000000001000/6000000001000015875/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000015875
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://live.zyh520.tk/tv/CCTV5+.png" group-title="📡iTV央视",CCTV5+ 8M
-http://39.134.136.161:6610/000000001000/5000000011000031127/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031127
+http://111.29.9.34:6610/000000001000/1000000001000020505/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000020505
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="📡iTV央视",CCTV6 4M
-http://39.134.136.161:6610/000000001000/1000000001000016466/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000016466
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="📡iTV央视",CCTV6 4M
-http://39.134.136.161:6610/000000001000/5000000010000018433/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018433
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="📡iTV央视",CCTV6 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265006/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265006
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="📡iTV央视",CCTV6 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000008886/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000008886
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="📡iTV央视",CCTV6 8M
-http://39.134.136.161:6610/000000001000/1000000001000001737/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001737
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://live.zyh520.tk/tv/CCTV6.png" group-title="📡iTV央视",CCTV6 8M
-http://39.134.136.161:6610/000000001000/6000000001000004574/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000004574
+http://111.29.9.34:6610/000000001000/1000000001000016466/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000016466
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="📡iTV央视",CCTV7 4M
-http://39.134.136.161:6610/000000001000/1000000001000017218/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000017218
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="📡iTV央视",CCTV7 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265007/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265007
+http://111.29.9.34:6610/000000001000/1000000001000017218/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000017218
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="📡iTV央视",CCTV7 8M
-http://39.134.136.161:6610/000000001000/1000000001000024341/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000024341
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="📡iTV央视",CCTV7 8M
-http://39.134.136.161:6610/000000001000/6000000001000009055/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000009055
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://live.zyh520.tk/tv/CCTV7.png" group-title="📡iTV央视",CCTV7 8M
-http://39.134.136.161:6610/000000001000/5000000011000031104/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031104
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="📡iTV央视",CCTV8 4M
-http://39.134.136.161:6610/000000001000/5000000010000018377/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018377
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="📡iTV央视",CCTV8 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265008/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265008
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="📡iTV央视",CCTV8 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000008888/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000008888
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="📡iTV央视",CCTV8 8M
-http://39.134.136.161:6610/000000001000/1000000001000003736/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000003736
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="📡iTV央视",CCTV8 8M
-http://39.134.136.161:6610/000000001000/1000000001000031433/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000031433
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://live.zyh520.tk/tv/CCTV8.png" group-title="📡iTV央视",CCTV8 8M
-http://39.134.136.161:6610/000000001000/6000000001000001070/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000001070
+http://111.29.9.34:6610/000000001000/5000000011000031104/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031104
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="📡iTV央视",CCTV9 4M
-http://39.134.136.161:6610/000000001000/1000000001000028286/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028286
+http://111.29.9.34:6610/000000001000/1000000001000028286/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028286
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="📡iTV央视",CCTV9 4M
-http://39.134.136.161:6610/000000001000/5000000010000018384/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018384
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="📡iTV央视",CCTV9 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265009/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265009
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="📡iTV央视",CCTV9 8M
-http://39.134.136.161:6610/000000001000/1000000001000014583/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014583
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://live.zyh520.tk/tv/CCTV9.png" group-title="📡iTV央视",CCTV9 8M
-http://39.134.136.161:6610/000000001000/6000000001000032162/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000032162
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 2.5M
-http://39.134.136.161:6610/000000001000/1000000001000026367/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000026367
+http://111.29.9.34:6610/000000001000/5000000010000018384/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018384
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 
+http://111.29.9.34:6610/000000001000/1000000001000026367/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000026367
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 4M
-http://39.134.136.161:6610/000000001000/5000000010000016738/index.m3u8?livemode=1&stbId=3&channel-id=bestzb&Contentid=5000000010000016738
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265010/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265010
+http://111.29.9.34:6610/000000001000/5000000010000016738/index.m3u8?livemode=1&stbId=3&channel-id=bestzb&Contentid=5000000010000016738
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 8M
-http://39.134.136.161:6610/000000001000/1000000001000023734/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000023734
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 8M
-http://39.134.136.161:6610/000000001000/6000000001000031506/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000031506
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://live.zyh520.tk/tv/CCTV10.png" group-title="📡iTV央视",CCTV10 8M
-http://39.134.136.161:6610/000000001000/5000000004000012827/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000012827
+http://111.29.9.34:6610/000000001000/5000000004000012827/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000012827
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="http://live.zyh520.tk/tv/CCTV11.png" group-title="📡iTV央视",CCTV11 4M
-http://39.134.136.161:6610/000000001000/1000000002000019789/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000019789
-#EXTINF:-1 tvg-name="CCTV11" tvg-logo="http://live.zyh520.tk/tv/CCTV11.png" group-title="📡iTV央视",CCTV11 4M
-http://39.134.136.161:6610/000000001000/5000000006000040011/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000006000040011
-#EXTINF:-1 tvg-name="CCTV11" tvg-logo="http://live.zyh520.tk/tv/CCTV11.png" group-title="📡iTV央视",CCTV11 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265011/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265011
-#EXTINF:-1 tvg-name="CCTV11" tvg-logo="http://live.zyh520.tk/tv/CCTV11.png" group-title="📡iTV央视",CCTV11 8M
-http://39.134.136.161:6610/000000001000/5000000011000031106/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031106
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="📡iTV央视",CCTV12 2.5M
-http://39.134.136.161:6610/000000001000/1000000001000001640/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001640
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="📡iTV央视",CCTV12 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265012/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265012
+http://111.29.9.34:6610/000000001000/1000000002000019789/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000019789
+#EXTINF:-1 tvg-name="CCTV12 " tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="📡iTV央视",CCTV12 2.5M
+http://111.29.9.34:6610/000000001000/1000000001000001640/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001640
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="📡iTV央视",CCTV12 8M
-http://39.134.136.161:6610/000000001000/1000000001000032494/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032494
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="📡iTV央视",CCTV12 8M
-http://39.134.136.161:6610/000000001000/6000000001000022586/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000022586
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://live.zyh520.tk/tv/CCTV12.png" group-title="📡iTV央视",CCTV12 8M
-http://39.134.136.161:6610/000000001000/5000000011000031107/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031107
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="📡iTV央视",CCTV13 4M
-http://39.134.136.161:6610/000000001000/1000000002000021303/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000021303
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="📡iTV央视",CCTV13 4M
-http://39.134.136.161:6610/000000001000/5000000005000001827/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000005000001827
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://live.zyh520.tk/tv/CCTV13.png" group-title="📡iTV央视",CCTV13 8M
-http://39.134.136.161:6610/000000001000/5000000011000031108/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031108
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="📡iTV央视",CCTV14 2.5M
-http://39.134.136.161:6610/000000001000/1000000001000021349/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021349
+http://111.29.9.34:6610/000000001000/5000000011000031107/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031107
+#EXTINF:-1 tvg-name="CCTV14 " tvg-logo="http://live.zyh520.tk/tv/CCTV14 .png" group-title="📡iTV央视",CCTV14 2.5M
+http://111.29.9.34:6610/000000001000/1000000001000021349/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021349
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="📡iTV央视",CCTV14 4M
-http://39.134.136.161:6610/000000001000/5000000010000023358/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000023358
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="📡iTV央视",CCTV14 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265013/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265013
+http://111.29.9.34:6610/000000001000/5000000010000023358/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000023358
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="📡iTV央视",CCTV14 8M
-http://39.134.136.161:6610/000000001000/1000000001000008170/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000008170
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="📡iTV央视",CCTV14 8M
-http://39.134.136.161:6610/000000001000/6000000001000013647/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000013647
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://live.zyh520.tk/tv/CCTV14.png" group-title="📡iTV央视",CCTV14 8M
-http://39.134.136.161:6610/000000001000/5000000004000006673/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006673
+http://111.29.9.34:6610/000000001000/5000000004000006673/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006673
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://live.zyh520.tk/tv/CCTV15.png" group-title="📡iTV央视",CCTV15 4M
-http://39.134.136.161:6610/000000001000/1000000002000008163/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000008163
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://live.zyh520.tk/tv/CCTV15.png" group-title="📡iTV央视",CCTV15 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265014/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265014
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://live.zyh520.tk/tv/CCTV15.png" group-title="📡iTV央视",CCTV15 8M
-http://39.134.136.161:6610/000000001000/5000000011000031109/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031109
+http://111.29.9.34:6610/000000001000/1000000002000008163/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000008163
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="📡iTV央视",CCTV16 4M
-http://39.134.136.161:6610/000000001000/1000000006000233002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000233002
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="📡iTV央视",CCTV16 4M
-http://39.134.136.161:6610/000000001000/1000000006000233001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000233001
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="http://live.zyh520.tk/tv/CCTV16.png" group-title="📡iTV央视",CCTV16 8M
-http://39.134.136.161:6610/000000001000/5000000008000023253/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023253
+http://111.29.9.34:6610/000000001000/1000000006000233001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000233001
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="📡iTV央视",CCTV17 4M
-http://39.134.136.161:6610/000000001000/1000000005000056836/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000056836
-#EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="📡iTV央视",CCTV17 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265015/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265015
-#EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://live.zyh520.tk/tv/CCTV17.png" group-title="📡iTV央视",CCTV17 8M
-http://39.134.136.161:6610/000000001000/1000000006000268004/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268004
+http://111.29.9.34:6610/000000001000/1000000005000056836/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000056836
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="http://live.zyh520.tk/tv/CGTN.png" group-title="📡iTV央视",CGTN
-http://39.134.136.161:6610/000000001000/7745129417417101820/index.m3u8?livemode=1&stbId=test&channel-id=hnbblive&Contentid=7745129417417101820
+http://111.29.9.34:6610/000000001000/7745129417417101820/index.m3u8?livemode=1&stbId=test&channel-id=hnbblive&Contentid=7745129417417101820
 #EXTINF:-1 tvg-name="CGTN记录" tvg-logo="http://live.zyh520.tk/tv/CGTN记录.png" group-title="📡iTV央视",CGTN记录
-http://39.134.136.161:6610/000000001000/7114647837765104058/index.m3u8?livemode=1&stbId=test&channel-id=hnbblive&Contentid=7114647837765104058
+http://111.29.9.34:6610/000000001000/7114647837765104058/index.m3u8?livemode=1&stbId=test&channel-id=hnbblive&Contentid=7114647837765104058
 #EXTINF:-1 tvg-name="CETV4" tvg-logo="http://live.zyh520.tk/tv/CETV4.png" group-title="📡iTV央视",CETV4
-http://39.134.136.161:6610/000000001000/5000000011000031126/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031126
+http://111.29.9.34:6610/000000001000/5000000011000031126/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031126
 #EXTINF:-1 tvg-name="CETV1" tvg-logo="http://live.zyh520.tk/tv/CETV1.png" group-title="📡iTV央视",CETV1
-http://39.134.136.161:6610/000000001000/5000000002000002652/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000002652
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="http://live.zyh520.tk/tv/卡酷少儿.png" group-title="📡iTV卫视",卡酷少儿
-http://39.134.136.161:6610/000000001000/7851974109718180595/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=7851974109718180595
+http://111.29.9.34:6610/000000001000/5000000002000002652/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000002652
+
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 8M
-http://39.134.136.161:6610/000000001000/5000000011000031204/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031204
-#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 8M
-http://39.134.136.161:6610/000000001000/1000000001000001910/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001910
+http://111.29.9.34:6610/000000001000/1000000001000001910/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001910
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 6.8M
-http://39.134.136.161:6610/000000001000/2000000002000000065/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000002000000065
-#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 HEVC
-http://39.134.136.161:6610/000000001000/1000000005000265020/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265020
+http://111.29.9.34:6610/000000001000/2000000002000000065/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000002000000065
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 4M
-http://39.134.136.161:6610/000000001000/2000000003000000026/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000026
+http://111.29.9.34:6610/000000001000/2000000003000000026/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000026
 #EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://live.zyh520.tk/tv/北京纪实科教.png" group-title="📡iTV卫视",北京纪实科教 4M
-http://39.134.136.161:6610/000000001000/1000000001000028380/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028380
+http://111.29.9.34:6610/000000001000/1000000001000028380/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028380
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000030202/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000030202
+http://111.29.9.34:6610/000000001000/1000000001000030202/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000030202
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000032246/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000032246
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265018/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265018
+http://111.29.9.34:6610/000000001000/5000000010000032246/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000032246
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000005866/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000005866
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000003639/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000003639
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://live.zyh520.tk/tv/东方卫视.png" group-title="📡iTV卫视",东方卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000014098/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014098
+http://111.29.9.34:6610/000000001000/5000000004000014098/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014098
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000009115/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009115
+http://111.29.9.34:6610/000000001000/1000000001000009115/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009115
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000030452/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030452
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265024/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265024
+http://111.29.9.34:6610/000000001000/5000000010000030452/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030452
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000032695/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000032695
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000018044/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000018044
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://live.zyh520.tk/tv/湖南卫视.png" group-title="📡iTV卫视",湖南卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000006692/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006692
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000004684/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000004684
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000018509/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018509
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265030/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265030
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000019351/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000019351
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000001828/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001828
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://live.zyh520.tk/tv/江苏卫视.png" group-title="📡iTV卫视",江苏卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000014861/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000014861
+http://111.29.9.34:6610/000000001000/5000000004000006692/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006692
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000009806/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009806
+http://111.29.9.34:6610/000000001000/1000000001000009806/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009806
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000017320/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000017320
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265031/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265031
+http://111.29.9.34:6610/000000001000/5000000010000017320/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000017320
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000014260/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014260
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000032070/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000032070
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://live.zyh520.tk/tv/浙江卫视.png" group-title="📡iTV卫视",浙江卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000007275/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000007275
+http://111.29.9.34:6610/000000001000/1000000001000014260/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014260
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000011645/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000011645
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000024026/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000024026
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265028/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265028
+http://111.29.9.34:6610/000000001000/1000000001000011645/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000011645
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000009227/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009227
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000002116/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000002116
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://live.zyh520.tk/tv/深圳卫视.png" group-title="📡iTV卫视",深圳卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000007410/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000007410
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="📡iTV卫视",北京卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000017156/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000017156
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="📡iTV卫视",北京卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000011502/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000011502
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="📡iTV卫视",北京卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265027/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265027
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="📡iTV卫视",北京卫视 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000031556/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000031556
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="📡iTV卫视",北京卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000021288/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021288
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://live.zyh520.tk/tv/北京卫视.png" group-title="📡iTV卫视",北京卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000020451/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000020451
+http://111.29.9.34:6610/000000001000/5000000004000007410/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000007410
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="📡iTV卫视",广东卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000028357/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028357
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="📡iTV卫视",广东卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000030417/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030417
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="📡iTV卫视",广东卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265034/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265034
+http://111.29.9.34:6610/000000001000/1000000001000028357/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000028357
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="📡iTV卫视",广东卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000014176/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000014176
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="📡iTV卫视",广东卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000031076/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000031076
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://live.zyh520.tk/tv/广东卫视.png" group-title="📡iTV卫视",广东卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000014694/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014694
+http://111.29.9.34:6610/000000001000/5000000004000014694/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014694
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="http://live.zyh520.tk/tv/四川卫视.png" group-title="📡iTV卫视",四川卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000016825/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000016825
-#EXTINF:-1 tvg-name="四川卫视" tvg-logo="http://live.zyh520.tk/tv/四川卫视.png" group-title="📡iTV卫视",四川卫视 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000006119/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006119
+http://111.29.9.34:6610/000000001000/1000000002000016825/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000016825
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="📡iTV卫视",天津卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000000831/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000000831
+http://111.29.9.34:6610/000000001000/1000000001000000831/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000000831
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="📡iTV卫视",天津卫视 4M
-http://39.134.136.161:6610/000000001000/5000000001000030788/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000030788
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="📡iTV卫视",天津卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265026/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265026
+http://111.29.9.34:6610/000000001000/5000000001000030788/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000030788
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="📡iTV卫视",天津卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000003475/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000003475
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="📡iTV卫视",天津卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000009186/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000009186
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://live.zyh520.tk/tv/天津卫视.png" group-title="📡iTV卫视",天津卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000006827/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006827
+http://111.29.9.34:6610/000000001000/5000000004000006827/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006827
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="📡iTV卫视",安徽卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000020780/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000020780
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="📡iTV卫视",安徽卫视 4M
-http://39.134.136.161:6610/000000001000/5000000001000027288/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000027288
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="📡iTV卫视",安徽卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265025/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265025
+http://111.29.9.34:6610/000000001000/1000000001000020780/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000020780
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="📡iTV卫视",安徽卫视 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000023002/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000023002
+http://111.29.9.34:6610/000000001000/5000000004000023002/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000023002
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="📡iTV卫视",安徽卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000030159/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000030159
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://live.zyh520.tk/tv/安徽卫视.png" group-title="📡iTV卫视",安徽卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000009954/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000009954
+http://111.29.9.34:6610/000000001000/1000000001000030159/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000030159
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="📡iTV卫视",山东卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000012807/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000012807
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="📡iTV卫视",山东卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000027763/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000027763
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="📡iTV卫视",山东卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265019/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265019
+http://111.29.9.34:6610/000000001000/1000000001000012807/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000012807
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="📡iTV卫视",山东卫视 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000020424/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000020424
+http://111.29.9.34:6610/000000001000/5000000004000020424/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000020424
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="📡iTV卫视",山东卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000016568/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000016568
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://live.zyh520.tk/tv/山东卫视.png" group-title="📡iTV卫视",山东卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000004134/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000004134
+http://111.29.9.34:6610/000000001000/1000000001000016568/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000016568
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="http://live.zyh520.tk/tv/广西卫视.png" group-title="📡iTV卫视",广西卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000019837/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000019837
-#EXTINF:-1 tvg-name="广西卫视" tvg-logo="http://live.zyh520.tk/tv/广西卫视.png" group-title="📡iTV卫视",广西卫视 8M
-http://39.134.136.161:6610/000000001000/5000000011000031118/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031118
+http://111.29.9.34:6610/000000001000/1000000002000019837/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000019837
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="📡iTV卫视",江西卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000013731/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000013731
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="📡iTV卫视",江西卫视 4M
-http://39.134.136.161:6610/000000001000/5000000001000032154/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000032154
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="📡iTV卫视",江西卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265032/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265032
+http://111.29.9.34:6610/000000001000/1000000001000013731/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000013731
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="📡iTV卫视",江西卫视 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000011210/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000011210
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://live.zyh520.tk/tv/江西卫视.png" group-title="📡iTV卫视",江西卫视 8M
-http://39.134.136.161:6610/000000001000/1000000006000268001/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268001
+http://111.29.9.34:6610/000000001000/5000000004000011210/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000011210
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="http://live.zyh520.tk/tv/河北卫视.png" group-title="📡iTV卫视",河北卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000017118/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000017118
-#EXTINF:-1 tvg-name="河北卫视" tvg-logo="http://live.zyh520.tk/tv/河北卫视.png" group-title="📡iTV卫视",河北卫视 8M
-http://39.134.136.161:6610/000000001000/5000000006000040016/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000006000040016
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="http://live.zyh520.tk/tv/河南卫视.png" group-title="📡iTV卫视",河南卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000027731/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000027731
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="http://live.zyh520.tk/tv/河南卫视.png" group-title="📡iTV卫视",河南卫视 8M
-http://39.134.136.161:6610/000000001000/5000000011000031119/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031119
-#EXTINF:-1 tvg-name="海南卫视" tvg-logo="http://live.zyh520.tk/tv/海南卫视.png" group-title="📡iTV卫视",海南卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000023773/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000023773
-#EXTINF:-1 tvg-name="海南卫视" tvg-logo="http://live.zyh520.tk/tv/海南卫视.png" group-title="📡iTV卫视",海南卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000006211/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000006211
-#EXTINF:-1 tvg-name="三沙卫视" tvg-logo="http://live.zyh520.tk/tv/三沙卫视.png" group-title="📡iTV卫视",三沙卫视 8M
-http://39.134.136.161:6610/000000001000/5000000011000288016/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000288016
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="📡iTV卫视",湖北卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000010355/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000010355
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="📡iTV卫视",湖北卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000022140/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000022140
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="📡iTV卫视",湖北卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265023/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265023
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="📡iTV卫视",湖北卫视 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000014954/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000014954
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="📡iTV卫视",湖北卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000024621/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000024621
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://live.zyh520.tk/tv/湖北卫视.png" group-title="📡iTV卫视",湖北卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000015436/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000015436
+http://111.29.9.34:6610/000000001000/1000000002000017118/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000017118
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="http://live.zyh520.tk/tv/甘肃卫视.png" group-title="📡iTV卫视",甘肃卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000017827/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000017827
-#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="http://live.zyh520.tk/tv/甘肃卫视.png" group-title="📡iTV卫视",甘肃卫视 8M
-http://39.134.136.161:6610/000000001000/5000000011000031121/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031121
+http://111.29.9.34:6610/000000001000/1000000002000017827/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000017827
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="http://live.zyh520.tk/tv/贵州卫视.png" group-title="📡iTV卫视",贵州卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000003169/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000003169
-#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="http://live.zyh520.tk/tv/贵州卫视.png" group-title="📡iTV卫视",贵州卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000025843/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025843
+http://111.29.9.34:6610/000000001000/1000000002000003169/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000003169
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="📡iTV卫视",辽宁卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000024033/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000024033
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="📡iTV卫视",辽宁卫视 4M
-http://39.134.136.161:6610/000000001000/5000000001000008940/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000008940
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="📡iTV卫视",辽宁卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265022/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265022
+http://111.29.9.34:6610/000000001000/1000000002000024033/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000024033
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="📡iTV卫视",辽宁卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000001945/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001945
-#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://live.zyh520.tk/tv/辽宁卫视.png" group-title="📡iTV卫视",辽宁卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000011671/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000011671
+http://111.29.9.34:6610/000000001000/5000000004000011671/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000011671
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://live.zyh520.tk/tv/东南卫视.png" group-title="📡iTV卫视",东南卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000009263/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000009263
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://live.zyh520.tk/tv/东南卫视.png" group-title="📡iTV卫视",东南卫视 4M
-http://39.134.136.161:6610/000000001000/5000000001000005829/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000001000005829
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://live.zyh520.tk/tv/东南卫视.png" group-title="📡iTV卫视",东南卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265033/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265033
-#EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://live.zyh520.tk/tv/东南卫视.png" group-title="📡iTV卫视",东南卫视 8M
-http://39.134.136.161:6610/000000001000/5000000004000010584/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000010584
+http://111.29.9.34:6610/000000001000/1000000002000009263/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000009263
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="http://live.zyh520.tk/tv/云南卫视.png" group-title="📡iTV卫视",云南卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000024694/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000024694
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="http://live.zyh520.tk/tv/云南卫视.png" group-title="📡iTV卫视",云南卫视 8M
-http://39.134.136.161:6610/000000001000/5000000011000031120/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031120
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="http://live.zyh520.tk/tv/吉林卫视.png" group-title="📡iTV卫视",吉林卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000027730/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000027730
-#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="http://live.zyh520.tk/tv/吉林卫视.png" group-title="📡iTV卫视",吉林卫视 8M
-http://39.134.136.161:6610/000000001000/5000000011000031117/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031117
+http://111.29.9.34:6610/000000001000/1000000002000024694/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000024694
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="http://live.zyh520.tk/tv/重庆卫视.png" group-title="📡iTV卫视",重庆卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000018937/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000018937
-#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="http://live.zyh520.tk/tv/重庆卫视.png" group-title="📡iTV卫视",重庆卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265017/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265017
+http://111.29.9.34:6610/000000001000/1000000002000018937/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000018937
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="http://live.zyh520.tk/tv/重庆卫视.png" group-title="📡iTV卫视",重庆卫视 7.5M
-http://39.134.136.161:6610/000000001000/5000000004000025797/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025797
-#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="http://live.zyh520.tk/tv/重庆卫视.png" group-title="📡iTV卫视",重庆卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000001096/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001096
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="http://live.zyh520.tk/tv/青海卫视.png" group-title="📡iTV卫视",青海卫视 4M
-http://39.134.136.161:6610/000000001000/1000000002000013359/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000002000013359
+http://111.29.9.34:6610/000000001000/5000000004000025797/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025797
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 4M
-http://39.134.136.161:6610/000000001000/1000000001000009082/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009082
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 4M
-http://39.134.136.161:6610/000000001000/5000000010000031107/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000031107
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 5.5MHEVC
-http://39.134.136.161:6610/000000001000/1000000005000265029/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265029
+http://111.29.9.34:6610/000000001000/1000000001000009082/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009082
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 6.8M
-http://39.134.136.161:6610/000000001000/5000000004000025203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025203
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 8M
-http://39.134.136.161:6610/000000001000/1000000001000001925/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001925
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://live.zyh520.tk/tv/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 8M
-http://39.134.136.161:6610/000000001000/6000000001000016510/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000001000016510
+http://111.29.9.34:6610/000000001000/5000000004000025203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025203
+
+#EXTINF:-1 tvg-name="NewTV超级电影" tvg-logo="http://live.zyh520.tk/tv/NewTV超级电影.png" group-title="🎇NewTV",NewTV超级电影
+http://111.29.9.34:6610/000000001000/1000000003000012426/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000003000012426
+#EXTINF:-1 tvg-name="NewTV超级电视剧" tvg-logo="http://live.zyh520.tk/tv/NewTV超级电视剧.png" group-title="🎇NewTV",NewTV超级电视剧
+http://111.29.9.34:6610/000000001000/1000000006000268003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268003
+#EXTINF:-1 tvg-name="NewTV超级综艺" tvg-logo="http://live.zyh520.tk/tv/NewTV超级综艺.png" group-title="🎇NewTV",NewTV超级综艺
+http://111.29.9.34:6610/000000001000/1000000006000268002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268002
+#EXTINF:-1 tvg-name="NewTV金牌综艺" tvg-logo="http://live.zyh520.tk/tv/NewTV金牌综艺.png" group-title="🎇NewTV",NewTV金牌综艺
+http://111.29.9.34:6610/000000001000/2000000003000000005/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000005
+#EXTINF:-1 tvg-name="NewTV动作电影" tvg-logo="http://live.zyh520.tk/tv/NewTV动作电影.png" group-title="🎇NewTV",NewTV动作电影
+http://111.29.9.34:6610/000000001000/1000000004000018653/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000018653
+#EXTINF:-1 tvg-name="NewTV古装剧场" tvg-logo="http://live.zyh520.tk/tv/NewTV古装剧场.png" group-title="🎇NewTV",NewTV古装剧场
+http://111.29.9.34:6610/000000001000/2000000003000000024/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000024
+#EXTINF:-1 tvg-name="NewTV惊悚悬疑" tvg-logo="http://live.zyh520.tk/tv/NewTV惊悚悬疑.png" group-title="🎇NewTV",NewTV惊悚悬疑
+http://111.29.9.34:6610/000000001000/2000000003000000015/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000015
+#EXTINF:-1 tvg-name="NewTV欢乐剧场" tvg-logo="http://live.zyh520.tk/tv/NewTV欢乐剧场.png" group-title="🎇NewTV",NewTV欢乐剧场
+http://111.29.9.34:6610/000000001000/2000000003000000050/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000050
+#EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="http://live.zyh520.tk/tv/NewTV爱情喜剧.png" group-title="🎇NewTV",NewTV爱情喜剧
+http://111.29.9.34:6610/000000001000/2000000003000000010/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000010
+#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="http://live.zyh520.tk/tv/NewTV精品纪录.png" group-title="🎇NewTV",NewTV精品纪录
+http://111.29.9.34:6610/000000001000/2000000003000000019/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000019
+#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="http://live.zyh520.tk/tv/NewTV超级体育.png" group-title="🎇NewTV",NewTV超级体育
+http://111.29.9.34:6610/000000001000/1000000001000009601/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009601
+#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="http://live.zyh520.tk/tv/NewTV军旅剧场.png" group-title="🎇NewTV",NewTV军旅剧场
+http://111.29.9.34:6610/000000001000/2000000003000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000014
+#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="http://live.zyh520.tk/tv/NewTV军事评论.png" group-title="🎇NewTV",NewTV军事评论
+http://111.29.9.34:6610/000000001000/2000000003000000022/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000022
+#EXTINF:-1 tvg-name="NewTV精品体育" tvg-logo="http://live.zyh520.tk/tv/NewTV精品体育.png" group-title="🎇NewTV",NewTV精品体育
+http://111.29.9.34:6610/000000001000/2000000003000000021/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000021
+#EXTINF:-1 tvg-name="NewTV农业致富" tvg-logo="http://live.zyh520.tk/tv/NewTV农业致富.png" group-title="🎇NewTV",NewTV农业致富
+http://111.29.9.34:6610/000000001000/2000000003000000003/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000003
+#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="http://live.zyh520.tk/tv/NewTV潮妈辣婆.png" group-title="🎇NewTV",NewTV潮妈辣婆
+http://111.29.9.34:6610/000000001000/2000000003000000018/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000018
+#EXTINF:-1 tvg-name="NewTV炫舞未来" tvg-logo="http://live.zyh520.tk/tv/NewTV炫舞未来.png" group-title="🎇NewTV",NewTV炫舞未来
+http://111.29.9.34:6610/000000001000/2000000003000000044/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000044
+#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="http://live.zyh520.tk/tv/NewTV精品萌宠.png" group-title="🎇NewTV",NewTV精品萌宠
+http://111.29.9.34:6610/000000001000/2000000003000000067/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000067
+
+#EXTINF:-1 tvg-name="东方财经" tvg-logo="http://live.zyh520.tk/tv/东方财经.png" group-title="🎈数字频道",东方财经
+http://111.29.9.34:6610/000000001000/5000000007000010003/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000007000010003
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="http://live.zyh520.tk/tv/金鹰纪实.png" group-title="🎈数字频道",金鹰纪实
+http://111.29.9.34:6610/000000001000/5000000011000031203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031203
+#EXTINF:-1 tvg-name="乐游" tvg-logo="http://live.zyh520.tk/tv/乐游.png" group-title="🎈数字频道",乐游
+http://111.29.9.34:6610/000000001000/5000000011000031112/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031112
+#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="http://live.zyh520.tk/tv/动漫秀场.png" group-title="🎈数字频道",动漫秀场
+http://111.29.9.34:6610/000000001000/5000000011000031113/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031113
+#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="http://live.zyh520.tk/tv/哈哈炫动.png" group-title="🎈数字频道",哈哈炫动
+http://111.29.9.34:6610/000000001000/5000000011000031123/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031123
+#EXTINF:-1 tvg-name="新闻综合" tvg-logo="http://live.zyh520.tk/tv/新闻综合.png" group-title="🎈数字频道",新闻综合
+http://111.29.9.34:6610/000000001000/5000000011000031110/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031110
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://live.zyh520.tk/tv/欢笑剧场.png" group-title="🎈数字频道",欢笑剧场
+http://111.29.9.34:6610/000000001000/5000000002000009455/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000009455
+#EXTINF:-1 tvg-name="游戏风云" tvg-logo="http://live.zyh520.tk/tv/游戏风云.png" group-title="🎈数字频道",游戏风云
+http://111.29.9.34:6610/000000001000/5000000011000031114/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031114
+#EXTINF:-1 tvg-name="生活时尚" tvg-logo="http://live.zyh520.tk/tv/生活时尚.png" group-title="🎈数字频道",生活时尚
+http://111.29.9.34:6610/000000001000/5000000002000019634/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000019634
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="http://live.zyh520.tk/tv/都市剧场.png" group-title="🎈数字频道",都市剧场
+http://111.29.9.34:6610/000000001000/5000000011000031111/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031111
+#EXTINF:-1 tvg-name="都市频道" tvg-logo="http://live.zyh520.tk/tv/都市频道.png" group-title="🎈数字频道",都市频道
+http://111.29.9.34:6610/000000001000/5000000010000018926/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018926
+#EXTINF:-1 tvg-name="金色学堂" tvg-logo="http://live.zyh520.tk/tv/金色学堂.png" group-title="🎈数字频道",金色学堂
+http://111.29.9.34:6610/000000001000/5000000010000026105/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000026105
+#EXTINF:-1 tvg-name="魅力足球" tvg-logo="http://live.zyh520.tk/tv/魅力足球.png" group-title="🎈数字频道",魅力足球
+http://111.29.9.34:6610/000000001000/5000000011000031207/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031207
+#EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="http://live.zyh520.tk/tv/快乐垂钓.png" group-title="🎈数字频道",快乐垂钓
+http://111.29.9.34:6610/000000001000/5000000011000031206/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031206
+#EXTINF:-1 tvg-name="茶频道" tvg-logo="http://live.zyh520.tk/tv/茶频道.png" group-title="🎈数字频道",茶频道
+http://111.29.9.34:6610/000000001000/5000000011000031209/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031209
+
+#EXTINF:-1 tvg-name="黑莓动画" tvg-logo="http://live.zyh520.tk/tv/黑莓动画.png" group-title="👧少儿频道",黑莓动画
+http://111.29.9.34:6610/000000001000/1000000004000021734/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000021734
+#EXTINF:-1 tvg-name="北京卡酷少儿" tvg-logo="http://live.zyh520.tk/tv/北京卡酷少儿.png" group-title="👧少儿频道",北京卡酷少儿
+http://111.29.9.34:6610/000000001000/7851974109718180595/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=7851974109718180595
 
 #EXTINF:-1 tvg-name="凤凰卫视中文台" tvg-logo="http://live.zyh520.tk/tv/凤凰中文.png" group-title="🌟AKV港台",凤凰中文台
 http://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8
@@ -1462,162 +1297,6 @@ http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="http://live.zyh520.tk/tv/TVBS亚洲.png" group-title="🇭🇰港台频道",TVBS亚洲
 http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
-
-#EXTINF:-1 tvg-name="第一财经" tvg-logo="https://epg.iill.top/logo/第一财经.png" group-title="🎈数字频道",第一财经
-http://39.134.136.161:6610/000000001000/5000000010000027146/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000027146
-#EXTINF:-1 tvg-name="东方财经" tvg-logo="https://epg.iill.top/logo/东方财经.png" group-title="🎈数字频道",东方财经
-http://39.134.136.161:6610/000000001000/5000000007000010003/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000007000010003
-#EXTINF:-1 tvg-name="东方影视" tvg-logo="https://epg.iill.top/logo/东方影视.png" group-title="🎈数字频道",东方影视
-http://39.134.136.161:6610/000000001000/5000000010000032212/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000032212
-#EXTINF:-1 tvg-name="七彩戏剧" tvg-logo="https://epg.iill.top/logo/七彩戏剧.png" group-title="🎈数字频道",七彩戏剧
-http://39.134.136.161:6610/000000001000/5000000011000031116/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031116
-#EXTINF:-1 tvg-name="乐游" tvg-logo="https://epg.iill.top/logo/乐游.png" group-title="🎈数字频道",乐游
-http://39.134.136.161:6610/000000001000/5000000011000031112/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031112
-#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://epg.iill.top/logo/五星体育.png" group-title="🎈数字频道",五星体育
-http://39.134.136.161:6610/000000001000/5000000010000017540/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000017540
-#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://epg.iill.top/logo/动漫秀场.png" group-title="🎈数字频道",动漫秀场
-http://39.134.136.161:6610/000000001000/5000000011000031113/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031113
-#EXTINF:-1 tvg-name="劲爆体育" tvg-logo="https://epg.iill.top/logo/劲爆体育.png" group-title="🎈数字频道",劲爆体育
-http://39.134.136.161:6610/000000001000/5000000002000029972/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000029972
-#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://epg.iill.top/logo/哈哈炫动.png" group-title="🎈数字频道",哈哈炫动
-http://39.134.136.161:6610/000000001000/5000000011000031123/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031123
-#EXTINF:-1 tvg-name="国际频道" tvg-logo="https://epg.iill.top/logo/国际频道.png" group-title="🎈数字频道",国际频道
-http://39.134.136.161:6610/000000001000/5000000010000030951/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000030951
-#EXTINF:-1 tvg-name="新闻综合" tvg-logo="https://epg.iill.top/logo/新闻综合.png" group-title="🎈数字频道",新闻综合
-http://39.134.136.161:6610/000000001000/5000000011000031110/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031110
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://epg.iill.top/logo/欢笑剧场.png" group-title="🎈数字频道",欢笑剧场
-http://39.134.136.161:6610/000000001000/5000000002000009455/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000009455
-#EXTINF:-1 tvg-name="法治天地" tvg-logo="https://epg.iill.top/logo/法治天地.png" group-title="🎈数字频道",法治天地
-http://39.134.136.161:6610/000000001000/2000000002000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000002000000014
-#EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://epg.iill.top/logo/游戏风云.png" group-title="🎈数字频道",游戏风云
-http://39.134.136.161:6610/000000001000/5000000011000031114/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031114
-#EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://epg.iill.top/logo/生活时尚.png" group-title="🎈数字频道",生活时尚
-http://39.134.136.161:6610/000000001000/5000000002000019634/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000019634
-#EXTINF:-1 tvg-name="纪实人文" tvg-logo="https://epg.iill.top/logo/纪实人文.png" group-title="🎈数字频道",纪实人文
-http://39.134.136.161:6610/000000001000/1000000005000265021/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000265021#http://39.134.136.161:6610/000000001000/1000000001000016545/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000016545
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://epg.iill.top/logo/都市剧场.png" group-title="🎈数字频道",都市剧场
-http://39.134.136.161:6610/000000001000/5000000011000031111/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031111
-#EXTINF:-1 tvg-name="都市频道" tvg-logo="https://epg.iill.top/logo/都市频道.png" group-title="🎈数字频道",都市频道
-http://39.134.136.161:6610/000000001000/5000000010000018926/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018926
-#EXTINF:-1 tvg-name="金色学堂" tvg-logo="https://epg.iill.top/logo/金色学堂.png" group-title="🎈数字频道",金色学堂
-http://39.134.136.161:6610/000000001000/5000000010000026105/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000026105
-#EXTINF:-1 tvg-name="魅力足球" tvg-logo="https://epg.iill.top/logo/魅力足球.png" group-title="🎈数字频道",魅力足球
-http://39.134.136.161:6610/000000001000/5000000011000031207/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031207
-#EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://epg.iill.top/logo/快乐垂钓.png" group-title="🎈数字频道",快乐垂钓
-http://39.134.136.161:6610/000000001000/5000000011000031206/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031206
-#EXTINF:-1 tvg-name="茶频道" tvg-logo="https://epg.iill.top/logo/茶频道.png" group-title="🎈数字频道",茶频道
-http://39.134.136.161:6610/000000001000/5000000011000031209/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031209
-#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://epg.iill.top/logo/金鹰纪实.png" group-title="🎈数字频道",金鹰纪实
-http://39.134.136.161:6610/000000001000/5000000011000031203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031203
-#EXTINF:-1 tvg-name="NewTV超级电影" tvg-logo="https://epg.iill.top/logo/NewTV超级电影.png" group-title="🎇NewTV",NewTV超级电影
-http://39.134.136.161:6610/000000001000/1000000003000012426/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000003000012426
-#EXTINF:-1 tvg-name="NewTV超级电视剧" tvg-logo="https://epg.iill.top/logo/NewTV超级电视剧.png" group-title="🎇NewTV",NewTV超级电视剧
-http://39.134.136.161:6610/000000001000/1000000006000268003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268003
-#EXTINF:-1 tvg-name="NewTV超级综艺" tvg-logo="https://epg.iill.top/logo/NewTV超级综艺.png" group-title="🎇NewTV",NewTV超级综艺
-http://39.134.136.161:6610/000000001000/1000000006000268002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268002
-#EXTINF:-1 tvg-name="NewTV金牌综艺" tvg-logo="https://epg.iill.top/logo/NewTV金牌综艺.png" group-title="🎇NewTV",NewTV金牌综艺
-http://39.134.136.161:6610/000000001000/2000000003000000005/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000005
-#EXTINF:-1 tvg-name="NewTV动作电影" tvg-logo="https://epg.iill.top/logo/NewTV动作电影.png" group-title="🎇NewTV",NewTV动作电影
-http://39.134.136.161:6610/000000001000/1000000004000018653/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000018653
-#EXTINF:-1 tvg-name="NewTV古装剧场" tvg-logo="https://epg.iill.top/logo/NewTV古装剧场.png" group-title="🎇NewTV",NewTV古装剧场
-http://39.134.136.161:6610/000000001000/2000000003000000024/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000024
-#EXTINF:-1 tvg-name="NewTV家庭剧场" tvg-logo="https://epg.iill.top/logo/NewTV家庭剧场.png" group-title="🎇NewTV",NewTV家庭剧场
-http://39.134.136.161:6610/000000001000/2000000003000000012/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000012
-#EXTINF:-1 tvg-name="NewTV惊悚悬疑" tvg-logo="https://epg.iill.top/logo/NewTV惊悚悬疑.png" group-title="🎇NewTV",NewTV惊悚悬疑
-http://39.134.136.161:6610/000000001000/2000000003000000015/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000015
-#EXTINF:-1 tvg-name="NewTV明星大片" tvg-logo="https://epg.iill.top/logo/NewTV明星大片.png" group-title="🎇NewTV",NewTV明星大片
-http://39.134.136.161:6610/000000001000/2000000003000000016/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000016
-#EXTINF:-1 tvg-name="NewTV欢乐剧场" tvg-logo="https://epg.iill.top/logo/NewTV欢乐剧场.png" group-title="🎇NewTV",NewTV欢乐剧场
-http://39.134.136.161:6610/000000001000/2000000003000000050/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000050
-#EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="https://epg.iill.top/logo/NewTV爱情喜剧.png" group-title="🎇NewTV",NewTV爱情喜剧
-http://39.134.136.161:6610/000000001000/2000000003000000010/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000010
-#EXTINF:-1 tvg-name="NewTV精品大剧" tvg-logo="https://epg.iill.top/logo/NewTV精品大剧.png" group-title="🎇NewTV",NewTV精品大剧
-http://39.134.136.161:6610/000000001000/2000000003000000020/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000020
-#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" group-title="🎇NewTV",NewTV精品纪录
-http://39.134.136.161:6610/000000001000/1000000004000013730/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000013730
-#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="https://epg.iill.top/logo/NewTV精品记录.png" group-title="🎇NewTV",NewTV精品纪录
-http://39.134.136.161:6610/000000001000/2000000003000000019/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000019
-#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="https://epg.iill.top/logo/NewTV超级体育.png" group-title="🎇NewTV",NewTV超级体育
-http://39.134.136.161:6610/000000001000/1000000001000009601/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009601
-#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="https://epg.iill.top/logo/NewTV军旅剧场.png" group-title="🎇NewTV",NewTV军旅剧场
-http://39.134.136.161:6610/000000001000/2000000003000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000014
-#EXTINF:-1 tvg-name="NewTV中国功夫" tvg-logo="https://epg.iill.top/logo/NewTV中国功夫.png" group-title="🎇NewTV",NewTV中国功夫
-http://39.134.136.161:6610/000000001000/2000000003000000009/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000009
-#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="https://epg.iill.top/logo/NewTV军事评论.png" group-title="🎇NewTV",NewTV军事评论
-http://39.134.136.161:6610/000000001000/2000000003000000022/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000022
-#EXTINF:-1 tvg-name="NewTV精品体育" tvg-logo="https://epg.iill.top/logo/NewTV精品体育.png" group-title="🎇NewTV",NewTV精品体育
-http://39.134.136.161:6610/000000001000/2000000003000000021/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000021
-#EXTINF:-1 tvg-name="NewTV农业致富" tvg-logo="https://epg.iill.top/logo/NewTV农业致富.png" group-title="🎇NewTV",NewTV农业致富
-http://39.134.136.161:6610/000000001000/2000000003000000003/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000003
-#EXTINF:-1 tvg-name="NewTV怡伴健康" tvg-logo="https://epg.iill.top/logo/NewTV怡伴健康.png" group-title="🎇NewTV",NewTV怡伴健康
-http://39.134.136.161:6610/000000001000/2000000003000000023/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000023
-#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="https://epg.iill.top/logo/NewTV潮妈辣婆.png" group-title="🎇NewTV",NewTV潮妈辣婆
-http://39.134.136.161:6610/000000001000/2000000003000000018/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000018
-#EXTINF:-1 tvg-name="NewTV炫舞未来" tvg-logo="https://epg.iill.top/logo/NewTV炫舞未来.png" group-title="🎇NewTV",NewTV炫舞未来
-http://39.134.136.161:6610/000000001000/2000000003000000044/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000044
-#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="https://epg.iill.top/logo/NewTV精品萌宠.png" group-title="🎇NewTV",NewTV精品萌宠
-http://39.134.136.161:6610/000000001000/2000000003000000067/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000067
-#EXTINF:-1 tvg-name="NewTV魅力潇湘" tvg-logo="https://epg.iill.top/logo/NewTV魅力潇湘.png" group-title="🎇NewTV",NewTV魅力潇湘
-http://39.134.136.161:6610/000000001000/2000000003000000041/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000041
-#EXTINF:-1 tvg-name="求索动物" tvg-logo="https://epg.iill.top/logo/求索动物.png" group-title="🎇NewTV",求索动物
-http://39.134.136.161:6610/000000001000/6000000002000010046/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000010046
-#EXTINF:-1 tvg-name="求索生活" tvg-logo="https://epg.iill.top/logo/求索生活.png" group-title="🎇NewTV",求索生活
-http://39.134.136.161:6610/000000001000/6000000002000003382/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000003382
-#EXTINF:-1 tvg-name="求索科学" tvg-logo="https://epg.iill.top/logo/求索科学.png" group-title="🎇NewTV",求索科学
-http://39.134.136.161:6610/000000001000/6000000002000032344/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000032344
-#EXTINF:-1 tvg-name="求索纪录" tvg-logo="https://epg.iill.top/logo/求索纪录.png" group-title="🎇NewTV",求索纪录
-http://39.134.136.161:6610/000000001000/6000000002000032052/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000002000032052
-#EXTINF:-1 tvg-name="iHOT爱院线" tvg-logo="https://epg.iill.top/logo/iHOT爱院线.png" group-title="🎁iHOT",iHOT爱院线
-http://39.134.136.161:6610/000000001000/6000000006000030630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000030630
-#EXTINF:-1 tvg-name="iHOT爱科幻" tvg-logo="https://epg.iill.top/logo/iHOT爱科幻.png" group-title="🎁iHOT",iHOT爱科幻
-http://39.134.136.161:6610/000000001000/6000000006000020630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000020630
-#EXTINF:-1 tvg-name="iHOT爱悬疑" tvg-logo="https://epg.iill.top/logo/iHOT爱悬疑.png" group-title="🎁iHOT",iHOT爱悬疑
-http://39.134.136.161:6610/000000001000/6000000006000050630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000050630
-#EXTINF:-1 tvg-name="iHOT爱谍战" tvg-logo="https://epg.iill.top/logo/iHOT爱谍战.png" group-title="🎁iHOT",iHOT爱谍战
-http://39.134.136.161:6610/000000001000/6000000006000070630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000070630
-#EXTINF:-1 tvg-name="iHOT爱喜剧" tvg-logo="https://epg.iill.top/logo/iHOT爱喜剧.png" group-title="🎁iHOT",iHOT爱喜剧
-http://39.134.136.161:6610/000000001000/6000000006000010630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000010630
-#EXTINF:-1 tvg-name="iHOT爱体育" tvg-logo="https://epg.iill.top/logo/iHOT爱体育.png" group-title="🎁iHOT",iHOT爱体育
-http://39.134.136.161:6610/000000001000/6000000006000290630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000290630
-#EXTINF:-1 tvg-name="iHOT爱动漫" tvg-logo="https://epg.iill.top/logo/iHOT爱动漫.png" group-title="🎁iHOT",iHOT爱动漫
-http://39.134.136.161:6610/000000001000/6000000006000280630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000280630
-#EXTINF:-1 tvg-name="iHOT爱历史" tvg-logo="https://epg.iill.top/logo/iHOT爱历史.png" group-title="🎁iHOT",iHOT爱历史
-http://39.134.136.161:6610/000000001000/6000000006000150630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000150630
-#EXTINF:-1 tvg-name="iHOT爱奇谈" tvg-logo="https://epg.iill.top/logo/iHOT爱奇谈.png" group-title="🎁iHOT",iHOT爱奇谈
-http://39.134.136.161:6610/000000001000/6000000006000270630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000270630
-#EXTINF:-1 tvg-name="iHOT爱幼教" tvg-logo="https://epg.iill.top/logo/iHOT爱幼教.png" group-title="🎁iHOT",iHOT爱幼教
-http://39.134.136.161:6610/000000001000/6000000006000180630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000180630
-#EXTINF:-1 tvg-name="iHOT爱旅行" tvg-logo="https://epg.iill.top/logo/iHOT爱旅行.png" group-title="🎁iHOT",iHOT爱旅行
-http://39.134.136.161:6610/000000001000/6000000006000250630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000250630
-#EXTINF:-1 tvg-name="iHOT爱浪漫" tvg-logo="https://epg.iill.top/logo/iHOT爱浪漫.png" group-title="🎁iHOT",iHOT爱浪漫
-http://39.134.136.161:6610/000000001000/6000000006000040630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000040630
-#EXTINF:-1 tvg-name="iHOT爱玩具" tvg-logo="https://epg.iill.top/logo/iHOT爱玩具.png" group-title="🎁iHOT",iHOT爱玩具
-http://39.134.136.161:6610/000000001000/6000000006000220630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000220630
-#EXTINF:-1 tvg-name="iHOT爱科学" tvg-logo="https://epg.iill.top/logo/iHOT爱科学.png" group-title="🎁iHOT",iHOT爱科学
-http://39.134.136.161:6610/000000001000/6000000006000160630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000160630
-#EXTINF:-1 tvg-name="iHOT爱赛车" tvg-logo="https://epg.iill.top/logo/iHOT爱赛车.png" group-title="🎁iHOT",iHOT爱赛车
-http://39.134.136.161:6610/000000001000/6000000006000240630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000240630
-#EXTINF:-1 tvg-name="精彩影视" tvg-logo="https://epg.iill.top/logo/精彩影视.png" group-title="🎁iHOT",精彩影视
-http://39.134.136.161:6610/000000001000/6000000006000320630/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=6000000006000320630
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://epg.iill.top/logo/CCTV16.png" group-title="🎁iHOT",CCTV16 4K
-http://39.134.136.161:6610/000000001000/5000000008000023254/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000008000023254
-#EXTINF:-1 tvg-name="纯享4K" tvg-logo="https://epg.iill.top/logo/纯享4K.png" group-title="🎁iHOT",纯享4K
-http://39.134.136.161:6610/000000001000/1000000004000011651/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000011651
-#EXTINF:-1 tvg-name="4K影院" tvg-logo="https://epg.iill.top/logo/4K影院.png" group-title="🎁iHOT",4K影院
-http://39.134.136.161:6610/000000001000/6000000003000004748/index.m3u8?livemode=1&stbId=1213&channel-id=wasusyt&Contentid=6000000003000004748
-#EXTINF:-1 tvg-name="黑莓电影" tvg-logo="http://live.zyh520.tk/tv/黑莓电影.png" group-title="🎁iHOT",黑莓电影
-http://39.134.136.161:6610/000000001000/8785669936177902664/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=8785669936177902664
-#EXTINF:-1 tvg-name="亚洲影院" tvg-logo="https://epg.iill.top/logo/亚洲影院.png" group-title="🎁iHOT",亚洲影院
-http://39.134.136.161:6610/000000001000/5841816227539527643/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=5841816227539527643
-#EXTINF:-1 tvg-name="欧美影院" tvg-logo="https://epg.iill.top/logo/欧美影院.png" group-title="🎁iHOT",欧美影院
-http://39.134.136.161:6610/000000001000/7185203501769528108/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=7185203501769528108
-#EXTINF:-1 tvg-name="精品剧场" tvg-logo="https://epg.iill.top/logo/精品剧场.png" group-title="🎁iHOT",精品剧场
-http://39.134.136.161:6610/000000001000/8230197131234717902/index.m3u8?livemode=1&stbId=10&channel-id=wasusyt&Contentid=8230197131234717902
-
-#EXTINF:-1 tvg-name="黑莓动画" tvg-logo="http://live.zyh520.tk/tv/黑莓动画.png" group-title="👧少儿IPV6",黑莓动画
-http://39.134.136.161:6610/000000001000/1000000004000021734/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000021734
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="http://live.zyh520.tk/tv/卡酷少儿.png" group-title="👧少儿IPV6",卡酷少儿
-http://[2409:8087:1a0a:df::4038]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225654/index.m3u8
 
 #EXTINF:-1 tvg-name="全国风景总览" tvg-logo="http://live.zyh520.tk/tv/全国风景总览.png" group-title="🌄全国风景",全国风景总览
 https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
