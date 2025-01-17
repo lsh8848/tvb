@@ -300,16 +300,6 @@
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
-      "key": "南瓜",
-      "name": "🎃南瓜┃App",
-      "type": 3,
-      "api": "csp_NanGua",
-      "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "玩偶",
       "name": "👽玩偶┃网盘",
       "type": 3,
@@ -332,26 +322,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "星芽短剧",
-      "name": "🐞星芽┃短剧",
-      "type": 3,
-      "api": "csp_AppXY",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 0,
-      "jar": "./ou.jar"
-    },
-    {
-      "key": "短剧",
-      "name": "🌈天堂┃短剧",
-      "type": 3,
-      "api": "csp_Djtt",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
     },
     {
       "key": "alist",
@@ -384,26 +354,53 @@
       "filterable": 1
     },
     {
-      "key": "csp_Anime1",
-      "name": "🐾日本┃动漫",
+      "key": "Dm84",
+      "name": "🚌巴士┃动漫",
       "type": 3,
-      "api": "csp_Anime1",
+      "api": "csp_Dm84",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "88js",
-      "name": "⚽ 88┃看球",
+      "key": "Ysj",
+      "name": "🎀异界┃动漫",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/88看球.js",
-      "style": {
-        "type": "list"
-      },
+      "api": "csp_Ysj",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
+    },
+    {
+      "key": "Anime1",
+      "name": "🐾日本┃动漫",
+      "type": 3,
+      "api": "csp_Anime1",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "926看球",
+      "name": "⚽926┃看球",
+      "type": 3,
+      "api": "csp_kanqiu926",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "88看球",
+      "name": "⚽88┃看球",
+      "type": 3,
+      "api": "csp_Sir88",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "Jrsjs",
@@ -649,7 +646,7 @@
       "url": "http://192.168.2.99:5000/youtube/list/PLdRD5eMoMQy5ybIl5g4gmqs8x4B4Srg8f"
     },
     {
-      "name": "feiyang_tv_N1",
+      "name": "feiyang_整理_N1",
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:35456/m3u/2"
