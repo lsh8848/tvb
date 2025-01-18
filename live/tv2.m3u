@@ -1059,41 +1059,41 @@ http://111.29.9.34:6610/000000001000/1000000001000009082/index.m3u8?livemode=1&s
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://tvb.zyh520.tk/live/logo/黑龙江卫视.png" group-title="📡iTV卫视",黑龙江卫视 6.8M
 http://111.29.9.34:6610/000000001000/5000000004000025203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000004000025203
 
-#EXTINF:-1 tvg-name="NewTV超级电影" tvg-logo="https://epg.iill.top/logo/NewTV超级电影.png" group-title="🎇NewTV",NewTV超级电影
+#EXTINF:-1 tvg-name="NewTV超级电影" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV超级电影.png" group-title="🎇NewTV",NewTV超级电影
 http://111.29.9.34:6610/000000001000/1000000003000012426/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000003000012426
-#EXTINF:-1 tvg-name="NewTV超级电视剧" tvg-logo="https://epg.iill.top/logo/NewTV超级电视剧.png" group-title="🎇NewTV",NewTV超级电视剧
+#EXTINF:-1 tvg-name="NewTV超级电视剧" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV超级电视剧.png" group-title="🎇NewTV",NewTV超级电视剧
 http://111.29.9.34:6610/000000001000/1000000006000268003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268003
-#EXTINF:-1 tvg-name="NewTV超级综艺" tvg-logo="https://epg.iill.top/logo/NewTV超级综艺.png" group-title="🎇NewTV",NewTV超级综艺
+#EXTINF:-1 tvg-name="NewTV超级综艺" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV超级综艺.png" group-title="🎇NewTV",NewTV超级综艺
 http://111.29.9.34:6610/000000001000/1000000006000268002/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268002
-#EXTINF:-1 tvg-name="NewTV金牌综艺" tvg-logo="https://epg.iill.top/logo/NewTV金牌综艺.png" group-title="🎇NewTV",NewTV金牌综艺
+#EXTINF:-1 tvg-name="NewTV金牌综艺" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV金牌综艺.png" group-title="🎇NewTV",NewTV金牌综艺
 http://111.29.9.34:6610/000000001000/2000000003000000005/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000005
-#EXTINF:-1 tvg-name="NewTV动作电影" tvg-logo="https://epg.iill.top/logo/NewTV动作电影.png" group-title="🎇NewTV",NewTV动作电影
+#EXTINF:-1 tvg-name="NewTV动作电影" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV动作电影.png" group-title="🎇NewTV",NewTV动作电影
 http://111.29.9.34:6610/000000001000/1000000004000018653/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000018653
-#EXTINF:-1 tvg-name="NewTV古装剧场" tvg-logo="https://epg.iill.top/logo/NewTV古装剧场.png" group-title="🎇NewTV",NewTV古装剧场
+#EXTINF:-1 tvg-name="NewTV古装剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV古装剧场.png" group-title="🎇NewTV",NewTV古装剧场
 http://111.29.9.34:6610/000000001000/2000000003000000024/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000024
-#EXTINF:-1 tvg-name="NewTV惊悚悬疑" tvg-logo="https://epg.iill.top/logo/NewTV惊悚悬疑.png" group-title="🎇NewTV",NewTV惊悚悬疑
+#EXTINF:-1 tvg-name="NewTV惊悚悬疑" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV惊悚悬疑.png" group-title="🎇NewTV",NewTV惊悚悬疑
 http://111.29.9.34:6610/000000001000/2000000003000000015/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000015
-#EXTINF:-1 tvg-name="NewTV欢乐剧场" tvg-logo="https://epg.iill.top/logo/NewTV欢乐剧场.png" group-title="🎇NewTV",NewTV欢乐剧场
+#EXTINF:-1 tvg-name="NewTV欢乐剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV欢乐剧场.png" group-title="🎇NewTV",NewTV欢乐剧场
 http://111.29.9.34:6610/000000001000/2000000003000000050/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000050
-#EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="https://epg.iill.top/logo/NewTV爱情喜剧.png" group-title="🎇NewTV",NewTV爱情喜剧
+#EXTINF:-1 tvg-name="NewTV爱情喜剧" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV爱情喜剧.png" group-title="🎇NewTV",NewTV爱情喜剧
 http://111.29.9.34:6610/000000001000/2000000003000000010/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000010
-#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="https://epg.iill.top/logo/NewTV精品纪录.png" group-title="🎇NewTV",NewTV精品纪录
+#EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV精品纪录.png" group-title="🎇NewTV",NewTV精品纪录
 http://111.29.9.34:6610/000000001000/2000000003000000019/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000019
-#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="https://epg.iill.top/logo/NewTV超级体育.png" group-title="🎇NewTV",NewTV超级体育
+#EXTINF:-1 tvg-name="NewTV超级体育" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV超级体育.png" group-title="🎇NewTV",NewTV超级体育
 http://111.29.9.34:6610/000000001000/1000000001000009601/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000009601
-#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="https://epg.iill.top/logo/NewTV军旅剧场.png" group-title="🎇NewTV",NewTV军旅剧场
+#EXTINF:-1 tvg-name="NewTV军旅剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV军旅剧场.png" group-title="🎇NewTV",NewTV军旅剧场
 http://111.29.9.34:6610/000000001000/2000000003000000014/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000014
-#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="https://epg.iill.top/logo/NewTV军事评论.png" group-title="🎇NewTV",NewTV军事评论
+#EXTINF:-1 tvg-name="NewTV军事评论" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV军事评论.png" group-title="🎇NewTV",NewTV军事评论
 http://111.29.9.34:6610/000000001000/2000000003000000022/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000022
-#EXTINF:-1 tvg-name="NewTV精品体育" tvg-logo="https://epg.iill.top/logo/NewTV精品体育.png" group-title="🎇NewTV",NewTV精品体育
+#EXTINF:-1 tvg-name="NewTV精品体育" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV精品体育.png" group-title="🎇NewTV",NewTV精品体育
 http://111.29.9.34:6610/000000001000/2000000003000000021/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000021
-#EXTINF:-1 tvg-name="NewTV农业致富" tvg-logo="https://epg.iill.top/logo/NewTV农业致富.png" group-title="🎇NewTV",NewTV农业致富
+#EXTINF:-1 tvg-name="NewTV农业致富" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV农业致富.png" group-title="🎇NewTV",NewTV农业致富
 http://111.29.9.34:6610/000000001000/2000000003000000003/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000003
-#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="https://epg.iill.top/logo/NewTV潮妈辣婆.png" group-title="🎇NewTV",NewTV潮妈辣婆
+#EXTINF:-1 tvg-name="NewTV潮妈辣婆" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV潮妈辣婆.png" group-title="🎇NewTV",NewTV潮妈辣婆
 http://111.29.9.34:6610/000000001000/2000000003000000018/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000018
-#EXTINF:-1 tvg-name="NewTV炫舞未来" tvg-logo="https://epg.iill.top/logo/NewTV炫舞未来.png" group-title="🎇NewTV",NewTV炫舞未来
+#EXTINF:-1 tvg-name="NewTV炫舞未来" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV炫舞未来.png" group-title="🎇NewTV",NewTV炫舞未来
 http://111.29.9.34:6610/000000001000/2000000003000000044/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000044
-#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="https://epg.iill.top/logo/NewTV精品萌宠.png" group-title="🎇NewTV",NewTV精品萌宠
+#EXTINF:-1 tvg-name="NewTV精品萌宠" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV精品萌宠.png" group-title="🎇NewTV",NewTV精品萌宠
 http://111.29.9.34:6610/000000001000/2000000003000000067/index.m3u8?livemode=1&stbId=10&channel-id=hnbblive&Contentid=2000000003000000067
 
 #EXTINF:-1 tvg-name="东方财经" tvg-logo="http://tvb.zyh520.tk/live/logo/东方财经.png" group-title="🎈数字频道",东方财经
@@ -1176,28 +1176,6 @@ http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 #EXTINF:-1 tvg-name="民视新闻" tvg-logo="http://tvb.zyh520.tk/live/logo/民视新闻.png" group-title="🇭🇰港台频道",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1 tvg-name="华语电视2" tvg-logo="http://tvb.zyh520.tk/live/logo/华语电视2.png" group-title="🇭🇰港台频道",华语电视2
-http://38.64.72.148:80/hls/modn/list/4002/chunklist0.m3u8
-#EXTINF:-1 tvg-name="TVBSG" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBSG.png" group-title="🇭🇰港台频道",TVBSG
-http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
-#EXTINF:-1 tvg-name="东森美洲卫视" tvg-logo="http://tvb.zyh520.tk/live/logo/东森美洲卫视.png" group-title="🇭🇰港台频道",东森美洲卫视
-http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
-#EXTINF:-1 tvg-name="大立电视" tvg-logo="http://tvb.zyh520.tk/live/logo/大立电视.png" group-title="🇭🇰港台频道",大立电视
-http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/FashionTV.png" group-title="🇭🇰港台频道",FashionTV
-http://80.94.54.42/fashiontv/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/FashionTV.png" group-title="🇭🇰港台频道",FashionTV
-http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8
-#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/FashionTV.png" group-title="🇭🇰港台频道",FashionTV
-http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
-#EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBS亚洲.png" group-title="🇭🇰港台频道",TVBS亚洲
-http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBS亚洲.png" group-title="🇭🇰港台频道",TVBS亚洲
-http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8
-#EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBS亚洲.png" group-title="🇭🇰港台频道",TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBS亚洲.png" group-title="🇭🇰港台频道",TVBS亚洲
-http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
 
 #EXTINF:-1 tvg-name="全国风景总览" tvg-logo="http://tvb.zyh520.tk/live/logo/全国风景总览.png" group-title="🌄全国风景",全国风景总览
 https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
