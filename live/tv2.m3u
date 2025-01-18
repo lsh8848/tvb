@@ -28,11 +28,11 @@ http://223.105.252.60/PLTV/4/224/3221228314/index.m3u8?servicetype=1
 #EXTINF:-1 tvg-name="纯享4K" tvg-logo="http://tvb.zyh520.tk/live/logo/纯享4K.png" group-title="🏮央视4K",纯享4K
 http://223.105.252.60/PLTV/4/224/3221228314/index.m3u8?servicetype=1
 http://111.29.9.34:6610/000000001000/1000000004000011651/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000004000011651
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场 4K
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/欢笑剧场.png" group-title="🏮央视4K",欢笑剧场4K
 http://111.29.9.34:6610/000000001000/1/1.m3u8?stbId=1&livemode=1&IASHttpSessionId=OTT760920241110011719006907&channel-id=bestzb&Contentid=5000000007000010001
-#EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://tvb.zyh520.tk/live/logo/LoveNature.png" group-title="🏮央视4K",LoveNature 4K
+#EXTINF:-1 tvg-name="LoveNature" tvg-logo="http://tvb.zyh520.tk/live/logo/LoveNature4K.png" group-title="🏮央视4K",LoveNature4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 tvg-name="loupe" tvg-logo="http://tvb.zyh520.tk/live/logo/loupe.png" group-title="🏮央视4K",loupe 4K
+#EXTINF:-1 tvg-name="loupe" tvg-logo="http://tvb.zyh520.tk/live/logo/Loupe4K.png" group-title="🏮央视4K",Loupe4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8
 
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://tvb.zyh520.tk/live/logo/CCTV1.png" group-title="🏮央卫超清",CCTV1
@@ -955,7 +955,7 @@ http://111.29.9.34:6610/000000001000/1000000002000019789/index.m3u8?livemode=1&s
 http://111.29.9.34:6610/000000001000/1000000001000001640/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000001640
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://tvb.zyh520.tk/live/logo/CCTV12.png" group-title="📡iTV央视",CCTV12 8M
 http://111.29.9.34:6610/000000001000/5000000011000031107/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031107
-#EXTINF:-1 tvg-name="CCTV14 " tvg-logo="http://tvb.zyh520.tk/live/logo/CCTV14 .png" group-title="📡iTV央视",CCTV14 2.5M
+#EXTINF:-1 tvg-name="CCTV14 " tvg-logo="http://tvb.zyh520.tk/live/logo/CCTV14.png" group-title="📡iTV央视",CCTV14 2.5M
 http://111.29.9.34:6610/000000001000/1000000001000021349/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000001000021349
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://tvb.zyh520.tk/live/logo/CCTV14.png" group-title="📡iTV央视",CCTV14 4M
 http://111.29.9.34:6610/000000001000/5000000010000023358/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000023358
@@ -969,7 +969,7 @@ http://111.29.9.34:6610/000000001000/1000000006000233001/index.m3u8?livemode=1&s
 http://111.29.9.34:6610/000000001000/1000000005000056836/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000005000056836
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="http://tvb.zyh520.tk/live/logo/CGTN.png" group-title="📡iTV央视",CGTN
 http://111.29.9.34:6610/000000001000/7745129417417101820/index.m3u8?livemode=1&stbId=test&channel-id=hnbblive&Contentid=7745129417417101820
-#EXTINF:-1 tvg-name="CGTN记录" tvg-logo="http://tvb.zyh520.tk/live/logo/CGTN记录.png" group-title="📡iTV央视",CGTN记录
+#EXTINF:-1 tvg-name="CGTN记录" tvg-logo="http://tvb.zyh520.tk/live/logo/CGTN纪录.png" group-title="📡iTV央视",CGTN纪录
 http://111.29.9.34:6610/000000001000/7114647837765104058/index.m3u8?livemode=1&stbId=test&channel-id=hnbblive&Contentid=7114647837765104058
 #EXTINF:-1 tvg-name="CETV4" tvg-logo="http://tvb.zyh520.tk/live/logo/CETV4.png" group-title="📡iTV央视",CETV4
 http://111.29.9.34:6610/000000001000/5000000011000031126/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031126
@@ -1154,7 +1154,7 @@ http://61.221.215.25:8800/hls/55/index.m3u8
 http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="TVBSNEWS" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBSNEWS.png" group-title="🇭🇰港台频道",TVBSNEWS
 http://61.221.215.25:8800/hls/9/index.m3u8
-#EXTINF:-1 tvg-name="AMC" tvg-logo="http://tvb.zyh520.tk/live/logo/AMC.png" group-title="🇭🇰港台频道",AMC电影
+#EXTINF:-1 tvg-name="AMC" tvg-logo="http://tvb.zyh520.tk/live/logo/AMC电影.png" group-title="🇭🇰港台频道",AMC电影
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-name="台视新闻" tvg-logo="http://tvb.zyh520.tk/live/logo/台视新闻.png" group-title="🇭🇰港台频道",台视新闻
 http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
@@ -1184,11 +1184,11 @@ http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 #EXTINF:-1 tvg-name="大立电视" tvg-logo="http://tvb.zyh520.tk/live/logo/大立电视.png" group-title="🇭🇰港台频道",大立电视
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
-#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/時尚台FTV.png" group-title="🇭🇰港台频道",時尚台FTV
+#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/FashionTV.png" group-title="🇭🇰港台频道",FashionTV
 http://80.94.54.42/fashiontv/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/時尚台FTV.png" group-title="🇭🇰港台频道",時尚台FTV
+#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/FashionTV.png" group-title="🇭🇰港台频道",FashionTV
 http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8
-#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/時尚台FTV.png" group-title="🇭🇰港台频道",時尚台FTV
+#EXTINF:-1 tvg-name="時尚台FTV" tvg-logo="http://tvb.zyh520.tk/live/logo/FashionTV.png" group-title="🇭🇰港台频道",FashionTV
 http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
 #EXTINF:-1 tvg-name="TVBS亚洲" tvg-logo="http://tvb.zyh520.tk/live/logo/TVBS亚洲.png" group-title="🇭🇰港台频道",TVBS亚洲
 http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
