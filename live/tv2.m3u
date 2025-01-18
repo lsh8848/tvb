@@ -1102,7 +1102,7 @@ http://111.29.9.34:6610/000000001000/5000000007000010003/index.m3u8?livemode=1&s
 http://111.29.9.34:6610/000000001000/5000000011000031203/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031203
 #EXTINF:-1 tvg-name="乐游" tvg-logo="http://tvb.zyh520.tk/live/logo/乐游.png" group-title="🎈数字频道",乐游
 http://111.29.9.34:6610/000000001000/5000000011000031112/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031112
-#EXTINF:-1 tvg-name="新闻综合" tvg-logo="http://tvb.zyh520.tk/live/logo/新闻综合.png" group-title="🎈数字频道",新闻综合
+#EXTINF:-1 tvg-name="上海新闻综合" tvg-logo="http://tvb.zyh520.tk/live/logo/上海新闻.png" group-title="🎈数字频道",上海新闻
 http://111.29.9.34:6610/000000001000/5000000011000031110/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031110
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/欢笑剧场.png" group-title="🎈数字频道",欢笑剧场
 http://111.29.9.34:6610/000000001000/5000000002000009455/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000009455
@@ -1112,7 +1112,7 @@ http://111.29.9.34:6610/000000001000/5000000011000031114/index.m3u8?livemode=1&s
 http://111.29.9.34:6610/000000001000/5000000002000019634/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000002000019634
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/都市剧场.png" group-title="🎈数字频道",都市剧场
 http://111.29.9.34:6610/000000001000/5000000011000031111/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000011000031111
-#EXTINF:-1 tvg-name="都市频道" tvg-logo="http://tvb.zyh520.tk/live/logo/都市频道.png" group-title="🎈数字频道",都市频道
+#EXTINF:-1 tvg-name="上海都市频道" tvg-logo="http://tvb.zyh520.tk/live/logo/上海都市.png" group-title="🎈数字频道",上海都市
 http://111.29.9.34:6610/000000001000/5000000010000018926/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000018926
 #EXTINF:-1 tvg-name="金色学堂" tvg-logo="http://tvb.zyh520.tk/live/logo/金色学堂.png" group-title="🎈数字频道",金色学堂
 http://111.29.9.34:6610/000000001000/5000000010000026105/index.m3u8?livemode=1&stbId=10&channel-id=bestzb&Contentid=5000000010000026105
