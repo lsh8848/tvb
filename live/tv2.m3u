@@ -1214,6 +1214,8 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226474/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://tvb.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🚀卫视移动",黑龙江卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
+#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://tvb.zyh520.tk/live/logo/北京纪实科教.png" group-title="🚀数字移动",北京纪实科教
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-name="NewTV黑莓电影" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV黑莓电影.png" group-title="🚀数字移动",NewTV黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 #EXTINF:-1 tvg-name="NewTV黑莓动画" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV黑莓动画.png" group-title="🚀数字移动",NewTV黑莓动画
@@ -1230,8 +1232,6 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
 #EXTINF:-1 tvg-name="NewTV精品纪录" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV精品纪录.png" group-title="🚀数字移动",NewTV精品纪录
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-name="NewTV纪实科教" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV纪实科教.png" group-title="🚀数字移动",NewTV纪实科教
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-name="NewTV明星大片" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV明星大片.png" group-title="🚀数字移动",NewTV明星大片
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
 #EXTINF:-1 tvg-name="NewTV古装剧场" tvg-logo="http://tvb.zyh520.tk/live/logo/NewTV古装剧场.png" group-title="🚀数字移动",NewTV古装剧场
