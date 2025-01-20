@@ -454,7 +454,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/MTV.json"
+      "ext": {
+        "json": "./lib/MTV.json"
+      }
     },
     {
       "key": "虎牙直播js",
@@ -531,7 +533,7 @@
     },
     {
       "key": "Biliych",
-      "name": "🅱明星┃演唱会",
+      "name": "🅱哔哔┃演唱会",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -571,7 +573,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/少儿教育.json"
+      "ext": {
+        "json": "./lib/少儿教育.json"
+      }
     },
     {
       "key": "小学课堂",
@@ -585,7 +589,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/小学课堂.json"
+      "ext": {
+        "json": "./lib/小学课堂.json"
+      }
     },
     {
       "key": "初中课堂",
@@ -599,7 +605,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/初中课堂.json"
+      "ext": {
+        "json": "./lib/初中课堂.json"
+      }
     },
     {
       "key": "高中教育",
@@ -613,8 +621,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/高中课堂.json"
+      "ext": {
+        "json": "./lib/高中课堂.json"
       }
+    }
   ],
   "lives": [
     {
