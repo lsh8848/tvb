@@ -621,7 +621,7 @@
       "name": "lsh-live",
       "type": 0,
       "playerType": 2,
-      "url": "https://tvb.zyh520.tk/live/tv2.m3u"
+      "url": "https://tv.zyh520.tk/live/tv2.m3u"
 /* ,
      "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
      "logo": "https://live.zjwz.us.kg/tv/{name}.png"
@@ -646,7 +646,7 @@
       "url": "http://192.168.2.99:5000/youtube/list/PLdRD5eMoMQy5ybIl5g4gmqs8x4B4Srg8f"
     },
     {
-      "name": "feiyang_整理_N1",
+      "name": "feiyang_整理2_N1",
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:35456/m3u/2"
