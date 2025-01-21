@@ -1,124 +1,136 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>在线TXT转M3U格式</title>
-  <meta name="description" content="一个简单的在线TXT转M3U格式工具，纯前端处理，无需上传txt文件粘贴即转换，安全不偷源。">
-  <meta name="keywords" content="txt转m3u,txt转换,m3u生成,LIVE">
-  <style>
-    body {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-    }
-    h2 {
-      color: #333;
-    }
-    #inputContainer {
-      margin-top: 10px;
-    }
-    label {
-      display: block;
-      margin-bottom: 5px;
-      color: #666;
-    }
-    textarea, #m3uOutput {
-      width: 800px;
-      height: 368px;
-      box-sizing: border-box;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 12px;
-    }
-    button {
-      margin-top: 10px;
-      padding: 10px 10px;
-      font-size: 14px;
-      cursor: pointer;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-    }
-    button:hover {
-      background-color: #45a049;
-    }
-    #m3uOutput {
-      margin-top: 5px;
-      background-color: #fff;
-      color: #333;
-    }
-    #copyright {
-      margin-top: 20px;
-      color: #666;
-      font-size: 12px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TXT 和 M3U 互相转换工具</title>
+    <!-- 设置 favicon.ico -->
+    <link rel="icon" href="https://tvb.zyh520.tk/img/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .tips {
+            color: #666;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-  <h2>在线TXT转M3U格式</h2>
-     <h3>TXT格式源:</h3>
-  <div id="inputContainer">
-    <textarea id="txtInput" rows="10" cols="80"></textarea>
-  </div>
-  <button onclick="convertToM3U()">转换格式</button>
-  <button onclick="clearScreen()">清除屏幕</button>
-  <button onclick="copyContent()">拷贝结果</button>
-  <button onclick="saveAsM3U()">保存m3u</button>
-  <h3>M3U格式转换结果:</h3>
-  <textarea id="m3uOutput" rows="10" cols="80" readonly></textarea>
-  <div id="copyright">
-    <p>© 2024 zyh520 All Rights Reserved.</p>
-  </div>
-  <script>
-    function convertToM3U() {
-      const txtInput = document.getElementById('txtInput').value;
-      const lines = txtInput.split('\n');
-      let m3uOutput = '#EXTM3U x-tvg-url="https://epg.zyh520.tk/112114.xml"\n';
-      let currentGroup = null;
-      for (const line of lines) {
-        const trimmedLine = line.trim();
-        if (trimmedLine !== '') {
-          if (trimmedLine.includes('#genre#')) {
-            currentGroup = trimmedLine.replace(/,#genre#/, '').trim();
-          } else {
-            const [originalChannelName, channelLink] = trimmedLine.split(',').map(item => item.trim());
-            const processedChannelName = originalChannelName.replace(/(CCTV|CETV)-(\d+).*/, '$1$2');
-            m3uOutput += `#EXTINF:-1 tvg-name="${processedChannelName}" tvg-logo="https://tv.zyh520.tk/live/logo/${processedChannelName}.png"`;
-            if (currentGroup) {
-              m3uOutput += ` group-title="${currentGroup}"`;
-            }
-            m3uOutput += `,${originalChannelName}\n${channelLink}\n`;
-          }
+    <div class="container">
+        <h1>TXT 和 M3U 互相转换工具</h1>
+        <textarea id="input" placeholder="在此粘贴 TXT 或 M3U 内容"></textarea>
+        <div>
+            <button onclick="txtToM3u()">TXT 转 M3U</button>
+            <button onclick="m3uToTxt()">M3U 转 TXT</button>
+            <button onclick="clearInput()">清空内容</button>
+            <button onclick="copyResult()">复制结果</button>
+        </div>
+        <textarea id="output" placeholder="转换结果将显示在此" readonly></textarea>
+        <div class="tips">
+            <p><strong>使用说明：</strong></p>
+            <ul>
+                <li>TXT 格式：分组名,#genre#，例如：<code>央视频道,#genre#</code>。</li>
+                <li>M3U 格式：包含 <code>tvg-id</code>、<code>tvg-name</code> 和 <code>tvg-logo</code>，且匹配电视台名称。</li>
+                <li>M3U 文件头部包含 <code>x-tvg-url="https://epg.zyh520.tk/112114.xml"</code>。</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // TXT 转 M3U
+        function txtToM3u() {
+            const input = document.getElementById("input").value.trim();
+            const lines = input.split("\n");
+            let result = "#EXTM3U x-tvg-url=\"https://epg.zyh520.tk/112114.xml\"\n";
+            let groupName = "未分组";
+
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.endsWith(",#genre#")) {
+                    // 处理分组行
+                    groupName = line.replace(",#genre#", "");
+                } else if (line.includes(",")) {
+                    // 处理频道行
+                    const [channelName, url] = line.split(",");
+                    const tvgId = channelName.trim();
+                    const tvgName = channelName.trim();
+                    const tvgLogo = `https://tv.zyh520.tk/live/logo/${tvgName}.png`; // 中文字符不编码
+                    result += `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-logo="${tvgLogo}" group-title="${groupName}",${channelName}\n`;
+                    result += `${url.trim()}\n`;
+                }
+            });
+
+            document.getElementById("output").value = result;
         }
-      }
-      document.getElementById('m3uOutput').value = m3uOutput;
-    }
-    function clearScreen() {
-      document.getElementById('txtInput').value = '';
-      document.getElementById('m3uOutput').value = '';
-    }
-    function copyContent() {
-      const m3uOutput = document.getElementById('m3uOutput');
-      m3uOutput.select();
-      document.execCommand('copy');
-      alert('内容已复制到剪贴板！');
-    }
-    function saveAsM3U() {
-      const m3uContent = document.getElementById('m3uOutput').value;
-      const blob = new Blob([m3uContent], { type: 'text/plain' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'playlist.m3u';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-    }
-  </script>
+
+        // M3U 转 TXT
+        function m3uToTxt() {
+            const input = document.getElementById("input").value.trim();
+            const lines = input.split("\n");
+            let result = "";
+            let groupName = "未分组";
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (line.startsWith("#EXTINF:-1")) {
+                    // 解析频道信息
+                    const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
+                    const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
+                    const groupTitleMatch = line.match(/group-title="([^"]+)"/);
+                    const channelNameMatch = line.match(/,(.+)$/);
+
+                    const tvgId = tvgIdMatch ? tvgIdMatch[1] : "";
+                    const tvgName = tvgNameMatch ? tvgNameMatch[1] : "";
+                    const groupTitle = groupTitleMatch ? groupTitleMatch[1] : "未分组";
+                    const channelName = channelNameMatch ? channelNameMatch[1].trim() : "";
+
+                    if (groupTitle !== groupName) {
+                        // 新分组
+                        groupName = groupTitle;
+                        result += `${groupName},#genre#\n`;
+                    }
+
+                    // 获取下一行的 URL
+                    const url = lines[i + 1] ? lines[i + 1].trim() : "";
+                    if (url) {
+                        result += `${channelName},${url}\n`;
+                    }
+                }
+            }
+
+            document.getElementById("output").value = result;
+        }
+
+        // 清空输入和输出
+        function clearInput() {
+            document.getElementById("input").value = "";
+            document.getElementById("output").value = "";
+        }
+
+        // 复制结果
+        function copyResult() {
+            const output = document.getElementById("output");
+            output.select();
+            document.execCommand("copy");
+            alert("结果已复制到剪贴板！");
+        }
+    </script>
 </body>
 </html>

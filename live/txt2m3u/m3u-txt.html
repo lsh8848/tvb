@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid:not(.vjs-audio-only-mode) {
+        padding-top: 56.25%
+      }
+    </style>
+		<title>M3U列表格式转换</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="robots" content="index,follow">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="format-detection" content="telphone=no, email=no">
+		<meta name="description" content="">
+		<meta name="keywords" content="M3U列表格式转换">
+		<meta name="description" itemprop="description" content="">
+                		<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="pld-font-awesome-css" href="./m3u-txt_files/all.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="pld-frontend-css" href="./m3u-txt_files/pld-frontend.css" type="text/css" media="all">
+<link rel="stylesheet" id="ce_responsive-css" href="./m3u-txt_files/video-container.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="./m3u-txt_files/animate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="awesome-css" href="./m3u-txt_files/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="./m3u-txt_files/bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="superfish-css" href="./m3u-txt_files/superfish.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="kratos-css" href="./m3u-txt_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="fancybox-css" href="./m3u-txt_files/jquery.fancybox.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-videojs-css" href="./m3u-txt_files/video-js.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-videojs-errc-css" href="./m3u-txt_files/videojs-errors.css" type="text/css" media="all">
+<link rel="stylesheet" id="style-videojs-errcd-css" href="./m3u-txt_files/videojs-mobile-ui.css" type="text/css" media="all">
+<link rel="stylesheet" id="ajax-comment-css" href="./m3u-txt_files/app.css" type="text/css" media="all">
+<link rel="stylesheet" id="mycred-front-css" href="./m3u-txt_files/mycred-front.css" type="text/css" media="all">
+<link rel="stylesheet" id="mycred-social-share-icons-css" href="./m3u-txt_files/mycred-social-icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="mycred-social-share-style-css" href="./m3u-txt_files/mycred-social-share.css" type="text/css" media="all">
+<link rel="stylesheet" id="erphpdown-css" href="./m3u-txt_files/erphpdown.css" type="text/css" media="screen">
+
+	<style id="erphpdown-custom"></style>
+	<script src="./m3u-txt_files/f.txt" nonce="hSZrsYMZVjx0IqsFeHwl6g"></script>
+<style></style><style id="cooment">
+        .comment-list{
+            counter-reset:comment-floor -32
+        }
+        .comment-list > .comment{
+            position:relative;
+        }
+        .comment-list > .comment:before{
+            content:counter(comment-floor, decimal);
+            counter-increment:comment-floor;
+            font-size: 32px;
+            position:absolute;
+            top:8px;
+            right:32px;
+            color:rgba(0,0,0,0.05);
+            font-style: italic;
+            font-weight: 700;
+        }</style>
+		<script type="text/javascript" src="./m3u-txt_files/jquery.min.js" id="jquery-js"></script>
+		                                        <!--此处可以放置PC端广告代码-->
+                        <script async="" src="./m3u-txt_files/f(1).txt"></script>
+                        <script>
+                                  (adsbygoogle = window.adsbygoogle || []).push({
+                                    google_ad_client: "ca-pub-8763698931260568",
+                                    enable_page_level_ads: true });
+                        </script>               
+                				<!--防止广告拦截-start-->
+				<script async="" src="./m3u-txt_files/pub-8763698931260568" nonce="hSZrsYMZVjx0IqsFeHwl6g"></script><script nonce="hSZrsYMZVjx0IqsFeHwl6g">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+				<script>(function(){'use strict';function aa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}var ba="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};
+function ea(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");}var fa=ea(this);function ha(a,b){if(b)a:{var c=fa;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&null!=b&&ba(c,a,{configurable:!0,writable:!0,value:b})}}
+var ia="function"==typeof Object.create?Object.create:function(a){function b(){}b.prototype=a;return new b},l;if("function"==typeof Object.setPrototypeOf)l=Object.setPrototypeOf;else{var m;a:{var ja={a:!0},ka={};try{ka.__proto__=ja;m=ka.a;break a}catch(a){}m=!1}l=m?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}var la=l;
+function n(a,b){a.prototype=ia(b.prototype);a.prototype.constructor=a;if(la)la(a,b);else for(var c in b)if("prototype"!=c)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.A=b.prototype}function ma(){for(var a=Number(this),b=[],c=a;c<arguments.length;c++)b[c-a]=arguments[c];return b}
+var na="function"==typeof Object.assign?Object.assign:function(a,b){for(var c=1;c<arguments.length;c++){var d=arguments[c];if(d)for(var e in d)Object.prototype.hasOwnProperty.call(d,e)&&(a[e]=d[e])}return a};ha("Object.assign",function(a){return a||na});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var p=this||self;function q(a){return a};var t,u;a:{for(var oa=["CLOSURE_FLAGS"],v=p,x=0;x<oa.length;x++)if(v=v[oa[x]],null==v){u=null;break a}u=v}var pa=u&&u[610401301];t=null!=pa?pa:!1;var z,qa=p.navigator;z=qa?qa.userAgentData||null:null;function A(a){return t?z?z.brands.some(function(b){return(b=b.brand)&&-1!=b.indexOf(a)}):!1:!1}function B(a){var b;a:{if(b=p.navigator)if(b=b.userAgent)break a;b=""}return-1!=b.indexOf(a)};function C(){return t?!!z&&0<z.brands.length:!1}function D(){return C()?A("Chromium"):(B("Chrome")||B("CriOS"))&&!(C()?0:B("Edge"))||B("Silk")};var ra=C()?!1:B("Trident")||B("MSIE");!B("Android")||D();D();B("Safari")&&(D()||(C()?0:B("Coast"))||(C()?0:B("Opera"))||(C()?0:B("Edge"))||(C()?A("Microsoft Edge"):B("Edg/"))||C()&&A("Opera"));var sa={},E=null;var ta="undefined"!==typeof Uint8Array,ua=!ra&&"function"===typeof btoa;var F="function"===typeof Symbol&&"symbol"===typeof Symbol()?Symbol():void 0,G=F?function(a,b){a[F]|=b}:function(a,b){void 0!==a.g?a.g|=b:Object.defineProperties(a,{g:{value:b,configurable:!0,writable:!0,enumerable:!1}})};function va(a){var b=H(a);1!==(b&1)&&(Object.isFrozen(a)&&(a=Array.prototype.slice.call(a)),I(a,b|1))}
+var H=F?function(a){return a[F]|0}:function(a){return a.g|0},J=F?function(a){return a[F]}:function(a){return a.g},I=F?function(a,b){a[F]=b}:function(a,b){void 0!==a.g?a.g=b:Object.defineProperties(a,{g:{value:b,configurable:!0,writable:!0,enumerable:!1}})};function wa(){var a=[];G(a,1);return a}function xa(a,b){I(b,(a|0)&-99)}function K(a,b){I(b,(a|34)&-73)}function L(a){a=a>>11&1023;return 0===a?536870912:a};var M={};function N(a){return null!==a&&"object"===typeof a&&!Array.isArray(a)&&a.constructor===Object}var O,ya=[];I(ya,39);O=Object.freeze(ya);var P;function Q(a,b){P=b;a=new a(b);P=void 0;return a}
+function R(a,b,c){null==a&&(a=P);P=void 0;if(null==a){var d=96;c?(a=[c],d|=512):a=[];b&&(d=d&-2095105|(b&1023)<<11)}else{if(!Array.isArray(a))throw Error();d=H(a);if(d&64)return a;d|=64;if(c&&(d|=512,c!==a[0]))throw Error();a:{c=a;var e=c.length;if(e){var f=e-1,g=c[f];if(N(g)){d|=256;b=(d>>9&1)-1;e=f-b;1024<=e&&(za(c,b,g),e=1023);d=d&-2095105|(e&1023)<<11;break a}}b&&(g=(d>>9&1)-1,b=Math.max(b,e-g),1024<b&&(za(c,g,{}),d|=256,b=1023),d=d&-2095105|(b&1023)<<11)}}I(a,d);return a}
+function za(a,b,c){for(var d=1023+b,e=a.length,f=d;f<e;f++){var g=a[f];null!=g&&g!==c&&(c[f-b]=g)}a.length=d+1;a[d]=c};function Aa(a){switch(typeof a){case "number":return isFinite(a)?a:String(a);case "boolean":return a?1:0;case "object":if(a&&!Array.isArray(a)&&ta&&null!=a&&a instanceof Uint8Array){if(ua){for(var b="",c=0,d=a.length-10240;c<d;)b+=String.fromCharCode.apply(null,a.subarray(c,c+=10240));b+=String.fromCharCode.apply(null,c?a.subarray(c):a);a=btoa(b)}else{void 0===b&&(b=0);if(!E){E={};c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split("");d=["+/=","+/","-_=","-_.","-_"];for(var e=
+0;5>e;e++){var f=c.concat(d[e].split(""));sa[e]=f;for(var g=0;g<f.length;g++){var h=f[g];void 0===E[h]&&(E[h]=g)}}}b=sa[b];c=Array(Math.floor(a.length/3));d=b[64]||"";for(e=f=0;f<a.length-2;f+=3){var k=a[f],w=a[f+1];h=a[f+2];g=b[k>>2];k=b[(k&3)<<4|w>>4];w=b[(w&15)<<2|h>>6];h=b[h&63];c[e++]=g+k+w+h}g=0;h=d;switch(a.length-f){case 2:g=a[f+1],h=b[(g&15)<<2]||d;case 1:a=a[f],c[e]=b[a>>2]+b[(a&3)<<4|g>>4]+h+d}a=c.join("")}return a}}return a};function Ba(a,b,c){a=Array.prototype.slice.call(a);var d=a.length,e=b&256?a[d-1]:void 0;d+=e?-1:0;for(b=b&512?1:0;b<d;b++)a[b]=c(a[b]);if(e){b=a[b]={};for(var f in e)Object.prototype.hasOwnProperty.call(e,f)&&(b[f]=c(e[f]))}return a}function Da(a,b,c,d,e,f){if(null!=a){if(Array.isArray(a))a=e&&0==a.length&&H(a)&1?void 0:f&&H(a)&2?a:Ea(a,b,c,void 0!==d,e,f);else if(N(a)){var g={},h;for(h in a)Object.prototype.hasOwnProperty.call(a,h)&&(g[h]=Da(a[h],b,c,d,e,f));a=g}else a=b(a,d);return a}}
+function Ea(a,b,c,d,e,f){var g=d||c?H(a):0;d=d?!!(g&32):void 0;a=Array.prototype.slice.call(a);for(var h=0;h<a.length;h++)a[h]=Da(a[h],b,c,d,e,f);c&&c(g,a);return a}function Fa(a){return a.s===M?a.toJSON():Aa(a)};function Ga(a,b,c){c=void 0===c?K:c;if(null!=a){if(ta&&a instanceof Uint8Array)return b?a:new Uint8Array(a);if(Array.isArray(a)){var d=H(a);if(d&2)return a;if(b&&!(d&64)&&(d&32||0===d))return I(a,d|34),a;a=Ea(a,Ga,d&4?K:c,!0,!1,!0);b=H(a);b&4&&b&2&&Object.freeze(a);return a}a.s===M&&(b=a.h,c=J(b),a=c&2?a:Q(a.constructor,Ha(b,c,!0)));return a}}function Ha(a,b,c){var d=c||b&2?K:xa,e=!!(b&32);a=Ba(a,b,function(f){return Ga(f,e,d)});G(a,32|(c?2:0));return a};function Ia(a,b){a=a.h;return Ja(a,J(a),b)}function Ja(a,b,c,d){if(-1===c)return null;if(c>=L(b)){if(b&256)return a[a.length-1][c]}else{var e=a.length;if(d&&b&256&&(d=a[e-1][c],null!=d))return d;b=c+((b>>9&1)-1);if(b<e)return a[b]}}function Ka(a,b,c,d,e){var f=L(b);if(c>=f||e){e=b;if(b&256)f=a[a.length-1];else{if(null==d)return;f=a[f+((b>>9&1)-1)]={};e|=256}f[c]=d;e&=-1025;e!==b&&I(a,e)}else a[c+((b>>9&1)-1)]=d,b&256&&(d=a[a.length-1],c in d&&delete d[c]),b&1024&&I(a,b&-1025)}
+function La(a,b){var c=Ma;var d=void 0===d?!1:d;var e=a.h;var f=J(e),g=Ja(e,f,b,d);var h=!1;if(null==g||"object"!==typeof g||(h=Array.isArray(g))||g.s!==M)if(h){var k=h=H(g);0===k&&(k|=f&32);k|=f&2;k!==h&&I(g,k);c=new c(g)}else c=void 0;else c=g;c!==g&&null!=c&&Ka(e,f,b,c,d);e=c;if(null==e)return e;a=a.h;f=J(a);f&2||(g=e,c=g.h,h=J(c),g=h&2?Q(g.constructor,Ha(c,h,!1)):g,g!==e&&(e=g,Ka(a,f,b,e,d)));return e}function Na(a,b){a=Ia(a,b);return null==a||"string"===typeof a?a:void 0}
+function Oa(a,b){a=Ia(a,b);return null!=a?a:0}function S(a,b){a=Na(a,b);return null!=a?a:""};function T(a,b,c){this.h=R(a,b,c)}T.prototype.toJSON=function(){var a=Ea(this.h,Fa,void 0,void 0,!1,!1);return Pa(this,a,!0)};T.prototype.s=M;T.prototype.toString=function(){return Pa(this,this.h,!1).toString()};
+function Pa(a,b,c){var d=a.constructor.v,e=L(J(c?a.h:b)),f=!1;if(d){if(!c){b=Array.prototype.slice.call(b);var g;if(b.length&&N(g=b[b.length-1]))for(f=0;f<d.length;f++)if(d[f]>=e){Object.assign(b[b.length-1]={},g);break}f=!0}e=b;c=!c;g=J(a.h);a=L(g);g=(g>>9&1)-1;for(var h,k,w=0;w<d.length;w++)if(k=d[w],k<a){k+=g;var r=e[k];null==r?e[k]=c?O:wa():c&&r!==O&&va(r)}else h||(r=void 0,e.length&&N(r=e[e.length-1])?h=r:e.push(h={})),r=h[k],null==h[k]?h[k]=c?O:wa():c&&r!==O&&va(r)}d=b.length;if(!d)return b;
+var Ca;if(N(h=b[d-1])){a:{var y=h;e={};c=!1;for(var ca in y)Object.prototype.hasOwnProperty.call(y,ca)&&(a=y[ca],Array.isArray(a)&&a!=a&&(c=!0),null!=a?e[ca]=a:c=!0);if(c){for(var rb in e){y=e;break a}y=null}}y!=h&&(Ca=!0);d--}for(;0<d;d--){h=b[d-1];if(null!=h)break;var cb=!0}if(!Ca&&!cb)return b;var da;f?da=b:da=Array.prototype.slice.call(b,0,d);b=da;f&&(b.length=d);y&&b.push(y);return b};function Qa(a){return function(b){if(null==b||""==b)b=new a;else{b=JSON.parse(b);if(!Array.isArray(b))throw Error(void 0);G(b,32);b=Q(a,b)}return b}};function Ra(a){this.h=R(a)}n(Ra,T);var Sa=Qa(Ra);var U;function V(a){this.g=a}V.prototype.toString=function(){return this.g+""};var Ta={};function Ua(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^Date.now()).toString(36)};function Va(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)}function Wa(a){this.g=a||p.document||document}Wa.prototype.appendChild=function(a,b){a.appendChild(b)};/*
+
+ SPDX-License-Identifier: Apache-2.0
+*/
+function Xa(a,b){a.src=b instanceof V&&b.constructor===V?b.g:"type_error:TrustedResourceUrl";var c,d;(c=(b=null==(d=(c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document).querySelector)?void 0:d.call(c,"script[nonce]"))?b.nonce||b.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",c)};function Ya(a){a=void 0===a?document:a;return a.createElement("script")};function Za(a,b,c,d,e,f){try{var g=a.g,h=Ya(g);h.async=!0;Xa(h,b);g.head.appendChild(h);h.addEventListener("load",function(){e();d&&g.head.removeChild(h)});h.addEventListener("error",function(){0<c?Za(a,b,c-1,d,e,f):(d&&g.head.removeChild(h),f())})}catch(k){f()}};var $a=p.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ab=p.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),bb=p.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu");function db(a,b,c){this.i=a;this.l=new Wa(this.i);this.g=null;this.j=[];this.m=!1;this.u=b;this.o=c}
+function eb(a){if(a.i.body&&!a.m){var b=function(){fb(a);p.setTimeout(function(){return gb(a,3)},50)};Za(a.l,a.u,2,!0,function(){p[a.o]||b()},b);a.m=!0}}
+function fb(a){for(var b=W(1,5),c=0;c<b;c++){var d=X(a);a.i.body.appendChild(d);a.j.push(d)}b=X(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=W(100,110).toString()+"%";b.style.zIndex=W(2147483544,2147483644).toString();b.style["background-color"]=hb(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=hb(0,10,0,10,0,10);b.style.display="flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=X(a);c.style.width=W(80,
+85).toString()+"%";c.style.maxWidth=W(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=Va(a.l.g,"IMG");d.className=Ua();d.src=$a;d.alt="Warning icon";d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=X(a),f=X(a);f.style["font-weight"]="bold";f.textContent=ab;var g=X(a);g.textContent=bb;Y(a,e,f);Y(a,e,g);Y(a,c,d);Y(a,c,e);Y(a,b,c);a.g=b;a.i.body.appendChild(a.g);b=W(1,5);for(c=
+0;c<b;c++)d=X(a),a.i.body.appendChild(d),a.j.push(d)}function Y(a,b,c){for(var d=W(1,5),e=0;e<d;e++){var f=X(a);b.appendChild(f)}b.appendChild(c);c=W(1,5);for(d=0;d<c;d++)e=X(a),b.appendChild(e)}function W(a,b){return Math.floor(a+Math.random()*(b-a))}function hb(a,b,c,d,e,f){return"rgb("+W(Math.max(a,0),Math.min(b,255)).toString()+","+W(Math.max(c,0),Math.min(d,255)).toString()+","+W(Math.max(e,0),Math.min(f,255)).toString()+")"}function X(a){a=Va(a.l.g,"DIV");a.className=Ua();return a}
+function gb(a,b){0>=b||null!=a.g&&0!=a.g.offsetHeight&&0!=a.g.offsetWidth||(ib(a),fb(a),p.setTimeout(function(){return gb(a,b-1)},50))}
+function ib(a){var b=a.j;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];if(c)b=c.call(b);else if("number"==typeof b.length)b={next:aa(b)};else throw Error(String(b)+" is not an iterable or ArrayLike");for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.j=[];(b=a.g)&&b.parentNode&&b.parentNode.removeChild(b);a.g=null};function jb(a,b,c,d,e){function f(k){document.body?g(document.body):0<k?p.setTimeout(function(){f(k-1)},e):b()}function g(k){k.appendChild(h);p.setTimeout(function(){h?(0!==h.offsetHeight&&0!==h.offsetWidth?b():a(),h.parentNode&&h.parentNode.removeChild(h)):a()},d)}var h=kb(c);f(3)}function kb(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};function Ma(a){this.h=R(a)}n(Ma,T);function lb(a){this.h=R(a)}n(lb,T);var mb=Qa(lb);function nb(a){a=Na(a,4)||"";if(void 0===U){var b=null;var c=p.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:q,createScript:q,createScriptURL:q})}catch(d){p.console&&p.console.error(d.message)}U=b}else U=b}a=(b=U)?b.createScriptURL(a):a;return new V(a,Ta)};function ob(a,b){this.m=a;this.o=new Wa(a.document);this.g=b;this.j=S(this.g,1);this.u=nb(La(this.g,2));this.i=!1;b=nb(La(this.g,13));this.l=new db(a.document,b,S(this.g,12))}ob.prototype.start=function(){pb(this)};
+function pb(a){qb(a);Za(a.o,a.u,3,!1,function(){a:{var b=a.j;var c=p.btoa(b);if(c=p[c]){try{var d=Sa(p.atob(c))}catch(e){b=!1;break a}b=b===Na(d,1)}else b=!1}b?Z(a,S(a.g,14)):(Z(a,S(a.g,8)),eb(a.l))},function(){jb(function(){Z(a,S(a.g,7));eb(a.l)},function(){return Z(a,S(a.g,6))},S(a.g,9),Oa(a.g,10),Oa(a.g,11))})}function Z(a,b){a.i||(a.i=!0,a=new a.m.XMLHttpRequest,a.open("GET",b,!0),a.send())}function qb(a){var b=p.btoa(a.j);a.m[b]&&Z(a,S(a.g,5))};(function(a,b){p[a]=function(){var c=ma.apply(0,arguments);p[a]=function(){};b.apply(null,c)}})("__h82AlnkH6D91__",function(a){"function"===typeof window.atob&&(new ob(window,mb(window.atob(a)))).start()});}).call(this);
+
+window.__h82AlnkH6D91__("WyJwdWItODc2MzY5ODkzMTI2MDU2OCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi04NzYzNjk4OTMxMjYwNTY4Il0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hYSzhnMjgtUFE2ZTg2YTBzSl9LWFhNcE9zOTZFZXoyVDg2Z0hOaWtxV2VCd1h0eXhKSFNTRlZsM3Rsa3FYdDR3a2FjN3psM2lla1E3N21lNmp6c25VYWJRXHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFVtS2ZQdWN2SXo5VXpjcWxxUndtZkhUZ1JaNklqd3hDd1NyOElmbWdRb3N6V0V5OTdMVEZqaEhnalZpWU1fcmRpdDlnbTV3MDdkNjkxVEhBbHhFZmFrVWdcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFdkU25sZXczc2VCWGZNaEtGNTBfVi1NUDdZalNyckNibFBVZDNJSGRhbTZ1dHJfVFVFaEpyOF82b2g1OVUza1o0aWthUUF1aTJOYnAwVFJGNlo3T0t0NHdcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFhVTUdEdm5WRHdrTC1henctY3JwdjY4YXBrU1llQXkwZG9lOTFxZm9XbWRmVGNHX0YzRGhEenhOMTJ0SGdERUpISlpRZThLclFuVkFGM2FULTdZdGVWMmdcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUZzNOak0yT1RnNU16RXlOakExTmpnXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi04NzYzNjk4OTMxMjYwNTY4LmpzP3VzcXBcdTAwM2RDQW8iXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4VmlzUjg4aG0zOThqZnVGbUZ2d1M0M21HTXFpcTRTUjN4YW93dkdrNjUyUXhWU0pjd2dLZzMwM0Z6eFBicFFoZWxYWFVzVURMN1VjMV93X1UyelBDQl9OQVx1MDAzZFx1MDAzZCJd");</script><script async="" src="./m3u-txt_files/pub-8763698931260568(1)" nonce="hSZrsYMZVjx0IqsFeHwl6g"></script>
+<!---防止广告拦截-END--->
+	<script async="" src="./m3u-txt_files/AGSKWxVrO8Qaru9nBKgei_qKXgazg8kzlRVBFf7rT5p3M4FKBjycRR5p5IVQXJBk-9S7SZHQhuGp_ZayBOP2VNtLY0wnlPCWYJhtAfg8v37x2ptZD4AZScCglK2gu-ecP6wqEnqNa_eoxw==" nonce="hSZrsYMZVjx0IqsFeHwl6g"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="./m3u-txt_files/AGSKWxWl-2j31t5IXa32G5odRhqs_Z7Zm5wjuy2Rd46eDuYi70QXiugGrDcb5uRA1I0Lk0FbAoc3i06-avMQwbR6M69vtVKbtc72_4vDtCtiSeUS_f3KSojRnMzwPUOkNFi3oHMRrMi54w==" nonce="hSZrsYMZVjx0IqsFeHwl6g"></script><script async="" src="./m3u-txt_files/AGSKWxUVUqHwsT1_szZW9DY6QZNut_q9bUVPy5w1k6jC3NjPUKxC1gfwjCdVeiPKWhNx8s__meOk7kiLPy35LaiHuGPegw4xHU7wCgT68dleWU-x3lIvQWLDwKGbLd9aIrdNIj5K4U-85w==" nonce="hSZrsYMZVjx0IqsFeHwl6g"></script></head>
+		<body data-spy="scroll" data-target=".scrollspy">
+		<div id="kratos-wrapper">
+			<div id="kratos-page" style="height: auto !important;"><nav id="offcanvas-menu" class="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95-container" style="height: 1006px;"><ul id="" class="" style="touch-action: pan-y;">
+</ul></nav>
+				<div id="kratos-header">
+					<header id="kratos-header-section">
+						<div class="container">
+							
+						</div>
+					</header>
+				</div><style>
+.txtarea{resize:none;height:366px;width:100%;font-size:14px;color:#333;line-height:160%}
+.tvinput{font-size:14px;color:#333;margin:5px 4px 5px 0px}
+.form-group{float:right;margin-top:5px;margin-left:21px;margin-bottom:10px}
+.fileinput-button{float:left;position:relative;display:inline-block;overflow:hidden;margin-top:0px;margin-bottom:10px}
+.fileinput-button input{position:absolute;right:0;top:0;opacity:0;-ms-filter:'alpha(opacity=0)';font-size:20px}
+/** .row {margin-right: -10px;margin-left: -10px;} **/
+.kratos-post-inner {padding-top: 2px;}
+@media screen and (max-width: 768px){
+    .kratos-post-inner {padding-top: 2px;}
+}
+</style>
+<div id="kratos-blog-post" style="background: rgb(245, 245, 245); height: auto !important;">
+    <div class="container" style="height: auto !important;">
+        <div class="row" style="height: auto !important;">
+            <section id="main" class="col-md-8">
+                            <article>
+                    <div class="kratos-hentry kratos-post-inner clearfix">
+                        <div class="kratos-post-content">
+                            <div>
+                                <div>
+                                    <div class="form-group">
+                                        <label>文件编码：</label>
+                                        <select id="encoding">
+                                                <option value="gbk">GBK</option>
+                                                <option value="utf-8" selected="">UTF-8</option>
+                                                <option value="gbk">GB2312</option>
+                                                <option value="big5">BIG5</option>
+                                                <option value="korean">EUC-KR（韩文）</option>
+                                                <option value="euc-jp">EUC-JP（日文）</option>
+                                                <option value="utf-16be">UTF-16BE</option>
+                                                <option value="utf-16le">UTF-16LE</option>
+                                        </select>
+                                    </div>
+                                    <span class="btn btn-success fileinput-button">
+                                        <span>选择文件</span>
+                                        <input type="file" id="inputBrow">
+                                    </span>
+                                </div>
+                                
+                                <textarea class="txtarea" id="tvsource-input" name="zbytxt" wrap="off"></textarea>
+								<br>模式：
+								<input type="radio" name="gender" value="defs" checked=""> 普通&nbsp;&nbsp;	
+								<input type="radio" name="gender" id="qiana" value="gens"> 加强A&nbsp;&nbsp;
+								<br>扩展：
+								<input type="checkbox" name="radiokuozhan" value="group-title" checked=""> group-title&nbsp;&nbsp;
+								<input type="checkbox" name="radiokuozhan" value="tvg-logo"> tvg-logo&nbsp;&nbsp;
+								<input type="checkbox" name="radiokuozhan" value="tvg-id"> tvg-id&nbsp;&nbsp;
+								<input type="checkbox" name="radiokuozhan" value="tvg-name"> tvg-name&nbsp;&nbsp;
+								<br>过滤：
+								<input type="checkbox" value="flaggen"> 分组行添加#genre#标识&nbsp;&nbsp;
+								<br><div id="qiandiv" style="display: none;">其他：
+								<input type="checkbox" id="qianta" value="flagta"> 扩展数据为空时不显示&nbsp;&nbsp;
+                                <br></div>
+								<p>
+                                <input type="button" class="tvinput" id="TXTAJAX" name="M3UPP" onclick="m3u2txtupdate()" value="M3U转通用TXT格式">
+                                <input type="button" class="tvinput" id="M3UPPAJAX" name="M3UPP" onclick="tran2m3ugroup();" value="TXT 转 M3U"> | 
+								<input type="button" class="tvinput" id="M3Utest" name="M3UPP" onclick="getlogos();" value="提取台标">
+								<input type="button" class="tvinput" id="m3uclear" name="M3UPP" onclick="m3ucleararea();" value="清除屏幕">
+                                </p>                            
+                                <h2 id="zbyjg">转换结果</h2>
+                                <textarea class="txtarea" id="contents" name="contents" readonly="readonly" wrap="off"></textarea>
+								<p id="rtips"></p>
+                                <input type="button" class="tvinput" onclick="copy();" value="复制文本">
+                                <input type="button" class="tvinput" onclick="downloadmitv();" value="下载">                                                                       
+                            </div>                            
+                            <h2>使用说明</h2>
+<p>默认转换为带分组标签的M3U格式，如果不需要，自行取消勾选 group-title 后再执行；<br>
+由于各个软件解析M3U列表的方式不同，暂时先考虑如央视卫视等知名电视台的台标；</p>
+<p>
+<strong>普通模式</strong>：生成的M3U扩展标签内默认无内容。<br>
+<strong>加强模式</strong>：后续根据需求适当匹配内容，诸如匹配台标图片地址等。
+</p>
+<p>扩展参数需要播放器甚至EPG列表配合才能显示它的价值，闭门造车毫无用处，尽量提供多种选项适配市面上流行的客户端。</p>
+<p>通用格式举例：</p>
+<pre>天津
+滨海新闻,http://60.30.52.41/live/bhtv1/playlist.m3u8
+西青新闻,http://221.238.209.44:81/hls/live1.m3u8
+央卫
+北京卫视,http://live.zjmc.tv/1/sd/live.m3u8
+CCTV-13新闻,https://live.cctv.com/2/sd/live.m3u8
+</pre>
+<p>或者以下这种形式也可以直接转为M3U格式</p>
+<pre>天津,#genre#
+滨海生活,http://60.30.52.41/live/bhtv2/playlist.m3u8
+西青新闻,http://221.238.209.44:81/hls/live1.m3u8
+央卫,#genre#
+北京卫视,http://live.zjmc.tv/1/sd/live.m3u8
+CCTV-13新闻,https://live.cctv.com/2/sd/live.m3u8
+</pre>
+<p><strong>Tip：</strong><em>本地转换不上传不保存任何数据；没有异常处理，对格式要求比较严格；</em></p>
+<h2>更新日志</h2>
+<ul>
+<li>20240114：匹配央视卫视等台标地址</li>
+<li>20240112：增加M3U转通用txt格式事保留分组信息，增加扩展标签的支持，增加对“#genre#”分组形式的兼容；</li>
+<li>20231206：初始版本；</li>
+</ul>
+                        </div>
+                    </div>
+					
+				    <hr>
+                        <div id="comments" class="comments-area">
+
+	        
+	<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+    function grin(tag) {
+        var myField;
+        tag = ' ' + tag + ' ';
+        if (document.getElementById('comment') && document.getElementById('comment').type == 'textarea') {
+            myField = document.getElementById('comment');
+        } else {
+            return false;
+        }
+        if (document.selection) {
+            myField.focus();
+            sel = document.selection.createRange();
+            sel.text = tag;
+            myField.focus();
+        }
+        else if (myField.selectionStart || myField.selectionStart == '0') {
+            var startPos = myField.selectionStart;
+            var endPos = myField.selectionEnd;
+            var cursorPos = endPos;
+            myField.value = myField.value.substring(0, startPos)
+                          + tag
+                          + myField.value.substring(endPos, myField.value.length);
+            cursorPos += tag.length;
+            myField.focus();
+            myField.selectionStart = cursorPos;
+            myField.selectionEnd = cursorPos;
+        }
+        else {
+            myField.value += tag;
+            myField.focus();
+        }
+    }
+/* ]]> */
+</script>
+        <link href="./m3u-txt_files/OwO.min.css" rel="stylesheet" type="text/css">
+	  
+
+        <div class="commentshow">
+	        </div>        
+</div>
+
+	    
+<script>
+        jQuery('.comment-body').parent().hover(     
+            function(){
+                jQuery(this).find('.useragent').show();
+            },
+            function(){
+                jQuery(this).find('.useragent').hide();
+            });
+        jQuery('.comment-body').parent().click(     
+            function(){
+                jQuery(this).find('.useragent').show();
+            });
+</script>
+                </article>
+                        </section>   
+                        <aside id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm scrollspy" style="height: auto !important; min-height: 0px !important;">
+                <div id="sidebar" style="height: auto !important;">                
+                         
+                    <div class="kratos-hentry clearfix">
+                        <div class="kratos-post-content">
+                            <p align="center" style="margin-top:18px"><strong>M3U格式列表在线转换工具</strong></p>
+                        </div>																	
+											
+                    </div> 
+                    					
+
+                </div>
+            </aside>
+                    </div>
+    </div>
+</div>                                            
+<script>
+//监听控件Radio和checkbox状态改变事件
+var radioArr = document.getElementsByName("gender");
+var radioTA = document.getElementById("qiandiv");
+radioTA.style.display = "none";
+for (var i = 0; i < radioArr.length; i++) {
+  radioArr[i].addEventListener("click", function () {
+    	var checkboxTB = document.getElementsByName("radiokuozhan");
+		if(this.value == "gens" && this.checked)
+		{
+			radioTA.style.display = "inline";			
+			for (var i = 0; i < checkboxTB.length; i++) 
+			{
+				checkboxTB[i].checked = true;
+			}			
+		}
+		else
+		{
+			radioTA.style.display = "none";
+			for (var i = 0; i < checkboxTB.length; i++) 
+			{
+				if(checkboxTB[i].value=="group-title")
+				{
+					checkboxTB[i].checked = true;
+				}else
+				{
+					checkboxTB[i].checked = false;	
+				}
+			}
+		}
+  });
+}
+//TXT转M3U  
+  const mt=new Map([["4K电影","fmm"],["AMC","fmm"],["ANIMAX","fmm"],["ANIMAXHD","fmm"],["AXN","fmm"],["AnimalPlanet","fmm"],["ArirangTV","fmm"],["BBCEarth","fmm"],["BBCLifestyle","fmm"],["BBCWORLDNEWSASIA","fmm"],["BLUEAntExtreme","fmm"],["BOOMERANG","fmm"],["BabyFirst","fmm"],["BabyTV","fmm"],["BeautifulLife","fmm"],["BloombergTV","fmm"],["BlueAntEntertainment","fmm"],["CBN幸福剧场","fmm"],["CBeebies","fmm"],["CCTV1","fmm"],["CCTV10","fmm"],["CCTV11","fmm"],["CCTV12","fmm"],["CCTV13","fmm"],["CCTV14","fmm"],["CCTV15","fmm"],["CCTV16","fmm"],["CCTV17","fmm"],["CCTV2","fmm"],["CCTV3","fmm"],["CCTV3D","fmm"],["CCTV4","fmm"],["CCTV4AME","fmm"],["CCTV4EUO","fmm"],["CCTV4K","fmm"],["CCTV4欧洲","fmm"],["CCTV4美洲","fmm"],["CCTV5+","fmm"],["CCTV5","fmm"],["CCTV6","fmm"],["CCTV7","fmm"],["CCTV8","fmm"],["CCTV8K","fmm"],["CCTV9","fmm"],["CETV1","fmm"],["CETV2","fmm"],["CETV3","fmm"],["CETV4","fmm"],["CGTN","fmm"],["CGTNDoc","fmm"],["CGTN俄语","fmm"],["CGTN法语","fmm"],["CGTN纪录","fmm"],["CGTN西语","fmm"],["CGTN记录","fmm"],["CGTN阿语","fmm"],["CHC动作电影","fmm"],["CHC家庭影院","fmm"],["CHC高清电影","fmm"],["CI罪案侦查频道","fmm"],["CNBC","fmm"],["CNBCASIA财经台","fmm"],["CNC","fmm"],["CNCartoon","fmm"],["CNN","fmm"],["CNNNews","fmm"],["CS","fmm"],["CTS","fmm"],["ChampionTV1","fmm"],["ChampionTV2","fmm"],["ChengSinTV","fmm"],["ChengTeTV","fmm"],["CinemaxHD","fmm"],["CosmosBuddhistMissionaryTV","fmm"],["CostarTV","fmm"],["CrimeInvestigation","fmm"],["CtiEntertainment","fmm"],["CtiVariety","fmm"],["DIVA","fmm"],["DMAX","fmm"],["DOX-CINEMA","fmm"],["DOXTV","fmm"],["DOX_YAQU","fmm"],["DOX_xinzhi","fmm"],["DW","fmm"],["DaliTV","fmm"],["Discovery-Asia","fmm"],["DiscoveryHD","fmm"],["Discovery科学","fmm"],["Disney","fmm"],["DisneyJunior","fmm"],["EBCDrama","fmm"],["EBCFinancialNews","fmm"],["EBCMovies","fmm"],["EBCNews","fmm"],["EBCSuper","fmm"],["EBCVariety","fmm"],["EBCWesternMovies","fmm"],["EBCYoYoTV","fmm"],["EFTV","fmm"],["ELEVENsports1","fmm"],["ELTA_Ent","fmm"],["ELTV生活英语台","fmm"],["EVE","fmm"],["EbcAsiaNews","fmm"],["EbcAsiaWeishi","fmm"],["FOXHD","fmm"],["FOXMOVIES","fmm"],["FOXSports","fmm"],["FOXSports2","fmm"],["FTV","fmm"],["FTVNews","fmm"],["FXHD","fmm"],["FoodNetwork","fmm"],["FoxFamilyMovies","fmm"],["FoxLive","fmm"],["FoxSports3","fmm"],["GDTV3","fmm"],["GDTV4","fmm"],["GDTV6","fmm"],["GDTV8","fmm"],["GDTVECO","fmm"],["GDTVENT","fmm"],["GDTVMOV","fmm"],["GDTVSHAO","fmm"],["GTVDramaHD","fmm"],["GTVEntertainment","fmm"],["GTVOneHD","fmm"],["GTVVarietyHD","fmm"],["GlobalNews","fmm"],["GoldSunTV","fmm"],["GoodTV","fmm"],["GoodTV2","fmm"],["G导视","fmm"],["HBLS","fmm"],["HBO","fmm"],["HBOFamily","fmm"],["HBOHD","fmm"],["HBOHits","fmm"],["HBOSignature","fmm"],["HGTV","fmm"],["HISTORY","fmm"],["HITS","fmm"],["HMC","fmm"],["HUBEI2","fmm"],["HUBEI3","fmm"],["HUBEI4","fmm"],["HUBEI5","fmm"],["HUBEI7","fmm"],["HUBEI8","fmm"],["HakkaTV","fmm"],["History2","fmm"],["HistoryChannel","fmm"],["History历史频道","fmm"],["HwaZanTV","fmm"],["IFUN动漫台","fmm"],["IHOT爱世界","fmm"],["IHOT爱体育","fmm"],["IHOT爱动漫","fmm"],["IHOT爱历史","fmm"],["IHOT爱喜剧","fmm"],["IHOT爱奇谈","fmm"],["IHOT爱娱乐","fmm"],["IHOT爱家庭","fmm"],["IHOT爱幼教","fmm"],["IHOT爱怀旧","fmm"],["IHOT爱悬疑","fmm"],["IHOT爱探索","fmm"],["IHOT爱旅行","fmm"],["IHOT爱时尚","fmm"],["IHOT爱极限","fmm"],["IHOT爱江湖","fmm"],["IHOT爱浪漫","fmm"],["IHOT爱猎奇","fmm"],["IHOT爱玩具","fmm"],["IHOT爱电竞","fmm"],["IHOT爱科学","fmm"],["IHOT爱科幻","fmm"],["IHOT爱经典","fmm"],["IHOT爱美食","fmm"],["IHOT爱解密","fmm"],["IHOT爱谍战","fmm"],["IHOT爱赛车","fmm"],["IHOT爱都市","fmm"],["IHOT爱院线","fmm"],["IHOT爱青春","fmm"],["IPTV3+","fmm"],["IPTV5+","fmm"],["IPTV6+","fmm"],["IPTV8+","fmm"],["IPTVEFEL","fmm"],["IPTV少儿动画","fmm"],["IPTV热播剧场","fmm"],["IPTV相声小品","fmm"],["IPTV经典电影","fmm"],["IPTV魅力时尚","fmm"],["J2","fmm"],["JETVariety","fmm"],["KMTV","fmm"],["LNSY1","fmm"],["LNTV-FINANCE","fmm"],["LNTV-SPORT","fmm"],["LNTV2","fmm"],["LNTV3","fmm"],["LNTV5","fmm"],["LNTV6","fmm"],["LNTV7","fmm"],["LNTV8","fmm"],["LSTIME","fmm"],["Lifetime","fmm"],["LoveNature","fmm"],["MAX极速汽车","fmm"],["MOMOkids","fmm"],["MTV","fmm"],["MTVLive","fmm"],["MyCinemaEurope","fmm"],["NEWTV东北热剧","fmm"],["NEWTV中国功夫","fmm"],["NEWTV军事评论","fmm"],["NEWTV军旅剧场","fmm"],["NEWTV古装剧场","fmm"],["NEWTV家庭剧场","fmm"],["NEWTV明星大片","fmm"],["NEWTV欢乐剧场","fmm"],["NEWTV武博世界","fmm"],["NEWTV海外剧场","fmm"],["NEWTV潮妈辣婆","fmm"],["NEWTV炫舞未来","fmm"],["NEWTV精品体育","fmm"],["NEWTV精品大剧","fmm"],["NEWTV精品纪录","fmm"],["NEWTV超级体育","fmm"],["NEWTV超级电影","fmm"],["NEWTV超级电视剧","fmm"],["NEWTV超级综艺","fmm"],["NEWTV金牌综艺","fmm"],["NEXTTVMovie","fmm"],["NEXTTVZonghe","fmm"],["NHK","fmm"],["NHKWorld","fmm"],["NOW新闻台","fmm"],["NextTVNews","fmm"],["NickJr","fmm"],["Nickelodeon","fmm"],["PiliPuppet","fmm"],["PublicTV","fmm"],["PublicTV2","fmm"],["PublicTV3HD","fmm"],["RTDoc","fmm"],["RTHK31","fmm"],["RTHK32","fmm"],["RTNews","fmm"],["SBN","fmm"],["SETCity","fmm"],["SETInews","fmm"],["SETNews","fmm"],["SETTaiwan","fmm"],["SETZonghe","fmm"],["SITV七彩戏剧","fmm"],["SITV劲爆体育","fmm"],["SITV极速汽车","fmm"],["SITV法治天地","fmm"],["SITV都市剧场","fmm"],["SITV金色学堂","fmm"],["SinDaTV","fmm"],["SinJiTVHD","fmm"],["SkyNews","fmm"],["Smart知识台","fmm"],["StarChineseMovies","fmm"],["StarMoviesHD","fmm"],["TACT","fmm"],["TOPTVHD","fmm"],["TRACESportStars","fmm"],["TRT-World","fmm"],["TVBJ2","fmm"],["TVBS","fmm"],["TVBS亚洲","fmm"],["TVBS新闻","fmm"],["TVBS欢乐","fmm"],["TVBS精采","fmm"],["TVBclassic","fmm"],["TVB明珠台","fmm"],["TVB星河","fmm"],["TVB翡翠台","fmm"],["TaiwanPlus","fmm"],["ThaiPBS","fmm"],["TienLiangTVHD","fmm"],["UniqueNews","fmm"],["UniqueUSTVHDUSTVHD","fmm"],["VOA美国之音","fmm"],["VideolandDrama","fmm"],["VideolandJapanese","fmm"],["VideolandMaxTV","fmm"],["VideolandMovies","fmm"],["VideolandOnTV","fmm"],["VideolandSportsHD","fmm"],["WETV","fmm"],["WHTV1","fmm"],["WHTV2","fmm"],["WHTV3","fmm"],["WHTV4","fmm"],["WHTV5","fmm"],["WHTV6","fmm"],["WHTV7","fmm"],["WarnerTV","fmm"],["XFBY","fmm"],["YANBIAN1","fmm"],["ZChannel","fmm"],["abcaus","fmm"],["afc","fmm"],["aljazeera","fmm"],["anhui","fmm"],["asiatravel","fmm"],["asiazonghe","fmm"],["beijing","fmm"],["beijingjishi","fmm"],["bestv","fmm"],["bingtuan","fmm"],["catchplay","fmm"],["cdtv1","fmm"],["cdtv2","fmm"],["cdtv3","fmm"],["cdtv4","fmm"],["cdtv5","fmm"],["cdtv6","fmm"],["channelnewsasia","fmm"],["channelv","fmm"],["chongqing","fmm"],["cinemaworld","fmm"],["cmusic","fmm"],["cnex","fmm"],["cqccn","fmm"],["daai","fmm"],["daai2","fmm"],["davinci","fmm"],["dianjingtiantang","fmm"],["discovery","fmm"],["diyicaijing","fmm"],["dongfang","fmm"],["dongnan","fmm"],["dox_juchang","fmm"],["dox_xinyi","fmm"],["dox_yijia","fmm"],["dox_yinglun","fmm"],["doxyinghua","fmm"],["dreamworks","fmm"],["eata_sports1","fmm"],["eata_sports3","fmm"],["elevensports2","fmm"],["elta_sports2","fmm"],["elta_yingju","fmm"],["elta_zonghehd","fmm"],["eltv","fmm"],["emeidianying","fmm"],["etoday","fmm"],["euronews","fmm"],["eurosport","fmm"],["eyelvyou","fmm"],["eyexiju","fmm"],["fashionone","fmm"],["fashiontv","fmm"],["fenghuangxianggang","fmm"],["fenghuangzhongwen","fmm"],["fenghuangzixun","fmm"],["fooldplanet","fmm"],["france24","fmm"],["ftv-1","fmm"],["ftv-taiwan","fmm"],["ftv-zongyi","fmm"],["gansu","fmm"],["gstv","fmm"],["gtv_youxi","fmm"],["guangdong","fmm"],["guangxi","fmm"],["guizhou","fmm"],["hebei","fmm"],["heilongjiang","fmm"],["henan","fmm"],["hkguojicaijing","fmm"],["hks","fmm"],["hongkong603","fmm"],["hongkongkai","fmm"],["huanghe","fmm"],["huanxiao","fmm"],["huanyucaijing","fmm"],["huanyuzonghe","fmm"],["huayi_yingju","fmm"],["huayimbc","fmm"],["hubei","fmm"],["hunan","fmm"],["ifun1","fmm"],["ifun2","fmm"],["ifun3","fmm"],["jiajiakt","fmm"],["jiangsu","fmm"],["jiangxi","fmm"],["jilin","fmm"],["jinwenjiang","fmm"],["jinyingjishi","fmm"],["jinyingkatong","fmm"],["jisuqiche","fmm"],["kaku","fmm"],["kangba","fmm"],["liaoning","fmm"],["longhuadonghua","fmm"],["loupe","fmm"],["luxetv","fmm"],["lvyou","fmm"],["mandi_japan","fmm"],["meilizuqiu","fmm"],["meiyamovie","fmm"],["mezzo","fmm"],["mtvlivehd","fmm"],["muzzikzz4000","fmm"],["my101","fmm"],["mykids","fmm"],["nanfang","fmm"],["natgeo","fmm"],["natgeowild","fmm"],["natlgeo","fmm"],["nhkworldp","fmm"],["ningxia","fmm"],["outdoor","fmm"],["qicaixiju","fmm"],["qinghai","fmm"],["quanjishi","fmm"],["roller","fmm"],["sansha","fmm"],["sctv2","fmm"],["sctv3","fmm"],["sctv4","fmm"],["sctv5","fmm"],["sctv7","fmm"],["sctv8","fmm"],["sctv9","fmm"],["sd_gonggong","fmm"],["sd_nongke","fmm"],["sd_qilu","fmm"],["sd_shaoer","fmm"],["sd_shenghuo","fmm"],["sd_tiyu","fmm"],["sd_yingshi","fmm"],["sd_zongyi","fmm"],["setxiju","fmm"],["shandong","fmm"],["shanghaidongfangyingshi","fmm"],["shanghaijishi","fmm"],["shanghaiwaiyu","fmm"],["shangshixinwen","fmm"],["shanxi","fmm"],["shanxi_","fmm"],["shenghuoshishang","fmm"],["shengming","fmm"],["shenzhen","fmm"],["sichuan","fmm"],["sport-golfplus","fmm"],["sport-sports_net","fmm"],["sport-trendsport","fmm"],["sport_tennis","fmm"],["sport_unlimited","fmm"],["sport_unlimited2","fmm"],["sports-golfch","fmm"],["sports_net_2","fmm"],["starmov","fmm"],["starmovieyule","fmm"],["starsports","fmm"],["taiwanxiju","fmm"],["tfc","fmm"],["tianjin","fmm"],["tlc","fmm"],["traceurban","fmm"],["travelchannel","fmm"],["tv5monde","fmm"],["tvN","fmm"],["tvbfinanceinformationchannel","fmm"],["viutv","fmm"],["wangluoqipai","fmm"],["weilaojingcai","fmm"],["weixin","fmm"],["wolvesvalley","fmm"],["wuxingtiyu","fmm"],["wxxw","fmm"],["xiamen","fmm"],["xindongman","fmm"],["xingfucai","fmm"],["xinjiang","fmm"],["xizang","fmm"],["xuandong","fmm"],["yangguangweishi","fmm"],["youman","fmm"],["youxiancaijingzixun","fmm"],["youxianxinwen","fmm"],["youxifengyun","fmm"],["yuanzhumin","fmm"],["yunnan","fmm"],["zgjt","fmm"],["zhejiang","fmm"],["zhujiang","fmm"],["七彩戏剧","fmm"],["三佳购物","fmm"],["三沙卫视","fmm"],["上海外语","fmm"],["上海教育","fmm"],["上海第一财经","fmm"],["上海都市","fmm"],["上视新闻","fmm"],["世界地理","fmm"],["东南卫视","fmm"],["东方卫视","fmm"],["东方影视","fmm"],["东方财经","fmm"],["东方购物","fmm"],["东莞新闻综合","fmm"],["东风卫视","fmm"],["中华特产","fmm"],["中华美食","fmm"],["中国交通","fmm"],["中国天气","fmm"],["中国教育1台","fmm"],["中国教育2台","fmm"],["中国教育3台","fmm"],["中国教育4台","fmm"],["中天新闻台","fmm"],["中学生","fmm"],["中视","fmm"],["中视新闻","fmm"],["中视新闻台","fmm"],["中视经典","fmm"],["中视菁采","fmm"],["中视购物","fmm"],["之江记录","fmm"],["乌兰察布","fmm"],["乌海新闻综合","fmm"],["乌海都市生活","fmm"],["乐游","fmm"],["书画","fmm"],["云南卫视","fmm"],["云南娱乐","fmm"],["云南影视","fmm"],["云南都市","fmm"],["五星体育","fmm"],["亚洲新闻","fmm"],["京视剧场","fmm"],["人间卫视","fmm"],["优优宝贝","fmm"],["优漫卡通","fmm"],["优购物","fmm"],["佛山公共","fmm"],["佛山影视","fmm"],["佛山综合","fmm"],["先锋乒羽","fmm"],["全纪实","fmm"],["公视","fmm"],["公视戏剧台","fmm"],["兴安","fmm"],["兵器科技","fmm"],["兵团卫视","fmm"],["内蒙古IPTV","fmm"],["内蒙古农牧","fmm"],["内蒙古卫视","fmm"],["内蒙古少儿","fmm"],["内蒙古文体娱乐","fmm"],["内蒙古新闻综合","fmm"],["内蒙古经济生活","fmm"],["内蒙古蒙语卫视","fmm"],["内蒙古蒙语文化","fmm"],["农林卫视","fmm"],["凤凰中文","fmm"],["凤凰卫视中文台","fmm"],["凤凰卫视电影台","fmm"],["凤凰卫视资讯台","fmm"],["凤凰卫视香港台","fmm"],["凤凰资讯","fmm"],["动漫秀场","fmm"],["劲爆体育","fmm"],["包头新闻综合","fmm"],["包头生活服务","fmm"],["包头经济频道","fmm"],["北京IPTV4K","fmm"],["北京体育休闲","fmm"],["北京卫视","fmm"],["北京影视","fmm"],["北京文艺","fmm"],["北京新闻","fmm"],["北京生活","fmm"],["北京纪实科教","fmm"],["北京财经","fmm"],["北京青年","fmm"],["半岛新闻","fmm"],["华视","fmm"],["华视新闻","fmm"],["华语影院","fmm"],["南方卫视","fmm"],["卡酷少儿","fmm"],["卫生健康","fmm"],["卫视中文","fmm"],["卫视中文台","fmm"],["厦门1","fmm"],["厦门2","fmm"],["厦门3","fmm"],["厦门卫视","fmm"],["发现之旅","fmm"],["台视","fmm"],["台视新闻","fmm"],["台视综合","fmm"],["台视财经","fmm"],["吉林卫视","fmm"],["呼伦贝尔","fmm"],["呼伦贝尔文化旅游","fmm"],["呼伦贝尔新闻综合","fmm"],["呼伦贝尔生活资讯","fmm"],["呼和浩特","fmm"],["呼和浩特影视娱乐","fmm"],["呼和浩特新闻综合","fmm"],["呼和浩特都市生活","fmm"],["咪咕体育","fmm"],["咪咕音乐","fmm"],["哈哈炫动","fmm"],["哒啵电竞","fmm"],["哒啵赛事","fmm"],["嘉佳卡通","fmm"],["四川乡村","fmm"],["四川卫视","fmm"],["四川妇女儿童","fmm"],["四川影视文艺","fmm"],["四川文化旅游","fmm"],["四川新闻","fmm"],["四川科教","fmm"],["四川经济","fmm"],["四海钓鱼","fmm"],["国学","fmm"],["增城电视台","fmm"],["大湾区卫视","fmm"],["大爱一台","fmm"],["大爱电视","fmm"],["天元围棋","fmm"],["天津卫视","fmm"],["央广购物","fmm"],["央视台球","fmm"],["央视高网","fmm"],["女性时尚","fmm"],["好享购物","fmm"],["宁夏卫视","fmm"],["安多卫视","fmm"],["安徽公共","fmm"],["安徽农业科教","fmm"],["安徽卫视","fmm"],["安徽国际","fmm"],["安徽影视","fmm"],["安徽经济生活","fmm"],["安徽综艺体育","fmm"],["家家购物","fmm"],["家庭理财","fmm"],["家有购物","fmm"],["寰宇新闻","fmm"],["山东体育","fmm"],["山东农科","fmm"],["山东卫视","fmm"],["山东少儿","fmm"],["山东教育","fmm"],["山东文旅","fmm"],["山东新闻","fmm"],["山东生活","fmm"],["山东综艺","fmm"],["山东齐鲁","fmm"],["山西卫视","fmm"],["山西影视","fmm"],["山西社会与法治","fmm"],["山西经济","fmm"],["山西黄河","fmm"],["岭南戏曲","fmm"],["巴彦淖尔影视娱乐","fmm"],["巴彦淖尔新闻综合","fmm"],["巴彦淖尔经济生活","fmm"],["年代ERANewsHD","fmm"],["年代MUCH","fmm"],["幸福娱乐","fmm"],["幸福空间居家台","fmm"],["广东4K","fmm"],["广东体育","fmm"],["广东公共","fmm"],["广东卫视","fmm"],["广东嘉佳卡通","fmm"],["广东少儿","fmm"],["广东广电","fmm"],["广东影视","fmm"],["广东新闻","fmm"],["广东民生","fmm"],["广东珠江","fmm"],["广东经济科教","fmm"],["广东综艺","fmm"],["广州影视","fmm"],["广州新闻","fmm"],["广州法治","fmm"],["广州竞赛","fmm"],["广州综合","fmm"],["广西卫视","fmm"],["康巴卫视","fmm"],["延边卫视","fmm"],["弈坛春秋","fmm"],["影迷数位电影","fmm"],["影迷电影","fmm"],["影迷纪实","fmm"],["快乐垂钓","fmm"],["快乐购","fmm"],["怀旧剧场","fmm"],["成都公共","fmm"],["成都影视文艺","fmm"],["成都新闻综合","fmm"],["成都经济资讯","fmm"],["成都都市生活","fmm"],["摄影","fmm"],["收藏天下","fmm"],["文化精品","fmm"],["文物宝库","fmm"],["新动漫","fmm"],["新疆体育健康","fmm"],["新疆卫视","fmm"],["新疆少儿","fmm"],["新疆汉语经济","fmm"],["新疆汉语综艺","fmm"],["新视觉","fmm"],["无线新闻台","fmm"],["无线财经台","fmm"],["早期教育","fmm"],["时尚购物","fmm"],["明珠台","fmm"],["星空卫视","fmm"],["晴彩中原","fmm"],["智林体育台","fmm"],["杭锦旗综合","fmm"],["欢笑剧场","fmm"],["欢腾购物","fmm"],["武术世界","fmm"],["每日影院","fmm"],["民视","fmm"],["民视台湾台","fmm"],["民视新闻台","fmm"],["民视旅游台","fmm"],["民视第一台","fmm"],["民视综艺台","fmm"],["求索动物","fmm"],["求索生活","fmm"],["求索科学","fmm"],["求索纪录","fmm"],["求索记录","fmm"],["汕头经济","fmm"],["汕头综合","fmm"],["江苏休闲体育","fmm"],["江苏优漫卡通","fmm"],["江苏公共新闻","fmm"],["江苏卫视","fmm"],["江苏国际","fmm"],["江苏城市","fmm"],["江苏影视","fmm"],["江苏教育电视台","fmm"],["江苏综艺","fmm"],["江西卫视","fmm"],["江西少儿","fmm"],["江西教育","fmm"],["江西新闻","fmm"],["江西经济生活","fmm"],["汽摩","fmm"],["河北卫视","fmm"],["河南4K","fmm"],["河南乡村","fmm"],["河南公共","fmm"],["河南卫视","fmm"],["河南国际","fmm"],["河南新闻","fmm"],["河南梨园","fmm"],["河南民生","fmm"],["河南法治","fmm"],["河南电视剧","fmm"],["河南都市","fmm"],["法治天地","fmm"],["浙江卫视","fmm"],["浙江国际","fmm"],["浙江少儿","fmm"],["浙江教科影视","fmm"],["浙江数码时代","fmm"],["浙江新闻","fmm"],["浙江民生休闲","fmm"],["浙江经济生活","fmm"],["浦东电视台","fmm"],["海南公共","fmm"],["海南卫视","fmm"],["海南少儿","fmm"],["海南文旅","fmm"],["海南经济","fmm"],["海峡卫视","fmm"],["海豚综合","fmm"],["深圳卫视","fmm"],["深圳都市","fmm"],["清华","fmm"],["游戏风云","fmm"],["湖北卫视","fmm"],["湖南卫视","fmm"],["湖南国际","fmm"],["湖南娱乐","fmm"],["湖南教育","fmm"],["湖南爱晚","fmm"],["湖南电影","fmm"],["湖南电视剧","fmm"],["湖南经视","fmm"],["湖南都市","fmm"],["湖南金鹰卡通","fmm"],["潮州综合","fmm"],["澳亚卫视","fmm"],["澳视澳门","fmm"],["澳门莲花","fmm"],["爱上4K","fmm"],["爱尔达娱乐台","fmm"],["爱看导视","fmm"],["环球奇观","fmm"],["环球旅游","fmm"],["甘肃卫视","fmm"],["生态环境","fmm"],["生活时尚","fmm"],["电竞天堂","fmm"],["电视指南","fmm"],["百事通","fmm"],["百姓健康","fmm"],["百视通","fmm"],["福建公共","fmm"],["福建少儿","fmm"],["福建教育","fmm"],["福建文体","fmm"],["福建新闻","fmm"],["福建旅游","fmm"],["福建电视剧","fmm"],["福建经济","fmm"],["福建综合","fmm"],["移动戏曲","fmm"],["第一剧场","fmm"],["精选","fmm"],["纪实人文","fmm"],["纯享4K","fmm"],["置业频道","fmm"],["翡翠台","fmm"],["耀才财经","fmm"],["老故事","fmm"],["聚鲨环球精选","fmm"],["芒果互娱","fmm"],["苏州4K","fmm"],["茶","fmm"],["莲花卫视","fmm"],["西安1","fmm"],["西安丝路频道","fmm"],["西安商务资讯","fmm"],["西安影视频道","fmm"],["西安教育","fmm"],["西安新闻综合","fmm"],["西安都市频道","fmm"],["西藏卫视","fmm"],["西藏藏语卫视","fmm"],["视纳华仁纪实","fmm"],["视纳华仁纪实频道","fmm"],["证券服务","fmm"],["财富天下","fmm"],["贵州卫视","fmm"],["赤峰","fmm"],["赤峰影视娱乐","fmm"],["赤峰新闻综合","fmm"],["赤峰经济服务","fmm"],["足球频道","fmm"],["车迷","fmm"],["辽宁卫视","fmm"],["达拉特旗综合","fmm"],["通辽","fmm"],["通辽城市服务","fmm"],["通辽新闻综合","fmm"],["都市剧场","fmm"],["鄂尔多斯","fmm"],["鄂尔多斯新闻综合","fmm"],["鄂尔多斯经济服务","fmm"],["鄂尔多斯蒙语频道","fmm"],["采昌影剧","fmm"],["重广融媒","fmm"],["重庆卫视","fmm"],["重庆少儿","fmm"],["重庆影视","fmm"],["重庆文体娱乐","fmm"],["重庆新农村","fmm"],["重庆新闻","fmm"],["重庆时尚生活","fmm"],["重庆汽摩","fmm"],["重庆社会与法","fmm"],["重庆科教","fmm"],["重庆移动","fmm"],["金砖电视","fmm"],["金色学堂","fmm"],["金鹰卡通","fmm"],["金鹰纪实","fmm"],["钱江都市","fmm"],["阿拉善","fmm"],["陕西体育休闲","fmm"],["陕西公共","fmm"],["陕西卫视","fmm"],["陕西影视","fmm"],["陕西新闻资讯","fmm"],["陕西生活","fmm"],["陕西西部电影","fmm"],["陕西都市青春","fmm"],["陶瓷","fmm"],["青海卫视","fmm"],["靓妆","fmm"],["靖天卡通","fmm"],["靖天国际","fmm"],["靖天戏剧","fmm"],["靖天日本","fmm"],["靖天日本台","fmm"],["靖天映画","fmm"],["靖天欢乐","fmm"],["靖天电影","fmm"],["靖天电影台","fmm"],["靖天综合","fmm"],["靖天育乐","fmm"],["靖天资讯","fmm"],["靖洋卡通","fmm"],["靖洋戏剧","fmm"],["风云剧场","fmm"],["风云足球","fmm"],["风云音乐","fmm"],["风尚生活","fmm"],["风尚购物","fmm"],["香港卫视","fmm"],["香港国际财经台","fmm"],["高尔夫网球","fmm"],["魅力足球","fmm"],["黑莓动画","fmm"],["黑莓电影","fmm"],["黑龙江卫视","fmm"],["龙华偶像","fmm"],["龙华影剧","fmm"],["龙华戏剧","fmm"],["龙华日韩","fmm"],["龙华日韩台","fmm"],["龙华洋片","fmm"],["龙华电影","fmm"],["龙华经典","fmm"]]);			
+function tran2m3ugroup() {
+    document.getElementById("rtips").innerHTML = "Tip：";
+    var source = document.getElementById("tvsource-input").value.trim();
+    var slists = source.split('\n');
+    var result = "#EXTM3U x-tvg-url=\"https://epg.zyh520.tk/112114.xml\"\r\n";
+    var groupname = "未分组";
+    var countall = 0; // 直播源数量
+    var countgroups = 0; // 分组数量
+
+    var grouptitle = "";
+    var tvglogo = "";
+    var tvgid = "";
+    var tvgname = "";
+    var mods = ""; // 模式
+
+    var boolgrouptitle = false;
+    var booltvglogo = false;
+    var booltvgid = false;
+    var booltvgname = false;
+
+    var boolqianta = document.getElementById("qianta").checked;
+
+    if (source.search(/^.*?,\s*[A-Za-z0-9]{3,8}:\/\/.*?$/igm) >= 0) {
+        console.log("开始TXT转M3U");
+    } else {
+        document.getElementById("contents").value = "异常！！没有检测到有效直播源，请检查输入是否正确！！";
+        return;
+    }
+
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    for (var i = 0; i < checkboxes.length; i++) {
+        var mycheckbox = checkboxes[i];
+        if (mycheckbox.checked) {
+            switch (mycheckbox.value) {
+                case "group-title":
+                    boolgrouptitle = true;
+                    break;
+                case "tvg-logo":
+                    booltvglogo = true;
+                    break;
+                case "tvg-id":
+                    booltvgid = true;
+                    break;
+                case "tvg-name":
+                    booltvgname = true;
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    var radios = document.querySelectorAll('input[type="radio"]');
+    for (var rs = 0; rs < radios.length; rs++) {
+        var myradio = radios[rs];
+        if (myradio.checked) {
+            switch (myradio.value) {
+                case "defs":
+                    mods = "defs";
+                    break;
+                case "gens":
+                    mods = "gens";
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    for (var i = 0; i <= slists.length - 1; i++) {
+        var regex = /^(.*?),\s*([A-Za-z0-9]{3,8}:\/\/.*?)$/i;
+        var remat = slists[i].match(regex);
+        if (remat !== null) {
+            var tvtitle = remat[1].trim();
+
+            // 默认值
+            tvgid = 'tvg-id="' + tvtitle + '" ';
+            tvgname = 'tvg-name="' + tvtitle + '" ';
+            tvglogo = 'tvg-logo="https://tv.zyh520.tk/live/logo/' + tvtitle + '.png" ';
+
+            if (booltvgid) {
+                tvgid = 'tvg-id="' + tvtitle + '" ';
+            }
+            if (booltvgname) {
+                tvgname = 'tvg-name="' + tvtitle + '" ';
+            }
+            if (booltvglogo) {
+                tvglogo = 'tvg-logo="https://tv.zyh520.tk/live/logo/' + tvtitle + '.png" ';
+            }
+            if (boolgrouptitle) {
+                grouptitle = 'group-title="' + groupname + '" ';
+            }
+
+            if (mods == "gens") {
+                // 暂时使用范明明的数据
+                if (tvtitle.includes("卫视")) {
+                    if (mt.has(tvtitle)) {
+                        if (booltvgid) {
+                            tvgid = 'tvg-id="' + tvtitle + '" ';
+                        }
+                        if (booltvgname) {
+                            tvgname = 'tvg-name="' + tvtitle + '" ';
+                        }
+                        if (booltvglogo) {
+                            tvglogo = 'tvg-logo="' + 'https://tv.zyh520.tk/live/logo/' + tvtitle + '.png' + '" ';
+                        }
+                    }
+                } else if (/cctv/i.test(tvtitle)) {
+                    var regcc = /cctv[^1-9]*?(\d+[\+K]?)/i;
+                    var rematcc = tvtitle.match(regcc);
+                    if (rematcc !== null) {
+                        var strcc = "CCTV" + rematcc[1];
+                        if (booltvgid) {
+                            tvgid = 'tvg-id="' + strcc + '" ';
+                        }
+                        if (booltvgname) {
+                            tvgname = 'tvg-name="' + strcc + '" ';
+                        }
+                        if (booltvglogo) {
+                            tvglogo = 'tvg-logo="' + 'https://tv.zyh520.tk/live/logo/' + strcc + '.png' + '" ';
+                        }
+                    }
+                } else if (mt.has(tvtitle)) {
+                    if (booltvgid) {
+                        tvgid = 'tvg-id="' + tvtitle + '" ';
+                    }
+                    if (booltvgname) {
+                        tvgname = 'tvg-name="' + tvtitle + '" ';
+                    }
+                    if (booltvglogo) {
+                        tvglogo = 'tvg-logo="' + 'https://tv.zyh520.tk/live/logo/' + tvtitle + '.png' + '" ';
+                    }
+                }
+
+                // 继续过滤,扩展数据为空时不显示
+                if (boolqianta) {
+                    if (tvgid == 'tvg-id="" ') {
+                        tvgid = "";
+                    }
+                    if (tvgname == 'tvg-name="" ') {
+                        tvgname = "";
+                    }
+                    if (tvglogo == 'tvg-logo="" ') {
+                        tvglogo = "";
+                    }
+                }
+            }
+
+            var tname = "#EXTINF:-1 " + tvgid + tvgname + tvglogo + grouptitle + "," + tvtitle + "\r\n";
+            var regexname = / ,[^,]*?$/i;
+            tname = tname.replace(regexname, function (match) {
+                return match.trim() + "\r\n";
+            });
+            var turl = remat[2].trim() + "\r\n";
+            result += tname + turl;
+            countall = countall + 1;
+        } else {
+            if (slists[i].trim() !== "") {
+                if (slists[i].toLowerCase().indexOf("#genre#") != -1) {
+                    var regs = /[,，]\s*#\s*genre\s*#/gi;
+                    groupname = slists[i].trim().replace(regs, "");
+                } else {
+                    groupname = slists[i].trim();
+                }
+                countgroups = countgroups + 1;
+            }
+        }
+    }
+    document.getElementById("contents").value = result;
+    document.getElementById("rtips").innerHTML = "Tip：共转换 " + countgroups + " 个分组，" + countall + " 个源。";
+}
+
+//数组去重
+  function unique(arr) {
+	return arr.filter((item, index) => arr.indexOf(item) === index);
+  }
+//M3U转TXT
+  function m3u2txtupdate(){
+    var source = document.getElementById("tvsource-input").value;
+	document.getElementById("rtips").innerHTML = "Tip：";
+	if(source.search(/#EXTINF:/i)>=0){
+		if(source.search(/group-title/i)>=0){
+			var groupall = []; // all the group name
+			var myresult = ""; 
+			var countall = 0;
+			var flaggen="";//选项标记,分组行添加#genre#标识
+			var checkboxes = document.querySelectorAll('input[type="checkbox"]');//后续改为直接取ID或者取Name组
+			for (var i = 0; i < checkboxes.length; i++) {
+				var mycheckbox = checkboxes[i];
+				if (mycheckbox.checked) {
+					switch(mycheckbox.value){
+						case "flaggen":
+							flaggen="flaggen";//分组行添加#genre#标识
+							break;
+						default:
+							//console.log("default92");
+							break;
+					}			
+				} else {
+					//console.log("未选中");
+				}
+			}
+			
+			var regpta = /(?<=group-title\s*=\s*\").*?(?=\")/igm;
+			var resarr = source.match(regpta);	
+			for (var va = 0; va <= resarr.length-1; va++){
+				if(resarr[va].trim()==""){
+					resarr[va] = "未分组";
+				}
+			}            	
+			groupall=unique(resarr);
+			var lines = source.split("#EXTINF:");
+			for (var i = 0; i < groupall.length; i++) {
+				if(flaggen != ""){
+					myresult=myresult+groupall[i] + ",#genre#" + "\r\n";
+				}else{
+					myresult=myresult+groupall[i]+"\r\n";
+				}				
+				for (var j = 0; j <= lines.length-1; j++){
+					if(lines[j].search(/group-title/ig)>=0){
+						try
+						{
+							var patsa = /(?<=group-title\s*=\s*\").*?(?=\")/igm;
+							var stra = lines[j].match(patsa)[0];
+							if(stra.trim() == ""){
+								stra = "未分组";
+							}
+							if(groupall[i]==stra){
+								var patsb = /(?<=group-title\s*=.*?,)[^,]*?$/igm;
+								var patsc = /^\s*[A-Za-z0-9]{3,8}:\/\/.*?$/igm;
+								var strb = lines[j].match(patsb)[0];
+								var strc = lines[j].match(patsc)[0];
+								myresult = myresult + strb.trim() + ","+ strc.trim() + "\r\n";
+								countall=countall+1;
+							}
+						}
+						catch
+						{
+							//console.log("错误！")
+						}
+					}				
+				}
+			}
+			document.getElementById("contents").value = myresult;
+			document.getElementById("rtips").innerHTML = "Tip：共转换 "+groupall.length +" 个分组，" + countall + " 个源。";			
+		}else{
+			var slists = source.replace(/[\r\n]+/g,'@');
+			var r = slists.match(/,([^,@]+)@([^@]+)/g)
+			if (r) {result = r.map(m=>m.replace(/,/g,'').replace(/@/g,',').replace(/(\n[\s\t]*\r*\n)/g, '\n').replace(/^[\n\r\n\t]*|[\n\r\n\t]*$/g, '')).join('\r\n');}
+			if (result) {document.getElementById("contents").value = result;}
+			document.getElementById("rtips").innerHTML = "Tip：";
+		}	
+	}
+	else{
+		document.getElementById("rtips").innerHTML = "Tip：";
+		document.getElementById("contents").value = "格式异常！请输入正确的M3U文本！";
+	}
+  }
+  //提取台标
+  function getlogos()
+  {
+	var source = document.getElementById("tvsource-input").value;
+	document.getElementById("rtips").innerHTML = "Tip：";
+	if(source.search(/#EXTM3U/i)>=0)
+	{
+	    var strres = "TVLOGO\r\n";
+		var counts = 0;
+		if(source.search(/#EXTINF:.*?tvg-logo/i)>=0)
+		{
+			var mylines = source.split("#EXTINF:");
+			for (var j = 0; j <= mylines.length-1; j++)
+			{
+				
+			}
+		}
+		document.getElementById("contents").value = strres;	
+	}
+	else
+	{
+		document.getElementById("rtips").innerHTML = "Tip：提取台标只支持 M3U 格式文件！";
+	}
+  }
+  //提取台标
+  function getlogos()
+  {
+	var source = document.getElementById("tvsource-input").value;
+	document.getElementById("rtips").innerHTML = "Tip：";
+	if(source.search(/#EXTM3U/i)>=0)
+	{
+	    var strres = "TVLOGO\r\n";
+		var counts = 0;
+		if(source.search(/#EXTINF:.*?tvg-logo/i)>=0)
+		{
+			var mylines = source.split("#EXTINF:");
+			for (var j = 0; j <= mylines.length-1; j++)
+			{
+				try
+				{
+					var strtitle="未定义";	
+					var strlogo="";						
+					if(mylines[j].search(/tvg-name/i)>=0)
+					{
+						var patsa = /(?<=tvg-name\s*=\s*\").*?(?=\")/igm;
+						strtitle = mylines[j].match(patsa)[0];
+					}
+					else if(mylines[j].search(/tvg-logo/i)>=0)
+					{
+						var patsb = /(?<=tvg-logo.*?,)[^,]*?\n/igm;
+						strtitle = mylines[j].match(patsb)[0];
+					}
+					else
+					{
+						continue;
+					}
+					var patsc = /(?<=tvg-logo\s*=\s*\").*?(?=\")/igm;
+					strlogo = mylines[j].match(patsc)[0];
+					strres = strres + strtitle.trim() + "," + strlogo.trim() + "\r\n";
+					counts = counts + 1;
+				}
+				catch
+				{continue;}				
+			}
+		}
+		else
+		{
+			strres = "  当前 M3U 文件不包含台标，请检查！";
+		}
+		document.getElementById("contents").value = strres;	
+		document.getElementById("rtips").innerHTML = "Tip：共提取 "+ counts +" 个台标";
+	}
+	else
+	{
+		document.getElementById("contents").value = "提取台标只支持 M3U 格式文件！";	
+		document.getElementById("rtips").innerHTML = "Tip：提取台标只支持 M3U 格式文件！";
+	}
+  }  
+//清除屏幕
+function m3ucleararea()
+{
+	document.getElementById("tvsource-input").value = "";	
+	document.getElementById("contents").value = "";	
+	document.getElementById("rtips").innerHTML = "Tip：";
+}
+</script>
+<script type="text/javascript">
+  if (window!=top) 
+  	top.location.href = window.location.href; 
+</script>
+
+<script type="text/javascript" src="./m3u-txt_files/tvlistconvert.js"></script>
+				
+			</div>
+		</div><iframe name="googlefcPresent" style="width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px; display: none;" src="./m3u-txt_files/saved_resource.html"></iframe>
+		<script type="text/javascript" id="pld-frontend-js-extra">
+/* <![CDATA[ */
+var pld_js_object = {"admin_ajax_url":"https:\/\/guihet.com\/wp-admin\/admin-ajax.php","admin_ajax_nonce":"8d4709f7d6"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./m3u-txt_files/pld-frontend.js" id="pld-frontend-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/jquery.easing.min.js" id="easing-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/jquery.qrcode.min.js" id="qrcode-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/modernizr.min.js" id="modernizr-js"></script>
+<iframe name="__tcfapiLocator" src="./m3u-txt_files/saved_resource(1).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="./m3u-txt_files/saved_resource(2).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="./m3u-txt_files/saved_resource(3).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><script type="text/javascript" src="./m3u-txt_files/bootstrap.min.js" id="bootstrap-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/jquery.waypoints.min.js" id="waypoints-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/jquery.stellar.min.js" id="stellar-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/hoverIntent.min.js" id="hoverIntents-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/superfish.js" id="superfish-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/kratos.js" id="kratos-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/jquery.fancybox.min.js" id="fancybox-js"></script><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins>
+<script type="text/javascript" src="./m3u-txt_files/video-js.min.js" id="script-videojs-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/videojs-contrib-quality-levels.min.js" id="script-videojs-pa-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/videojs-quality-selector-hls.min.js" id="script-videojs-pb-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/zh-CN.js" id="script-videojs-pc-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/videojs-errors.js" id="script-videojs-erra-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/videojs-errors.zh-CN.js" id="script-videojs-errb-js"></script>
+<script type="text/javascript" src="./m3u-txt_files/videojs-mobile-ui.min.js" id="script-videojs-errbs-js"></script>
+<script type="text/javascript" id="ajax-comment-js-extra">
+/* <![CDATA[ */
+var ajaxcomment = {"ajax_url":"https:\/\/guihet.com\/wp-admin\/admin-ajax.php","order":"desc","formpostion":"bottom"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./m3u-txt_files/app.js" id="ajax-comment-js"></script>
+<script type="text/javascript" id="erphpdown-js-extra">
+/* <![CDATA[ */
+var erphpdown_ajax_url = "https:\/\/guihet.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type="text/javascript" src="./m3u-txt_files/erphpdown.js" id="erphpdown-js"></script>
+		            <script>jQuery(document).ready(function(jQuery){jQuery('.collapseButton').click(function(){jQuery(this).parent().parent().find('.xContent').slideToggle('slow');});});</script><!-- 展开/收缩 -->		
+            <!-- 8 queries in 3.129 seconds -->
+        
+<iframe src="./m3u-txt_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./m3u-txt_files/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>
