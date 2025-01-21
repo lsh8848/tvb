@@ -41,6 +41,7 @@
             <button onclick="m3uToTxt()">M3U 转 TXT</button>
             <button onclick="clearInput()">清空内容</button>
             <button onclick="copyResult()">复制结果</button>
+            <button onclick="saveResult()">保存结果</button>
         </div>
         <textarea id="output" placeholder="转换结果将显示在此" readonly></textarea>
         <div class="tips">
@@ -54,6 +55,8 @@
     </div>
 
     <script>
+        let currentFormat = ""; // 当前转换结果的格式（txt 或 m3u）
+
         // TXT 转 M3U
         function txtToM3u() {
             const input = document.getElementById("input").value.trim();
@@ -78,6 +81,7 @@
             });
 
             document.getElementById("output").value = result;
+            currentFormat = "m3u"; // 标记当前结果为 M3U 格式
         }
 
         // M3U 转 TXT
@@ -116,12 +120,14 @@
             }
 
             document.getElementById("output").value = result;
+            currentFormat = "txt"; // 标记当前结果为 TXT 格式
         }
 
         // 清空输入和输出
         function clearInput() {
             document.getElementById("input").value = "";
             document.getElementById("output").value = "";
+            currentFormat = ""; // 清空当前格式标记
         }
 
         // 复制结果
@@ -130,6 +136,33 @@
             output.select();
             document.execCommand("copy");
             alert("结果已复制到剪贴板！");
+        }
+
+        // 保存结果
+        function saveResult() {
+            const output = document.getElementById("output").value.trim();
+            if (!output) {
+                alert("没有内容可保存！");
+                return;
+            }
+
+            let filename = "tv";
+            if (currentFormat === "txt") {
+                filename += ".txt";
+            } else if (currentFormat === "m3u") {
+                filename += ".m3u";
+            } else {
+                alert("无法确定保存格式，请先进行转换！");
+                return;
+            }
+
+            const blob = new Blob([output], { type: "text/plain" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
         }
     </script>
 </body>
