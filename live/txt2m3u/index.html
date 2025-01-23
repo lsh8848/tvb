@@ -10,38 +10,93 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #f9f9f9; /* 背景色 */
         }
         textarea {
             width: 100%;
             height: 200px;
             margin-bottom: 10px;
+            box-sizing: border-box; /* 确保宽度包含 padding 和 border */
+            padding: 10px;
+            border: 2px dashed #ccc; /* 添加拖放区域的边框 */
+            border-radius: 5px;
+            font-size: 14px;
+            background-color: #fff; /* 输入框背景色 */
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap; /* 允许按钮换行 */
+            gap: 10px; /* 按钮之间的间距 */
+            margin-bottom: 10px;
         }
         button {
             padding: 10px 20px;
-            margin-right: 10px;
+            flex: 1 1 auto; /* 按钮宽度自适应 */
             cursor: pointer;
+            font-size: 16px; /* 增大按钮字体 */
+            border: none;
+            border-radius: 5px;
+            color: white; /* 按钮文字颜色 */
+            transition: background-color 0.3s ease; /* 按钮颜色过渡效果 */
+        }
+        button:hover {
+            opacity: 0.9; /* 鼠标悬停时按钮透明度变化 */
+        }
+        /* 按钮颜色 */
+        #txtToM3uBtn { background-color: #6c5ce7; } /* 紫色 */
+        #m3uToTxtBtn { background-color: #00b894; } /* 绿色 */
+        #clearBtn { background-color: #e17055; } /* 橙色 */
+        #copyBtn { background-color: #0984e3; } /* 蓝色 */
+        #saveBtn { background-color: #d63031; } /* 红色 */
+        .file-input-container {
+            margin-bottom: 10px;
+        }
+        .file-input-label {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00b894; /* 绿色 */
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* 按钮颜色过渡效果 */
+        }
+        .file-input-label:hover {
+            opacity: 0.9; /* 鼠标悬停时按钮透明度变化 */
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
+            padding: 0 10px; /* 增加内边距 */
         }
         .tips {
             color: #666;
             font-size: 14px;
             margin-top: 10px;
         }
+        @media (max-width: 600px) {
+            .button-container {
+                flex-direction: column; /* 移动端按钮垂直排列 */
+            }
+            button {
+                width: 100%; /* 移动端按钮宽度为 100% */
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>TXT 和 M3U 互相转换工具</h1>
-        <textarea id="input" placeholder="在此粘贴 TXT 或 M3U 内容"></textarea>
-        <div>
-            <button onclick="txtToM3u()">TXT 转 M3U</button>
-            <button onclick="m3uToTxt()">M3U 转 TXT</button>
-            <button onclick="clearInput()">清空内容</button>
-            <button onclick="copyResult()">复制结果</button>
-            <button onclick="saveResult()">保存结果</button>
+        <div class="file-input-container">
+            <label for="fileInput" class="file-input-label">选择文件</label>
+            <input type="file" id="fileInput" accept=".txt,.m3u" style="display: none;">
+        </div>
+        <textarea id="input" placeholder="在此粘贴 TXT 或 M3U 内容，或者将文件拖到此处"></textarea>
+        <div class="button-container">
+            <button id="txtToM3uBtn" onclick="txtToM3u()">TXT 转 M3U</button>
+            <button id="m3uToTxtBtn" onclick="m3uToTxt()">M3U 转 TXT</button>
+            <button id="clearBtn" onclick="clearInput()">清空内容</button>
+            <button id="copyBtn" onclick="copyResult()">复制结果</button>
+            <button id="saveBtn" onclick="saveResult()">保存结果</button>
         </div>
         <textarea id="output" placeholder="转换结果将显示在此" readonly></textarea>
         <div class="tips">
@@ -56,6 +111,42 @@
 
     <script>
         let currentFormat = ""; // 当前转换结果的格式（txt 或 m3u）
+
+        // 选择文件
+        document.getElementById("fileInput").addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById("input").value = e.target.result;
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // 拖放文件
+        const inputTextarea = document.getElementById("input");
+        inputTextarea.addEventListener("dragover", function (event) {
+            event.preventDefault();
+            inputTextarea.style.borderColor = "#6c5ce7"; // 拖入时改变边框颜色
+        });
+        inputTextarea.addEventListener("dragleave", function (event) {
+            event.preventDefault();
+            inputTextarea.style.borderColor = "#ccc"; // 拖出时恢复边框颜色
+        });
+        inputTextarea.addEventListener("drop", function (event) {
+            event.preventDefault();
+            inputTextarea.style.borderColor = "#ccc"; // 拖放完成后恢复边框颜色
+
+            const file = event.dataTransfer.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    inputTextarea.value = e.target.result;
+                };
+                reader.readAsText(file);
+            }
+        });
 
         // TXT 转 M3U
         function txtToM3u() {
