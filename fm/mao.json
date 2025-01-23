@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://xhdwc.tk/api/img.php",
-  "spider": "https://xtxkj.ggff.net/fm/fan.jar;md5;5eaae4b083c5fc6c47c1cc0a204364b2",
+  "spider": "./fan.jar;md5;5eaae4b083c5fc6c47c1cc0a204364b2",
   "sites": [
     {
       "key": "豆豆",
@@ -32,7 +32,7 @@
         "播放标题": "alt=\"&&\"",
         "播放链接": "https://m.douban.com+href=\"&&\""
              },
-      "jar": "https://xtxkj.ggff.net/fm/XBPQ.jar"
+      "jar": "./XBPQ.jar"
     },
   {
       "key": "YGP",
@@ -159,7 +159,7 @@
       "type": 3,
       "api": "csp_Config",
       "playerType": 2,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Jpyy",
@@ -171,7 +171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Gz360",
@@ -183,7 +183,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_J",
@@ -195,7 +195,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_SuBaiBai",
@@ -208,7 +208,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Nongm",
@@ -221,7 +221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_AppRZ",
@@ -234,7 +234,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_Tvyb",
@@ -246,7 +246,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_XMUC",
@@ -267,7 +267,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "csp_FeiMaoUC",
@@ -286,7 +286,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://xtxkj.ggff.net/fm/Feimao.jar"
+      "jar": "./Feimao.jar"
     },
     {
       "key": "萌米",
