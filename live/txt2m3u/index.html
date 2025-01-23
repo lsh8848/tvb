@@ -75,10 +75,15 @@
         }
         @media (max-width: 600px) {
             .button-container {
-                flex-direction: column; /* 移动端按钮垂直排列 */
+                flex-direction: row; /* 移动端按钮水平排列 */
+                flex-wrap: wrap; /* 允许按钮换行 */
             }
             button {
-                width: 100%; /* 移动端按钮宽度为 100% */
+                flex: 1 1 calc(50% - 10px); /* 每行显示两个按钮，间距为 10px */
+            }
+            /* 最后一个按钮单独一行 */
+            #saveBtn {
+                flex: 1 1 100%;
             }
         }
     </style>
