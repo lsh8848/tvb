@@ -1,6 +1,7 @@
 {
   "wallpaper": "https://xhdwc.tk/api/img.php",
   "spider": "./fan.jar;md5;5eaae4b083c5fc6c47c1cc0a204364b2",
+  "spider": "./wex.jar,
   "sites": [
     {
       "key": "豆豆",
@@ -68,8 +69,7 @@
       "type": 3,
       "api": "csp_WexIktvGuard",
       "searchable": 0,
-      "changeable": 0,
-    "jar": "./wex.jar"
+      "changeable": 0
     },
     {
       "key": "荐片",
