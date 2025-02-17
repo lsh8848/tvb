@@ -43,13 +43,6 @@
       "quickSearch": 0,
       "changeable": 0
     },
-	{
-		"name": "FYlive",
-		"type": 3,
-		"api": "csp_Feiyang",
-		"url": "tv.m3u",
-		"jar": "./fm.jar"
-	},
     {
       "key": "alllive",
       "name": "📽️一直播┃LIVE",
@@ -644,13 +637,6 @@
      "logo": "https://live.zjwz.us.kg/tv/{name}.png"
 */
     },
-	{
-		"name": "FYlive",
-		"type": 3,
-		"api": "csp_Feiyang",
-		"url": "tv.m3u",
-		"jar": "./fm.jar"
-	},
     {
       "name": "feiyang__format2_N1",
       "type": 0,
