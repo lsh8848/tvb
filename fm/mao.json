@@ -637,29 +637,25 @@
      "logo": "https://live.zjwz.us.kg/tv/{name}.png"
 */
     },
+	{
+		"name": "FYlive",
+		"type": 3,
+		"api": "csp_Feiyang",
+		"url": "tv.m3u",
+		"ext": "./allinone-linux-musl-arm64;md5;DA1EC76FEF49AD34782447513E5A3620",
+		"jar": "./fm.jar"
+	},
     {
-      "name": "fmm-ipv6-live",
-      "type": 0,
-      "playerType": 2,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
-    },
-    {
-      "name": "4gtv_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:5000/4gtv.m3u"
-    },
-    {
-      "name": "youtube_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:5000/youtube/list/PLdRD5eMoMQy5ybIl5g4gmqs8x4B4Srg8f"
-    },
-    {
-      "name": "feiyang_整理2_N1",
+      "name": "feiyang__format2_N1",
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:35456/m3u/2"
+    },
+    {
+      "name": "feiyang__format3_N1",
+      "type": 0,
+      "playerType": 2,
+      "url": "http://192.168.2.99:35456/m3u/3"
     },
     {
       "name": "feiyang_huya_N1",
@@ -678,6 +674,18 @@
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:35455/bililive.m3u"
+    },
+    {
+      "name": "4gtv_N1",
+      "type": 0,
+      "playerType": 2,
+      "url": "http://192.168.2.99:5000/4gtv.m3u"
+    },
+    {
+      "name": "youtube_N1",
+      "type": 0,
+      "playerType": 2,
+      "url": "http://192.168.2.99:5000/youtube/list/PLdRD5eMoMQy5ybIl5g4gmqs8x4B4Srg8f"
     }
   ],
   "parses": [
