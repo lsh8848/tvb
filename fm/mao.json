@@ -642,7 +642,7 @@
 		"type": 3,
 		"api": "csp_Feiyang",
 		"url": "tv.m3u",
-		"ext": "./allinone-linux-musl-arm64;md5;DA1EC76FEF49AD34782447513E5A3620",
+		"ext": "http://127.0.0.1:9978/download/fm/allinone-linux-musl-arm64;md5;DA1EC76FEF49AD34782447513E5A3620",
 		"jar": "./fm.jar"
 	},
     {
