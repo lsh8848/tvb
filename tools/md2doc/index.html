@@ -4,8 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown 转 Word</title>
-  <!-- 设置 favicon.ico -->
-  <link rel="icon" href="https://tvb.zyh520.tk/img/favicon.ico" type="image/x-icon">  
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -102,6 +100,8 @@
     <div id="output" contenteditable="true"></div>
   </div>
 
+  <!-- 引入 FileSaver.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
   <script>
     const markdownInput = document.getElementById('markdownInput');
     const dropZone = document.getElementById('dropZone');
@@ -241,16 +241,9 @@
         </html>
       `;
       const blob = new Blob([htmlContent], { type: 'application/msword' });
-      const url = URL.createObjectURL(blob);
 
-      // 创建下载链接并触发下载
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = '文档.doc';
-      document.body.appendChild(a); // 临时添加到 DOM 中
-      a.click();
-      document.body.removeChild(a); // 移除临时元素
-      URL.revokeObjectURL(url);
+      // 使用 FileSaver.js 保存文件
+      saveAs(blob, '文档.doc');
     });
   </script>
 </body>
