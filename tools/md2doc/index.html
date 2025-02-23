@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown 转 Word</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: none;
+    }
+    .buttons {
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 12px 25px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    #openFileButton { background-color: #4CAF50; } /* 绿色 */
+    #clearButton { background-color: #FF5722; }   /* 橙红色 */
+    #removeEmptyLinesButton { background-color: #03A9F4; } /* 蓝色 */
+    #convertButton { background-color: #FFC107; } /* 黄色 */
+    #copyButton { background-color: #2196F3; }    /* 深蓝色 */
+    #downloadButton { background-color: #E91E63; }/* 粉红色 */
+    .drop-zone {
+      border: 2px dashed #ccc;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .drop-zone.dragover {
+      border-color: #000;
+    }
+    #output {
+      border: 1px solid #ccc;
+      padding: 10px;
+      min-height: 200px;
+      border-radius: 4px;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Markdown 转 Word 工具</h1>
+
+    <!-- 输入区域 -->
+    <textarea id="markdownInput" placeholder="在这里粘贴 Markdown 内容..."></textarea>
+
+    <!-- 拖拽区域 -->
+    <div class="drop-zone" id="dropZone">拖拽 Markdown 文件到这里，或点击选择文件</div>
+
+    <!-- 按键 -->
+    <div class="buttons">
+      <button id="openFileButton">打开文件</button>
+      <button id="clearButton">清空内容</button>
+      <button id="removeEmptyLinesButton">删除空白行</button>
+      <button id="convertButton">转换为 Word</button>
+      <button id="copyButton">复制转换后的内容</button>
+      <button id="downloadButton">下载为 Word 文件</button>
+    </div>
+
+    <!-- 隐藏的文件输入框 -->
+    <input type="file" id="fileInput" accept=".md,.txt" style="display: none;">
+
+    <!-- 输出区域 -->
+    <div id="output" contenteditable="true"></div>
+  </div>
+
+  <script>
+    const markdownInput = document.getElementById('markdownInput');
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const openFileButton = document.getElementById('openFileButton');
+    const clearButton = document.getElementById('clearButton');
+    const removeEmptyLinesButton = document.getElementById('removeEmptyLinesButton');
+    const convertButton = document.getElementById('convertButton');
+    const copyButton = document.getElementById('copyButton');
+    const downloadButton = document.getElementById('downloadButton');
+    const output = document.getElementById('output');
+
+    // 处理文件上传
+    function handleFile(file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        markdownInput.value = e.target.result;
+      };
+      reader.readAsText(file);
+    }
+
+    // 拖拽功能
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('dragover');
+    });
+
+    dropZone.addEventListener('dragleave', () => {
+      dropZone.classList.remove('dragover');
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      const file = e.dataTransfer.files[0];
+      if (file) handleFile(file);
+    });
+
+    dropZone.addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) handleFile(file);
+    });
+
+    openFileButton.addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    // 清空内容
+    clearButton.addEventListener('click', () => {
+      markdownInput.value = '';
+      output.innerHTML = '';
+    });
+
+    // 删除空白行（针对输入框中的 Markdown 文本）
+    removeEmptyLinesButton.addEventListener('click', () => {
+      markdownInput.value = markdownInput.value.replace(/^\s*[\r\n]/gm, '');
+    });
+
+    // Markdown 转 HTML
+    function markdownToHtml(markdown) {
+      // 修复标题转换问题
+      markdown = markdown.replace(/^#### (.*$)/gim, '<h4>$1</h4>'); // 四级标题
+      markdown = markdown.replace(/^### (.*$)/gim, '<h3>$1</h3>');   // 三级标题
+      markdown = markdown.replace(/^## (.*$)/gim, '<h2>$1</h2>');    // 二级标题
+      markdown = markdown.replace(/^# (.*$)/gim, '<h1>$1</h1>');     // 一级标题
+      markdown = markdown.replace(/\*\*(.*)\*\*/gim, '<b>$1</b>');   // 加粗
+      markdown = markdown.replace(/\*(.*)\*/gim, '<i>$1</i>');       // 斜体
+      markdown = markdown.replace(/!\[(.*?)\]\((.*?)\)/gim, "<img alt='$1' src='$2' />"); // 图片
+      markdown = markdown.replace(/\[(.*?)\]\((.*?)\)/gim, "<a href='$2'>$1</a>"); // 链接
+      markdown = markdown.replace(/\n\s*\n/g, '<br><br>');           // 换行（两个换行符）
+      markdown = markdown.replace(/\n/g, '<br>');                    // 单个换行符
+      return markdown;
+    }
+
+    // 转换按钮
+    convertButton.addEventListener('click', () => {
+      const markdown = markdownInput.value;
+      const htmlContent = markdownToHtml(markdown);
+      output.innerHTML = htmlContent;
+    });
+
+    // 复制按钮
+    copyButton.addEventListener('click', () => {
+      const range = document.createRange();
+      range.selectNodeContents(output);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      document.execCommand('copy');
+      selection.removeAllRanges();
+      alert('已复制转换后的内容到剪贴板！');
+    });
+
+    // 下载为 Word 文件
+    downloadButton.addEventListener('click', () => {
+      const htmlContent = `
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <meta charset="UTF-8">
+          <title>文档</title>
+        </head>
+        <body>
+          ${output.innerHTML}
+        </body>
+        </html>
+      `;
+      const blob = new Blob([htmlContent], { type: 'application/msword' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = '文档.doc';
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
