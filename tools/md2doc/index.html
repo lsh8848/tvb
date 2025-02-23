@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown 转 Word</title>
-      <!-- 设置 favicon.ico -->
-    <link rel="icon" href="https://tvb.zyh520.tk/img/favicon.ico" type="image/x-icon">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
       background-color: #f9f9f9;
+      padding: 10px;
     }
     .container {
       max-width: 800px;
@@ -22,7 +21,7 @@
     }
     textarea {
       width: 100%;
-      height: 200px;
+      height: 150px;
       margin-bottom: 10px;
       padding: 10px;
       border: 1px solid #ccc;
@@ -30,15 +29,18 @@
       resize: none;
     }
     .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
       margin-bottom: 10px;
     }
     button {
-      padding: 12px 25px;
-      margin: 5px;
+      flex: 1 1 calc(33.33% - 20px);
+      padding: 10px;
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 14px;
       color: #fff;
       transition: background-color 0.3s ease;
     }
@@ -65,7 +67,7 @@
     #output {
       border: 1px solid #ccc;
       padding: 10px;
-      min-height: 200px;
+      min-height: 150px;
       border-radius: 4px;
       background-color: #f9f9f9;
     }
@@ -73,7 +75,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Markdown 转 Word 工具</h1>
+    <h1 style="text-align: center;">Markdown 转 Word</h1>
 
     <!-- 输入区域 -->
     <textarea id="markdownInput" placeholder="在这里粘贴 Markdown 内容..."></textarea>
@@ -85,10 +87,10 @@
     <div class="buttons">
       <button id="openFileButton">打开文件</button>
       <button id="clearButton">清空内容</button>
-      <button id="removeEmptyLinesButton">删除空白行</button>
-      <button id="convertButton">转换为 Word</button>
-      <button id="copyButton">复制转换后的内容</button>
-      <button id="downloadButton">下载为 Word 文件</button>
+      <button id="removeEmptyLinesButton">删除空行</button>
+      <button id="convertButton">转换 Word</button>
+      <button id="copyButton">复制内容</button>
+      <button id="downloadButton">下载 Word</button>
     </div>
 
     <!-- 隐藏的文件输入框 -->
@@ -238,10 +240,14 @@
       `;
       const blob = new Blob([htmlContent], { type: 'application/msword' });
       const url = URL.createObjectURL(blob);
+
+      // 创建下载链接并触发下载
       const a = document.createElement('a');
       a.href = url;
       a.download = '文档.doc';
+      document.body.appendChild(a); // 临时添加到 DOM 中
       a.click();
+      document.body.removeChild(a); // 移除临时元素
       URL.revokeObjectURL(url);
     });
   </script>
