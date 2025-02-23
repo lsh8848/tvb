@@ -169,8 +169,35 @@
       markdown = markdown.replace(/\*(.*)\*/gim, '<i>$1</i>');       // 斜体
       markdown = markdown.replace(/!\[(.*?)\]\((.*?)\)/gim, "<img alt='$1' src='$2' />"); // 图片
       markdown = markdown.replace(/\[(.*?)\]\((.*?)\)/gim, "<a href='$2'>$1</a>"); // 链接
-      markdown = markdown.replace(/\n\s*\n/g, '<br><br>');           // 换行（两个换行符）
-      markdown = markdown.replace(/\n/g, '<br>');                    // 单个换行符
+
+      // 使用硬回车（段落分隔）
+      markdown = markdown.replace(/\n\s*\n/g, '</p><p>'); // 两个换行符分隔为段落
+
+      // 单个换行符：保留列表项和标题的换行
+      markdown = markdown.split('\n').map(line => {
+        line = line.trim();
+        if (line.startsWith('-')) {
+          return `<li>${line.replace(/^-/, '').trim()}</li>`;
+        }
+        if (line.match(/^\d+\./)) {
+          const match = line.match(/^(\d+)\.(.*)/);
+          const number = match[1];
+          const content = match[2].trim();
+          return `<p>${number}. ${content}</p>`;
+        }
+        return line;
+      }).join('');
+
+      // 将列表项包裹为 <ul>
+      markdown = markdown.replace(/(<li>.*?<\/li>)+/g, (match) => {
+        return `<ul>${match}</ul>`;
+      });
+
+      // 包裹整体内容为段落
+      markdown = `<p>${markdown}</p>`; // 包裹整体内容为段落
+
+      // 删除多余的软回车符
+      markdown = markdown.replace(/<br\s*\/?>/gi, ''); // 移除所有 <br> 标签
       return markdown;
     }
 
