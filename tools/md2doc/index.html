@@ -4,8 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Markdown 转 Word</title>
-  <!-- 设置 favicon.ico -->
-  <link rel="icon" href="https://tvb.zyh520.tk/img/favicon.ico" type="image/x-icon">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -168,17 +166,24 @@
 
     // Markdown 转 HTML
     function markdownToHtml(markdown) {
-      // 修复标题转换问题
+      // 1. 删除所有单独成行的 ---（分隔线）
+      markdown = markdown.replace(/^---+\s*$/gm, '');
+
+      // 2. 处理标题
       markdown = markdown.replace(/^#### (.*$)/gim, '<h4>$1</h4>'); // 四级标题
       markdown = markdown.replace(/^### (.*$)/gim, '<h3>$1</h3>');   // 三级标题
       markdown = markdown.replace(/^## (.*$)/gim, '<h2>$1</h2>');    // 二级标题
       markdown = markdown.replace(/^# (.*$)/gim, '<h1>$1</h1>');     // 一级标题
+
+      // 3. 处理加粗和斜体
       markdown = markdown.replace(/\*\*(.*)\*\*/gim, '<b>$1</b>');   // 加粗
       markdown = markdown.replace(/\*(.*)\*/gim, '<i>$1</i>');       // 斜体
+
+      // 4. 处理图片和链接
       markdown = markdown.replace(/!\[(.*?)\]\((.*?)\)/gim, "<img alt='$1' src='$2' />"); // 图片
       markdown = markdown.replace(/\[(.*?)\]\((.*?)\)/gim, "<a href='$2'>$1</a>"); // 链接
 
-      // 使用硬回车（段落分隔）
+      // 5. 处理段落和列表
       markdown = markdown.replace(/\n\s*\n/g, '</p><p>'); // 两个换行符分隔为段落
 
       // 单个换行符：保留列表项和标题的换行
@@ -243,8 +248,6 @@
         </html>
       `;
       const blob = new Blob([htmlContent], { type: 'application/msword' });
-
-      // 使用 FileSaver.js 保存文件
       saveAs(blob, '文档.doc');
     });
   </script>
