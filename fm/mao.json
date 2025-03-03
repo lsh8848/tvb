@@ -638,22 +638,16 @@
 */
     },
     {
-      "name": "doube_itv_N1",
+      "name": "doube-itv-plus_N1",
       "type": 0,
       "playerType": 2,
-      "url": "http://192.168.2.99:50101/Sub?type=m3u"
+      "url": "http://192.168.2.99:50001/Sub.m3u"
     },
     {
       "name": "feiyang__format2_N1",
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:35456/m3u/2"
-    },
-    {
-      "name": "feiyang__format3_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:35456/m3u/3"
     },
     {
       "name": "feiyang_huya_N1",
@@ -672,18 +666,6 @@
       "type": 0,
       "playerType": 2,
       "url": "http://192.168.2.99:35455/bililive.m3u"
-    },
-    {
-      "name": "4gtv_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:5000/4gtv.m3u"
-    },
-    {
-      "name": "youtube_N1",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://192.168.2.99:5000/youtube/list/PLdRD5eMoMQy5ybIl5g4gmqs8x4B4Srg8f"
     }
   ],
   "parses": [
