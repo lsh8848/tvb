@@ -638,6 +638,14 @@
 */
     },
     {
+      "name": "直播（仅新版影视仓┃ok影视）",
+      "type": 0,
+      "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    },
+    {
       "name": "doube-itv-plus_N1",
       "type": 0,
       "playerType": 2,
