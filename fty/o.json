@@ -655,15 +655,15 @@
       }
     }
   ],
-  "logo": "https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
+  "logo": "https://ipan.925529.xyz/file/houzi.gif",
   "lives": [
     {
       "name": "直播Live",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "url": "./lib/live.txt",
       "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.v1.mk/logo/{name}.png"
+      "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
+      "logo": "https://tv.zyh520.tk/live/logo/{name}.png"
     },
     {
       "name": "V4聚合（卡顿请按左┃右键换线）",

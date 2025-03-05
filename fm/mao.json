@@ -634,7 +634,7 @@
       "url": "https://tv.zyh520.tk/live/tv2.m3u"
 /* ,
      "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
-     "logo": "https://live.zjwz.us.kg/tv/{name}.png"
+     "logo": "https://tv.zyh520.tk/live/logo/{name}.png"
 */
     },
     {
