@@ -82,8 +82,7 @@
       "changeable": 0,
       "playerType": 2,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/jp2.js",
-      "jar": "./fty.jar"
+      "ext": "./lib/jp2.js"
     },
     {
       "key": "苹果",
