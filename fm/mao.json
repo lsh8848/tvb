@@ -82,7 +82,8 @@
       "changeable": 0,
       "playerType": 2,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/jp2.js"
+      "ext": "./lib/jp2.js",
+      "jar": "./fty.jar"
     },
     {
       "key": "苹果",
@@ -789,8 +790,7 @@
       "name": "lsh-live",
       "type": 0,
       "playerType": 2,
-      "url": "https://tv.zyh520.tk/live/tv2.m3u",
-      "jar": "./fty.jar"
+      "url": "https://tv.zyh520.tk/live/tv2.m3u"
     },
 	{
       "name": "TV直播",
@@ -798,8 +798,7 @@
       "url": "./lib/live.txt",
       "playerType": 1,
       "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
-      "logo": "https://tv.zyh520.tk/live/logo/{name}.png",
-      "jar": "./fty.jar"
+      "logo": "https://tv.zyh520.tk/live/logo/{name}.png"
     },
     {
       "name": "V4聚合",
