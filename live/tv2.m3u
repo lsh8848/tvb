@@ -783,9 +783,9 @@ http://127.0.0.1:9978/proxy?do=饭太硬&type=m3u8&url=QU83VGNCa2Q4SkNhK1FRWThnM
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://tv.zyh520.tk/live/logo/嘉佳卡通.png" group-title="🧒少儿👧",嘉佳卡通
 http://127.0.0.1:9978/proxy?do=饭太硬&type=m3u8&url=QU83VGNCa2Q4SkNhK1FRWThnM0NzWkIwS29aR0hKcFZXVHhScU9mdnlVSlVROHVhN0dxRGtScWR2%0AZmZtV1hIdUx5clloaTV6eEQ0NkRUWnhhNUpqYVE0VURZQ0dnMG5ZWUg0QmczMUV5K05nSG83cE1T%0ANWtLQWZrTm54cnljSDF2SFdFT05SMEdkUnk4a0pGNHdIekFFTlRkcnl3cUV3Q2JwWkxiWE1SQXd2%0AcjRRPT0%3D%0A
 
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4k.png" group-title="🐋4K超高清",CCTV4K-HLG
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4K.png" group-title="🐋4K超高清",CCTV4K-HLG
 http://zjzcf.synology.me:35455/gaoma/cctv4k.m3u8$gaoma-HLG
-#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8k.png" group-title="🐋4K超高清",CCTV8K-36m-HLG
+#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8K.png" group-title="🐋4K超高清",CCTV8K-36m-HLG
 http://zjzcf.synology.me:35455/gaoma/cctv8k_36m.m3u8$gaoma-36m-HLG
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV16.png" group-title="🐋4K超高清",CCTV16-4K-HLG
 http://zjzcf.synology.me:35455/gaoma/cctv4k16.m3u8$gaoma-HLG
@@ -793,23 +793,17 @@ http://zjzcf.synology.me:35455/gaoma/cctv4k16.m3u8$gaoma-HLG
 http://zjzcf.synology.me:35455/itv/5000000008000023254.m3u8?cdn=bestzb$itv-HEVC
 #EXTINF:-1 tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://tv.zyh520.tk/live/logo/北京IPTV4K.png" group-title="🐋4K超高清",北京IPTV4K
 http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887500.m3u8$bptv
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://tv.zyh520.tk/live/logo/北京体育休闲.png" group-title="🐋4K超高清",北京4K测试频道
-http://zjzcf.synology.me:35455/bptv/10000100000000050000000004270525.m3u8$bptv
 #EXTINF:-1 tvg-id="华数4K" tvg-name="华数4K" tvg-logo="https://tv.zyh520.tk/live/logo/华数4K.png" group-title="🐋4K超高清",华数-4K
 http://zjzcf.synology.me:35455/itv/6000000003000004748.m3u8?cdn=wasusyt$itv
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://tv.zyh520.tk/live/logo/纯享4K.png" group-title="🐋4K超高清",纯享-4K
 http://zjzcf.synology.me:35455/itv/1000000004000011651.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4K.png" group-title="🐋4K超高清",咪咕4K-1
-http://zjzcf.synology.me:35455/itv/3000000010000005180.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4K" tvg-name="咪咕4K" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4K.png" group-title="🐋4K超高清",咪咕4K-2
-http://zjzcf.synology.me:35455/itv/3000000010000015686.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LOVENATURE" tvg-logo="https://tv.zyh520.tk/live/logo/LOVENATURE.png" group-title="🐋4K超高清",Love Nature 4K
+#EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LoveNature" tvg-logo="https://tv.zyh520.tk/live/logo/LoveNature4K.png" group-title="🐋4K超高清",Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8$cloudfront
-#EXTINF:-1 tvg-id="LOUPE4K" tvg-name="LOUPE4K" tvg-logo="https://tv.zyh520.tk/live/logo/LOUPE4K.png" group-title="🐋4K超高清",Loupe 4K
+#EXTINF:-1 tvg-id="Loupe4K" tvg-name="Loupe4K" tvg-logo="https://tv.zyh520.tk/live/logo/Loupe4K.png" group-title="🐋4K超高清",Loupe 4K
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8$cloudfront
 #EXTINF:-1 tvg-id="FASHIONONE" tvg-name="FASHIONONE" tvg-logo="https://tv.zyh520.tk/live/logo/FASHIONONE.png" group-title="🐋4K超高清",Fashion 4K
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8$slive
-#EXTINF:-1 tvg-id="SITV欢笑剧场" tvg-name="SITV欢笑剧场" tvg-logo="https://tv.zyh520.tk/live/logo/SITV欢笑剧场.png" group-title="🐋4K超高清",SiTV-欢笑剧场-4K
+#EXTINF:-1 tvg-id="SiTV欢笑剧场" tvg-name="SiTV欢笑剧场" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV欢笑剧场.png" group-title="🐋4K超高清",SiTV-欢笑剧场4K
 http://zjzcf.synology.me:35455/itv/5000000007000010001.m3u8?cdn=bestzb$itv
 #EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://tv.zyh520.tk/live/logo/北京纪实科教.png" group-title="🐋4K超高清",北京纪实科教8K
 https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8$gdcucc
@@ -1061,7 +1055,7 @@ http://zjzcf.synology.me:35455/bptv/10000100000000050000000003870779.m3u8$bptv
 http://zjzcf.synology.me:35455/bptv/10000100000000050000000003870780.m3u8$bptv
 #EXTINF:-1 tvg-id="湖南金鹰纪实" tvg-name="湖南金鹰纪实" tvg-logo="https://tv.zyh520.tk/live/logo/湖南金鹰纪实.png" group-title="🐋地方频道",湖南金鹰纪实
 http://zjzcf.synology.me:35455/itv/5000000011000031203.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="湖南快乐垂钓" tvg-name="湖南快乐垂钓" tvg-logo="https://tv.zyh520.tk/live/logo/湖南.png" group-title="🐋地方频道",湖南快乐垂钓
+#EXTINF:-1 tvg-id="湖南快乐垂钓" tvg-name="湖南快乐垂钓" tvg-logo="https://tv.zyh520.tk/live/logo/湖南快乐垂钓.png" group-title="🐋地方频道",湖南快乐垂钓
 http://zjzcf.synology.me:35455/itv/5000000011000031206.m3u8?cdn=bestzb$itv
 #EXTINF:-1 tvg-id="湖南茶频道" tvg-name="湖南茶频道" tvg-logo="https://tv.zyh520.tk/live/logo/湖南茶频道.png" group-title="🐋地方频道",湖南茶频道
 http://zjzcf.synology.me:35455/itv/5000000011000031209.m3u8?cdn=bestzb$itv
@@ -1091,9 +1085,9 @@ http://zjzcf.synology.me:35455/itv/5000000011000031110.m3u8?cdn=bestzb$itv
 https://gdcucc.v1.mk/gdcucc/chcjtyy.m3u8$gdcucc
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/CHC动作电影.png" group-title="🐋数字频道",CHC动作电影
 https://gdcucc.v1.mk/gdcucc/chcdzdy.m3u8$gdcucc
-#EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://tv.zyh520.tk/live/logo/中国教育1台.png" group-title="🐋数字频道",中国教育电视台-1
+#EXTINF:-1 tvg-id="中国教育1" tvg-name="中国教育1" tvg-logo="https://tv.zyh520.tk/live/logo/中国教育1.png" group-title="🐋数字频道",中国教育-1
 http://zjzcf.synology.me:35455/itv/5000000002000002652.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://tv.zyh520.tk/live/logo/中国教育4台.png" group-title="🐋数字频道",中国教育电视台-4
+#EXTINF:-1 tvg-id="中国教育4" tvg-name="中国教育4" tvg-logo="https://tv.zyh520.tk/live/logo/中国教育4.png" group-title="🐋数字频道",中国教育-4
 http://zjzcf.synology.me:35455/itv/5000000011000031126.m3u8?cdn=bestzb$itv
 #EXTINF:-1 tvg-id="求索动物" tvg-name="求索动物" tvg-logo="https://tv.zyh520.tk/live/logo/求索动物.png" group-title="🐋数字频道",求索动物
 http://zjzcf.synology.me:35455/itv/6000000002000010046.m3u8?cdn=wasusyt$itv
@@ -1103,193 +1097,71 @@ http://zjzcf.synology.me:35455/itv/6000000002000032052.m3u8?cdn=wasusyt$itv
 http://zjzcf.synology.me:35455/itv/6000000002000032344.m3u8?cdn=wasusyt$itv
 #EXTINF:-1 tvg-id="求索生活" tvg-name="求索生活" tvg-logo="https://tv.zyh520.tk/live/logo/求索生活.png" group-title="🐋数字频道",求索生活
 http://zjzcf.synology.me:35455/itv/6000000002000003382.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",湖南bblive-1
-http://zjzcf.synology.me:35455/itv/2000000003000000060.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",湖南bblive-2
-http://zjzcf.synology.me:35455/itv/2000000003000000061.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",湖南bblive-3
-http://zjzcf.synology.me:35455/itv/2000000003000000062.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",湖南bblive-4
-http://zjzcf.synology.me:35455/itv/2000000003000000063.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",湖南bblive-5
-http://zjzcf.synology.me:35455/itv/2000000003000000064.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",湖南bblive-6
-http://zjzcf.synology.me:35455/itv/2000000003000000065.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",易视腾-1
-http://zjzcf.synology.me:35455/itv/1000000006000270001.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",易视腾-2
-http://zjzcf.synology.me:35455/itv/1000000006000270002.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",易视腾-3
-http://zjzcf.synology.me:35455/itv/1000000006000270003.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",易视腾-4
-http://zjzcf.synology.me:35455/itv/1000000006000270004.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",易视腾-5
-http://zjzcf.synology.me:35455/itv/1000000006000270005.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",易视腾-6
-http://zjzcf.synology.me:35455/itv/1000000006000270006.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://tv.zyh520.tk/live/logo/重温经典.png" group-title="🐋数字频道",重温经典
 https://gdcucc.v1.mk/gdcucc/cwjd.m3u8$gdcucc
-#EXTINF:-1 tvg-id="咪咕全民热练" tvg-name="咪咕全民热练" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪咕全民热练
+#EXTINF:-1 tvg-id="睛彩青少" tvg-name="睛彩青少" tvg-logo="https://tv.zyh520.tk/live/logo/睛彩青少.png" group-title="🐋数字频道",睛彩青少
 http://zjzcf.synology.me:35455/itv/3000000020000031315.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-1
-http://zjzcf.synology.me:35455/itv/3000000001000005308.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-2
-http://zjzcf.synology.me:35455/itv/3000000001000005969.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-3
-http://zjzcf.synology.me:35455/itv/3000000001000007218.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-4
-http://zjzcf.synology.me:35455/itv/3000000001000008001.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-5
-http://zjzcf.synology.me:35455/itv/3000000001000008176.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-6
-http://zjzcf.synology.me:35455/itv/3000000001000008379.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-7
-http://zjzcf.synology.me:35455/itv/3000000001000010129.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-8
-http://zjzcf.synology.me:35455/itv/3000000001000010948.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-9
-http://zjzcf.synology.me:35455/itv/3000000001000028638.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-10
-http://zjzcf.synology.me:35455/itv/3000000001000031494.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-11
-http://zjzcf.synology.me:35455/itv/3000000010000005837.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-12
-http://zjzcf.synology.me:35455/itv/3000000020000011518.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-13
-http://zjzcf.synology.me:35455/itv/3000000020000011519.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-14
-http://zjzcf.synology.me:35455/itv/3000000020000011520.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-15
-http://zjzcf.synology.me:35455/itv/3000000020000011521.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-16
-http://zjzcf.synology.me:35455/itv/3000000020000011522.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-17
-http://zjzcf.synology.me:35455/itv/3000000020000011523.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-18
-http://zjzcf.synology.me:35455/itv/3000000020000011524.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-19
-http://zjzcf.synology.me:35455/itv/3000000020000011525.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-20
-http://zjzcf.synology.me:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-21
-http://zjzcf.synology.me:35455/itv/3000000020000011529.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-22
-http://zjzcf.synology.me:35455/itv/3000000020000011530.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-23
-http://zjzcf.synology.me:35455/itv/3000000020000011531.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-24
-http://zjzcf.synology.me:35455/itv/3000000010000000097.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-25
-http://zjzcf.synology.me:35455/itv/3000000010000002019.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-26
-http://zjzcf.synology.me:35455/itv/3000000010000002809.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-27
-http://zjzcf.synology.me:35455/itv/3000000010000003915.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-28
-http://zjzcf.synology.me:35455/itv/3000000010000004193.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-29
-http://zjzcf.synology.me:35455/itv/3000000010000006077.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-30
-http://zjzcf.synology.me:35455/itv/3000000010000006658.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-31
-http://zjzcf.synology.me:35455/itv/3000000010000009788.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-32
-http://zjzcf.synology.me:35455/itv/3000000010000010833.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-33
-http://zjzcf.synology.me:35455/itv/3000000010000011297.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-34
-http://zjzcf.synology.me:35455/itv/3000000010000011518.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-35
-http://zjzcf.synology.me:35455/itv/3000000010000012558.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-36
-http://zjzcf.synology.me:35455/itv/3000000010000012616.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-37
-http://zjzcf.synology.me:35455/itv/3000000010000015470.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-38
-http://zjzcf.synology.me:35455/itv/3000000010000015560.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-39
-http://zjzcf.synology.me:35455/itv/3000000010000017678.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-40
-http://zjzcf.synology.me:35455/itv/3000000010000019839.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-41
-http://zjzcf.synology.me:35455/itv/3000000010000021904.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-42
-http://zjzcf.synology.me:35455/itv/3000000010000023434.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-43
-http://zjzcf.synology.me:35455/itv/3000000010000025380.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-44
-http://zjzcf.synology.me:35455/itv/3000000010000027691.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="咪咕4k" tvg-name="咪咕4k" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕4k.png" group-title="🐋数字频道",咪视通-45
-http://zjzcf.synology.me:35455/itv/3000000010000031669.m3u8?cdn=FifastbLive$itv
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://tv.zyh520.tk/live/logo/cgtn.png" group-title="🐋数字频道",CGTN
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN.png" group-title="🐋数字频道",CGTN
 http://zjzcf.synology.me:35455/gaoma/cgtnen.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://tv.zyh520.tk/live/logo/cgtn.png" group-title="🐋数字频道",CGTN
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN.png" group-title="🐋数字频道",CGTN
 http://zjzcf.synology.me:35455/itv/7745129417417101820.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN记录.png" group-title="🐋数字频道",CGTN纪录
 http://zjzcf.synology.me:35455/gaoma/cgtndoc.m3u8$gaoma-高码
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN记录.png" group-title="🐋数字频道",CGTN纪录
 http://zjzcf.synology.me:35455/itv/7114647837765104058.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://tv.zyh520.tk/live/logo/CGTNALBY.png" group-title="🐋数字频道",CGTN阿语
-http://zjzcf.synology.me:35455/gaoma/cgtnar.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://tv.zyh520.tk/live/logo/cgtnfrench.png" group-title="🐋数字频道",CGTN法语
-http://zjzcf.synology.me:35455/gaoma/cgtnfr.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN1.png" group-title="🐋数字频道",CGTN俄语
-http://zjzcf.synology.me:35455/gaoma/cgtnru.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN1.png" group-title="🐋数字频道",CGTN西语
-http://zjzcf.synology.me:35455/gaoma/cgtnsp.m3u8$gaoma-高码
 #EXTINF:-1 tvg-id="NewTV-精品综合" tvg-name="NewTV-精品综合" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV精品综合.png" group-title="🐋NewTV",NewTV-精品综合
 http://zjzcf.synology.me:35455/itv/1000000004000019008.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-精品大剧" tvg-name="NewTV-精品大剧" tvg-logo="https://tv.zyh520.tk/live/logo/newtv精品大剧.png" group-title="🐋NewTV",NewTV-精品大剧
+#EXTINF:-1 tvg-id="NewTV-精品大剧" tvg-name="NewTV-精品大剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV精品大剧.png" group-title="🐋NewTV",NewTV-精品大剧
 http://zjzcf.synology.me:35455/itv/1000000004000013968.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-精品纪录" tvg-name="NewTV-精品纪录" tvg-logo="https://tv.zyh520.tk/live/logo/newtv精品纪录.png" group-title="🐋NewTV",NewTV-精品纪录
+#EXTINF:-1 tvg-id="NewTV-精品纪录" tvg-name="NewTV-精品纪录" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV精品纪录.png" group-title="🐋NewTV",NewTV-精品纪录
 http://zjzcf.synology.me:35455/itv/1000000004000013730.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-精品体育" tvg-name="NewTV-精品体育" tvg-logo="https://tv.zyh520.tk/live/logo/newtv精品体育.png" group-title="🐋NewTV",NewTV-精品体育
+#EXTINF:-1 tvg-id="NewTV-精品体育" tvg-name="NewTV-精品体育" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV精品体育.png" group-title="🐋NewTV",NewTV-精品体育
 http://zjzcf.synology.me:35455/itv/1000000004000014634.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-精品萌宠" tvg-name="NewTV-精品萌宠" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV精品萌宠.png" group-title="🐋NewTV",NewTV-精品萌宠
 http://zjzcf.synology.me:35455/itv/1000000006000032328.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-爱情喜剧" tvg-name="NewTV-爱情喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/newtv爱情喜剧.png" group-title="🐋NewTV",NewTV-爱情喜剧
+#EXTINF:-1 tvg-id="NewTV-爱情喜剧" tvg-name="NewTV-爱情喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV爱情喜剧.png" group-title="🐋NewTV",NewTV-爱情喜剧
 http://zjzcf.synology.me:35455/itv/2000000003000000010.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="NewTV-超级电视剧" tvg-name="NewTV-超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/newtv超级电视剧.png" group-title="🐋NewTV",NewTV-超级电视剧
+#EXTINF:-1 tvg-id="NewTV-超级电视剧" tvg-name="NewTV-超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV超级电视剧.png" group-title="🐋NewTV",NewTV-超级电视剧
 http://zjzcf.synology.me:35455/itv/1000000006000268003.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-超级电影" tvg-name="NewTV-超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/newtv超级电影.png" group-title="🐋NewTV",NewTV-超级电影
+#EXTINF:-1 tvg-id="NewTV-超级电影" tvg-name="NewTV-超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV超级电影.png" group-title="🐋NewTV",NewTV-超级电影
 http://zjzcf.synology.me:35455/itv/1000000003000012426.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-超级体育" tvg-name="NewTV-超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/newtv超级体育.png" group-title="🐋NewTV",NewTV-超级体育
+#EXTINF:-1 tvg-id="NewTV-超级体育" tvg-name="NewTV-超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV超级体育.png" group-title="🐋NewTV",NewTV-超级体育
 http://zjzcf.synology.me:35455/itv/1000000001000009601.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-超级综艺" tvg-name="NewTV-超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/newtv超级综艺.png" group-title="🐋NewTV",NewTV-超级综艺
+#EXTINF:-1 tvg-id="NewTV-超级综艺" tvg-name="NewTV-超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV超级综艺.png" group-title="🐋NewTV",NewTV-超级综艺
 http://zjzcf.synology.me:35455/itv/1000000006000268002.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-潮妈辣婆" tvg-name="NewTV-潮妈辣婆" tvg-logo="https://tv.zyh520.tk/live/logo/newtv潮妈辣婆.png" group-title="🐋NewTV",NewTV-潮妈辣婆
+#EXTINF:-1 tvg-id="NewTV-潮妈辣婆" tvg-name="NewTV-潮妈辣婆" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV潮妈辣婆.png" group-title="🐋NewTV",NewTV-潮妈辣婆
 http://zjzcf.synology.me:35455/itv/2000000003000000018.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-东北热剧" tvg-name="NewTV-东北热剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV东北热剧.png" group-title="🐋NewTV",NewTV-东北热剧
 http://zjzcf.synology.me:35455/itv/1000000005000266013.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-动作电影" tvg-name="NewTV-动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/newtv动作电影.png" group-title="🐋NewTV",NewTV-动作电影
+#EXTINF:-1 tvg-id="NewTV-动作电影" tvg-name="NewTV-动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV动作电影.png" group-title="🐋NewTV",NewTV-动作电影
 http://zjzcf.synology.me:35455/itv/1000000004000018653.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-古装剧场" tvg-name="NewTV-古装剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV古装剧场.png" group-title="🐋NewTV",NewTV-古装剧场
 http://zjzcf.synology.me:35455/itv/2000000003000000024.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-欢乐剧场" tvg-name="NewTV-欢乐剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV欢乐剧场.png" group-title="🐋NewTV",NewTV-欢乐剧场
 http://zjzcf.synology.me:35455/itv/1000000005000266012.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-家庭剧场" tvg-name="NewTV-家庭剧场" tvg-logo="https://tv.zyh520.tk/live/logo/newtv家庭剧场.png" group-title="🐋NewTV",NewTV-家庭剧场
+#EXTINF:-1 tvg-id="NewTV-家庭剧场" tvg-name="NewTV-家庭剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV家庭剧场.png" group-title="🐋NewTV",NewTV-家庭剧场
 http://zjzcf.synology.me:35455/itv/1000000004000008284.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-金牌综艺" tvg-name="NewTV-金牌综艺" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV金牌综艺.png" group-title="🐋NewTV",NewTV-金牌综艺
 http://zjzcf.synology.me:35455/itv/1000000004000026167.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-惊悚悬疑" tvg-name="NewTV-惊悚悬疑" tvg-logo="https://tv.zyh520.tk/live/logo/newtv惊悚悬疑.png" group-title="🐋NewTV",NewTV-惊悚悬疑
+#EXTINF:-1 tvg-id="NewTV-惊悚悬疑" tvg-name="NewTV-惊悚悬疑" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV惊悚悬疑.png" group-title="🐋NewTV",NewTV-惊悚悬疑
 http://zjzcf.synology.me:35455/itv/1000000004000024282.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-军旅剧场" tvg-name="NewTV-军旅剧场" tvg-logo="https://tv.zyh520.tk/live/logo/newtv军旅剧场.png" group-title="🐋NewTV",NewTV-军旅剧场
+#EXTINF:-1 tvg-id="NewTV-军旅剧场" tvg-name="NewTV-军旅剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV军旅剧场.png" group-title="🐋NewTV",NewTV-军旅剧场
 http://zjzcf.synology.me:35455/itv/2000000003000000014.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="NewTV-军事评论" tvg-name="NewTV-军事评论" tvg-logo="https://tv.zyh520.tk/live/logo/newtv军事评论.png" group-title="🐋NewTV",NewTV-军事评论
+#EXTINF:-1 tvg-id="NewTV-军事评论" tvg-name="NewTV-军事评论" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV军事评论.png" group-title="🐋NewTV",NewTV-军事评论
 http://zjzcf.synology.me:35455/itv/2000000003000000022.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-魅力潇湘" tvg-name="NewTV-魅力潇湘" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV魅力潇湘.png" group-title="🐋NewTV",NewTV-魅力潇湘
 http://zjzcf.synology.me:35455/itv/1000000001000006197.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-明星大片" tvg-name="NewTV-明星大片" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV明星大片.png" group-title="🐋NewTV",NewTV-明星大片
 http://zjzcf.synology.me:35455/itv/2000000003000000016.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="NewTV-农业致富" tvg-name="NewTV-农业致富" tvg-logo="https://tv.zyh520.tk/live/logo/newtv农业致富.png" group-title="🐋NewTV",NewTV-农业致富
+#EXTINF:-1 tvg-id="NewTV-农业致富" tvg-name="NewTV-农业致富" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV农业致富.png" group-title="🐋NewTV",NewTV-农业致富
 http://zjzcf.synology.me:35455/itv/2000000003000000003.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-武博世界" tvg-name="NewTV-武博世界" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV武博世界.png" group-title="🐋NewTV",NewTV-武博世界
 http://zjzcf.synology.me:35455/itv/2000000003000000007.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="NewTV-炫舞未来" tvg-name="NewTV-炫舞未来" tvg-logo="https://tv.zyh520.tk/live/logo/newtv炫舞未来.png" group-title="🐋NewTV",NewTV-炫舞未来
+#EXTINF:-1 tvg-id="NewTV-炫舞未来" tvg-name="NewTV-炫舞未来" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV炫舞未来.png" group-title="🐋NewTV",NewTV-炫舞未来
 http://zjzcf.synology.me:35455/itv/1000000001000000515.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-怡伴健康" tvg-name="NewTV-怡伴健康" tvg-logo="https://tv.zyh520.tk/live/logo/newtv怡伴健康.png" group-title="🐋NewTV",NewTV-怡伴健康
+#EXTINF:-1 tvg-id="NewTV-怡伴健康" tvg-name="NewTV-怡伴健康" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV怡伴健康.png" group-title="🐋NewTV",NewTV-怡伴健康
 http://zjzcf.synology.me:35455/itv/1000000005000266011.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-中国功夫" tvg-name="NewTV-中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/newtv中国功夫.png" group-title="🐋NewTV",NewTV-中国功夫
+#EXTINF:-1 tvg-id="NewTV-中国功夫" tvg-name="NewTV-中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV中国功夫.png" group-title="🐋NewTV",NewTV-中国功夫
 http://zjzcf.synology.me:35455/itv/2000000003000000009.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-黑莓电影" tvg-name="NewTV-黑莓电影" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV黑莓电影.png" group-title="🐋NewTV",NewTV-黑莓电影
 http://zjzcf.synology.me:35455/itv/1000000004000019624.m3u8?cdn=ystenlive$itv
@@ -1299,67 +1171,67 @@ http://zjzcf.synology.me:35455/itv/1000000004000021734.m3u8?cdn=ystenlive$itv
 http://zjzcf.synology.me:35455/itv/1000000006000032327.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-哒啵赛事" tvg-name="NewTV-哒啵赛事" tvg-logo="https://tv.zyh520.tk/live/logo/哒啵赛事.png" group-title="🐋NewTV",NewTV-哒啵赛事
 http://zjzcf.synology.me:35455/itv/1000000001000003775.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="SiTV-动漫秀场" tvg-name="SiTV-动漫秀场" tvg-logo="https://tv.zyh520.tk/live/logo/SITV.png" group-title="🐋SiTV",SiTV-动漫秀场
+#EXTINF:-1 tvg-id="SiTV-动漫秀场" tvg-name="SiTV-动漫秀场" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV动漫秀场.png" group-title="🐋SiTV",SiTV-动漫秀场
 http://zjzcf.synology.me:35455/itv/5000000011000031113.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-都市剧场" tvg-name="SiTV-都市剧场" tvg-logo="https://tv.zyh520.tk/live/logo/SITV都市剧场.png" group-title="🐋SiTV",SiTV-都市剧场
+#EXTINF:-1 tvg-id="SiTV-都市剧场" tvg-name="SiTV-都市剧场" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV都市剧场.png" group-title="🐋SiTV",SiTV-都市剧场
 http://zjzcf.synology.me:35455/itv/5000000011000031111.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-法治天地" tvg-name="SiTV-法治天地" tvg-logo="https://tv.zyh520.tk/live/logo/SITV法治天地.png" group-title="🐋SiTV",SiTV-法治天地
+#EXTINF:-1 tvg-id="SiTV-法治天地" tvg-name="SiTV-法治天地" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV法治天地.png" group-title="🐋SiTV",SiTV-法治天地
 http://zjzcf.synology.me:35455/itv/9001547084732463424.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-欢笑剧场" tvg-name="SiTV-欢笑剧场" tvg-logo="https://tv.zyh520.tk/live/logo/SITV欢笑剧场.png" group-title="🐋SiTV",SiTV-欢笑剧场
+#EXTINF:-1 tvg-id="SiTV-欢笑剧场" tvg-name="SiTV-欢笑剧场" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV欢笑剧场.png" group-title="🐋SiTV",SiTV-欢笑剧场
 http://zjzcf.synology.me:35455/itv/5000000002000009455.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-金色学堂" tvg-name="SiTV-金色学堂" tvg-logo="https://tv.zyh520.tk/live/logo/SITV金色学堂.png" group-title="🐋SiTV",SiTV-金色学堂
+#EXTINF:-1 tvg-id="SiTV-金色学堂" tvg-name="SiTV-金色学堂" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV金色学堂.png" group-title="🐋SiTV",SiTV-金色学堂
 http://zjzcf.synology.me:35455/itv/5000000010000026105.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-劲爆体育" tvg-name="SiTV-劲爆体育" tvg-logo="https://tv.zyh520.tk/live/logo/SITV劲爆体育.png" group-title="🐋SiTV",SiTV-劲爆体育
+#EXTINF:-1 tvg-id="SiTV-劲爆体育" tvg-name="SiTV-劲爆体育" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV劲爆体育.png" group-title="🐋SiTV",SiTV-劲爆体育
 http://zjzcf.synology.me:35455/itv/5000000002000029972.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-乐游" tvg-name="SiTV-乐游" tvg-logo="https://tv.zyh520.tk/live/logo/SITV乐游.png" group-title="🐋SiTV",SiTV-乐游
+#EXTINF:-1 tvg-id="SiTV-乐游" tvg-name="SiTV-乐游" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV乐游.png" group-title="🐋SiTV",SiTV-乐游
 http://zjzcf.synology.me:35455/itv/5000000011000031112.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-魅力足球" tvg-name="SiTV-魅力足球" tvg-logo="https://tv.zyh520.tk/live/logo/SITV.png" group-title="🐋SiTV",SiTV-魅力足球
+#EXTINF:-1 tvg-id="SiTV-魅力足球" tvg-name="SiTV-魅力足球" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV魅力足球.png" group-title="🐋SiTV",SiTV-魅力足球
 http://zjzcf.synology.me:35455/itv/5000000011000031207.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-七彩戏剧" tvg-name="SiTV-七彩戏剧" tvg-logo="https://tv.zyh520.tk/live/logo/SITV七彩戏剧.png" group-title="🐋SiTV",SiTV-七彩戏剧
+#EXTINF:-1 tvg-id="SiTV-七彩戏剧" tvg-name="SiTV-七彩戏剧" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV七彩戏剧.png" group-title="🐋SiTV",SiTV-七彩戏剧
 http://zjzcf.synology.me:35455/itv/5000000011000031116.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-生活时尚" tvg-name="SiTV-生活时尚" tvg-logo="https://tv.zyh520.tk/live/logo/SITV.png" group-title="🐋SiTV",SiTV-生活时尚
+#EXTINF:-1 tvg-id="SiTV-生活时尚" tvg-name="SiTV-生活时尚" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV.png" group-title="🐋SiTV",SiTV-生活时尚
 http://zjzcf.synology.me:35455/itv/5000000002000019634.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-游戏风云" tvg-name="SiTV-游戏风云" tvg-logo="https://tv.zyh520.tk/live/logo/SITV.png" group-title="🐋SiTV",SiTV-游戏风云
+#EXTINF:-1 tvg-id="SiTV-游戏风云" tvg-name="SiTV-游戏风云" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV.png" group-title="🐋SiTV",SiTV-游戏风云
 http://zjzcf.synology.me:35455/itv/5000000011000031114.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="iHOT-爱电竞" tvg-name="iHOT-爱电竞" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱电竞.png" group-title="🐋iHOT",iHOT-爱电竞
+#EXTINF:-1 tvg-id="iHOT-爱电竞" tvg-name="iHOT-爱电竞" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱电竞.png" group-title="🐋iHOT",iHOT-爱电竞
 http://zjzcf.synology.me:35455/itv/6000000006000230630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱谍战" tvg-name="iHOT-爱谍战" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱谍战.png" group-title="🐋iHOT",iHOT-爱谍战
+#EXTINF:-1 tvg-id="iHOT-爱谍战" tvg-name="iHOT-爱谍战" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱谍战.png" group-title="🐋iHOT",iHOT-爱谍战
 http://zjzcf.synology.me:35455/itv/6000000006000070630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱动漫" tvg-name="iHOT-爱动漫" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱动漫.png" group-title="🐋iHOT",iHOT-爱动漫
+#EXTINF:-1 tvg-id="iHOT-爱动漫" tvg-name="iHOT-爱动漫" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱动漫.png" group-title="🐋iHOT",iHOT-爱动漫
 http://zjzcf.synology.me:35455/itv/6000000006000280630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱都市" tvg-name="iHOT-爱都市" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱都市.png" group-title="🐋iHOT",iHOT-爱都市
+#EXTINF:-1 tvg-id="iHOT-爱都市" tvg-name="iHOT-爱都市" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱都市.png" group-title="🐋iHOT",iHOT-爱都市
 http://zjzcf.synology.me:35455/itv/6000000006000080630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱怀旧" tvg-name="iHOT-爱怀旧" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱怀旧.png" group-title="🐋iHOT",iHOT-爱怀旧
+#EXTINF:-1 tvg-id="iHOT-爱怀旧" tvg-name="iHOT-爱怀旧" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱怀旧.png" group-title="🐋iHOT",iHOT-爱怀旧
 http://zjzcf.synology.me:35455/itv/6000000006000260630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱经典" tvg-name="iHOT-爱经典" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱经典.png" group-title="🐋iHOT",iHOT-爱经典
+#EXTINF:-1 tvg-id="iHOT-爱经典" tvg-name="iHOT-爱经典" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱经典.png" group-title="🐋iHOT",iHOT-爱经典
 http://zjzcf.synology.me:35455/itv/6000000006000060630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱科幻" tvg-name="iHOT-爱科幻" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱科幻.png" group-title="🐋iHOT",iHOT-爱科幻
+#EXTINF:-1 tvg-id="iHOT-爱科幻" tvg-name="iHOT-爱科幻" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱科幻.png" group-title="🐋iHOT",iHOT-爱科幻
 http://zjzcf.synology.me:35455/itv/6000000006000020630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱科学" tvg-name="iHOT-爱科学" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱科学.png" group-title="🐋iHOT",iHOT-爱科学
+#EXTINF:-1 tvg-id="iHOT-爱科学" tvg-name="iHOT-爱科学" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱科学.png" group-title="🐋iHOT",iHOT-爱科学
 http://zjzcf.synology.me:35455/itv/6000000006000160630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱浪漫" tvg-name="iHOT-爱浪漫" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱浪漫.png" group-title="🐋iHOT",iHOT-爱浪漫
+#EXTINF:-1 tvg-id="iHOT-爱浪漫" tvg-name="iHOT-爱浪漫" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱浪漫.png" group-title="🐋iHOT",iHOT-爱浪漫
 http://zjzcf.synology.me:35455/itv/6000000006000040630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱历史" tvg-name="iHOT-爱历史" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱历史.png" group-title="🐋iHOT",iHOT-爱历史
+#EXTINF:-1 tvg-id="iHOT-爱历史" tvg-name="iHOT-爱历史" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱历史.png" group-title="🐋iHOT",iHOT-爱历史
 http://zjzcf.synology.me:35455/itv/6000000006000150630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱旅行" tvg-name="iHOT-爱旅行" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱旅行.png" group-title="🐋iHOT",iHOT-爱旅行
+#EXTINF:-1 tvg-id="iHOT-爱旅行" tvg-name="iHOT-爱旅行" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱旅行.png" group-title="🐋iHOT",iHOT-爱旅行
 http://zjzcf.synology.me:35455/itv/6000000006000250630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱奇谈" tvg-name="iHOT-爱奇谈" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱奇谈.png" group-title="🐋iHOT",iHOT-爱奇谈
+#EXTINF:-1 tvg-id="iHOT-爱奇谈" tvg-name="iHOT-爱奇谈" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱奇谈.png" group-title="🐋iHOT",iHOT-爱奇谈
 http://zjzcf.synology.me:35455/itv/6000000006000270630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱青春" tvg-name="iHOT-爱青春" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱青春.png" group-title="🐋iHOT",iHOT-爱青春
+#EXTINF:-1 tvg-id="iHOT-爱青春" tvg-name="iHOT-爱青春" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱青春.png" group-title="🐋iHOT",iHOT-爱青春
 http://zjzcf.synology.me:35455/itv/6000000006000100630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱赛车" tvg-name="iHOT-爱赛车" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱赛车.png" group-title="🐋iHOT",iHOT-爱赛车
+#EXTINF:-1 tvg-id="iHOT-爱赛车" tvg-name="iHOT-爱赛车" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱赛车.png" group-title="🐋iHOT",iHOT-爱赛车
 http://zjzcf.synology.me:35455/itv/6000000006000240630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱体育" tvg-name="iHOT-爱体育" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱体育.png" group-title="🐋iHOT",iHOT-爱体育
+#EXTINF:-1 tvg-id="iHOT-爱体育" tvg-name="iHOT-爱体育" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱体育.png" group-title="🐋iHOT",iHOT-爱体育
 http://zjzcf.synology.me:35455/itv/6000000006000290630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱玩具" tvg-name="iHOT-爱玩具" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱玩具.png" group-title="🐋iHOT",iHOT-爱玩具
+#EXTINF:-1 tvg-id="iHOT-爱玩具" tvg-name="iHOT-爱玩具" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱玩具.png" group-title="🐋iHOT",iHOT-爱玩具
 http://zjzcf.synology.me:35455/itv/6000000006000220630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱喜剧" tvg-name="iHOT-爱喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱喜剧.png" group-title="🐋iHOT",iHOT-爱喜剧
+#EXTINF:-1 tvg-id="iHOT-爱喜剧" tvg-name="iHOT-爱喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱喜剧.png" group-title="🐋iHOT",iHOT-爱喜剧
 http://zjzcf.synology.me:35455/itv/6000000006000010630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱悬疑" tvg-name="iHOT-爱悬疑" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱悬疑.png" group-title="🐋iHOT",iHOT-爱悬疑
+#EXTINF:-1 tvg-id="iHOT-爱悬疑" tvg-name="iHOT-爱悬疑" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱悬疑.png" group-title="🐋iHOT",iHOT-爱悬疑
 http://zjzcf.synology.me:35455/itv/6000000006000050630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱幼教" tvg-name="iHOT-爱幼教" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱幼教.png" group-title="🐋iHOT",iHOT-爱幼教
+#EXTINF:-1 tvg-id="iHOT-爱幼教" tvg-name="iHOT-爱幼教" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱幼教.png" group-title="🐋iHOT",iHOT-爱幼教
 http://zjzcf.synology.me:35455/itv/6000000006000180630.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="iHOT-爱院线" tvg-name="iHOT-爱院线" tvg-logo="https://tv.zyh520.tk/live/logo/IHOT爱院线.png" group-title="🐋iHOT",iHOT-爱院线
+#EXTINF:-1 tvg-id="iHOT-爱院线" tvg-name="iHOT-爱院线" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱院线.png" group-title="🐋iHOT",iHOT-爱院线
 http://zjzcf.synology.me:35455/itv/6000000006000030630.m3u8?cdn=wasusyt$itv
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🍁央视咪咕",CCTV1
