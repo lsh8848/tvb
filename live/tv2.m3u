@@ -783,13 +783,13 @@ http://127.0.0.1:9978/proxy?do=饭太硬&type=m3u8&url=QU83VGNCa2Q4SkNhK1FRWThnM
 #EXTINF:-1 tvg-id="嘉佳卡通" tvg-name="嘉佳卡通" tvg-logo="https://tv.zyh520.tk/live/logo/嘉佳卡通.png" group-title="🧒少儿👧",嘉佳卡通
 http://127.0.0.1:9978/proxy?do=饭太硬&type=m3u8&url=QU83VGNCa2Q4SkNhK1FRWThnM0NzWkIwS29aR0hKcFZXVHhScU9mdnlVSlVROHVhN0dxRGtScWR2%0AZmZtV1hIdUx5clloaTV6eEQ0NkRUWnhhNUpqYVE0VURZQ0dnMG5ZWUg0QmczMUV5K05nSG83cE1T%0ANWtLQWZrTm54cnljSDF2SFdFT05SMEdkUnk4a0pGNHdIekFFTlRkcnl3cUV3Q2JwWkxiWE1SQXd2%0AcjRRPT0%3D%0A
 
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://tv.zyh520.tk/live/logo/cctv4k.png" group-title="🐋4K超高清",CCTV4K-HLG
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4k.png" group-title="🐋4K超高清",CCTV4K-HLG
 http://zjzcf.synology.me:35455/gaoma/cctv4k.m3u8$gaoma-HLG
-#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://tv.zyh520.tk/live/logo/cctv8k.png" group-title="🐋4K超高清",CCTV8K-36m-HLG
+#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8k.png" group-title="🐋4K超高清",CCTV8K-36m-HLG
 http://zjzcf.synology.me:35455/gaoma/cctv8k_36m.m3u8$gaoma-36m-HLG
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/cctv16.png" group-title="🐋4K超高清",CCTV16-4K-HLG
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV16.png" group-title="🐋4K超高清",CCTV16-4K-HLG
 http://zjzcf.synology.me:35455/gaoma/cctv4k16.m3u8$gaoma-HLG
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/cctv16.png" group-title="🐋4K超高清",CCTV16-4K-HEVC
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV16.png" group-title="🐋4K超高清",CCTV16-4K-HEVC
 http://zjzcf.synology.me:35455/itv/5000000008000023254.m3u8?cdn=bestzb$itv-HEVC
 #EXTINF:-1 tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://tv.zyh520.tk/live/logo/北京IPTV4K.png" group-title="🐋4K超高清",北京IPTV4K
 http://zjzcf.synology.me:35455/bptv/10000100000000050000000003887500.m3u8$bptv
@@ -821,43 +821,43 @@ http://zjzcf.synology.me:35455/itv/6000000001000029752.m3u8?cdn=wasusyt$itv
 http://zjzcf.synology.me:35455/itv/5000000004000002226.m3u8?cdn=bestzb$itv-50-FPS
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🐋央视频道",CCTV1
 http://zjzcf.synology.me:35455/itv/1000000005000265001.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/cctv2.png" group-title="🐋央视频道",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="🐋央视频道",CCTV2
 http://zjzcf.synology.me:35455/gaoma/cctv2.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/cctv2.png" group-title="🐋央视频道",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="🐋央视频道",CCTV2
 http://zjzcf.synology.me:35455/itv/1000000001000023315.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/cctv2.png" group-title="🐋央视频道",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="🐋央视频道",CCTV2
 http://zjzcf.synology.me:35455/itv/6000000001000014161.m3u8?cdn=wasusyt$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/cctv2.png" group-title="🐋央视频道",CCTV2
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="🐋央视频道",CCTV2
 http://zjzcf.synology.me:35455/itv/1000000001000023315.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/cctv3.png" group-title="🐋央视频道",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV3.png" group-title="🐋央视频道",CCTV3
 http://zjzcf.synology.me:35455/gaoma/cctv3.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/cctv3.png" group-title="🐋央视频道",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV3.png" group-title="🐋央视频道",CCTV3
 http://zjzcf.synology.me:35455/itv/6000000001000022313.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/cctv3.png" group-title="🐋央视频道",CCTV3
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV3.png" group-title="🐋央视频道",CCTV3
 http://zjzcf.synology.me:35455/itv/1000000005000265003.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/cctv4.png" group-title="🐋央视频道",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4.png" group-title="🐋央视频道",CCTV4
 http://zjzcf.synology.me:35455/gaoma/cctv4.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/cctv4.png" group-title="🐋央视频道",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4.png" group-title="🐋央视频道",CCTV4
 http://zjzcf.synology.me:35455/itv/5000000011000031102.m3u8?cdn=bestzb$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/cctv4.png" group-title="🐋央视频道",CCTV4
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4.png" group-title="🐋央视频道",CCTV4
 http://zjzcf.synology.me:35455/itv/1000000005000265004.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/cctv5.png" group-title="🐋央视频道",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5.png" group-title="🐋央视频道",CCTV5
 http://zjzcf.synology.me:35455/gaoma/cctv5.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/cctv5.png" group-title="🐋央视频道",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5.png" group-title="🐋央视频道",CCTV5
 http://zjzcf.synology.me:35455/itv/1000000005000025222.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/cctv5.png" group-title="🐋央视频道",CCTV5
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5.png" group-title="🐋央视频道",CCTV5
 http://zjzcf.synology.me:35455/itv/1000000005000265005.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/cctv5+.png" group-title="🐋央视频道",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5+.png" group-title="🐋央视频道",CCTV5+
 http://zjzcf.synology.me:35455/gaoma/cctv5p.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/cctv5+.png" group-title="🐋央视频道",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5+.png" group-title="🐋央视频道",CCTV5+
 http://zjzcf.synology.me:35455/itv/6000000001000015875.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/cctv5+.png" group-title="🐋央视频道",CCTV5+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5+.png" group-title="🐋央视频道",CCTV5+
 http://zjzcf.synology.me:35455/itv/1000000005000265016.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/cctv6.png" group-title="🐋央视频道",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV6.png" group-title="🐋央视频道",CCTV6
 http://zjzcf.synology.me:35455/itv/1000000001000001737.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/cctv6.png" group-title="🐋央视频道",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV6.png" group-title="🐋央视频道",CCTV6
 http://zjzcf.synology.me:35455/itv/6000000001000004574.m3u8?cdn=wasusyt$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/cctv6.png" group-title="🐋央视频道",CCTV6
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV6.png" group-title="🐋央视频道",CCTV6
 http://zjzcf.synology.me:35455/itv/1000000005000265006.m3u8?cdn=ystenlive$itv-HEVC
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV7.png" group-title="🐋央视频道",CCTV7
 http://zjzcf.synology.me:35455/gaoma/cctv7.m3u8$gaoma-高码
@@ -867,69 +867,69 @@ http://zjzcf.synology.me:35455/itv/1000000001000024341.m3u8?cdn=ystenlive$itv
 http://zjzcf.synology.me:35455/itv/6000000001000009055.m3u8?cdn=wasusyt$itv-50-FPS
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV7.png" group-title="🐋央视频道",CCTV7
 http://zjzcf.synology.me:35455/itv/1000000005000265007.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/cctv8.png" group-title="🐋央视频道",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8.png" group-title="🐋央视频道",CCTV8
 http://zjzcf.synology.me:35455/gaoma/cctv8.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/cctv8.png" group-title="🐋央视频道",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8.png" group-title="🐋央视频道",CCTV8
 http://zjzcf.synology.me:35455/itv/6000000001000001070.m3u8?cdn=wasusyt$itv
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/cctv8.png" group-title="🐋央视频道",CCTV8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8.png" group-title="🐋央视频道",CCTV8
 http://zjzcf.synology.me:35455/itv/1000000005000265008.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/cctv9.png" group-title="🐋央视频道",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV9.png" group-title="🐋央视频道",CCTV9
 http://zjzcf.synology.me:35455/gaoma/cctv9.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/cctv9.png" group-title="🐋央视频道",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV9.png" group-title="🐋央视频道",CCTV9
 http://zjzcf.synology.me:35455/itv/1000000001000014583.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/cctv9.png" group-title="🐋央视频道",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV9.png" group-title="🐋央视频道",CCTV9
 http://zjzcf.synology.me:35455/itv/6000000001000032162.m3u8?cdn=wasusyt$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/cctv9.png" group-title="🐋央视频道",CCTV9
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV9.png" group-title="🐋央视频道",CCTV9
 http://zjzcf.synology.me:35455/itv/1000000005000265009.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/cctv10.png" group-title="🐋央视频道",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV10.png" group-title="🐋央视频道",CCTV10
 http://zjzcf.synology.me:35455/gaoma/cctv10.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/cctv10.png" group-title="🐋央视频道",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV10.png" group-title="🐋央视频道",CCTV10
 http://zjzcf.synology.me:35455/itv/1000000001000023734.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/cctv10.png" group-title="🐋央视频道",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV10.png" group-title="🐋央视频道",CCTV10
 http://zjzcf.synology.me:35455/itv/5000000004000012827.m3u8?cdn=bestzb$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/cctv10.png" group-title="🐋央视频道",CCTV10
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV10.png" group-title="🐋央视频道",CCTV10
 http://zjzcf.synology.me:35455/itv/1000000005000265010.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/cctv11.png" group-title="🐋央视频道",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV11.png" group-title="🐋央视频道",CCTV11
 http://zjzcf.synology.me:35455/gaoma/cctv11.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/cctv11.png" group-title="🐋央视频道",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV11.png" group-title="🐋央视频道",CCTV11
 http://zjzcf.synology.me:35455/itv/5000000011000031106.m3u8?cdn=bestzb$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/cctv11.png" group-title="🐋央视频道",CCTV11
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV11.png" group-title="🐋央视频道",CCTV11
 http://zjzcf.synology.me:35455/itv/1000000005000265011.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/cctv12.png" group-title="🐋央视频道",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV12.png" group-title="🐋央视频道",CCTV12
 http://zjzcf.synology.me:35455/gaoma/cctv12.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/cctv12.png" group-title="🐋央视频道",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV12.png" group-title="🐋央视频道",CCTV12
 http://zjzcf.synology.me:35455/itv/1000000001000032494.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/cctv12.png" group-title="🐋央视频道",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV12.png" group-title="🐋央视频道",CCTV12
 http://zjzcf.synology.me:35455/itv/6000000001000022586.m3u8?cdn=wasusyt$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/cctv12.png" group-title="🐋央视频道",CCTV12
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV12.png" group-title="🐋央视频道",CCTV12
 http://zjzcf.synology.me:35455/itv/1000000005000265012.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://tv.zyh520.tk/live/logo/cctv13.png" group-title="🐋央视频道",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV13.png" group-title="🐋央视频道",CCTV13
 http://zjzcf.synology.me:35455/gaoma/cctv13.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://tv.zyh520.tk/live/logo/cctv13.png" group-title="🐋央视频道",CCTV13
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV13.png" group-title="🐋央视频道",CCTV13
 http://zjzcf.synology.me:35455/itv/5000000011000031108.m3u8?cdn=bestzb$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/cctv14.png" group-title="🐋央视频道",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV14.png" group-title="🐋央视频道",CCTV14
 http://zjzcf.synology.me:35455/gaoma/cctv14.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/cctv14.png" group-title="🐋央视频道",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV14.png" group-title="🐋央视频道",CCTV14
 http://zjzcf.synology.me:35455/itv/1000000001000008170.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/cctv14.png" group-title="🐋央视频道",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV14.png" group-title="🐋央视频道",CCTV14
 http://zjzcf.synology.me:35455/itv/5000000004000006673.m3u8?cdn=bestzb$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/cctv14.png" group-title="🐋央视频道",CCTV14
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV14.png" group-title="🐋央视频道",CCTV14
 http://zjzcf.synology.me:35455/itv/1000000005000265013.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/cctv15.png" group-title="🐋央视频道",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV15.png" group-title="🐋央视频道",CCTV15
 http://zjzcf.synology.me:35455/gaoma/cctv15.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/cctv15.png" group-title="🐋央视频道",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV15.png" group-title="🐋央视频道",CCTV15
 http://zjzcf.synology.me:35455/itv/5000000011000031109.m3u8?cdn=bestzb$itv-50-FPS
-#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/cctv15.png" group-title="🐋央视频道",CCTV15
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV15.png" group-title="🐋央视频道",CCTV15
 http://zjzcf.synology.me:35455/itv/1000000005000265014.m3u8?cdn=ystenlive$itv-HEVC
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/cctv16.png" group-title="🐋央视频道",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV16.png" group-title="🐋央视频道",CCTV16
 http://zjzcf.synology.me:35455/gaoma/cctv16.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/cctv16.png" group-title="🐋央视频道",CCTV16
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV16.png" group-title="🐋央视频道",CCTV16
 http://zjzcf.synology.me:35455/itv/1000000006000233002.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/cctv17.png" group-title="🐋央视频道",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV17.png" group-title="🐋央视频道",CCTV17
 http://zjzcf.synology.me:35455/gaoma/cctv17.m3u8$gaoma-高码
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/cctv17.png" group-title="🐋央视频道",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV17.png" group-title="🐋央视频道",CCTV17
 http://zjzcf.synology.me:35455/itv/1000000006000268004.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/cctv17.png" group-title="🐋央视频道",CCTV17
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV17.png" group-title="🐋央视频道",CCTV17
 http://zjzcf.synology.me:35455/itv/1000000005000265015.m3u8?cdn=ystenlive$itv-HEVC
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://tv.zyh520.tk/live/logo/湖南卫视.png" group-title="🐋卫视频道",湖南卫视
 http://zjzcf.synology.me:35455/itv/5000000004000006692.m3u8?cdn=bestzb$itv
