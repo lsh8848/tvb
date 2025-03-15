@@ -1189,9 +1189,9 @@ http://zjzcf.synology.me:35455/itv/5000000011000031112.m3u8?cdn=bestzb$itv
 http://zjzcf.synology.me:35455/itv/5000000011000031207.m3u8?cdn=bestzb$itv
 #EXTINF:-1 tvg-id="SiTV-七彩戏剧" tvg-name="SiTV-七彩戏剧" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV七彩戏剧.png" group-title="🐋SiTV",SiTV-七彩戏剧
 http://zjzcf.synology.me:35455/itv/5000000011000031116.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-生活时尚" tvg-name="SiTV-生活时尚" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV.png" group-title="🐋SiTV",SiTV-生活时尚
+#EXTINF:-1 tvg-id="SiTV-生活时尚" tvg-name="SiTV-生活时尚" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV生活时尚.png" group-title="🐋SiTV",SiTV-生活时尚
 http://zjzcf.synology.me:35455/itv/5000000002000019634.m3u8?cdn=bestzb$itv
-#EXTINF:-1 tvg-id="SiTV-游戏风云" tvg-name="SiTV-游戏风云" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV.png" group-title="🐋SiTV",SiTV-游戏风云
+#EXTINF:-1 tvg-id="SiTV-游戏风云" tvg-name="SiTV-游戏风云" tvg-logo="https://tv.zyh520.tk/live/logo/SiTV游戏风云.png" group-title="🐋SiTV",SiTV-游戏风云
 http://zjzcf.synology.me:35455/itv/5000000011000031114.m3u8?cdn=bestzb$itv
 #EXTINF:-1 tvg-id="iHOT-爱电竞" tvg-name="iHOT-爱电竞" tvg-logo="https://tv.zyh520.tk/live/logo/iHOT爱电竞.png" group-title="🐋iHOT",iHOT-爱电竞
 http://zjzcf.synology.me:35455/itv/6000000006000230630.m3u8?cdn=wasusyt$itv
