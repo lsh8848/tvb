@@ -1117,7 +1117,7 @@ http://zjzcf.synology.me:35455/itv/1000000004000013968.m3u8?cdn=ystenlive$itv
 http://zjzcf.synology.me:35455/itv/1000000004000013730.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-精品体育" tvg-name="NewTV-精品体育" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV精品体育.png" group-title="🐋NewTV",NewTV-精品体育
 http://zjzcf.synology.me:35455/itv/1000000004000014634.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-精品萌宠" tvg-name="NewTV-精品萌宠" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV精品萌宠.png" group-title="🐋NewTV",NewTV-精品萌宠
+#EXTINF:-1 tvg-id="NewTV-精品萌宠" tvg-name="NewTV-精品萌宠" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV精品萌宠.png" group-title="🐋NewTV",NewTV-精品萌宠
 http://zjzcf.synology.me:35455/itv/1000000006000032328.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-爱情喜剧" tvg-name="NewTV-爱情喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV爱情喜剧.png" group-title="🐋NewTV",NewTV-爱情喜剧
 http://zjzcf.synology.me:35455/itv/2000000003000000010.m3u8?cdn=hnbblive$itv
@@ -1155,7 +1155,7 @@ http://zjzcf.synology.me:35455/itv/1000000001000006197.m3u8?cdn=ystenlive$itv
 http://zjzcf.synology.me:35455/itv/2000000003000000016.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-农业致富" tvg-name="NewTV-农业致富" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV农业致富.png" group-title="🐋NewTV",NewTV-农业致富
 http://zjzcf.synology.me:35455/itv/2000000003000000003.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="NewTV-武博世界" tvg-name="NewTV-武博世界" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV武博世界.png" group-title="🐋NewTV",NewTV-武博世界
+#EXTINF:-1 tvg-id="NewTV-武博世界" tvg-name="NewTV-武博世界" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV武博世界.png" group-title="🐋NewTV",NewTV-武博世界
 http://zjzcf.synology.me:35455/itv/2000000003000000007.m3u8?cdn=hnbblive$itv
 #EXTINF:-1 tvg-id="NewTV-炫舞未来" tvg-name="NewTV-炫舞未来" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV炫舞未来.png" group-title="🐋NewTV",NewTV-炫舞未来
 http://zjzcf.synology.me:35455/itv/1000000001000000515.m3u8?cdn=ystenlive$itv
@@ -1163,9 +1163,9 @@ http://zjzcf.synology.me:35455/itv/1000000001000000515.m3u8?cdn=ystenlive$itv
 http://zjzcf.synology.me:35455/itv/1000000005000266011.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-中国功夫" tvg-name="NewTV-中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV中国功夫.png" group-title="🐋NewTV",NewTV-中国功夫
 http://zjzcf.synology.me:35455/itv/2000000003000000009.m3u8?cdn=hnbblive$itv
-#EXTINF:-1 tvg-id="NewTV-黑莓电影" tvg-name="NewTV-黑莓电影" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV黑莓电影.png" group-title="🐋NewTV",NewTV-黑莓电影
+#EXTINF:-1 tvg-id="NewTV-黑莓电影" tvg-name="NewTV-黑莓电影" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV黑莓电影.png" group-title="🐋NewTV",NewTV-黑莓电影
 http://zjzcf.synology.me:35455/itv/1000000004000019624.m3u8?cdn=ystenlive$itv
-#EXTINF:-1 tvg-id="NewTV-黑莓动画" tvg-name="NewTV-黑莓动画" tvg-logo="https://tv.zyh520.tk/live/logo/NEWTV黑莓动画.png" group-title="🐋NewTV",NewTV-黑莓动画
+#EXTINF:-1 tvg-id="NewTV-黑莓动画" tvg-name="NewTV-黑莓动画" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV黑莓动画.png" group-title="🐋NewTV",NewTV-黑莓动画
 http://zjzcf.synology.me:35455/itv/1000000004000021734.m3u8?cdn=ystenlive$itv
 #EXTINF:-1 tvg-id="NewTV-哒啵电竞" tvg-name="NewTV-哒啵电竞" tvg-logo="https://tv.zyh520.tk/live/logo/哒啵电竞.png" group-title="🐋NewTV",NewTV-哒啵电竞
 http://zjzcf.synology.me:35455/itv/1000000006000032327.m3u8?cdn=ystenlive$itv
