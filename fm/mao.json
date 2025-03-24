@@ -792,7 +792,7 @@
       "url": "https://tv.zyh520.tk/live/tv2.m3u"
     },
 	{
-      "name": "直播聚合",
+      "name": "Live聚合",
       "type": 0,
       "url": "./lib/live.txt",
       "playerType": 1,
@@ -800,17 +800,16 @@
       "logo": "https://tv.zyh520.tk/live/logo/{name}.png"
     },
     {
-      "name": "V4聚合",
+      "name": "IPV4聚合",
       "type": 0,
       "url": "./lib/tv.m3u",
       "playerType": 1
     },
     {
-      "name": "视频平台直播",
+      "name": "easy-itv_N1",
       "type": 0,
-      "url": "http://tv.iill.top/m3u/Live",
-      "ua": "okhttp/3.15",
-      "playerType": 2
+      "playerType": 2,
+      "url": "http://192.168.2.99:8123/tv.m3u?token=520"
     },
     {
       "name": "feiyang__format2_N1",
