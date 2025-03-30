@@ -121,7 +121,7 @@ http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226341/.m3u8
 http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221226465/.m3u8
 #EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://tv.zyh520.tk/live/logo/纪实科教.png" group-title="💎卫视移动",纪实科教
 http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221225729/.m3u8
-#EXTINF:-1 tvg-id="北京少儿" tvg-name="北京少儿" tvg-logo="https://tv.zyh520.tk/live/logo/北京少儿.png" group-title="💎数字移动",北京少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://tv.zyh520.tk/live/logo/卡酷少儿.png" group-title="💎数字移动",卡酷少儿
 http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221225654/.m3u8
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://tv.zyh520.tk/live/logo/哈哈炫动.png" group-title="💎数字移动",哈哈炫动
 http://39.134.67.148/ottrrs.hl.chinamobile.com/hlj/yd/0/3221225657/.m3u8
@@ -601,7 +601,7 @@ http://39.134.65.208/PLTV/88888888/224/3221225681/main.m3u8
 http://39.134.65.208/PLTV/88888888/224/3221225529/main.m3u8
 #EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://tv.zyh520.tk/live/logo/优漫卡通.png" group-title="🎖数字移动",优漫卡通
 http://39.134.66.66/PLTV/88888888/224/3221225556/main.m3u8
-#EXTINF:-1 tvg-id="北京少儿" tvg-name="北京少儿" tvg-logo="https://tv.zyh520.tk/live/logo/北京少儿.png" group-title="🎖数字移动",北京少儿
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://tv.zyh520.tk/live/logo/卡酷少儿.png" group-title="🎖数字移动",卡酷少儿
 http://39.134.66.66/PLTV/88888888/224/3221225562/main.m3u8
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://tv.zyh520.tk/live/logo/金鹰卡通.png" group-title="🎖数字移动",金鹰卡通
 http://39.134.66.66/PLTV/88888888/224/3221225561/main.m3u8
@@ -635,7 +635,7 @@ http://39.134.66.66/PLTV/88888888/224/3221225642/main.m3u8
 http://39.134.66.66/PLTV/88888888/224/3221225542/main.m3u8
 #EXTINF:-1 tvg-id="NewTV东北热剧" tvg-name="NewTV东北热剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV东北热剧.png" group-title="🎖数字移动",NewTV东北热剧
 http://39.134.65.208/PLTV/88888888/224/3221225679/main.m3u8
-#EXTINF:-1 tvg-id="NewTV古装喜剧" tvg-name="NewTV古装喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV古装喜剧.png" group-title="🎖数字移动",NewTV古装喜剧
+#EXTINF:-1 tvg-id="NewTV古装剧场" tvg-name="NewTV古装剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV古装剧场.png" group-title="🎖数字移动",NewTV古装剧场
 http://39.134.66.66/PLTV/88888888/224/3221225524/main.m3u8
 #EXTINF:-1 tvg-id="NewTV欢乐剧场" tvg-name="NewTV欢乐剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV欢乐剧场.png" group-title="🎖数字移动",NewTV欢乐剧场
 http://39.134.65.208/PLTV/88888888/224/3221225682/main.m3u8
@@ -657,8 +657,6 @@ http://39.134.66.66/PLTV/88888888/224/3221225535/main.m3u8
 http://39.134.66.66/PLTV/88888888/224/3221225550/main.m3u8
 #EXTINF:-1 tvg-id="NewTV炫舞未来" tvg-name="NewTV炫舞未来" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV炫舞未来.png" group-title="🎖数字移动",NewTV炫舞未来
 http://39.134.66.66/PLTV/88888888/224/3221225646/main.m3u8
-#EXTINF:-1 tvg-id="NewTV古装剧场" tvg-name="NewTV古装剧场" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV古装剧场.png" group-title="🎖数字移动",NewTV古装剧场
-http://39.134.66.66/PLTV/88888888/224/3221225521/main.m3u8
 #EXTINF:-1 tvg-id="NewTV中国功夫" tvg-name="NewTV中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV中国功夫.png" group-title="🎖数字移动",NewTV中国功夫
 http://39.134.66.66/PLTV/88888888/224/3221225604/main.m3u8
 #EXTINF:-1 tvg-id="NewTV农业致富" tvg-name="NewTV农业致富" tvg-logo="https://tv.zyh520.tk/live/logo/NewTV农业致富.png" group-title="🎖数字移动",NewTV农业致富
