@@ -35,12 +35,7 @@ http://itv.iptv1688.top:2016/itv.php?id=CCTV15
 http://itv.iptv1688.top:2016/itv.php?id=CCTV16
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV17.png" group-title="🏆央视",CCTV17
 http://itv.iptv1688.top:2016/itv.php?id=CCTV17
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://tv.zyh520.tk/live/logo/CHC家庭影院.png" group-title="🏆卫视",CHC家庭影院
-http://107.174.52.32/itv.php?id=CHC家庭影院
-#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://tv.zyh520.tk/live/logo/CHC影迷电影.png" group-title="🏆卫视",CHC影迷电影
-http://107.174.52.32/itv.php?id=CHC影迷电影
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/CHC动作电影.png" group-title="🏆卫视",CHC动作电影
-http://107.174.52.32/itv.php?id=CHC动作电影
+
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://tv.zyh520.tk/live/logo/江苏卫视.png" group-title="🏆卫视",江苏卫视
 http://itv.iptv1688.top:2016/itv.php?id=江苏卫视
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/浙江卫视.png" group-title="🏆卫视",浙江卫视
