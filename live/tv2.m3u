@@ -127,8 +127,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226238/1.m3u8?
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://tv.zyh520.tk/live/logo/广东卫视.png" group-title="🏓卫视IPV6",广东卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226508/1.m3u8?
-#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://tv.zyh520.tk/live/logo/大湾区卫视.png" group-title="🏓卫视IPV6",大湾区卫视
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226540/1.m3u8?
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://tv.zyh520.tk/live/logo/安徽卫视.png" group-title="🏓卫视IPV6",安徽卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226499/1.m3u8?
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://tv.zyh520.tk/live/logo/安徽卫视.png" group-title="🏓卫视IPV6",安徽卫视
@@ -165,68 +163,72 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226570/1.m3u8?
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://tv.zyh520.tk/live/logo/吉林卫视.png" group-title="🏓卫视IPV6",吉林卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226886/1.m3u8?
-#EXTINF:-1 tvg-id="北京淘电影" tvg-name="北京淘电影" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘电影.png" group-title="🏓数字IPV6",北京淘电影
+#EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://tv.zyh520.tk/live/logo/大湾区卫视.png" group-title="🏓卫视IPV6",大湾区卫视
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226540/1.m3u8?
+
+#EXTINF:-1 tvg-id="北京淘电影" tvg-name="北京淘电影" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘电影.png" group-title="🏓影视IPV6",北京淘电影
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?
-#EXTINF:-1 tvg-id="北京淘娱乐" tvg-name="北京淘娱乐" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘娱乐.png" group-title="🏓数字IPV6",北京淘娱乐
+#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://tv.zyh520.tk/live/logo/黑莓电影.png" group-title="🏓影视IPV6",黑莓电影
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8?
+#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/超级电影.png" group-title="🏓影视IPV6",超级电影
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226233/1.m3u8?
+#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/超级电影.png" group-title="🏓影视IPV6",超级电影
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226369/1.m3u8?
+#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/动作电影.png" group-title="🏓影视IPV6",动作电影
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226329/1.m3u8?
+#EXTINF:-1 tvg-id="北京淘剧场" tvg-name="北京淘剧场" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘剧场.png" group-title="🏓影视IPV6",北京淘剧场
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?
+#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/超级电视剧.png" group-title="🏓影视IPV6",超级电视剧
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226253/1.m3u8?
+#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/超级电视剧.png" group-title="🏓影视IPV6",超级电视剧
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226368/1.m3u8?
+#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://tv.zyh520.tk/live/logo/古装剧场.png" group-title="🏓影视IPV6",古装剧场
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226323/1.m3u8?
+#EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="https://tv.zyh520.tk/live/logo/军旅剧场.png" group-title="🏓影视IPV6",军旅剧场
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226324/1.m3u8?
+#EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://tv.zyh520.tk/live/logo/精品大剧.png" group-title="🏓影视IPV6",精品大剧
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226331/1.m3u8?
+#EXTINF:-1 tvg-id="家庭剧场" tvg-name="家庭剧场" tvg-logo="https://tv.zyh520.tk/live/logo/家庭剧场.png" group-title="🏓影视IPV6",家庭剧场
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226330/1.m3u8?
+#EXTINF:-1 tvg-id="爱情喜剧" tvg-name="爱情喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/爱情喜剧.png" group-title="🏓影视IPV6",爱情喜剧
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226322/1.m3u8?
+#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/中国功夫.png" group-title="🏓影视IPV6",中国功夫
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226321/1.m3u8?
+#EXTINF:-1 tvg-id="北京淘娱乐" tvg-name="北京淘娱乐" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘娱乐.png" group-title="🏓影视IPV6",北京淘娱乐
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226551/1.m3u8?
+#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🏓影视IPV6",超级综艺
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226231/1.m3u8?
+#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🏓影视IPV6",超级综艺
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226370/1.m3u8?
+#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🏓影视IPV6",超级综艺
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226940/1.m3u8?
+#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://tv.zyh520.tk/live/logo/北京体育休闲.png" group-title="🏓影视IPV6",北京体育休闲
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8?
+#EXTINF:-1 tvg-id="超级体育" tvg-name="超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/超级体育.png" group-title="🏓影视IPV6",超级体育
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226232/1.m3u8?
+#EXTINF:-1 tvg-id="超级体育" tvg-name="超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/超级体育.png" group-title="🏓影视IPV6",超级体育
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226348/1.m3u8?
+#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://tv.zyh520.tk/live/logo/精品体育.png" group-title="🏓影视IPV6",精品体育
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226328/1.m3u8?
+#EXTINF:-1 tvg-id="精品记录" tvg-name="精品记录" tvg-logo="https://tv.zyh520.tk/live/logo/精品记录.png" group-title="🏓影视IPV6",精品记录
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226332/1.m3u8?
+#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://tv.zyh520.tk/live/logo/纪实科教.png" group-title="🏓影视IPV6",纪实科教
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226559/1.m3u8?
+#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://tv.zyh520.tk/live/logo/金鹰纪实.png" group-title="🏓影视IPV6",金鹰纪实
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8?
+#EXTINF:-1 tvg-id="体育" tvg-name="体育" tvg-logo="https://tv.zyh520.tk/live/logo/体育.png" group-title="🏓影视IPV6",体育
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226320/1.m3u8?
+
 #EXTINF:-1 tvg-id="北京萌宠TV" tvg-name="北京萌宠TV" tvg-logo="https://tv.zyh520.tk/live/logo/北京萌宠TV.png" group-title="🏓数字IPV6",北京萌宠TV
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?
 #EXTINF:-1 tvg-id="北京淘BABY" tvg-name="北京淘BABY" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘BABY.png" group-title="🏓数字IPV6",北京淘BABY
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8?
-#EXTINF:-1 tvg-id="北京淘剧场" tvg-name="北京淘剧场" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘剧场.png" group-title="🏓数字IPV6",北京淘剧场
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?
-#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🏓数字IPV6",超级综艺
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226231/1.m3u8?
-#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/超级电影.png" group-title="🏓数字IPV6",超级电影
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226233/1.m3u8?
-#EXTINF:-1 tvg-id="超级体育" tvg-name="超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/超级体育.png" group-title="🏓数字IPV6",超级体育
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226232/1.m3u8?
-#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/超级电视剧.png" group-title="🏓数字IPV6",超级电视剧
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226253/1.m3u8?
-#EXTINF:-1 tvg-id="超级体育" tvg-name="超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/超级体育.png" group-title="🏓数字IPV6",超级体育
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226348/1.m3u8?
-#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/超级电视剧.png" group-title="🏓数字IPV6",超级电视剧
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226368/1.m3u8?
-#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/超级电影.png" group-title="🏓数字IPV6",超级电影
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226369/1.m3u8?
-#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🏓数字IPV6",超级综艺
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226370/1.m3u8?
-#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://tv.zyh520.tk/live/logo/古装剧场.png" group-title="🏓数字IPV6",古装剧场
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226323/1.m3u8?
-#EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="https://tv.zyh520.tk/live/logo/军旅剧场.png" group-title="🏓数字IPV6",军旅剧场
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226324/1.m3u8?
-#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/动作电影.png" group-title="🏓数字IPV6",动作电影
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226329/1.m3u8?
-#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://tv.zyh520.tk/live/logo/精品体育.png" group-title="🏓数字IPV6",精品体育
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226328/1.m3u8?
-#EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://tv.zyh520.tk/live/logo/精品大剧.png" group-title="🏓数字IPV6",精品大剧
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226331/1.m3u8?
-#EXTINF:-1 tvg-id="家庭剧场" tvg-name="家庭剧场" tvg-logo="https://tv.zyh520.tk/live/logo/家庭剧场.png" group-title="🏓数字IPV6",家庭剧场
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226330/1.m3u8?
-#EXTINF:-1 tvg-id="精品记录" tvg-name="精品记录" tvg-logo="https://tv.zyh520.tk/live/logo/精品记录.png" group-title="🏓数字IPV6",精品记录
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226332/1.m3u8?
 #EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://tv.zyh520.tk/live/logo/黑莓动画.png" group-title="🏓数字IPV6",黑莓动画
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226935/1.m3u8?
 #EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://tv.zyh520.tk/live/logo/哒啵赛事.png" group-title="🏓数字IPV6",哒啵赛事
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226938/1.m3u8?
-#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://tv.zyh520.tk/live/logo/黑莓电影.png" group-title="🏓数字IPV6",黑莓电影
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8?
-#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🏓数字IPV6",超级综艺
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226940/1.m3u8?
 #EXTINF:-1 tvg-id="炫舞未来" tvg-name="炫舞未来" tvg-logo="https://tv.zyh520.tk/live/logo/炫舞未来.png" group-title="🏓数字IPV6",炫舞未来
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226248/1.m3u8?
-#EXTINF:-1 tvg-id="潮妈辣婆" tvg-name="潮妈辣婆" tvg-logo="https://tv.zyh520.tk/live/logo/潮妈辣婆.png" group-title="🏓数字IPV6",潮妈辣婆
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226286/1.m3u8?
-#EXTINF:-1 tvg-id="电视剧" tvg-name="电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/电视剧.png" group-title="🏓数字IPV6",电视剧
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226304/1.m3u8?
-#EXTINF:-1 tvg-id="体育" tvg-name="体育" tvg-logo="https://tv.zyh520.tk/live/logo/体育.png" group-title="🏓数字IPV6",体育
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226320/1.m3u8?
-#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/中国功夫.png" group-title="🏓数字IPV6",中国功夫
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226321/1.m3u8?
-#EXTINF:-1 tvg-id="电视剧1" tvg-name="电视剧1" tvg-logo="https://tv.zyh520.tk/live/logo/电视剧1.png" group-title="🏓数字IPV6",电视剧1
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226322/1.m3u8?
-#EXTINF:-1 tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://tv.zyh520.tk/live/logo/北京体育休闲.png" group-title="🏓数字IPV6",北京体育休闲
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226438/1.m3u8?
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://tv.zyh520.tk/live/logo/北京新闻.png" group-title="🏓数字IPV6",北京新闻
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226437/1.m3u8?
 #EXTINF:-1 tvg-id="北京文艺" tvg-name="北京文艺" tvg-logo="https://tv.zyh520.tk/live/logo/北京文艺.png" group-title="🏓数字IPV6",北京文艺
@@ -243,8 +245,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226556/1.m3u8?
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://tv.zyh520.tk/live/logo/卡酷少儿.png" group-title="🏓数字IPV6",卡酷少儿
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226558/1.m3u8?
-#EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://tv.zyh520.tk/live/logo/纪实科教.png" group-title="🏓数字IPV6",纪实科教
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226559/1.m3u8?
 #EXTINF:-1 tvg-id="北京财经" tvg-name="北京财经" tvg-logo="https://tv.zyh520.tk/live/logo/北京财经.png" group-title="🏓数字IPV6",北京财经
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226560/1.m3u8?
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://tv.zyh520.tk/live/logo/北京生活.png" group-title="🏓数字IPV6",北京生活
@@ -255,53 +255,51 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226566/1.m3u8?
 #EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://tv.zyh520.tk/live/logo/睛彩广场舞.png" group-title="🏓数字IPV6",睛彩广场舞
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226567/1.m3u8?
-#EXTINF:-1 tvg-id="金鹰纪实" tvg-name="金鹰纪实" tvg-logo="https://tv.zyh520.tk/live/logo/金鹰纪实.png" group-title="🏓数字IPV6",金鹰纪实
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8?
 #EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://tv.zyh520.tk/live/logo/中国交通.png" group-title="🏓数字IPV6",中国交通
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226891/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕" tvg-name="咪咕" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕
+#EXTINF:-1 tvg-id="咪咕" tvg-name="咪咕" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226373/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕2" tvg-name="咪咕2" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕2
+#EXTINF:-1 tvg-id="咪咕2" tvg-name="咪咕2" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕2
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226374/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕3" tvg-name="咪咕3" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕3
+#EXTINF:-1 tvg-id="咪咕3" tvg-name="咪咕3" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕3
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226375/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕4" tvg-name="咪咕4" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕4
+#EXTINF:-1 tvg-id="咪咕4" tvg-name="咪咕4" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕4
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226377/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕5" tvg-name="咪咕5" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕5
+#EXTINF:-1 tvg-id="咪咕5" tvg-name="咪咕5" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕5
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226378/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕6" tvg-name="咪咕6" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕6
+#EXTINF:-1 tvg-id="咪咕6" tvg-name="咪咕6" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕6
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226380/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕7" tvg-name="咪咕7" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕7
+#EXTINF:-1 tvg-id="咪咕7" tvg-name="咪咕7" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕7
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226379/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕8" tvg-name="咪咕8" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕8
+#EXTINF:-1 tvg-id="咪咕8" tvg-name="咪咕8" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226381/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕9" tvg-name="咪咕9" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕9
+#EXTINF:-1 tvg-id="咪咕9" tvg-name="咪咕9" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕9
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226382/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕10" tvg-name="咪咕10" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕10
+#EXTINF:-1 tvg-id="咪咕10" tvg-name="咪咕10" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕10
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226383/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕11" tvg-name="咪咕11" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕11
+#EXTINF:-1 tvg-id="咪咕11" tvg-name="咪咕11" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕11
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226384/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕12" tvg-name="咪咕12" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕12
+#EXTINF:-1 tvg-id="咪咕12" tvg-name="咪咕12" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕12
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226388/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕13" tvg-name="咪咕13" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕13
+#EXTINF:-1 tvg-id="咪咕13" tvg-name="咪咕13" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕13
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226389/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕14" tvg-name="咪咕14" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕14
+#EXTINF:-1 tvg-id="咪咕14" tvg-name="咪咕14" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕14
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226390/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕15" tvg-name="咪咕15" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕15
+#EXTINF:-1 tvg-id="咪咕15" tvg-name="咪咕15" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕15
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226391/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕16" tvg-name="咪咕16" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕16
+#EXTINF:-1 tvg-id="咪咕16" tvg-name="咪咕16" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕16
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226392/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕17" tvg-name="咪咕17" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕17
+#EXTINF:-1 tvg-id="咪咕17" tvg-name="咪咕17" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕17
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕18" tvg-name="咪咕18" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕18
+#EXTINF:-1 tvg-id="咪咕18" tvg-name="咪咕18" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕18
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226394/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕19" tvg-name="咪咕19" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕19
+#EXTINF:-1 tvg-id="咪咕19" tvg-name="咪咕19" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕19
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕20" tvg-name="咪咕20" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕20
+#EXTINF:-1 tvg-id="咪咕20" tvg-name="咪咕20" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕20
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕21" tvg-name="咪咕21" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕21
+#EXTINF:-1 tvg-id="咪咕21" tvg-name="咪咕21" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕21
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226396/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕22" tvg-name="咪咕22" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓数字IPV6",咪咕22
+#EXTINF:-1 tvg-id="咪咕22" tvg-name="咪咕22" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕22
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226398/1.m3u8?
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🏆央视",CCTV1
@@ -407,16 +405,6 @@ http://itv.iptv1688.top:2016/itv.php?id=青海卫视
 http://itv.iptv1688.top:2016/itv.php?id=延边卫视
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://tv.zyh520.tk/live/logo/兵团卫视.png" group-title="🏆卫视",兵团卫视
 http://itv.iptv1688.top:2016/itv.php?id=兵团卫视
-
-#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="✈央视",CCTV2
-http://202.168.187.208:9089/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV3.png" group-title="✈央视",CCTV3
-http://202.168.187.208:9089/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4.png" group-title="✈央视",CCTV4
-http://202.168.187.208:9089/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5.png" group-title="✈央视",CCTV5
-http://202.168.187.208:9089/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-
 
 #EXTINF:-1 tvg-id="LOVENATURE" tvg-name="LoveNature" tvg-logo="https://tv.zyh520.tk/live/logo/LoveNature4K.png" group-title="📀4K超高清",Love Nature 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8$cloudfront
