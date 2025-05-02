@@ -791,6 +791,19 @@
       "playerType": 2,
       "url": "https://tv.zyh520.tk/live/tv2.m3u"
     },
+	{
+            "name": "itv",
+            "type": 0,
+            "url": "https://tv.zyh520.tk/live/itv_beta.txt",
+            "ua": "d6f0e3f3e627d430",
+            "epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
+            "logo": "https://tv.zyh520.tk/live/logo/{name}.png",
+            "catchup": {
+                "type": "append",
+                "replace": "livemode=1,livemode=4",
+                "source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+    },
     {
       "name": "直播多源ipv4",
       "type": 0,
