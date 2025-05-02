@@ -840,5 +840,13 @@
       "playerType": 2,
       "url": "http://192.168.2.99:35455/bililive.m3u"
     }
-  ]
+  ],
+ 	  "headers": [
+        {
+            "host": "gslbserv.itv.cmvideo.cn",
+            "header": {
+                "User-Agent": "d6f0e3f3e627d430"
+            }
+        }
+    ]
 }
