@@ -219,12 +219,12 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-id="体育" tvg-name="体育" tvg-logo="https://tv.zyh520.tk/live/logo/体育.png" group-title="🏓影视IPV6",体育
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226320/1.m3u8?
 
-#EXTINF:-1 tvg-id="北京萌宠TV" tvg-name="北京萌宠TV" tvg-logo="https://tv.zyh520.tk/live/logo/北京萌宠TV.png" group-title="🏓数字IPV6",北京萌宠TV
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?
 #EXTINF:-1 tvg-id="北京淘BABY" tvg-name="北京淘BABY" tvg-logo="https://tv.zyh520.tk/live/logo/北京淘BABY.png" group-title="🏓数字IPV6",北京淘BABY
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8?
 #EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://tv.zyh520.tk/live/logo/黑莓动画.png" group-title="🏓数字IPV6",黑莓动画
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226935/1.m3u8?
+#EXTINF:-1 tvg-id="北京萌宠TV" tvg-name="北京萌宠TV" tvg-logo="https://tv.zyh520.tk/live/logo/北京萌宠TV.png" group-title="🏓数字IPV6",北京萌宠TV
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226555/1.m3u8?
 #EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://tv.zyh520.tk/live/logo/哒啵赛事.png" group-title="🏓数字IPV6",哒啵赛事
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226938/1.m3u8?
 #EXTINF:-1 tvg-id="炫舞未来" tvg-name="炫舞未来" tvg-logo="https://tv.zyh520.tk/live/logo/炫舞未来.png" group-title="🏓数字IPV6",炫舞未来
@@ -237,7 +237,7 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226486/1.m3u8?
 #EXTINF:-1 tvg-id="北京国际" tvg-name="北京国际" tvg-logo="https://tv.zyh520.tk/live/logo/北京国际.png" group-title="🏓数字IPV6",北京国际
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226510/1.m3u8?
-#EXTINF:-1 tvg-id="快乐钓鱼" tvg-name="快乐钓鱼" tvg-logo="https://tv.zyh520.tk/live/logo/快乐钓鱼.png" group-title="🏓数字IPV6",快乐钓鱼
+#EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://tv.zyh520.tk/live/logo/快乐垂钓.png" group-title="🏓数字IPV6",快乐垂钓
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226549/1.m3u8?
 #EXTINF:-1 tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://tv.zyh520.tk/live/logo/茶频道.png" group-title="🏓数字IPV6",茶频道
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226548/1.m3u8?
@@ -249,7 +249,7 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226560/1.m3u8?
 #EXTINF:-1 tvg-id="北京生活" tvg-name="北京生活" tvg-logo="https://tv.zyh520.tk/live/logo/北京生活.png" group-title="🏓数字IPV6",北京生活
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226561/1.m3u8?
-#EXTINF:-1 tvg-id="SPORT" tvg-name="SPORT" tvg-logo="https://tv.zyh520.tk/live/logo/SPORT.png" group-title="🏓数字IPV6",SPORT
+#EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://tv.zyh520.tk/live/logo/睛彩篮球.png" group-title="🏓数字IPV6",睛彩篮球
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226565/1.m3u8?
 #EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://tv.zyh520.tk/live/logo/睛彩竞技.png" group-title="🏓数字IPV6",睛彩竞技
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226566/1.m3u8?
@@ -257,50 +257,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226567/1.m3u8?
 #EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://tv.zyh520.tk/live/logo/中国交通.png" group-title="🏓数字IPV6",中国交通
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226891/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕" tvg-name="咪咕" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226373/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕2" tvg-name="咪咕2" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕2
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226374/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕3" tvg-name="咪咕3" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕3
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226375/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕4" tvg-name="咪咕4" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕4
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226377/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕5" tvg-name="咪咕5" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕5
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226378/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕6" tvg-name="咪咕6" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕6
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226380/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕7" tvg-name="咪咕7" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕7
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226379/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕8" tvg-name="咪咕8" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226381/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕9" tvg-name="咪咕9" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕9
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226382/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕10" tvg-name="咪咕10" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕10
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226383/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕11" tvg-name="咪咕11" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕11
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226384/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕12" tvg-name="咪咕12" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕12
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226388/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕13" tvg-name="咪咕13" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕13
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226389/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕14" tvg-name="咪咕14" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕14
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226390/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕15" tvg-name="咪咕15" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕15
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226391/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕16" tvg-name="咪咕16" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕16
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226392/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕17" tvg-name="咪咕17" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕17
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕18" tvg-name="咪咕18" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕18
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226394/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕19" tvg-name="咪咕19" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕19
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕20" tvg-name="咪咕20" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕20
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕21" tvg-name="咪咕21" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕21
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226396/1.m3u8?
-#EXTINF:-1 tvg-id="咪咕22" tvg-name="咪咕22" tvg-logo="https://tv.zyh520.tk/live/logo/咪咕.png" group-title="🏓咪咕IPV6",咪咕22
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226398/1.m3u8?
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🏆央视",CCTV1
 http://itv.iptv1688.top:2016/itv.php?id=CCTV1
