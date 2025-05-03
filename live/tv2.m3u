@@ -362,41 +362,41 @@ http://itv.iptv1688.top:2016/itv.php?id=延边卫视
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://tv.zyh520.tk/live/logo/兵团卫视.png" group-title="🏆卫视",兵团卫视
 http://itv.iptv1688.top:2016/itv.php?id=兵团卫视
 
-#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="🦖央视",cctv1-BPTV
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="🦖央视",cctv1
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003864351.m3u8
-#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="🦖央视",cctv2-BPTV
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="🦖央视",cctv2
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870745.m3u8
-#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="🦖央视",cctv3-BPTV
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="🦖央视",cctv3
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870746.m3u8
-#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="🦖央视",cctv4-BPTV
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="🦖央视",cctv4
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870747.m3u8
-#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="🦖央视",cctv5-BPTV
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="🦖央视",cctv5
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870748.m3u8
-#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="🦖央视",cctv5p-BPTV
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="🦖央视",cctv5+
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870759.m3u8
-#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="🦖央视",cctv6-BPTV
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="🦖央视",cctv6
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870749.m3u8
-#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="🦖央视",cctv7-BPTV
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="🦖央视",cctv7
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870750.m3u8
-#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="🦖央视",cctv8-BPTV
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="🦖央视",cctv8
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870838.m3u8
-#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="🦖央视",cctv9-BPTV
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="🦖央视",cctv9
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870752.m3u8
-#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="🦖央视",cctv10-BPTV
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="🦖央视",cctv10
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870753.m3u8
-#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="🦖央视",cctv11-BPTV
+#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="🦖央视",cctv11
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870754.m3u8
-#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="🦖央视",cctv12-BPTV
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="🦖央视",cctv12
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870755.m3u8
-#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="🦖央视",cctv13-BPTV
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="🦖央视",cctv13
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000004796248.m3u8
-#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="🦖央视",cctv14-BPTV
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="🦖央视",cctv14
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870756.m3u8
-#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="🦖央视",cctv15-BPTV
+#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="🦖央视",cctv15
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870757.m3u8
-#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="🦖央视",cctv16-BPTV
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="🦖央视",cctv16
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000004972604.m3u8
-#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="🦖央视",cctv17-BPTV
+#EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="🦖央视",cctv17
 http://debian.wurunxiang.top:35455/bptv/10000100000000050000000003870758.m3u8
 
 #EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.v1.mk/logo/北京卫视.png" group-title="🦖卫视",北京卫视
