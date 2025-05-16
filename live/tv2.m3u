@@ -1,4 +1,199 @@
 #EXTM3U x-tvg-url="https://epg.zyh520.tk/112114.xml"
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🦜央视移动",CCTV1
+http://39.134.65.106/PLTV/88888888/224/3221226119/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🦜央视移动",CCTV1
+http://39.134.65.106/PLTV/88888888/224/3221225816/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="🦜央视移动",CCTV2
+http://39.134.65.106/PLTV/88888888/224/3221226079/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV3.png" group-title="🦜央视移动",CCTV3
+http://39.134.65.106/PLTV/88888888/224/3221225799/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4.png" group-title="🦜央视移动",CCTV4
+http://39.134.65.106/PLTV/88888888/224/3221226092/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5.png" group-title="🦜央视移动",CCTV5
+http://39.134.65.106/PLTV/88888888/224/3221225818/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV5+.png" group-title="🦜央视移动",CCTV5+
+http://39.134.65.106/PLTV/88888888/224/3221225507/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV6.png" group-title="🦜央视移动",CCTV6
+http://39.134.65.106/PLTV/88888888/224/3221225814/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV7.png" group-title="🦜央视移动",CCTV7
+http://39.134.65.106/PLTV/88888888/224/3221225671/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV8.png" group-title="🦜央视移动",CCTV8
+http://39.134.65.106/PLTV/88888888/224/3221225795/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV9.png" group-title="🦜央视移动",CCTV9
+http://39.134.65.106/PLTV/88888888/224/3221225676/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV10.png" group-title="🦜央视移动",CCTV10
+http://39.134.65.106/PLTV/88888888/224/3221226128/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV10.png" group-title="🦜央视移动",CCTV10
+http://39.134.65.106/PLTV/88888888/224/3221225677/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV11.png" group-title="🦜央视移动",CCTV11
+http://39.134.65.106/PLTV/88888888/224/3221226123/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV12.png" group-title="🦜央视移动",CCTV12
+http://39.134.65.106/PLTV/88888888/224/3221226130/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV12.png" group-title="🦜央视移动",CCTV12
+http://39.134.65.106/PLTV/88888888/224/3221225669/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV13.png" group-title="🦜央视移动",CCTV13
+http://39.134.65.106/PLTV/88888888/224/3221226125/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV13.png" group-title="🦜央视移动",CCTV13
+http://39.134.65.106/PLTV/88888888/224/3221226077/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV14.png" group-title="🦜央视移动",CCTV14
+http://39.134.65.106/PLTV/88888888/224/3221225674/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV14.png" group-title="🦜央视移动",CCTV14
+http://39.134.65.106/PLTV/88888888/224/3221226132/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV15.png" group-title="🦜央视移动",CCTV15
+http://39.134.65.106/PLTV/88888888/224/3221226127/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV16.png" group-title="🦜央视移动",CCTV16
+http://39.134.65.106/PLTV/88888888/224/3221225893/1.m3u8?
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV17.png" group-title="🦜央视移动",CCTV17
+http://39.134.65.106/PLTV/88888888/224/3221225708/1.m3u8?
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://tv.zyh520.tk/live/logo/江苏卫视.png" group-title="🦜卫视移动",江苏卫视
+http://39.134.65.106/PLTV/88888888/224/3221225503/1.m3u8?
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://tv.zyh520.tk/live/logo/江苏卫视.png" group-title="🦜卫视移动",江苏卫视
+http://39.134.65.106/PLTV/88888888/224/3221225938/1.m3u8?
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/浙江卫视.png" group-title="🦜卫视移动",浙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221225514/1.m3u8?
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/浙江卫视.png" group-title="🦜卫视移动",浙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221225959/1.m3u8?
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://tv.zyh520.tk/live/logo/湖南卫视.png" group-title="🦜卫视移动",湖南卫视
+http://39.134.65.106/PLTV/88888888/224/3221225506/1.m3u8?
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://tv.zyh520.tk/live/logo/湖南卫视.png" group-title="🦜卫视移动",湖南卫视
+http://39.134.65.106/PLTV/88888888/224/3221225977/1.m3u8?
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://tv.zyh520.tk/live/logo/东方卫视.png" group-title="🦜卫视移动",东方卫视
+http://39.134.65.106/PLTV/88888888/224/3221225672/1.m3u8?
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://tv.zyh520.tk/live/logo/东方卫视.png" group-title="🦜卫视移动",东方卫视
+http://39.134.65.106/PLTV/88888888/224/3221225673/1.m3u8?
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://tv.zyh520.tk/live/logo/东方卫视.png" group-title="🦜卫视移动",东方卫视
+http://39.134.65.106/PLTV/88888888/224/3221225942/1.m3u8?
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://tv.zyh520.tk/live/logo/深圳卫视.png" group-title="🦜卫视移动",深圳卫视
+http://39.134.65.106/PLTV/88888888/224/3221225668/1.m3u8?
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://tv.zyh520.tk/live/logo/深圳卫视.png" group-title="🦜卫视移动",深圳卫视
+http://39.134.65.106/PLTV/88888888/224/3221225943/1.m3u8?
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://tv.zyh520.tk/live/logo/北京卫视.png" group-title="🦜卫视移动",北京卫视
+http://39.134.65.106/PLTV/88888888/224/3221225678/1.m3u8?
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://tv.zyh520.tk/live/logo/北京卫视.png" group-title="🦜卫视移动",北京卫视
+http://39.134.65.106/PLTV/88888888/224/3221225931/1.m3u8?
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://tv.zyh520.tk/live/logo/广东卫视.png" group-title="🦜卫视移动",广东卫视
+http://39.134.65.106/PLTV/88888888/224/3221225966/1.m3u8?
+#EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://tv.zyh520.tk/live/logo/广西卫视.png" group-title="🦜卫视移动",广西卫视
+http://39.134.65.106/PLTV/88888888/224/3221226091/1.m3u8?
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://tv.zyh520.tk/live/logo/安徽卫视.png" group-title="🦜卫视移动",安徽卫视
+http://39.134.65.106/PLTV/88888888/224/3221225925/1.m3u8?
+#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://tv.zyh520.tk/live/logo/辽宁卫视.png" group-title="🦜卫视移动",辽宁卫视
+http://39.134.65.106/PLTV/88888888/224/3221226089/1.m3u8?
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://tv.zyh520.tk/live/logo/湖北卫视.png" group-title="🦜卫视移动",湖北卫视
+http://39.134.65.106/PLTV/88888888/224/3221225569/1.m3u8?
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://tv.zyh520.tk/live/logo/天津卫视.png" group-title="🦜卫视移动",天津卫视
+http://39.134.65.106/PLTV/88888888/224/3221225665/1.m3u8?
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://tv.zyh520.tk/live/logo/江西卫视.png" group-title="🦜卫视移动",江西卫视
+http://39.134.65.106/PLTV/88888888/224/3221225935/1.m3u8?
+#EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://tv.zyh520.tk/live/logo/天津卫视.png" group-title="🦜卫视移动",天津卫视
+http://39.134.65.106/PLTV/88888888/224/3221225972/1.m3u8?
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://tv.zyh520.tk/live/logo/吉林卫视.png" group-title="🦜卫视移动",吉林卫视
+http://39.134.65.106/PLTV/88888888/224/3221225981/1.m3u8?
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://tv.zyh520.tk/live/logo/山东卫视.png" group-title="🦜卫视移动",山东卫视
+http://39.134.65.106/PLTV/88888888/224/3221225952/1.m3u8?
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://tv.zyh520.tk/live/logo/四川卫视.png" group-title="🦜卫视移动",四川卫视
+http://39.134.65.106/PLTV/88888888/224/3221225970/1.m3u8?
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://tv.zyh520.tk/live/logo/河北卫视.png" group-title="🦜卫视移动",河北卫视
+http://39.134.65.106/PLTV/88888888/224/3221225961/1.m3u8?
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://tv.zyh520.tk/live/logo/贵州卫视.png" group-title="🦜卫视移动",贵州卫视
+http://39.134.65.106/PLTV/88888888/224/3221225974/1.m3u8?
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://tv.zyh520.tk/live/logo/湖北卫视.png" group-title="🦜卫视移动",湖北卫视
+http://39.134.65.106/PLTV/88888888/224/3221225975/1.m3u8?
+#EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://tv.zyh520.tk/live/logo/东南卫视.png" group-title="🦜卫视移动",东南卫视
+http://39.134.65.106/PLTV/88888888/224/3221225950/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226056/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226068/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226099/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226115/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226117/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226122/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221226060/1.m3u8?
+#EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://tv.zyh520.tk/live/logo/黑龙江卫视.png" group-title="🦜卫视移动",黑龙江卫视
+http://39.134.65.106/PLTV/88888888/224/3221225985/1.m3u8?
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://tv.zyh520.tk/live/logo/海南卫视.png" group-title="🦜卫视移动",海南卫视
+http://39.134.65.106/PLTV/88888888/224/3221225978/1.m3u8?
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://tv.zyh520.tk/live/logo/重庆卫视.png" group-title="🦜卫视移动",重庆卫视
+http://39.134.65.106/PLTV/88888888/224/3221225963/1.m3u8?
+#EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://tv.zyh520.tk/live/logo/河南卫视.png" group-title="🦜卫视移动",河南卫视
+http://39.134.65.106/PLTV/88888888/224/3221225988/1.m3u8?
+#EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://tv.zyh520.tk/live/logo/黑莓动画.png" group-title="🦜数字移动",黑莓动画
+http://39.134.65.106/PLTV/88888888/224/3221225529/1.m3u8?
+#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://tv.zyh520.tk/live/logo/黑莓电影.png" group-title="🦜数字移动",黑莓电影
+http://39.134.65.106/PLTV/88888888/224/3221225681/1.m3u8?
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://tv.zyh520.tk/live/logo/哈哈炫动.png" group-title="🦜数字移动",哈哈炫动
+http://39.134.65.106/PLTV/88888888/224/3221225534/1.m3u8?
+#EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://tv.zyh520.tk/live/logo/卡酷少儿.png" group-title="🦜数字移动",卡酷少儿
+http://39.134.65.106/PLTV/88888888/224/3221225562/1.m3u8?
+#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://tv.zyh520.tk/live/logo/优漫卡通.png" group-title="🦜数字移动",优漫卡通
+http://39.134.65.106/PLTV/88888888/224/3221225556/1.m3u8?
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://tv.zyh520.tk/live/logo/金鹰卡通.png" group-title="🦜数字移动",金鹰卡通
+http://39.134.65.106/PLTV/88888888/224/3221225561/1.m3u8?
+#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://tv.zyh520.tk/live/logo/古装剧场.png" group-title="🦜数字移动",古装剧场
+http://39.134.65.106/PLTV/88888888/224/3221225524/1.m3u8?
+#EXTINF:-1 tvg-id="金牌综艺" tvg-name="金牌综艺" tvg-logo="https://tv.zyh520.tk/live/logo/金牌综艺.png" group-title="🦜数字移动",金牌综艺
+http://39.134.65.106/PLTV/88888888/224/3221225525/1.m3u8?
+#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://tv.zyh520.tk/live/logo/精品体育.png" group-title="🦜数字移动",精品体育
+http://39.134.65.106/PLTV/88888888/224/3221225526/1.m3u8?
+#EXTINF:-1 tvg-id="超级体育" tvg-name="超级体育" tvg-logo="https://tv.zyh520.tk/live/logo/超级体育.png" group-title="🦜数字移动",超级体育
+http://39.134.65.106/PLTV/88888888/224/3221225635/1.m3u8?
+#EXTINF:-1 tvg-id="爱情喜剧" tvg-name="爱情喜剧" tvg-logo="https://tv.zyh520.tk/live/logo/爱情喜剧.png" group-title="🦜数字移动",爱情喜剧
+http://39.134.65.106/PLTV/88888888/224/3221225533/1.m3u8?
+#EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://tv.zyh520.tk/live/logo/精品大剧.png" group-title="🦜数字移动",精品大剧
+http://39.134.65.106/PLTV/88888888/224/3221225536/1.m3u8?
+#EXTINF:-1 tvg-id="家庭剧场" tvg-name="家庭剧场" tvg-logo="https://tv.zyh520.tk/live/logo/家庭剧场.png" group-title="🦜数字移动",家庭剧场
+http://39.134.65.106/PLTV/88888888/224/3221225538/1.m3u8?
+#EXTINF:-1 tvg-id="潮妈辣婆" tvg-name="潮妈辣婆" tvg-logo="https://tv.zyh520.tk/live/logo/潮妈辣婆.png" group-title="🦜数字移动",潮妈辣婆
+http://39.134.65.106/PLTV/88888888/224/3221225542/1.m3u8?
+#EXTINF:-1 tvg-id="精品记录" tvg-name="精品记录" tvg-logo="https://tv.zyh520.tk/live/logo/精品记录.png" group-title="🦜数字移动",精品记录
+http://39.134.65.106/PLTV/88888888/224/3221225545/1.m3u8?
+#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/动作电影.png" group-title="🦜数字移动",动作电影
+http://39.134.65.106/PLTV/88888888/224/3221225555/1.m3u8?
+#EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="https://tv.zyh520.tk/live/logo/军旅剧场.png" group-title="🦜数字移动",军旅剧场
+http://39.134.65.106/PLTV/88888888/224/3221225560/1.m3u8?
+#EXTINF:-1 tvg-id="惊悚悬疑" tvg-name="惊悚悬疑" tvg-logo="https://tv.zyh520.tk/live/logo/惊悚悬疑.png" group-title="🦜数字移动",惊悚悬疑
+http://39.134.65.106/PLTV/88888888/224/3221225553/1.m3u8?
+#EXTINF:-1 tvg-id="怡伴健康" tvg-name="怡伴健康" tvg-logo="https://tv.zyh520.tk/live/logo/怡伴健康.png" group-title="🦜数字移动",怡伴健康
+http://39.134.65.106/PLTV/88888888/224/3221225571/1.m3u8?
+#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://tv.zyh520.tk/live/logo/中国功夫.png" group-title="🦜数字移动",中国功夫
+http://39.134.65.106/PLTV/88888888/224/3221225604/1.m3u8?
+#EXTINF:-1 tvg-id="超级电影" tvg-name="超级电影" tvg-logo="https://tv.zyh520.tk/live/logo/超级电影.png" group-title="🦜数字移动",超级电影
+http://39.134.65.106/PLTV/88888888/224/3221225644/1.m3u8?
+#EXTINF:-1 tvg-id="超级综艺" tvg-name="超级综艺" tvg-logo="https://tv.zyh520.tk/live/logo/超级综艺.png" group-title="🦜数字移动",超级综艺
+http://39.134.65.106/PLTV/88888888/224/3221225642/1.m3u8?
+#EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://tv.zyh520.tk/live/logo/超级电视剧.png" group-title="🦜数字移动",超级电视剧
+http://39.134.65.106/PLTV/88888888/224/3221225637/1.m3u8?
+#EXTINF:-1 tvg-id="欢乐剧场" tvg-name="欢乐剧场" tvg-logo="https://tv.zyh520.tk/live/logo/欢乐剧场.png" group-title="🦜数字移动",欢乐剧场
+http://39.134.65.106/PLTV/88888888/224/3221225682/1.m3u8?
+#EXTINF:-1 tvg-id="东北热剧" tvg-name="东北热剧" tvg-logo="https://tv.zyh520.tk/live/logo/东北热剧.png" group-title="🦜数字移动",东北热剧
+http://39.134.65.106/PLTV/88888888/224/3221225679/1.m3u8?
+#EXTINF:-1 tvg-id="精品萌宠" tvg-name="精品萌宠" tvg-logo="https://tv.zyh520.tk/live/logo/精品萌宠.png" group-title="🦜数字移动",精品萌宠
+http://39.134.65.106/PLTV/88888888/224/3221226051/1.m3u8?
+#EXTINF:-1 tvg-id="哒波赛事" tvg-name="哒波赛事" tvg-logo="https://tv.zyh520.tk/live/logo/哒波赛事.png" group-title="🦜数字移动",哒波赛事
+http://39.134.65.106/PLTV/88888888/224/3221225559/1.m3u8?
+#EXTINF:-1 tvg-id="求索记录" tvg-name="求索记录" tvg-logo="https://tv.zyh520.tk/live/logo/求索记录.png" group-title="🦜数字移动",求索记录
+http://39.134.65.106/PLTV/88888888/224/3221225713/1.m3u8?
+#EXTINF:-1 tvg-id="北京纪实科教" tvg-name="北京纪实科教" tvg-logo="https://tv.zyh520.tk/live/logo/北京纪实科教.png" group-title="🦜数字移动",北京纪实科教
+http://39.134.65.106/PLTV/88888888/224/3221225670/1.m3u8?
+#EXTINF:-1 tvg-id="晴彩广场舞" tvg-name="晴彩广场舞" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩广场舞.png" group-title="🦜数字移动",晴彩广场舞
+http://39.134.65.106/PLTV/88888888/224/3221226143/1.m3u8?
+#EXTINF:-1 tvg-id="晴彩广场舞" tvg-name="晴彩广场舞" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩广场舞.png" group-title="🦜数字移动",晴彩广场舞
+http://39.134.65.106/PLTV/88888888/224/3221226046/1.m3u8?
+#EXTINF:-1 tvg-id="晴彩青少" tvg-name="晴彩青少" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩青少.png" group-title="🦜数字移动",晴彩青少
+http://39.134.65.106/PLTV/88888888/224/3221226053/1.m3u8?
+#EXTINF:-1 tvg-id="晴彩篮球" tvg-name="晴彩篮球" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩篮球.png" group-title="🦜数字移动",晴彩篮球
+http://39.134.65.106/PLTV/88888888/224/3221226027/1.m3u8?
+#EXTINF:-1 tvg-id="晴彩篮球" tvg-name="晴彩篮球" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩篮球.png" group-title="🦜数字移动",晴彩篮球
+http://39.134.65.106/PLTV/88888888/224/3221225895/1.m3u8?
+#EXTINF:-1 tvg-id="晴彩竞技" tvg-name="晴彩竞技" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩竞技.png" group-title="🦜数字移动",晴彩竞技
+http://39.134.65.106/PLTV/88888888/224/3221225897/1.m3u8?
+
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🏓央视IPV6",CCTV1
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226346/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🏓央视IPV6",CCTV1
