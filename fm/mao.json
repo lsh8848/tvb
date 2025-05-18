@@ -123,11 +123,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://libvio.pro/"
-      }
+      "ext": "https://libvio.mov/"
     },
     {
       "key": "zxzj",
@@ -317,33 +313,6 @@
       "jar": "./Feimao.jar"
     },
     {
-      "key": "Wexhanxiaoquan",
-      "name": "💥韩剧┃弹幕💥",
-      "type": 3,
-      "api": "csp_WexhanxiaoquanGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./wex.jar"
-    },
-    {
-      "key": "Wexrenrenyingshi",
-      "name": "💥人人┃弹幕💥",
-      "type": 3,
-      "api": "csp_WexrenrenyingshiGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./wex.jar"
-    },
-    {
-      "key": "WexkuihuatvGuard",
-      "name": "💥葵花┃影视💥",
-      "type": 3,
-      "api": "csp_WexkuihuatvGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./wex.jar"
-    },
-    {
       "key": "WexquickvodGuard",
       "name": "🎇美剧┃秒播🎇",
       "type": 3,
@@ -420,15 +389,6 @@
       "name": "🎇大鼻涕┃秒播🎇",
       "type": 3,
       "api": "csp_WexbttwoGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "./wex.jar"
-    },
-    {
-      "key": "Wexshandian",
-      "name": "🌺闪电┃秒播🌺",
-      "type": 3,
-      "api": "csp_WexshandianGuard",
       "searchable": 1,
       "changeable": 1,
       "jar": "./wex.jar"
