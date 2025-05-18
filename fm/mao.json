@@ -55,7 +55,7 @@
     },
     {
       "key": "alllive",
-      "name": "📽️一直播┃视频",
+      "name": "📽️一直播┃直播(待修)",
       "type": 3,
       "api": "csp_AllliveGuard",
       "playerType": 2,
@@ -108,23 +108,25 @@
       "name": "📔厂长┃不卡",
       "type": 3,
       "api": "csp_NewCzGuard",
+      "timeout": 10,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/"
+      "changeable": 1
     },
     {
       "key": "Lib",
       "name": "🌟立播┃秒播",
       "type": 3,
       "api": "csp_LibvioGuard",
+      "timeout": 10,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
+        "from": "4k|auto",
+        "siteUrl": "https://libvio.pro/"
       }
     },
     {
@@ -146,6 +148,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "溢彩",
+      "name": "💡溢彩┃秒播",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOb1uAWbkRHp7hdxprG9un3+TfN183v1zIyaYDoDAIaLw5L8Dp8+v88LrEL3dBzrmWbdMBX0WNm7HtkQuw0AIzUurGBVyPqCKzDmbriATuukhctJlsLo8KxCw=="
     },
 	{
       "key": "原创",
@@ -169,23 +182,13 @@
     },
     {
       "key": "白白",
-      "name": "🐟白白┃秒播",
+      "name": "🐟白白┃秒播(待修)",
       "type": 3,
       "api": "csp_SbaibaiGuard",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "神车",
-      "name": "🚎神车┃秒播",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "FbjPcVZY48PN/RIZ5QqOrsp1OZsTS9wQSSpQpK6jnh0fUMKIu22IxR6Z7/exDifuKH+Agjg9"
     },
     {
       "key": "文采",
@@ -223,27 +226,48 @@
       "changeable": 1,
       "ext": "https://auete.com/"
     },
+    {
+      "key": "热播",
+      "name": "📺热播┃多线",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "uqGL1bNENExT7/hGxpSE5qU="
+    },
+    {
+      "key": "萌米",
+      "name": "👀萌米┃多线",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA=="
+    },
+    {
+      "key": "欢视",
+      "name": "👓欢视┃多线",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "uqGL1bNENExT9fFAy5mE5qU="
+    },
 	{
       "key": "config",
       "name": "🐼┃配置┃中心",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2,
-      "jar": "./Feimao.jar"
-    },
-	{
-      "key": "csp_Jpys",
-      "name": "🥇️┃金牌┃影视",
-      "type": 3,
-      "api": "csp_Jpys",
-      "jar": "./Feimao.jar"
-    },
-    {
-      "key": "csp_Wwys",
-      "name": "🌾️┃农民┃影视",
-      "type": 3,
-      "api": "csp_Wwys",
-      "ext": "https://www.wwgz.cn",
       "jar": "./Feimao.jar"
     },
 	{
@@ -292,84 +316,122 @@
       },
       "jar": "./Feimao.jar"
     },
-	{
-      "key": "csp_XMUC",
-      "name": "🍚┃小米┃UC",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://www.mucpan.cc",
-          "https://milvdou.fun",
-          "https://54271.fun"
-        ],
-        "url_key": "XMUC"
-      },
-      "jar": "./Feimao.jar"
-    },
     {
-      "key": "木星",
-      "name": "🌞木星┃多线",
+      "key": "Wexhanxiaoquan",
+      "name": "💥韩剧┃弹幕💥",
       "type": 3,
-      "api": "csp_AppSxGuard",
+      "api": "csp_WexhanxiaoquanGuard",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
-      "ext": "FbjPcVZY48PN/RIZ5QqOrsplZNERApoHSmxZ77D7wAtcAsqZuXTQzUHW+quzHG+7cXaG3SBwzihuA2NlCJpscUJASIGSmRiXKW5NhipHle83SfO6IA=="
+      "jar": "./wex.jar"
     },
     {
-      "key": "兄弟",
-      "name": "🍊兄弟┃多线",
+      "key": "Wexrenrenyingshi",
+      "name": "💥人人┃弹幕💥",
       "type": 3,
-      "api": "csp_AppSxGuard",
+      "api": "csp_WexrenrenyingshiGuard",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbdBHCJkQSzBQt+vmhxkUAtbepC6RjQjA6r70U2OrZ3mJyX4hh2AsXS8mTp9pKB8="
-    },
-    {
-      "key": "热播",
-      "name": "📺热播┃多线",
-      "type": 3,
-      "api": "csp_AppTTGuard",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
-      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+      "jar": "./wex.jar"
     },
     {
-      "key": "萌米",
-      "name": "👀萌米┃多线",
+      "key": "WexkuihuatvGuard",
+      "name": "💥葵花┃影视💥",
       "type": 3,
-      "api": "csp_AppTTGuard",
-      "playerType": 2,
+      "api": "csp_WexkuihuatvGuard",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
-      "ext": "AO7TcBkd8I2bux0Y8Qze6tVlMg=="
+      "jar": "./wex.jar"
     },
     {
-      "key": "欢视",
-      "name": "👓欢视┃多线",
+      "key": "WexquickvodGuard",
+      "name": "🎇美剧┃秒播🎇",
       "type": 3,
-      "api": "csp_AppTTGuard",
-      "playerType": 2,
+      "api": "csp_WexquickvodGuard",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
-      "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
+      "jar": "./wex.jar"
     },
     {
-      "key": "可可",
-      "name": "👻可可┃多线",
+      "key": "Wexsaohuo",
+      "name": "🎇火火┃秒播🎇",
       "type": 3,
-      "api": "csp_KekysGuard",
-      "playerType": 2,
+      "api": "csp_WexsaohuoGuard",
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "Wexzxzj",
+      "name": "🎇外剧┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexzxzjGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "Wexbaozitv",
+      "name": "🎇包子┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexbaozitvGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "🎇伯伯┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexNmysGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "Diduanys",
+      "name": "🎇深渊┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexDiduanysGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "WexBDys",
+      "name": "🎇滴滴┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexBDysGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "WexF4kvmGuard",
+      "name": "🎇纯享┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexF4kvmGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "WexbttwoGuard",
+      "name": "🎇大鼻涕┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexbttwoGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
+    },
+    {
+      "key": "Wexshandian",
+      "name": "🌺闪电┃秒播🌺",
+      "type": 3,
+      "api": "csp_WexshandianGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./wex.jar"
     },
     {
       "key": "新6V",
@@ -443,7 +505,7 @@
     },
     {
       "key": "Jrsjs",
-      "name": "⚽ Jrs┃球迷",
+      "name": "⚽ Jrs┃球迷(待修)",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/jrk.js",
@@ -456,7 +518,7 @@
     },
     {
       "key": "酷奇",
-      "name": "🎤酷奇┃MV",
+      "name": "🎤酷奇┃MV(待修)",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/酷奇MV.js",
