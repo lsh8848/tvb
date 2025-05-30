@@ -449,11 +449,11 @@ http://175.22.226.131:888/hls/64/index.m3u8
 http://175.22.226.131:888/hls/65/index.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://tv.zyh520.tk/live/logo/三沙卫视.png" group-title="🍇卫视全网",三沙卫视
 http://175.22.226.131:888/hls/66/index.m3u8
-#EXTINF:-1 tvg-id="chc动作电影" tvg-name="chc动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/chc动作电影.png" group-title="🍇数字全网",CHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://tv.zyh520.tk/live/logo/CHC动作电影.png" group-title="🍇数字全网",CHC动作电影
 http://175.22.226.131:888/hls/106/index.m3u8
 #EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://tv.zyh520.tk/live/logo/CHC影迷电影.png" group-title="🍇数字全网",CHC影迷电影
 http://175.22.226.131:888/hls/107/index.m3u8
-#EXTINF:-1 tvg-id="chc家庭影院" tvg-name="chc家庭影院" tvg-logo="https://tv.zyh520.tk/live/logo/chc家庭影院.png" group-title="🍇数字全网",CHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://tv.zyh520.tk/live/logo/CHC家庭影院.png" group-title="🍇数字全网",CHC家庭影院
 http://175.22.226.131:888/hls/108/index.m3u8
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://tv.zyh520.tk/live/logo/卡酷少儿.png" group-title="🍇数字全网",卡酷少儿
 http://175.22.226.131:888/hls/67/index.m3u8
@@ -525,11 +525,11 @@ http://175.22.226.131:888/hls/114/index.m3u8
 http://175.22.226.131:888/hls/115/index.m3u8
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://tv.zyh520.tk/live/logo/快乐垂钓.png" group-title="🍇数字全网",快乐垂钓
 http://175.22.226.131:888/hls/116/index.m3u8
-#EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://tv.zyh520.tk/live/logo/茶.png" group-title="🍇数字全网",茶频道
+#EXTINF:-1 tvg-id="茶频道" tvg-name="茶频道" tvg-logo="https://tv.zyh520.tk/live/logo/茶频道.png" group-title="🍇数字全网",茶频道
 http://175.22.226.131:888/hls/117/index.m3u8
 #EXTINF:-1 tvg-id="武术世界" tvg-name="武术世界" tvg-logo="https://tv.zyh520.tk/live/logo/武术世界.png" group-title="🍇数字全网",武术世界
 http://175.22.226.131:888/hls/118/index.m3u8
-#EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://tv.zyh520.tk/live/logo/梨园.png" group-title="🍇数字全网",梨园频道
+#EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" tvg-logo="https://tv.zyh520.tk/live/logo/梨园频道.png" group-title="🍇数字全网",梨园频道
 http://175.22.226.131:888/hls/119/index.m3u8
 #EXTINF:-1 tvg-id="文物宝库" tvg-name="文物宝库" tvg-logo="https://tv.zyh520.tk/live/logo/文物宝库.png" group-title="🍇数字全网",文物宝库
 http://175.22.226.131:888/hls/120/index.m3u8
@@ -537,13 +537,13 @@ http://175.22.226.131:888/hls/120/index.m3u8
 http://175.22.226.131:888/hls/98/index.m3u8
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV4.png" group-title="🍇数字全网",CCTV4美洲
 http://175.22.226.131:888/hls/99/index.m3u8
-#EXTINF:-1 tvg-id="cgtn纪录" tvg-name="cgtn纪录" tvg-logo="https://tv.zyh520.tk/live/logo/cgtn纪录.png" group-title="🍇数字全网",CGTN纪录
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://tv.zyh520.tk/live/logo/CGTN纪录.png" group-title="🍇数字全网",CGTN纪录
 http://175.22.226.131:888/hls/100/index.m3u8
-#EXTINF:-1 tvg-id="cetv1" tvg-name="cetv1" tvg-logo="https://tv.zyh520.tk/live/logo/cetv1.png" group-title="🍇数字全网",CETV1
+#EXTINF:-1 tvg-id="CETV1" tvg-name="CETV1" tvg-logo="https://tv.zyh520.tk/live/logo/CETV1.png" group-title="🍇数字全网",CETV1
 http://175.22.226.131:888/hls/72/index.m3u8
 #EXTINF:-1 tvg-id="CETV2" tvg-name="CETV2" tvg-logo="https://tv.zyh520.tk/live/logo/CETV2.png" group-title="🍇数字全网",CETV2
 http://175.22.226.131:888/hls/73/index.m3u8
-#EXTINF:-1 tvg-id="cetv4" tvg-name="cetv4" tvg-logo="https://tv.zyh520.tk/live/logo/cetv4.png" group-title="🍇数字全网",CETV4
+#EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" tvg-logo="https://tv.zyh520.tk/live/logo/CETV4.png" group-title="🍇数字全网",CETV4
 http://175.22.226.131:888/hls/74/index.m3u8
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🍉央视全网",CCTV-1 综合
