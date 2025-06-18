@@ -194,7 +194,6 @@ http://39.134.65.106/PLTV/88888888/224/3221225895/1.m3u8?
 #EXTINF:-1 tvg-id="晴彩竞技" tvg-name="晴彩竞技" tvg-logo="https://tv.zyh520.tk/live/logo/晴彩竞技.png" group-title="🏆数字移动",晴彩竞技
 http://39.134.65.106/PLTV/88888888/224/3221225897/1.m3u8?
 
-#EXTM3U x-tvg-url="https://epg.zyh520.tk/112114.xml"
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV1.png" group-title="🍉央视电信",CCTV1
 http://110.42.54.199:35455/mgtv/608807420.m3u8
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://tv.zyh520.tk/live/logo/CCTV2.png" group-title="🍉央视电信",CCTV2
