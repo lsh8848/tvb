@@ -14,7 +14,7 @@
 		},
 		{
 			"key": "YGP",
-			"name": "🚀电影┃预告片",
+			"name": "🚀电影┃预告",
 			"type": 3,
 			"api": "csp_YGPGuard",
 			"searchable": 0,
@@ -23,7 +23,7 @@
 		},
 		{
 			"key": "豆瓣2",
-			"name": "🐼豆瓣┃预告片",
+			"name": "🐼豆瓣┃预告",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": 2,
@@ -58,6 +58,7 @@
 			"name": "🏅金牌┃蓝光",
 			"type": 3,
 			"api": "./lib/金牌影视.py",
+			"timeout": 15,
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -87,6 +88,28 @@
 			"playerType": 2,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/荐片[优].js"
+		},
+		{
+			"key": "白白",
+			"name": "🐟白白┃秒播",
+			"type": 3,
+			"api": "csp_SbaibaiGuard",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "文采",
+			"name": "💮文采┃秒播",
+			"type": 3,
+			"api": "csp_JpysGuard",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "苹果",
@@ -133,7 +156,7 @@
 		},
 		{
 			"key": "zxzj",
-			"name": "🍊在线┃秒播",
+			"name": "🍊在线┃美剧",
 			"type": 3,
 			"api": "csp_ZxzjGuard",
 			"timeout": 15,
@@ -185,30 +208,8 @@
 			"changeable": 1
 		},
 		{
-			"key": "白白",
-			"name": "🐟白白┃秒播",
-			"type": 3,
-			"api": "csp_SbaibaiGuard",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "文采",
-			"name": "💮文采┃秒播",
-			"type": 3,
-			"api": "csp_JpysGuard",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
 			"key": "玩偶",
-			"name": "👽玩偶哥哥┃4K弹幕",
+			"name": "👽玩偶┃网盘4K",
 			"type": 3,
 			"api": "csp_WoGGGuard",
 			"timeout": 30,
