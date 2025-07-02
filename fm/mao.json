@@ -102,6 +102,17 @@
 			"api": "./lib/荐片.js"
 		},
 		{
+			"key": "荐片py",
+			"name": "🚀荐片┃py",
+			"type": 3,
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"api": "./lib/荐片.py"
+		},
+		{
 			"key": "白白",
 			"name": "🐟白白┃秒播",
 			"type": 3,
