@@ -88,7 +88,18 @@
 			"changeable": 1,
 			"playerType": 2,
 			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/荐片.js"
+			"ext": "./lib/荐片[优].js"
+		},
+		{
+			"key": "荐片jj",
+			"name": "🚀荐片┃js",
+			"type": 3,
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"api": "./lib/荐片.js"
 		},
 		{
 			"key": "白白",
