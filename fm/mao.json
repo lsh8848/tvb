@@ -1,5 +1,5 @@
 {
-	"spider": "./fty.jar;md5;8432d174d72d5b608ae1bcd16d966847",
+	"spider": "https://gitee.com/lsh8848/tvb/raw/master/fm/fty.jar;md5;8432d174d72d5b608ae1bcd16d966847",
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [
 		{
@@ -42,7 +42,7 @@
 				"播放标题": "alt=\"&&\"",
 				"播放链接": "https://m.douban.com+href=\"&&\""
 			},
-			"jar": "./XBPQ.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/XBPQ.jar"
 		},
 		{
 			"key": "央视聚场",
@@ -299,7 +299,7 @@
 			"type": 3,
 			"api": "csp_Config",
 			"playerType": 2,
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "csp_J",
@@ -307,14 +307,14 @@
 			"type": 3,
 			"api": "csp_Jiaozi",
 			"playerType": 2,
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "csp_Jpys",
 			"name": "🥇️┃金牌┃影视",
 			"type": 3,
 			"api": "csp_Jpys",
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "csp_Wwys",
@@ -322,21 +322,21 @@
 			"type": 3,
 			"api": "csp_Wwys",
 			"ext": "https://www.wwgz.cn",
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "csp_KmeiJu",
 			"name": "🍐┃鸭梨┃影视",
 			"type": 3,
 			"api": "csp_KmeiJu",
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "csp_AppXY",
 			"name": "🎀️┃星牙┃短剧",
 			"type": 3,
 			"api": "csp_AppXY",
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "csp_FeiMaoUC",
@@ -350,7 +350,7 @@
 				],
 				"url_key": "FeiMaoUC"
 			},
-			"jar": "./Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
 		},
 		{
 			"key": "新6V",
