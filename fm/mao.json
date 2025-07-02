@@ -84,10 +84,20 @@
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 0,
+			"changeable": 1,
 			"playerType": 2,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/荐片[优].js"
+		},
+		{
+			"key": "荐片py",
+			"name": "🚀荐片┃新版",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"api": "新荐片.py"
 		},
 		{
 			"key": "白白",
