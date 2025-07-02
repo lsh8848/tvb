@@ -54,6 +54,28 @@
 			"timeout": 10
 		},
 		{
+			"key": "白白",
+			"name": "🐟白白┃秒播",
+			"type": 3,
+			"api": "csp_SbaibaiGuard",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "文采",
+			"name": "💮文采┃秒播",
+			"type": 3,
+			"api": "csp_JpysGuard",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "金牌影视",
 			"name": "🏅金牌┃蓝光",
 			"type": 3,
@@ -87,8 +109,8 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"playerType": 2,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/荐片[优].js"
+			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
+			"ext": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/jianpian.js"
 		},
 		{
 			"key": "荐片jj",
@@ -111,28 +133,6 @@
 			"changeable": 1,
 			"playerType": 2,
 			"api": "./lib/荐片.py"
-		},
-		{
-			"key": "白白",
-			"name": "🐟白白┃秒播",
-			"type": 3,
-			"api": "csp_SbaibaiGuard",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "文采",
-			"name": "💮文采┃秒播",
-			"type": 3,
-			"api": "csp_JpysGuard",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
 		},
 		{
 			"key": "苹果",
@@ -465,7 +465,7 @@
 			"key": "斗鱼js",
 			"name": "🐟斗鱼┃直播",
 			"type": 3,
-			"api": "./lib/drpy2.min.js",
+			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
 			"ext": "./lib/斗鱼直播.js",
 			"style": {
 				"type": "rect",
@@ -481,7 +481,7 @@
 			"key": "有声小说js",
 			"name": "🎧有声┃小说",
 			"type": 3,
-			"api": "./lib/drpy2.min.js",
+			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
 			"ext": "./lib/有声小说吧.js",
 			"style": {
 				"type": "rect",
@@ -681,7 +681,7 @@
 			"key": "dr_兔小贝",
 			"name": "📚儿童┃启蒙",
 			"type": 3,
-			"api": "./lib/drpy2.min.js",
+			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
 			"ext": "./lib/兔小贝.js",
 			"style": {
 				"type": "rect",
