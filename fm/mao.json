@@ -109,8 +109,8 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"playerType": 2,
-			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
-			"ext": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/jianpian.js"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/jp3.js"
 		},
 		{
 			"key": "荐片jj",
@@ -465,7 +465,7 @@
 			"key": "斗鱼js",
 			"name": "🐟斗鱼┃直播",
 			"type": 3,
-			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/斗鱼直播.js",
 			"style": {
 				"type": "rect",
@@ -481,7 +481,7 @@
 			"key": "有声小说js",
 			"name": "🎧有声┃小说",
 			"type": 3,
-			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/有声小说吧.js",
 			"style": {
 				"type": "rect",
@@ -681,7 +681,7 @@
 			"key": "dr_兔小贝",
 			"name": "📚儿童┃启蒙",
 			"type": 3,
-			"api": "https://gitee.com/lsh8848/tvb/raw/master/fm/lib/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/兔小贝.js",
 			"style": {
 				"type": "rect",
