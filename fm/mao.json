@@ -770,24 +770,6 @@
 			"type": 0,
 			"playerType": 2,
 			"url": "http://192.168.2.99:35455/tv.m3u"
-		},
-		{
-			"name": "feiyang_huya_N1",
-			"type": 0,
-			"playerType": 2,
-			"url": "http://192.168.2.99:35455/huyayqk.m3u"
-		},
-		{
-			"name": "feiyang_douyu_N1",
-			"type": 0,
-			"playerType": 2,
-			"url": "http://192.168.2.99:35455/douyuyqk.m3u"
-		},
-		{
-			"name": "feiyang_bili_N1",
-			"type": 0,
-			"playerType": 2,
-			"url": "http://192.168.2.99:35455/bililive.m3u"
 		}
 	]
 }
