@@ -48,7 +48,7 @@ var rule = {
         html = JSON.parse(html).data["20"];
         html.forEach(it => {
         let title = it.title;
-        let img = 'https://img1.vbwus.com' + it.path;
+        let img = 'https://img.buaase.com' + it.path;
             d.push({
                 title: title,
                 img: img,
@@ -71,7 +71,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: 'https://img1.vbwus.com' + it.path,
+                img: 'https://img.buaase.com' + it.path,
                 desc: (it.mask || it.playlist.title) + ' ⭐' + it.score,
                 url: it.id
             })
@@ -134,7 +134,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: 'https://img1.vbwus.com' + it.thumbnail,
+                img: 'https://img.buaase.com' + it.thumbnail,
                 desc: it.mask + ' ⭐' + it.score,
                 url: it.id
             })
