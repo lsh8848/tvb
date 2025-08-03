@@ -29,7 +29,7 @@ let videos = res.data.map(item => ({
     vod_name: item.title,
     vod_pic: `${imghost}${item.thumbnail}`,
     vod_remarks: "",
-    style: {"type": "rect", "ratio": 1.33}
+    style: {"type": "rect", "ratio": 1.51}
  }))
 
 return JSON.stringify({
