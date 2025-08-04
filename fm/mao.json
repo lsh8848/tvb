@@ -298,7 +298,8 @@
 			"name": "🕊️凝安┃4K蓝光",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=4kdy"
+			"ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=4kdy",
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/XBPQ.jar"
 		},
 		{
 			"key": "config",
