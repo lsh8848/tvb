@@ -179,7 +179,7 @@
 		},
 		{
 			"key": "zxzj",
-			"name": "🍊在线┃美剧",
+			"name": "🍊在线┃外剧",
 			"type": 3,
 			"api": "csp_ZxzjGuard",
 			"timeout": 15,
@@ -244,7 +244,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
-			"ext": "https://auete.com/"
+			"ext": "https://auete.cc/"
 		},
 		{
 			"key": "热播",
@@ -283,12 +283,30 @@
 			"ext": "uqGL1bNENExT9fFAy5mE5qU="
 		},
 		{
+			"key": "移动",
+			"name": "🌀移动┃4K极速",
+			"type": 3,
+			"api": "csp_YD",
+			"timeout": 20,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;7fa39a0595fee3b25045c87505b66c5d"
+		},
+		{
+			"key": "4Kdy",
+			"name": "🕊️凝安┃4K蓝光",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=4kdy"
+		},
+		{
 			"key": "config",
 			"name": "🐼┃配置┃中心",
 			"type": 3,
 			"api": "csp_Config",
 			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "csp_J",
@@ -296,14 +314,14 @@
 			"type": 3,
 			"api": "csp_Jiaozi",
 			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "csp_Jpys",
 			"name": "🥇️┃金牌┃影视",
 			"type": 3,
 			"api": "csp_Jpys",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "csp_Wwys",
@@ -311,21 +329,21 @@
 			"type": 3,
 			"api": "csp_Wwys",
 			"ext": "https://www.wwgz.cn",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "csp_KmeiJu",
 			"name": "🍐┃鸭梨┃影视",
 			"type": 3,
 			"api": "csp_KmeiJu",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "csp_AppXY",
 			"name": "🎀️┃星牙┃短剧",
 			"type": 3,
 			"api": "csp_AppXY",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "csp_FeiMaoUC",
@@ -339,7 +357,7 @@
 				],
 				"url_key": "FeiMaoUC"
 			},
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
 		},
 		{
 			"key": "新6V",
@@ -745,7 +763,7 @@
 			}
 		}
 	],
-	"logo": "https://ipan.925529.xyz/file/houzi.gif",
+	"logo": "https://gitee.com/lsh8848/tvb/raw/master/houzi.gif",
 	"lives": [
 		{
 			"name": "lsh-live",
