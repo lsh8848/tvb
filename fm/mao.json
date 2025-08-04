@@ -773,10 +773,10 @@
 			"url": "https://tv.zyh520.tk/live/tv2.m3u"
 		},
 		{
-			"name": "直播多源ipv4",
+			"name": "feiyang_724_N1",
 			"type": 0,
-			"url": "./lib/tv.m3u",
-			"playerType": 1
+			"playerType": 2,
+			"url": "http://192.168.2.99:35457/tv.m3u"
 		},
 		{
 			"name": "easy-itv_N1",
