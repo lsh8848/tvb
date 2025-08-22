@@ -23,12 +23,14 @@
     }
     textarea {
       width: 100%;
-      height: 150px;
+      height: 200px;
       margin-bottom: 10px;
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 4px;
-      resize: none;
+      resize: vertical;
+      font-family: 'Consolas', monospace;
+      font-size: 14px;
     }
     .buttons {
       display: flex;
@@ -69,18 +71,142 @@
     #output {
       border: 1px solid #ccc;
       padding: 10px;
-      min-height: 150px;
+      min-height: 200px;
       border-radius: 4px;
       background-color: #f9f9f9;
+    }
+    
+    /* 表格样式 */
+    #output table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 15px 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    #output table th,
+    #output table td {
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    
+    #output table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    
+    #output table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    #output table tr:hover {
+      background-color: #f5f5f5;
+    }
+    
+    /* 其他样式优化 */
+    #output h1, #output h2, #output h3, #output h4, #output h5, #output h6 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    #output p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    
+    #output ul, #output ol {
+      margin: 10px 0;
+      padding-left: 30px;
+    }
+    
+    #output li {
+      margin: 5px 0;
+    }
+    
+    #output code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-family: 'Consolas', monospace;
+    }
+    
+    #output pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px;
+      overflow-x: auto;
+      margin: 15px 0;
+    }
+    
+    #output pre code {
+      background: none;
+      padding: 0;
+    }
+    
+    .example-section {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f0f8ff;
+      border-left: 4px solid #2196F3;
+      border-radius: 4px;
+    }
+    
+    .example-section h3 {
+      margin-top: 0;
+      color: #1976D2;
+    }
+    
+    .example-code {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      padding: 10px;
+      font-family: 'Consolas', monospace;
+      font-size: 13px;
+      margin: 10px 0;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1 style="text-align: center;">Markdown 转 Word</h1>
+    <h1 style="text-align: center;">Markdown 转 Word (优化版)</h1>
 
     <!-- 输入区域 -->
-    <textarea id="markdownInput" placeholder="在这里粘贴 Markdown 内容..."></textarea>
+    <textarea id="markdownInput" placeholder="在这里粘贴 Markdown 内容...
+# 标题示例
+## 表格示例
+
+| 姓名   | 年龄 | 城市   |
+|--------|------|--------|
+| 张三   | 25   | 北京   |
+| 李四   | 30   | 上海   |
+| 王五   | 28   | 广州   |
+
+### 列表示例
+- 无序列表项 1
+- 无序列表项 2
+  - 子项目 2.1
+  - 子项目 2.2
+
+1. 有序列表项 1
+2. 有序列表项 2
+
+---
+
+**粗体文本** 和 *斜体文本*
+
+`行内代码` 示例
+
+```javascript
+function hello() {
+    console.log('Hello World!');
+}
+```
+
+[链接示例](https://example.com)"></textarea>
 
     <!-- 拖拽区域 -->
     <div class="drop-zone" id="dropZone">拖拽 Markdown 文件到这里，或点击选择文件</div>
@@ -99,7 +225,31 @@
     <input type="file" id="fileInput" accept=".md,.txt" style="display: none;">
 
     <!-- 输出区域 -->
-    <div id="output" contenteditable="true"></div>
+    <div id="output" contenteditable="true">转换后的内容将显示在这里...</div>
+    
+    <!-- 示例说明 -->
+    <div class="example-section">
+      <h3>📋 支持的 Markdown 语法</h3>
+      <p><strong>表格语法示例：</strong></p>
+      <div class="example-code">| 列1 | 列2 | 列3 |
+|-----|-----|-----|
+| 内容1 | 内容2 | 内容3 |
+| 内容4 | 内容5 | 内容6 |</div>
+      
+      <p><strong>其他支持的语法：</strong></p>
+      <ul>
+        <li><strong>标题：</strong> # ## ### #### ##### ######</li>
+        <li><strong>粗体：</strong> **文本**</li>
+        <li><strong>斜体：</strong> *文本*</li>
+        <li><strong>无序列表：</strong> - * + (支持嵌套)</li>
+        <li><strong>有序列表：</strong> 1. 2. 3. (支持嵌套)</li>
+        <li><strong>链接：</strong> [文本](URL)</li>
+        <li><strong>行内代码：</strong> `代码`</li>
+        <li><strong>代码块：</strong> ```代码```</li>
+        <li><strong>分割线：</strong> --- (转换为空行)</li>
+        <li><strong>表格：</strong> | 列1 | 列2 | (支持对齐)</li>
+      </ul>
+    </div>
   </div>
 
   <!-- 引入 FileSaver.js -->
@@ -121,6 +271,8 @@
       const reader = new FileReader();
       reader.onload = (e) => {
         markdownInput.value = e.target.result;
+        // 自动转换
+        convertMarkdown();
       };
       reader.readAsText(file);
     }
@@ -158,7 +310,7 @@
     // 清空内容
     clearButton.addEventListener('click', () => {
       markdownInput.value = '';
-      output.innerHTML = '';
+      output.innerHTML = '转换后的内容将显示在这里...';
     });
 
     // 删除空白行（针对输入框中的 Markdown 文本）
@@ -166,62 +318,188 @@
       markdownInput.value = markdownInput.value.replace(/^\s*[\r\n]/gm, '');
     });
 
-    // Markdown 转 HTML
+    // 处理表格的函数
+    function parseTable(text) {
+      const lines = text.split('\n');
+      let result = '';
+      let i = 0;
+      
+      while (i < lines.length) {
+        const line = lines[i].trim();
+        
+        // 检查是否是表格行（包含 | 符号）
+        if (line.includes('|') && line.length > 0) {
+          let tableHtml = '<table>';
+          let isFirstRow = true;
+          
+          // 处理表格行
+          while (i < lines.length && lines[i].trim().includes('|')) {
+            const currentLine = lines[i].trim();
+            
+            // 跳过分隔行（如 |-----|-----|）
+            if (/^\|[\s\-\|:]*\|?$/.test(currentLine)) {
+              i++;
+              continue;
+            }
+            
+            // 解析表格单元格
+            const cells = currentLine.split('|')
+              .map(cell => cell.trim())
+              .filter((cell, index, array) => {
+                // 移除开头和结尾的空单元格
+                return !(index === 0 && cell === '') && !(index === array.length - 1 && cell === '');
+              });
+            
+            if (cells.length > 0) {
+              const tag = isFirstRow ? 'th' : 'td';
+              tableHtml += '<tr>';
+              
+              cells.forEach(cell => {
+                // 处理单元格内的 Markdown 语法
+                let processedCell = cell;
+                processedCell = processedCell.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+                processedCell = processedCell.replace(/\*(.*?)\*/g, '<i>$1</i>');
+                processedCell = processedCell.replace(/`([^`]+)`/g, '<code>$1</code>');
+                processedCell = processedCell.replace(/\[(.*?)\]\((.*?)\)/g, "<a href='$2'>$1</a>");
+                
+                tableHtml += `<${tag}>${processedCell}</${tag}>`;
+              });
+              
+              tableHtml += '</tr>';
+              isFirstRow = false;
+            }
+            
+            i++;
+          }
+          
+          tableHtml += '</table>';
+          result += tableHtml + '\n';
+        } else {
+          result += lines[i] + '\n';
+          i++;
+        }
+      }
+      
+      return result;
+    }
+
+    // 增强版 Markdown 转 HTML 函数（添加表格支持）
     function markdownToHtml(markdown) {
-      // 1. 删除所有单独成行的 ---（分隔线）
-      markdown = markdown.replace(/^---+\s*$/gm, '');
-
-      // 2. 处理标题
-      markdown = markdown.replace(/^#### (.*$)/gim, '<h4>$1</h4>'); // 四级标题
-      markdown = markdown.replace(/^### (.*$)/gim, '<h3>$1</h3>');   // 三级标题
-      markdown = markdown.replace(/^## (.*$)/gim, '<h2>$1</h2>');    // 二级标题
-      markdown = markdown.replace(/^# (.*$)/gim, '<h1>$1</h1>');     // 一级标题
-
-      // 3. 处理加粗和斜体
-      markdown = markdown.replace(/\*\*(.*)\*\*/gim, '<b>$1</b>');   // 加粗
-      markdown = markdown.replace(/\*(.*)\*/gim, '<i>$1</i>');       // 斜体
-
-      // 4. 处理图片和链接
-      markdown = markdown.replace(/!\[(.*?)\]\((.*?)\)/gim, "<img alt='$1' src='$2' />"); // 图片
-      markdown = markdown.replace(/\[(.*?)\]\((.*?)\)/gim, "<a href='$2'>$1</a>"); // 链接
-
-      // 5. 处理段落和列表
-      markdown = markdown.replace(/\n\s*\n/g, '</p><p>'); // 两个换行符分隔为段落
-
-      // 单个换行符：保留列表项和标题的换行
-      markdown = markdown.split('\n').map(line => {
-        line = line.trim();
-        if (line.startsWith('-')) {
-          return `<li>${line.replace(/^-/, '').trim()}</li>`;
-        }
-        if (line.match(/^\d+\./)) {
-          const match = line.match(/^(\d+)\.(.*)/);
-          const number = match[1];
-          const content = match[2].trim();
-          return `<p>${number}. ${content}</p>`;
-        }
-        return line;
-      }).join('');
-
-      // 将列表项包裹为 <ul>
-      markdown = markdown.replace(/(<li>.*?<\/li>)+/g, (match) => {
-        return `<ul>${match}</ul>`;
-      });
-
-      // 包裹整体内容为段落
-      markdown = `<p>${markdown}</p>`; // 包裹整体内容为段落
-
-      // 删除多余的软回车符
-      markdown = markdown.replace(/<br\s*\/?>/gi, ''); // 移除所有 <br> 标签
+      // 首先处理表格
+      markdown = parseTable(markdown);
+      
+      // 首先处理长划线 --- 转换为空行
+      markdown = markdown.replace(/^---+$/gim, '<br>');
+      
+      // 转换标题
+      markdown = markdown.replace(/^###### (.*$)/gim, '<h6>$1</h6>');
+      markdown = markdown.replace(/^##### (.*$)/gim, '<h5>$1</h5>');
+      markdown = markdown.replace(/^#### (.*$)/gim, '<h4>$1</h4>');
+      markdown = markdown.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+      markdown = markdown.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+      markdown = markdown.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+      
+      // 粗体
+      markdown = markdown.replace(/\*\*(.*?)\*\*/gim, '<b>$1</b>');
+      
+      // 斜体
+      markdown = markdown.replace(/\*(.*?)\*/gim, '<i>$1</i>');
+      
+      // 链接
+      markdown = markdown.replace(/\[(.*?)\]\((.*?)\)/gim, "<a href='$2'>$1</a>");
+      
+      // 行内代码
+      markdown = markdown.replace(/`([^`]+)`/gim, '<code>$1</code>');
+      
+      // 多行代码块 ```...```
+      markdown = markdown.replace(/```([\s\S]*?)```/gim, '<pre><code>$1</code></pre>');
+      
+      // 处理列表(支持缩进和不同符号)
+      markdown = parseLists(markdown);
+      
+      // 段落 (排除已经被处理的标签)
+      markdown = markdown.replace(/^(?!<[hlu\/]|<br>|<pre>|<table)(\S.*?)$/gim, '<p>$1</p>');
+      
       return markdown;
     }
 
-    // 转换按钮
-    convertButton.addEventListener('click', () => {
+    // 增强版列表处理函数 - 支持无序列表的 -, *, + 和有序列表
+    function parseLists(text) {
+      const lines = text.split('\n');
+      let result = '';
+      const stack = []; // 保存缩进级别对应的列表类型和标签
+      
+      lines.forEach(line => {
+        // 匹配无序列表: -, *, +
+        const unorderedMatch = /^(\s*)[-*+] (.*)/.exec(line);
+        // 匹配有序列表: 1. 2. 3. 等
+        const orderedMatch = /^(\s*)(\d+)\. (.*)/.exec(line);
+        
+        if (unorderedMatch || orderedMatch) {
+          const isOrdered = !!orderedMatch;
+          const match = unorderedMatch || orderedMatch;
+          const indent = match[1].length; // 缩进空格数
+          const content = isOrdered ? match[3].trim() : match[2].trim();
+          
+          // 当前缩进层级 (约定 2-4 空格 = 1 层)
+          let level = Math.floor(indent / 2);
+          
+          // 如果需要进入更深层次
+          while (stack.length <= level) {
+            const listType = isOrdered ? 'ol' : 'ul';
+            result += `<${listType}>`;
+            stack.push(listType);
+          }
+          
+          // 如果回退层级
+          while (stack.length > level + 1) {
+            const listType = stack.pop();
+            result += `</${listType}>`;
+          }
+          
+          // 如果当前层级的列表类型不匹配，需要关闭并重新开启
+          if (stack.length > 0) {
+            const currentType = isOrdered ? 'ol' : 'ul';
+            if (stack[stack.length - 1] !== currentType) {
+              const oldType = stack.pop();
+              result += `</${oldType}>`;
+              result += `<${currentType}>`;
+              stack.push(currentType);
+            }
+          }
+          
+          result += `<li>${content}</li>`;
+        } else {
+          // 关闭所有未闭合的列表
+          while (stack.length > 0) {
+            const listType = stack.pop();
+            result += `</${listType}>`;
+          }
+          result += line + '\n';
+        }
+      });
+      
+      // 关闭所有未闭合的列表
+      while (stack.length > 0) {
+        const listType = stack.pop();
+        result += `</${listType}>`;
+      }
+      
+      return result;
+    }
+
+    // 转换函数
+    function convertMarkdown() {
       const markdown = markdownInput.value;
       const htmlContent = markdownToHtml(markdown);
       output.innerHTML = htmlContent;
-    });
+    }
+    
+    // 转换按钮
+    convertButton.addEventListener('click', convertMarkdown);
+
+    // 实时转换功能
+    markdownInput.addEventListener('input', convertMarkdown);
 
     // 复制按钮
     copyButton.addEventListener('click', () => {
@@ -243,6 +521,59 @@
         <head>
           <meta charset="UTF-8">
           <title>文档</title>
+          <style>
+            @page {
+              margin: 2.54cm 2.54cm 2.54cm 2.54cm;
+            }
+            body { 
+              font-family: "Times New Roman", serif; 
+              line-height: 1.6; 
+              margin: 0; 
+              padding: 0;
+              width: 100%;
+            }
+            h1, h2, h3, h4, h5, h6 { margin-top: 20px; margin-bottom: 10px; font-weight: bold; }
+            p { margin: 10px 0; }
+            ul, ol { margin: 10px 0; padding-left: 30px; }
+            li { margin: 5px 0; }
+            table { 
+              border-collapse: collapse; 
+              width: 100%; 
+              margin: 15px 0; 
+              table-layout: fixed;
+            }
+            th, td { 
+              border: 1px solid #000; 
+              padding: 8px; 
+              text-align: left; 
+              word-wrap: break-word;
+              vertical-align: top;
+            }
+            th { background-color: #f2f2f2; font-weight: bold; }
+            code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+            pre { 
+              background-color: #f8f8f8; 
+              border: 1px solid #ddd; 
+              padding: 10px; 
+              margin: 15px 0;
+              white-space: pre-wrap;
+              word-wrap: break-word;
+            }
+            pre code { background: none; padding: 0; }
+            a { color: #0066cc; text-decoration: underline; }
+            b { font-weight: bold; }
+            i { font-style: italic; }
+            
+            /* Word 特定样式 */
+            * {
+              box-sizing: border-box;
+            }
+            
+            /* 确保内容不会溢出页面 */
+            div, p, table, pre {
+              max-width: 100%;
+            }
+          </style>
         </head>
         <body>
           ${output.innerHTML}
@@ -251,6 +582,11 @@
       `;
       const blob = new Blob([htmlContent], { type: 'application/msword' });
       saveAs(blob, '文档.doc');
+    });
+
+    // 页面加载时自动转换示例
+    window.addEventListener('load', () => {
+      convertMarkdown();
     });
   </script>
 </body>
