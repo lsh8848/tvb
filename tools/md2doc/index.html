@@ -13,7 +13,7 @@
       background-color: #f9f9f9;
       padding: 10px;
     }
-    。container {
+    .container {
       max-width: 800px;
       margin: 0 auto;
       background: #fff;
@@ -32,24 +32,58 @@
       font-family: 'Consolas', monospace;
       font-size: 14px;
     }
-    。buttons {
-      display: flex;
-      flex-wrap: wrap;
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 10px;
       margin-bottom: 10px;
     }
     button {
-      flex: 1 1 calc(33.33% - 20px);
-      padding: 10px;
+      padding: 12px 8px;
       border: none;
       border-radius: 4px;
       cursor: pointer;
       font-size: 14px;
       color: #fff;
-      transition: background-color 0.3s ease;
+      transition: all 0.3s ease;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      word-wrap: break-word;
+      hyphens: auto;
     }
     button:hover {
       opacity: 0.9;
+      transform: translateY(-1px);
+    }
+    
+    /* 移动端响应式布局 */
+    @media (max-width: 768px) {
+      .buttons {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+      }
+      button {
+        padding: 14px 6px;
+        font-size: 13px;
+        min-height: 50px;
+        line-height: 1.2;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .buttons {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+      button {
+        padding: 16px 10px;
+        font-size: 14px;
+        min-height: 48px;
+        width: 100%;
+      }
     }
     #openFileButton { background-color: #4CAF50; } /* 绿色 */
     #clearButton { background-color: #FF5722; }   /* 橙红色 */
@@ -172,10 +206,41 @@
 </head>
 <body>
   <div class="container">
-    <h1 style="text-align: center;">Markdown 转 Word (优化版)</h1>
+    <h1 style="text-align: center;">Markdown 转 Word (支持表格)</h1>
 
     <!-- 输入区域 -->
-    <textarea id="markdownInput" placeholder="在这里粘贴 Markdown 内容..."></textarea>
+    <textarea id="markdownInput" placeholder="在这里粘贴 Markdown 内容...
+# 标题示例
+## 表格示例
+
+| 姓名   | 年龄 | 城市   |
+|--------|------|--------|
+| 张三   | 25   | 北京   |
+| 李四   | 30   | 上海   |
+| 王五   | 28   | 广州   |
+
+### 列表示例
+- 无序列表项 1
+- 无序列表项 2
+  - 子项目 2.1
+  - 子项目 2.2
+
+1. 有序列表项 1
+2. 有序列表项 2
+
+---
+
+**粗体文本** 和 *斜体文本*
+
+`行内代码` 示例
+
+```javascript
+function hello() {
+    console.log('Hello World!');
+}
+```
+
+[链接示例](https://example.com)"></textarea>
 
     <!-- 拖拽区域 -->
     <div class="drop-zone" id="dropZone">拖拽 Markdown 文件到这里，或点击选择文件</div>
