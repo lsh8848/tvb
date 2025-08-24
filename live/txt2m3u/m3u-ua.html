@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U直播源UA插入工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2196F3 0%, #21CBF3 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: #f8f9ff;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #2196F3;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+        }
+
+        textarea {
+            width: 100%;
+            padding: 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 14px;
+            font-family: 'Courier New', monospace;
+            resize: vertical;
+            transition: all 0.3s ease;
+            background: #f8f9ff;
+            line-height: 1.5;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #2196F3;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        button {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+            margin: 0 10px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .clear-btn {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+            box-shadow: 0 4px 15px rgba(244, 67, 54, 0.3);
+        }
+
+        .clear-btn:hover {
+            box-shadow: 0 6px 20px rgba(244, 67, 54, 0.4);
+        }
+
+        .copy-btn {
+            background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+            box-shadow: 0 4px 15px rgba(255, 152, 0, 0.3);
+        }
+
+        .copy-btn:hover {
+            box-shadow: 0 6px 20px rgba(255, 152, 0, 0.4);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #4CAF50;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .example {
+            background: #f0f7ff;
+            border: 1px solid #cce7ff;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>M3U直播源UA插入工具</h1>
+            <p>在M3U播放列表中自动插入User-Agent信息</p>
+        </div>
+        
+        <div class="content">
+            <div class="form-group">
+                <label for="userAgent">User Agent (UA):</label>
+                <input type="text" id="userAgent" placeholder="请输入User Agent字符串，例如：Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36">
+                <div class="example">
+                    示例: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="form-group">
+                    <label for="sourceInput">原始M3U源:</label>
+                    <textarea id="sourceInput" rows="15" placeholder="请粘贴您的M3U播放列表内容...
+
+示例格式:
+#EXTM3U
+#EXTINF:-1,频道名称1
+http://example.com/stream1.m3u8
+#EXTINF:-1,频道名称2
+http://example.com/stream2.m3u8"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="output">转换后的M3U源:</label>
+                    <textarea id="output" rows="15" readonly placeholder="转换后的结果将显示在这里..."></textarea>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button onclick="convertM3U()">转换</button>
+                <button class="copy-btn" onclick="copyToClipboard()">复制结果</button>
+                <button class="clear-btn" onclick="clearAll()">清空所有</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        function convertM3U() {
+            const userAgent = document.getElementById('userAgent').value.trim();
+            const sourceInput = document.getElementById('sourceInput').value.trim();
+            const output = document.getElementById('output');
+
+            if (!userAgent) {
+                showToast('请输入User Agent!', 'error');
+                return;
+            }
+
+            if (!sourceInput) {
+                showToast('请输入M3U源内容!', 'error');
+                return;
+            }
+
+            try {
+                const lines = sourceInput.split('\n');
+                const convertedLines = [];
+
+                for (let i = 0; i < lines.length; i++) {
+                    const line = lines[i].trim();
+                    
+                    // 如果是EXTINF行，在其前面插入UA行
+                    if (line.startsWith('#EXTINF:')) {
+                        convertedLines.push(`#EXTVLCOPT:http-user-agent=${userAgent}`);
+                        convertedLines.push(line);
+                    } else {
+                        convertedLines.push(line);
+                    }
+                }
+
+                output.value = convertedLines.join('\n');
+                showToast('转换成功!', 'success');
+            } catch (error) {
+                showToast('转换过程中发生错误!', 'error');
+                console.error('转换错误:', error);
+            }
+        }
+
+        function copyToClipboard() {
+            const output = document.getElementById('output');
+            
+            if (!output.value.trim()) {
+                showToast('没有可复制的内容!', 'error');
+                return;
+            }
+
+            output.select();
+            output.setSelectionRange(0, 99999);
+
+            try {
+                document.execCommand('copy');
+                showToast('已复制到剪贴板!', 'success');
+            } catch (err) {
+                // 使用现代API作为备选
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(output.value).then(() => {
+                        showToast('已复制到剪贴板!', 'success');
+                    }).catch(() => {
+                        showToast('复制失败!', 'error');
+                    });
+                } else {
+                    showToast('复制失败!', 'error');
+                }
+            }
+        }
+
+        function clearAll() {
+            document.getElementById('userAgent').value = '';
+            document.getElementById('sourceInput').value = '';
+            document.getElementById('output').value = '';
+            showToast('已清空所有内容!', 'success');
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.style.background = type === 'error' ? '#f44336' : '#4CAF50';
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // 添加键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            // Ctrl+Enter 转换
+            if (e.ctrlKey && e.key === 'Enter') {
+                e.preventDefault();
+                convertM3U();
+            }
+            // Ctrl+C 在输出框获得焦点时复制
+            else if (e.ctrlKey && e.key === 'c' && document.activeElement.id === 'output') {
+                e.preventDefault();
+                copyToClipboard();
+            }
+        });
+
+        // 实时预览功能（可选）
+        document.getElementById('sourceInput').addEventListener('input', function() {
+            // 这里可以添加实时预览逻辑，但为了性能考虑暂时注释
+            // 如果需要可以取消注释并调用convertM3U()
+        });
+    </script>
+</body>
+</html>

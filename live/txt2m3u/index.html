@@ -110,6 +110,7 @@
                 <li>TXT 格式：分组名,#genre#，例如：<code>央视频道,#genre#</code>。</li>
                 <li>M3U 格式：包含 <code>tvg-id</code>、<code>tvg-name</code> 和 <code>tvg-logo</code>，且匹配电视台名称。</li>
                 <li>M3U 文件头部包含 <code>x-tvg-url="https://epg.zyh520.tk/112114.xml"</code>。</li>
+                <li>转换时自动合并相同分组，确保格式正确。</li>
             </ul>
         </div>
     </div>
@@ -156,82 +157,131 @@
         // TXT 转 M3U
         function txtToM3u() {
             const input = document.getElementById("input").value.trim();
+            if (!input) {
+                alert("请输入内容！");
+                return;
+            }
+
             const lines = input.split("\n");
             let result = "#EXTM3U x-tvg-url=\"https://epg.zyh520.tk/112114.xml\"\n";
             let groupName = "未分组";
 
             lines.forEach(line => {
                 line = line.trim();
+                if (!line) return; // 跳过空行
+
                 if (line.endsWith(",#genre#")) {
                     // 处理分组行
                     groupName = line.replace(",#genre#", "");
                 } else if (line.includes(",")) {
                     // 处理频道行
-                    const [channelName, url] = line.split(",");
-                    const tvgId = channelName.trim();
-                    const tvgName = channelName.trim();
-                    const tvgLogo = `https://tv.zyh520.tk/live/logo/${tvgName}.png`; // 中文字符不编码
-                    result += `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-logo="${tvgLogo}" group-title="${groupName}",${channelName}\n`;
-                    result += `${url.trim()}\n`;
+                    const commaIndex = line.indexOf(",");
+                    const channelName = line.substring(0, commaIndex).trim();
+                    const url = line.substring(commaIndex + 1).trim();
+                    
+                    if (channelName && url) {
+                        const tvgId = channelName;
+                        const tvgName = channelName;
+                        const tvgLogo = `https://tv.zyh520.tk/live/logo/${tvgName}.png`;
+                        result += `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-logo="${tvgLogo}" group-title="${groupName}",${channelName}\n`;
+                        result += `${url}\n`;
+                    }
                 }
             });
 
             document.getElementById("output").value = result;
-            currentFormat = "m3u"; // 标记当前结果为 M3U 格式
+            currentFormat = "m3u";
         }
 
-        // M3U 转 TXT
+        // M3U 转 TXT - 修正错误并增加分组合并功能
         function m3uToTxt() {
             const input = document.getElementById("input").value.trim();
-            const lines = input.split("\n");
-            let result = "";
-            let groupName = "未分组";
+            if (!input) {
+                alert("请输入内容！");
+                return;
+            }
 
+            const lines = input.split("\n");
+            const groups = {}; // 用于存储分组和频道的映射
+            const groupOrder = []; // 记录分组出现的顺序
+            
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i].trim();
+                if (!line) continue; // 跳过空行
+                
                 if (line.startsWith("#EXTINF:-1")) {
                     // 解析频道信息
-                    const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
-                    const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
-                    const groupTitleMatch = line.match(/group-title="([^"]+)"/);
-                    const channelNameMatch = line.match(/,(.+)$/);
-
-                    const tvgId = tvgIdMatch ? tvgIdMatch[1] : "";
-                    const tvgName = tvgNameMatch ? tvgNameMatch[1] : "";
-                    const groupTitle = groupTitleMatch ? groupTitleMatch[1] : "未分组";
+                    const groupTitleMatch = line.match(/group-title="([^"]*)"/);
+                    const channelNameMatch = line.match(/,([^,]+)$/);
+                    
+                    const groupTitle = groupTitleMatch ? groupTitleMatch[1].trim() : "未分组";
                     const channelName = channelNameMatch ? channelNameMatch[1].trim() : "";
-
-                    if (groupTitle !== groupName) {
-                        // 新分组
-                        groupName = groupTitle;
-                        result += `${groupName},#genre#\n`;
-                    }
-
+                    
                     // 获取下一行的 URL
-                    const url = lines[i + 1] ? lines[i + 1].trim() : "";
-                    if (url) {
-                        result += `${channelName},${url}\n`;
+                    let url = "";
+                    if (i + 1 < lines.length) {
+                        const nextLine = lines[i + 1].trim();
+                        // 确保下一行不是EXTINF行且不是注释行
+                        if (nextLine && !nextLine.startsWith("#")) {
+                            url = nextLine;
+                            i++; // 跳过已处理的URL行
+                        }
+                    }
+                    
+                    if (channelName && url) {
+                        // 如果分组不存在，创建新分组
+                        if (!groups[groupTitle]) {
+                            groups[groupTitle] = [];
+                            groupOrder.push(groupTitle);
+                        }
+                        // 添加频道到对应分组
+                        groups[groupTitle].push(`${channelName},${url}`);
                     }
                 }
             }
 
+            // 生成TXT格式结果
+            let result = "";
+            groupOrder.forEach(groupName => {
+                if (groups[groupName] && groups[groupName].length > 0) {
+                    result += `${groupName},#genre#\n`;
+                    groups[groupName].forEach(channel => {
+                        result += `${channel}\n`;
+                    });
+                }
+            });
+
             document.getElementById("output").value = result;
-            currentFormat = "txt"; // 标记当前结果为 TXT 格式
+            currentFormat = "txt";
         }
 
         // 清空输入和输出
         function clearInput() {
             document.getElementById("input").value = "";
             document.getElementById("output").value = "";
-            currentFormat = ""; // 清空当前格式标记
+            currentFormat = "";
         }
 
         // 复制结果
         function copyResult() {
             const output = document.getElementById("output");
+            if (!output.value.trim()) {
+                alert("没有内容可复制！");
+                return;
+            }
+            
             output.select();
-            document.execCommand("copy");
-            alert("结果已复制到剪贴板！");
+            try {
+                document.execCommand("copy");
+                alert("结果已复制到剪贴板！");
+            } catch (err) {
+                // 使用现代API作为备选
+                navigator.clipboard.writeText(output.value).then(() => {
+                    alert("结果已复制到剪贴板！");
+                }).catch(() => {
+                    alert("复制失败，请手动选择并复制！");
+                });
+            }
         }
 
         // 保存结果
@@ -252,12 +302,14 @@
                 return;
             }
 
-            const blob = new Blob([output], { type: "text/plain" });
+            const blob = new Blob([output], { type: "text/plain;charset=utf-8" });
             const url = URL.createObjectURL(blob);
             const a = document.createElement("a");
             a.href = url;
             a.download = filename;
+            document.body.appendChild(a);
             a.click();
+            document.body.removeChild(a);
             URL.revokeObjectURL(url);
         }
     </script>
