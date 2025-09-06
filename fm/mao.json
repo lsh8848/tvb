@@ -231,7 +231,7 @@
 			"ext": {
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto",
-				"siteUrl": "https://www.wogg.com/",
+				"siteUrl": "https://www.wogg.one/",
 				"danMu": "弹"
 			}
 		},
@@ -773,22 +773,22 @@
 			"url": "https://d.kstore.dev/download/5297/live/tv2.m3u"
 		},
 		{
-			"name": "feiyang_724_N1",
+			"name": "虎牙一起看",
 			"type": 0,
 			"playerType": 2,
-			"url": "http://192.168.2.99:35457/tv.m3u"
+			"url": "https://sub.ottiptv.cc/huyayqk.m3u"
 		},
 		{
-			"name": "easy-itv_N1",
+			"name": "斗鱼一起看",
 			"type": 0,
 			"playerType": 2,
-			"url": "http://192.168.2.99:8123/tv.m3u?token=520"
+			"url": "https://sub.ottiptv.cc/douyuyqk.m3u"
 		},
 		{
-			"name": "feiyang_N1",
+			"name": "yy轮播",
 			"type": 0,
 			"playerType": 2,
-			"url": "http://192.168.2.99:35455/tv.m3u"
+			"url": "https://sub.ottiptv.cc/yylunbo.m3u"
 		}
 	]
 }
