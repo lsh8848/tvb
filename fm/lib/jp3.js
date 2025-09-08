@@ -4,7 +4,7 @@
 
 var rule = {
 	title: '荐片[优]',
-	host: 'https://durcse.qyjzlh.com',
+	host: 'https://api.ztcgi.com',
 	homeUrl: '/api/dyTag/hand_data?category_id=88',//网站的首页链接,用于分类获取和推荐获取
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
 	class_name: '电影&电视剧&动漫&综艺',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
@@ -48,7 +48,7 @@ var rule = {
         html = JSON.parse(html).data["20"];
         html.forEach(it => {
         let title = it.title;
-        let img = 'https://img.buaase.com' + it.path;
+        let img = 'https://static.ztcuc.com' + it.path;
             d.push({
                 title: title,
                 img: img,
@@ -71,7 +71,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: 'https://img.buaase.com' + it.path,
+                img: 'https://static.ztcuc.com' + it.path,
                 desc: (it.mask || it.playlist.title) + ' ⭐' + it.score,
                 url: it.id
             })
@@ -134,7 +134,7 @@ var rule = {
         html.forEach(it => {
             d.push({
                 title: it.title,
-                img: 'https://img.buaase.com' + it.thumbnail,
+                img: 'https://static.ztcuc.com' + it.thumbnail,
                 desc: it.mask + ' ⭐' + it.score,
                 url: it.id
             })
