@@ -780,6 +780,12 @@
 			"url": "https://sub.ottiptv.cc/iptv.m3u"
 		},
 		{
+			"name": "BCTV-live3",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://fy.188766.xyz/?ip=192.168.1.2&lunbo=false&bconly=true"
+		},
+		{
 			"name": "虎牙轮播",
 			"type": 0,
 			"playerType": 2,
