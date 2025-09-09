@@ -773,6 +773,13 @@
 			"url": "https://d.kstore.dev/download/5297/live/tv2.m3u"
 		},
 		{
+			"name": "Mursor直播订阅",
+			"type": 0,
+			"playerType": 2,
+			"ua": "okHttp/Mod-1.3.0.0",
+			"url": "https://sub.ottiptv.cc/iptv.m3u"
+		},
+		{
 			"name": "虎牙一起看",
 			"type": 0,
 			"playerType": 2,
