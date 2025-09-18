@@ -5,7 +5,8 @@
 var rule = {
 	title: '荐片[优]',
 	host: 'https://api.ztcgi.com',
-	homeUrl: '/api/dyTag/hand_data?category_id=88',//网站的首页链接,用于分类获取和推荐获取
+	homeUrl: '/api/slide/list?pos_id=88', //网站的首页链接,用于分类获取和推荐获取
+// homeUrl: '/api/dyTag/hand_data?category_id=88',
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
 	class_name: '电影&电视剧&动漫&综艺',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
 	class_url: '1&2&3&4',
