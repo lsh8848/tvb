@@ -372,6 +372,15 @@
 			"ext": "https://www.xb6v.com/"
 		},
 		{
+			"key": "天堂采集资源",
+			"name": "🔥天堂┃采集",
+			"type": 1,
+			"api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+			"playerType": 1,
+			"searchable": 1,
+			"changeable": 1
+		},
+		{
 			"key": "Dm84",
 			"name": "🚌巴士┃动漫",
 			"type": 3,
