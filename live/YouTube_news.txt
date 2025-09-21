@@ -1,18 +1,21 @@
 🍅港台新闻,#genre#
-鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
-中天新聞,https://www.youtube.com/watch?v=LNdgeOMWYd0
-中天新闻2台,https://www.youtube.com/watch?v=WPfPjbOLNfE
+综艺玩很大,https://www.youtube.com/watch?v=wd-sSbL-cmA
+综艺大热门,https://www.youtube.com/watch?v=buxJ-Xbl4XM
+11点热吵店,https://www.youtube.com/watch?v=HBMlqDSxIVI
+凤凰资讯,https://www.youtube.com/watch?v=fN9uYWCjQaw
+中天新闻,https://www.youtube.com/watch?v=vr3XyVCR4T0
 台视新闻,https://www.youtube.com/watch?v=xL0ch83RAK8
 中视新闻,https://www.youtube.com/watch?v=TCnaIE_SAtM
 华视新闻,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS HD,https://www.youtube.com/watch?v=YvdcZ_jpLXE
+TVBS新闻,https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS HD,https://www.youtube.com/watch?v=o_-hSMgpAzs
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 寰宇新闻,https://www.youtube.com/watch?v=6IquAgfvYmc
-寰宇全球新聞,https://www.youtube.com/watch?v=NhZXUwlY2dU
-寰宇台湾新聞,https://www.youtube.com/watch?v=w87VGpgd90U
-民视新闻台,https://www.youtube.com/live/ylYJSBUgaMA
+寰宇台湾,https://www.youtube.com/watch?v=w87VGpgd90U
+民视新闻,https://www.youtube.com/live/ylYJSBUgaMA
 鏡新闻,https://www.youtube.com/live/5n0y6b0Q25o
-東森新闻,https://www.youtube.com/watch?v=LuQ4S-i5zoE
-三立Live,https://www.youtube.com/watch?v=FoBfXvlOR6I
-公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
+公視新闻,https://www.youtube.com/watch?v=quwqlazU-c8
+東森新闻,https://www.youtube.com/watch?v=E0zhe2gkXBs
+東森LIVE,https://www.youtube.com/watch?v=V1p33hqPrUk
+三立新闻,https://www.youtube.com/watch?v=E6EGkqjQbyw
+三立LIVE,https://www.youtube.com/watch?v=MV9mI0GChwo
