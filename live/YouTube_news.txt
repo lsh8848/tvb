@@ -13,9 +13,9 @@ TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 寰宇新闻,https://www.youtube.com/watch?v=6IquAgfvYmc
 寰宇台湾,https://www.youtube.com/watch?v=w87VGpgd90U
 民视新闻,https://www.youtube.com/live/ylYJSBUgaMA
-鏡新闻,https://www.youtube.com/live/5n0y6b0Q25o
-公視新闻,https://www.youtube.com/watch?v=quwqlazU-c8
-東森新闻,https://www.youtube.com/watch?v=E0zhe2gkXBs
-東森LIVE,https://www.youtube.com/watch?v=V1p33hqPrUk
+镜新闻,https://www.youtube.com/live/5n0y6b0Q25o
+公视新闻,https://www.youtube.com/watch?v=quwqlazU-c8
+东森新闻,https://www.youtube.com/watch?v=E0zhe2gkXBs
+东森LIVE,https://www.youtube.com/watch?v=V1p33hqPrUk
 三立新闻,https://www.youtube.com/watch?v=E6EGkqjQbyw
 三立LIVE,https://www.youtube.com/watch?v=MV9mI0GChwo
