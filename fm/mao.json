@@ -321,7 +321,7 @@
 			"type": 3,
 			"api": "csp_Config",
 			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
 		{
 			"key": "csp_J",
@@ -329,14 +329,14 @@
 			"type": 3,
 			"api": "csp_Jiaozi",
 			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
 		{
 			"key": "csp_Jpys",
 			"name": "🥇️┃金牌┃影视",
 			"type": 3,
 			"api": "csp_Jpys",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
 		{
 			"key": "csp_Wwys",
@@ -344,21 +344,15 @@
 			"type": 3,
 			"api": "csp_Wwys",
 			"ext": "https://www.wwgz.cn",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
 		{
-			"key": "csp_KmeiJu",
-			"name": "🍐┃鸭梨┃影视",
+			"key": "csp_Gz360",
+			"name": "🍉┃瓜子┃影视",
 			"type": 3,
-			"api": "csp_KmeiJu",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
-		},
-		{
-			"key": "csp_AppXY",
-			"name": "🎀️┃星牙┃短剧",
-			"type": 3,
-			"api": "csp_AppXY",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
+			"api": "csp_Gz360",
+			"playerType": 2,
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
 		{
 			"key": "csp_FeiMaoUC",
@@ -372,7 +366,7 @@
 				],
 				"url_key": "FeiMaoUC"
 			},
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;F84DE604B41B178AA76F3CBF3332153D"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
 		{
 			"key": "新6V",
