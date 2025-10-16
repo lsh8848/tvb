@@ -54,17 +54,6 @@
 			"timeout": 10
 		},
 		{
-			"key": "白白",
-			"name": "🐟白白┃秒播",
-			"type": 3,
-			"api": "csp_SbaibaiGuard",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
 			"key": "文采",
 			"name": "💮文采┃秒播",
 			"type": 3,
@@ -244,7 +233,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
-			"ext": "https://auete.cc/"
+			"ext": "https://auete.top"
 		},
 		{
 			"key": "热播",
@@ -258,18 +247,16 @@
 			"changeable": 1,
 			"ext": "uqGL1bNENExT7/hGxpSE5qU="
 		},
-		{
-			"key": "萌米",
-			"name": "👀萌米┃多线",
-			"type": 3,
-			"api": "csp_AppTTGuard",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "uqGL1bNENEIVq+dC1p/Y9uWjuA=="
-		},
+    {
+      "key": "鲸鱼",
+      "name": "👀鲸鱼┃秒播",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="
+    },
 		{
 			"key": "欢视",
 			"name": "👓欢视┃多线",
@@ -294,7 +281,7 @@
 			"ext": {
 			"site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
 					 },
-			"jar": "http://47.120.41.246:8025/vip/jar/ouge.php"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;45e0cddf276d06a8d22bff07b00a9b76"
 		},
 		{
 			"key": "移动",
@@ -305,8 +292,20 @@
 			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;7fa39a0595fee3b25045c87505b66c5d"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;45e0cddf276d06a8d22bff07b00a9b76"
 		},
+    {
+      "key": "zxzjhd",
+      "name": "🍊在线┃外剧",
+      "type": 3,
+      "api": "csp_ZxzjGuard",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzjhd.com/",
+	  "jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;45e0cddf276d06a8d22bff07b00a9b76"
+    },
 		{
 			"key": "4Kdy",
 			"name": "🕊️凝安┃4K蓝光",
