@@ -344,6 +344,44 @@
 			"changeable": 0,
 			"ext": "https://www.xb6v.com/"
 		},
+        {
+            "key": "腾讯视频",
+            "name": "🎞腾讯｜4K",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/腾讯视频.js"
+        },
+        {
+            "key": "芒果视频",
+            "name": "🎞芒果｜4K",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/芒果视频.js"
+        },
+        {
+            "key": "优酷视频",
+            "name": "🎞优酷｜1K",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/优酷视频.js"
+        },
+        {
+            "key": "爱奇艺",
+            "name": "🎞奇艺｜2K",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/爱奇艺.js"
+        },
+    {
+      "key": "哔哩视频JS",
+      "name": "🎞哔哩 | 4K",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/哔哩视频.js"
+    },
 		{
 			"key": "天堂采集资源",
 			"name": "🔥天堂┃采集",
