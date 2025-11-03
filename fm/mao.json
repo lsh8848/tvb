@@ -758,7 +758,7 @@
 			"name": "BCTV-live3",
 			"type": 0,
 			"playerType": 2,
-			"url": "https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian&huikan=1"
+			"url": "https://fy.188766.xyz/?ip=&lunbo=false&mima=bingchawusifengxian&huikan=1"
 		},
 		{
 			"name": "虎牙轮播",
@@ -786,6 +786,13 @@
 			"epg": "https://epg.zyh520.tk/?ch={name}&date={date}",
 			"logo": "https://tv.zyh520.tk/live/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+		},
+		{
+			"name": "DJ_Music",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://d.kstore.dev/download/5297/live/dj.txt",
+			"logo": "https://tv.zyh520.tk/live/logo/dj.png"
 		}
 	]
 }
