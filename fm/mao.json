@@ -1,5 +1,5 @@
 {
-	"spider": "https://gitee.com/lsh8848/tvb/raw/master/fm/fty.jar;md5;8432d174d72d5b608ae1bcd16d966847",
+	"spider": "https://gitee.com/lsh8848/tvb/raw/master/fm/fty.jar;md5;11b6dbd2b630fc9c95e36247917f55db",
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [
 		{
@@ -14,7 +14,7 @@
 		},
 		{
 			"key": "YGP",
-			"name": "🚀电影┃预告",
+			"name": "🚀荐影┃预告片",
 			"type": 3,
 			"api": "csp_YGPGuard",
 			"searchable": 0,
@@ -23,7 +23,7 @@
 		},
 		{
 			"key": "豆瓣2",
-			"name": "🐼豆瓣┃预告",
+			"name": "🐼豆瓣┃预告片",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": 2,
@@ -55,7 +55,7 @@
 		},
 		{
 			"key": "文采",
-			"name": "💮文采┃秒播",
+			"name": "💮文采┃金牌",
 			"type": 3,
 			"api": "csp_JpysGuard",
 			"timeout": 15,
@@ -134,17 +134,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "低端",
-			"name": "⏮️低端┃外剧",
-			"type": 3,
-			"api": "csp_DdrkGuard",
-			"timeout": 15,
-			"playerType": "2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
 			"key": "厂长",
 			"name": "📔厂长┃不卡",
 			"type": 3,
@@ -156,7 +145,7 @@
 			"changeable": 1
 		},
 		{
-			"key": "Lib",
+			"key": "立播",
 			"name": "🌟立播┃秒播",
 			"type": 3,
 			"api": "csp_LibvioGuard",
@@ -164,18 +153,10 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
-			"ext": "https://www.libvio.cc/"
-		},
-		{
-			"key": "zxzj",
-			"name": "🍊在线┃外剧",
-			"type": 3,
-			"api": "csp_ZxzjGuard",
-			"timeout": 15,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.zxzjhd.com/"
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
 		},
 		{
 			"key": "比特",
@@ -209,6 +190,21 @@
 			"changeable": 1
 		},
 		{
+			"key": "MyDrive",
+			"name": "🗂云盘┃我配置",
+			"type": 3,
+			"api": "csp_MyDriveGuard",
+			"changeable": 0,
+			"indexs": 0,
+			"searchable": 0,
+			"style": {
+				"type": "oval"
+			},
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
 			"key": "玩偶",
 			"name": "👽玩偶┃网盘4K",
 			"type": 3,
@@ -219,9 +215,21 @@
 			"changeable": 0,
 			"ext": {
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto",
-				"siteUrl": "https://www.wogg.one/",
-				"danMu": "弹"
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "seed",
+			"name": "💡聚剧┃三盘",
+			"type": 3,
+			"api": "csp_SeedhubGuard",
+			"changeable": 0,
+			"ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
+			"searchable": 1,
+			"quickSearch": 1,
+			"indexs": 0,
+			"style": {
+				"type": "list"
 			}
 		},
 		{
@@ -247,16 +255,26 @@
 			"changeable": 1,
 			"ext": "uqGL1bNENExT7/hGxpSE5qU="
 		},
-    {
-      "key": "鲸鱼",
-      "name": "👀鲸鱼┃秒播",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="
-    },
+		{
+			"key": "下饭",
+			"name": "🍙下饭┃多线",
+			"type": 3,
+			"api": "csp_AppSxGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
+		},
+		{
+			"key": "鲸鱼",
+			"name": "👀鲸鱼┃秒播",
+			"type": 3,
+			"api": "csp_AppSxGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="
+		},
 		{
 			"key": "欢视",
 			"name": "👓欢视┃多线",
@@ -285,14 +303,6 @@
 			"name": "🐼┃配置┃中心",
 			"type": 3,
 			"api": "csp_Config",
-			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
-		},
-		{
-			"key": "csp_J",
-			"name": "🌎┃饺子┃外剧",
-			"type": 3,
-			"api": "csp_Jiaozi",
 			"playerType": 2,
 			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
 		},
@@ -384,16 +394,17 @@
 			"changeable": 1
 		},
 		{
-			"key": "926",
-			"name": "⚽926┃看球",
+			"key": "超全",
+			"name": "⚽超全┃看球",
 			"type": 3,
-			"api": "csp_kanqiu926Guard",
-			"timeout": 15,
+			"api": "csp_ZbzGuard",
 			"searchable": 0,
+			"quickSearch": 0,
 			"changeable": 0,
 			"style": {
 				"type": "list"
-			}
+			},
+			"ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q=="
 		},
 		{
 			"key": "88",
@@ -418,6 +429,19 @@
 			"style": {
 				"type": "list"
 			}
+		},
+		{
+			"key": "MTV1",
+			"name": "🎙️易听┃音乐",
+			"type": 3,
+			"api": "csp_MusicGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1
+			},
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0
 		},
 		{
 			"key": "MTV",
@@ -468,16 +492,14 @@
 			"changeable": 0
 		},
 		{
-			"key": "有声小说js",
+			"key": "有声小说",
 			"name": "🎧有声┃小说",
 			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/有声小说吧.js",
+			"api": "csp_Tingshu275Guard",
 			"style": {
 				"type": "rect",
 				"ratio": 1
 			},
-			"timeout": 15,
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0
@@ -522,6 +544,20 @@
 			}
 		},
 		{
+			"key": "YiSo",
+			"name": "😹易搜┃三盘",
+			"type": 3,
+			"api": "csp_YiSoGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto",
+				"yisouCookie": "150e5bb8-401e-4f1f-b74e-7fd5f8bd6dea"
+			}
+		},
+		{
 			"key": "PanSso",
 			"name": "🐌盘他┃三盘",
 			"type": 3,
@@ -536,7 +572,7 @@
 		},
 		{
 			"key": "YpanSo",
-			"name": "🐟盘她┃三盘",
+			"name": "🐟盘她┃夸父",
 			"type": 3,
 			"api": "csp_YpanSoGuard",
 			"searchable": 1,
@@ -549,7 +585,7 @@
 		},
 		{
 			"key": "xzso",
-			"name": "👻盘它┃三盘",
+			"name": "👻盘他┃夸父",
 			"type": 3,
 			"api": "csp_XzsoGuard",
 			"searchable": 1,
@@ -565,46 +601,6 @@
 			"name": "🦋米搜┃夸父",
 			"type": 3,
 			"api": "csp_MIPanSoGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "夸搜",
-			"name": "😻夸搜┃夸父",
-			"type": 3,
-			"api": "csp_PanSearchGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"pan": "quark",
-				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "Aliso",
-			"name": "🙀盘搜┃阿狸",
-			"type": 3,
-			"api": "csp_PanSearchGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "YiSo",
-			"name": "😹易搜┃阿狸",
-			"type": 3,
-			"api": "csp_YiSoGuard",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
@@ -647,25 +643,13 @@
 		},
 		{
 			"key": "alllive",
-			"name": "📽️一直播┃游戏",
+			"name": "📽️一直播┃网游",
 			"type": 3,
 			"api": "csp_AllliveGuard",
 			"playerType": 2,
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0
-		},
-		{
-			"key": "push_agent",
-			"name": "🛴手机┃推送",
-			"type": 3,
-			"api": "csp_PushGuard",
-			"searchable": 0,
-			"quickSearch": 0,
-			"ext": {
-				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
 		},
 		{
 			"key": "dr_兔小贝",
@@ -744,6 +728,24 @@
 			"ext": {
 				"json": "./lib/高中课堂.json"
 			}
+		},
+		{
+			"key": "push_agent",
+			"name": "🛴手机┃推送",
+			"type": 3,
+			"api": "csp_PushGuard",
+			"searchable": 0,
+			"quickSearch": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "本地",
+			"name": "📁文件┃本地",
+			"type": 3,
+			"api": "csp_LocalGuard"
 		}
 	],
 	"logo": "https://gitee.com/lsh8848/tvb/raw/master/houzi.gif",
@@ -759,6 +761,12 @@
 			"type": 0,
 			"playerType": 2,
 			"url": "https://fy.188766.xyz/?url=https://live.188766.xyz&mima=bingchawusifengxian&huikan=1"
+		},
+		{
+			"name": "Migu直播",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://gp.925529.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
 		},
 		{
 			"name": "虎牙轮播",
