@@ -25,24 +25,18 @@ async function home(filter) {
     const classes = [ 
         { type_id: "TOPC1451464665008914", type_name: "今日说法" },
 		{ type_id: "TOPC1451543228296920", type_name: "天网" },
-		{ type_id: "TOPC1451543382680164", type_name: "心里访谈" },
-		{ type_id: "TOPC1451557646802924", type_name: "健康之路" },
- 
-		
-
 		{ type_id: "TOPC1451543462858283", type_name: "一线" },
-		{ type_id: "TOPC1571301089686775", type_name: "现场" },
-		{ type_id: "TOPC1571217727564820", type_name: "方圆剧阵" }, 
-		{ type_id: "TOPC1451542824484472", type_name: "法律讲堂(生活版)" },
-		{ type_id: "TOPC1451543346581129", type_name: "小区大事" },	
-		{ type_id: "TOPC1451543312252987", type_name: "夕阳红" },
-		{ type_id: "TOPC1451559025546574", type_name: "动画大放映" }, 
-        { type_id: "TOPC1451378857272262", type_name: "第一动画乐园" },
-		
-
-		
-
-		
+		{ type_id: "TOPC1571301089686775", type_name: "现场" },	
+        { type_id: "TOPC1451558819463311", type_name: "新闻调查" }, 
+        { type_id: "TOPC1451559066181661", type_name: "新闻1+1" }, 
+        { type_id: "TOPC1451558496100826", type_name: "朝闻天下" }, 
+        { type_id: "TOPC1451559180488841", type_name: "新闻周刊" }, 
+        { type_id: "TOPC1451533652476962", type_name: "经济半小时" }, 
+        { type_id: "TOPC1453100395512779", type_name: "正点财经" }, 
+        { type_id: "TOPC1451546588784893", type_name: "生活圈" }, 
+        { type_id: "TOPC1451526037568184", type_name: "生活提示" }, 
+        { type_id: "TOPC1451558532019883", type_name: "东方时空" }, 
+        { type_id: "TOPC1451533782742171", type_name: "经济信息联播" },  
 		{ type_id: "TOPC1451558976694518", type_name: "焦点访谈" },
 		{ type_id: "TOPC1451541349400938", type_name: "远方的家" }, 
 		{ type_id: "TOPC1451464884159276", type_name: "开讲啦" }, 
@@ -50,8 +44,8 @@ async function home(filter) {
 		{ type_id: "TOPC1451559038345600", type_name: "面对面" }, 
 		{ type_id: "TOPC1451542933238628", type_name: "见证" },
 		{ type_id: "TOPC1451354597100320", type_name: "电影快讯" },
-        { type_id: "TOPC1451534366388377", type_name: "是真的吗" }, 
-		{ type_id: "TOPC1451467630488780", type_name: "星光大道" }, 
+		{ type_id: "TOPC1451534366388377", type_name: "是真的吗" }, 
+		{ type_id: "TOPC1451467630488780", type_name: "星光大道" }, 		
 
         { type_id: "TOPC1451557893544236", type_name: "探索·发现" }, 
         { type_id: "TOPC1451378967257534", type_name: "动物世界" }, 
@@ -67,17 +61,15 @@ async function home(filter) {
         { type_id: "TOPC1451469943519994", type_name: "星推荐" }, 
         { type_id: "TOPC1650782829200997", type_name: "正大综艺" }, 
         { type_id: "TOPC1451465894294259", type_name: "开门大吉" }, 
-        { type_id: "TOPC1451464884159276", type_name: "开讲啦" },  
-        { type_id: "TOPC1451558819463311", type_name: "新闻调查" }, 
-        { type_id: "TOPC1451559066181661", type_name: "新闻1+1" }, 
-        { type_id: "TOPC1451558496100826", type_name: "朝闻天下" }, 
-        { type_id: "TOPC1451559180488841", type_name: "新闻周刊" }, 
-        { type_id: "TOPC1451533652476962", type_name: "经济半小时" }, 
-        { type_id: "TOPC1453100395512779", type_name: "正点财经" }, 
-        { type_id: "TOPC1451546588784893", type_name: "生活圈" }, 
-        { type_id: "TOPC1451526037568184", type_name: "生活提示" }, 
-        { type_id: "TOPC1451558532019883", type_name: "东方时空" }, 
-        { type_id: "TOPC1451533782742171", type_name: "经济信息联播" },  
+		{ type_id: "TOPC1451543382680164", type_name: "心里访谈" },
+		{ type_id: "TOPC1451557646802924", type_name: "健康之路" },
+		{ type_id: "TOPC1571217727564820", type_name: "方圆剧阵" }, 
+		{ type_id: "TOPC1451542824484472", type_name: "法律讲堂(生活版)" },
+		{ type_id: "TOPC1451543346581129", type_name: "小区大事" },	
+		{ type_id: "TOPC1451543312252987", type_name: "夕阳红" },
+		{ type_id: "TOPC1451559025546574", type_name: "动画大放映" }, 
+        { type_id: "TOPC1451378857272262", type_name: "第一动画乐园" },
+
         ];
     const filterObj = {};
     return JSON.stringify({
@@ -132,7 +124,7 @@ async function detail(id) {
         vod_id: id,
         vod_remarks: '',
     };
-    const playlist = ['点击播放' + '$' + 'https://newcntv.qcloudcdn.com/asp/hls/850/0303000a/3/default/' + id + '/2000.m3u8'];
+    const playlist = ['点击播放' + '$' + 'https://newcntv.qcloudcdn.com/asp/hls/850/0303000a/3/default/' + id + '/850.m3u8'];
     vod.vod_play_from = key;
     vod.vod_play_url = playlist.join('#');
     return JSON.stringify({
