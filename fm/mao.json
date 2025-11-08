@@ -219,20 +219,6 @@
 			}
 		},
 		{
-			"key": "seed",
-			"name": "💡聚剧┃三盘",
-			"type": 3,
-			"api": "csp_SeedhubGuard",
-			"changeable": 0,
-			"ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-			"searchable": 1,
-			"quickSearch": 1,
-			"indexs": 0,
-			"style": {
-				"type": "list"
-			}
-		},
-		{
 			"key": "奥特",
 			"name": "🏝奥特┃多线",
 			"type": 3,
@@ -434,12 +420,13 @@
 			"key": "MTV1",
 			"name": "🎙️易听┃音乐",
 			"type": 3,
+   "playerType": 1,
 			"api": "csp_MusicGuard",
 			"style": {
 				"type": "rect",
 				"ratio": 1
 			},
-			"searchable": 1,
+			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0
 		},
