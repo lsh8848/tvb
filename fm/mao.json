@@ -416,7 +416,6 @@
 				"type": "list"
 			}
 		},
-		{"key":"Iktv","name":"🎤KTV┃音乐🎤","type":3,"api":"csp_WexIktvGuard","searchable":0,"changeable":0,"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/wex.jar;md5;168f9674f8980510773eedcdc58d8851"},
 		{
 			"key": "MTV1",
 			"name": "🎙️易听┃音乐",
@@ -775,7 +774,7 @@
 			"url": "https://sub.ottiptv.cc/yylunbo.m3u"
 		},
 		{
-			"name": "YT-News",
+			"name": "TW-News",
 			"type": 0,
 			"playerType": 2,
 			"url": "https://tv.zyh520.tk/live/YouTube_news.txt",
