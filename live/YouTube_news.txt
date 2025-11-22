@@ -1,7 +1,6 @@
 🍅港台新闻,#genre#
 综艺玩很大,https://www.youtube.com/watch?v=TwgPq5lm6Kc
-综艺大热门,https://www.youtube.com/watch?v=M79Q8eFkwVk
-11点热吵店,https://www.youtube.com/watch?v=HBMlqDSxIVI
+11点热吵店,https://www.youtube.com/watch?v=cDbib2TE4sw
 凤凰资讯,https://www.youtube.com/watch?v=fN9uYWCjQaw
 中天新闻,https://www.youtube.com/watch?v=vr3XyVCR4T0
 台视新闻,https://www.youtube.com/watch?v=xL0ch83RAK8
@@ -12,10 +11,10 @@ TVBS HD,https://www.youtube.com/watch?v=o_-hSMgpAzs
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 寰宇新闻,https://www.youtube.com/watch?v=6IquAgfvYmc
 寰宇台湾,https://www.youtube.com/watch?v=w87VGpgd90U
-民视新闻,https://www.youtube.com/live/ylYJSBUgaMA
-镜新闻,https://www.youtube.com/live/5n0y6b0Q25o
+民视新闻,https://www.youtube.com/watch?v=ylYJSBUgaMA
+镜新闻,https://www.youtube.com/watch?v=5n0y6b0Q25o
 公视新闻,https://www.youtube.com/watch?v=quwqlazU-c8
 东森新闻,https://www.youtube.com/watch?v=E0zhe2gkXBs
 东森LIVE,https://www.youtube.com/watch?v=V1p33hqPrUk
-三立新闻,https://www.youtube.com/watch?v=SDGUfPXbyNI
-三立LIVE,https://www.youtube.com/watch?v=MV9mI0GChwo
+三立新闻,https://www.youtube.com/watch?v=FXoXWpLmaXQ
+三立LIVE,https://www.youtube.com/watch?v=PO_QMhgXMvw
