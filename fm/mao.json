@@ -285,49 +285,76 @@
 			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;45e0cddf276d06a8d22bff07b00a9b76"
 		},
 		{
-			"key": "config",
-			"name": "🐼┃配置┃中心",
+			"key": "云云",
+			"name": "☁️云云┃App",
 			"type": 3,
-			"api": "csp_Config",
-			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
-		},
-		{
-			"key": "csp_Jpys",
-			"name": "🥇️┃金牌┃影视",
-			"type": 3,
-			"api": "csp_Jpys",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
-		},
-		{
-			"key": "csp_Wwys",
-			"name": "🌾️┃农民┃影视",
-			"type": 3,
-			"api": "csp_Wwys",
-			"ext": "https://www.wwgz.cn",
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
-		},
-		{
-			"key": "csp_Gz360",
-			"name": "🍉┃瓜子┃影视",
-			"type": 3,
-			"api": "csp_Gz360",
-			"playerType": 2,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
-		},
-		{
-			"key": "csp_FeiMaoUC",
-			"name": "⚡┃闪电┃优汐",
-			"type": 3,
-			"api": "csp_Duopan",
+			"api": "csp_YunYunGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
 			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"http://1.95.79.193/"
-				],
-				"url_key": "FeiMaoUC"
-			},
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/Feimao.jar;md5;2eb9327119d339cd10302d8df7872d46"
+			"timeout": 10,
+			"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/XjECObVX.png;md5;4f3bd2d96c8acbac3085c397665536ef"
+		},
+		{
+			"key": "雄鹰",
+			"name": "🦅雄鹰┃App",
+			"type": 3,
+			"api": "csp_XiongYingGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/XjECObVX.png;md5;4f3bd2d96c8acbac3085c397665536ef"
+		},
+		{
+			"key": "咖啡",
+			"name": "🍫咖啡┃App",
+			"type": 3,
+			"api": "csp_KaFeiGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/XjECObVX.png;md5;4f3bd2d96c8acbac3085c397665536ef"
+		},
+		{
+			"key": "仓鼠",
+			"name": "🐹仓鼠┃App",
+			"type": 3,
+			"api": "csp_CangShuGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/XjECObVX.png;md5;4f3bd2d96c8acbac3085c397665536ef"
+		},
+		{
+			"key": "韩圈",
+			"name": "🦄韩圈┃App",
+			"type": 3,
+			"api": "csp_HanXiaoQuanGuard",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/XjECObVX.png;md5;4f3bd2d96c8acbac3085c397665536ef"
+		},
+		{
+			"key": "世界听书",
+			"name": "🎸世界┃听书",
+			"type": 3,
+			"api": "csp_BookTingGuard",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 10,
+			"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/XjECObVX.png;md5;4f3bd2d96c8acbac3085c397665536ef"
 		},
 		{
 			"key": "新6V",
