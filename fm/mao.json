@@ -13,6 +13,21 @@
 			"filterable": 0
 		},
 		{
+			"key": "MyDrive",
+			"name": "🗂云盘┃配置",
+			"type": 3,
+			"api": "csp_MyDriveGuard",
+			"changeable": 0,
+			"indexs": 0,
+			"searchable": 0,
+			"style": {
+				"type": "oval"
+			},
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
 			"key": "YGP",
 			"name": "🚀荐影┃预告片",
 			"type": 3,
@@ -190,23 +205,8 @@
 			"changeable": 1
 		},
 		{
-			"key": "MyDrive",
-			"name": "🗂云盘┃我配置",
-			"type": 3,
-			"api": "csp_MyDriveGuard",
-			"changeable": 0,
-			"indexs": 0,
-			"searchable": 0,
-			"style": {
-				"type": "oval"
-			},
-			"ext": {
-				"Cloud-drive": "tvfan/Cloud-drive.txt"
-			}
-		},
-		{
 			"key": "玩偶",
-			"name": "👽玩偶┃网盘4K",
+			"name": "👽玩偶┃网盘",
 			"type": 3,
 			"api": "csp_WoGGGuard",
 			"timeout": 30,
