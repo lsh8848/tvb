@@ -285,6 +285,30 @@
 			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;45e0cddf276d06a8d22bff07b00a9b76"
 		},
 		{
+			"key": "瓜子",
+			"name": "🍉瓜子┃App",
+			"type": 3,
+			"api": "csp_GuaziGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
+		},
+		{
+			"key": "农民",
+			"name": "🍓农民┃秒播",
+			"type": 3,
+			"api": "csp_NmysGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
+		},
+		{
 			"key": "云云",
 			"name": "☁️云云┃App",
 			"type": 3,
@@ -294,7 +318,7 @@
 			"changeable": 0,
 			"filterable": 1,
 			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;4f3bd2d96c8acbac3085c397665536ef"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
 		},
 		{
 			"key": "雄鹰",
@@ -306,7 +330,7 @@
 			"changeable": 0,
 			"filterable": 1,
 			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;4f3bd2d96c8acbac3085c397665536ef"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
 		},
 		{
 			"key": "咖啡",
@@ -318,7 +342,7 @@
 			"changeable": 0,
 			"filterable": 1,
 			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;4f3bd2d96c8acbac3085c397665536ef"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
 		},
 		{
 			"key": "仓鼠",
@@ -330,7 +354,7 @@
 			"changeable": 0,
 			"filterable": 1,
 			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;4f3bd2d96c8acbac3085c397665536ef"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
 		},
 		{
 			"key": "韩圈",
@@ -343,7 +367,7 @@
 			"changeable": 1,
 			"filterable": 1,
 			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;4f3bd2d96c8acbac3085c397665536ef"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
 		},
 		{
 			"key": "世界听书",
@@ -354,7 +378,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;4f3bd2d96c8acbac3085c397665536ef"
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;a43deb94b9f7e3bf8f562b27cc52229d"
 		},
 		{
 			"key": "新6V",
@@ -447,7 +471,7 @@
 			"key": "MTV1",
 			"name": "🎙️易听┃音乐",
 			"type": 3,
-   "playerType": 1,
+			"playerType": 1,
 			"api": "csp_MusicGuard",
 			"style": {
 				"type": "rect",
