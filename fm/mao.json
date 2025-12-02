@@ -1,5 +1,5 @@
 {
-	"spider": "https://gitee.com/lsh8848/tvb/raw/master/fm/fty.jar;md5;11b6dbd2b630fc9c95e36247917f55db",
+	"spider": "https://gitee.com/lsh8848/tvb/raw/master/fm/fty.jar;md5;6b0051c85a0e72a480f4bec56b8dd22f",
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [
 		{
@@ -75,6 +75,16 @@
 			"api": "csp_JpysGuard",
 			"timeout": 15,
 			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "糯米",
+			"name": "🍓糯米┃秒播",
+			"type": 3,
+			"api": "csp_NmyswvGuard",
+			"timeout": 15,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
@@ -190,16 +200,6 @@
 			"api": "csp_YCyzGuard",
 			"timeout": 15,
 			"playerType": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "糯米",
-			"name": "🍓糯米┃秒播",
-			"type": 3,
-			"api": "csp_NmyswvGuard",
-			"timeout": 15,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
@@ -798,13 +798,7 @@
 			"name": "BCTV-live3",
 			"type": 0,
 			"playerType": 2,
-			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mima=bingchawusifengxian&huikan=1"
-		},
-		{
-			"name": "Migu直播",
-			"type": 0,
-			"playerType": 2,
-			"url": "https://gp.925529.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mima=mianfeibuhuaqian&huikan=1"
 		},
 		{
 			"name": "虎牙轮播",
