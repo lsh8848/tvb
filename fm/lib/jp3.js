@@ -4,7 +4,7 @@
 
 var rule = {
 	title: '荐片[优]',
-	host: 'https://mqx3u1.zxbwv.com',
+	host: 'https://mf4eac.zxbwv.com',
 // homeUrl: '/api/slide/list?pos_id=88', //网站的首页链接,用于分类获取和推荐获取
 	homeUrl: '/api/dyTag/hand_data?category_id=88', //网站的首页链接,用于分类获取和推荐获取
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',

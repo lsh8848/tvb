@@ -285,6 +285,18 @@
 			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/moyuer.jar;md5;45e0cddf276d06a8d22bff07b00a9b76"
 		},
 		{
+			"key": "荐片ok",
+			"name": "⚔️荐片┃APP",
+			"type": 3,
+			"api": "csp_JianpianGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;91872c1a416d0e78d5784a8529da8a87"
+		},
+		{
 			"key": "瓜子",
 			"name": "🍉瓜子┃App",
 			"type": 3,
@@ -325,18 +337,6 @@
 			"name": "🦅雄鹰┃App",
 			"type": 3,
 			"api": "csp_XiongYingGuard",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"filterable": 1,
-			"timeout": 10,
-			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;91872c1a416d0e78d5784a8529da8a87"
-		},
-		{
-			"key": "咖啡",
-			"name": "🍫咖啡┃App",
-			"type": 3,
-			"api": "csp_KaFeiGuard",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
