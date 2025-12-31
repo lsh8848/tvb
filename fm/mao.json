@@ -381,6 +381,17 @@
 			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;91872c1a416d0e78d5784a8529da8a87"
 		},
 		{
+			"key": "六月听书",
+			"name": "🎤六月┃听书",
+			"type": 3,
+			"api": "csp_WeiTingGuard",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 10,
+			"jar": "https://gitee.com/lsh8848/tvb/raw/master/fm/ok.jar;md5;91872c1a416d0e78d5784a8529da8a87"
+		},
+		{
 			"key": "新6V",
 			"name": "🧲新6V┃磁力",
 			"type": 3,
