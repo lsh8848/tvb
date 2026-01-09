@@ -1,0 +1,23 @@
+音乐电台,#genre#
+怀集音乐,https://live.ximalaya.com/radio-first-page-app/live/966/64.m3u8
+清晨音乐,https://live.ximalaya.com/radio-first-page-app/live/1011/64.m3u8
+动感音乐,https://live.ximalaya.com/radio-first-page-app/live/2687/64.m3u8
+经典调频,https://live.ximalaya.com/radio-first-page-app/live/2728/64.m3u8
+Asia粤语台,https://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8
+Asia经典台,https://live.ximalaya.com/radio-first-page-app/live/1005/64.m3u8
+Asia音乐台,https://live.ximalaya.com/radio-first-page-app/live/764/64.m3u8
+AsiaHD音乐台,https://live.ximalaya.com/radio-first-page-app/live/1427/64.m3u8
+Asia热歌台,https://live.ximalaya.com/radio-first-page-app/live/1908/64.m3u8
+Asia96.5,https://live.ximalaya.com/radio-first-page-app/live/1003/64.m3u8
+相声电台,http://stream-174.zeno.fm/yqawwmweq8mtv
+
+走秀,#genre#
+Музыка 1,https://fl1001.bozztv.com/ushba-t2/tracks-v1a1/mono.m3u8
+Музыка 2,https://fl1001.bozztv.com/ushba-monj/tracks-v1a1/mono.m3u8
+Мода 1,https://fl1001.bozztv.com/ushba-t8/tracks-v1a1/mono.m3u8
+Мода 2,https://fl1001.bozztv.com/ushba-m6/tracks-v1a1/mono.m3u8
+Мода 3,https://fl1001.bozztv.com/ushba-m7/tracks-v1a1/mono.m3u8
+Мода 4,https://fl1001.bozztv.com/ushba-m8/tracks-v1a1/mono.m3u8
+Мода 5,https://fl1001.bozztv.com/ushba-m9/tracks-v1a1/mono.m3u8
+Мода 6,https://fl1001.bozztv.com/ushba-m1/tracks-v1a1/mono.m3u8
+Channel,https://fl1001.bozztv.com/ushba19/tracks-v1a1/mono.m3u8
