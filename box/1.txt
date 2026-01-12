@@ -33,8 +33,12 @@
             "name": "🍒摸鱼儿"
         },
         {
+            "url": "https://9280.kstore.vip/newwex.json",
+            "name": "🍒王二小新接口"
+        },
+        {
             "url": "http://tv.999888987.xyz/",
-            "name": "🍒放牛娃"
+            "name": "🍒王二小"
         },
         {
             "url": "http://tv.nxog.top/m/",
